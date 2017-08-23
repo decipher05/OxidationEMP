@@ -5,7 +5,6 @@ Sectors:
   - 0
   Color: 0, 0, 0
   Icon: No
-  OrbitLine: true
   Playfields:
   - - 0, 0, 0
     - Sun
@@ -19,7 +18,6 @@ Sectors:
   - 217
   Color: 255, 255, 51
   Icon: Circle
-  OrbitLine: true
   Playfields:
   - - 0, 0, 0
     - Akua Orbit
@@ -45,7 +43,6 @@ Sectors:
   - 211
   Color: 255, 255, 51
   Icon: Circle
-  OrbitLine: true
   Playfields:
   - - 0, 0, 0
     - Omicron Orbit
@@ -71,7 +68,6 @@ Sectors:
   - -224
   Color: 255, 255, 51
   Icon: Circle
-  OrbitLine: true
   Playfields:
   - - 0, 0, 0
     - Ningues Orbit
@@ -97,7 +93,6 @@ Sectors:
   - -234
   Color: 255, 255, 51
   Icon: Circle
-  OrbitLine: true
   Playfields:
   - - 0, 0, 0
     - Masperon Orbit
@@ -111,7 +106,7 @@ Sectors:
     - Masperon Moon
     - Starter-Moon-Masperon
     - ''
-  - - -5511, 2580, 6301
+  - - -5876, 2580, 8463
     - Beponic
     - Starter-POI-Masperon
     - ''
