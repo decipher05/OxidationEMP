@@ -13,8 +13,8 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 105
-  - 0
+  - 93
+  - 88
   - 167
   Color: 0, 0, 0
   Icon: Circle
@@ -26,7 +26,7 @@ Sectors:
   - - 0, 0, 0
     - Akua
     - Starter-Planet-Temperate
-    - Federation:0
+    - Federation:1
   - - -4876, -3031, -6017
     - Akua Moon
     - Starter-Moon-Akua
@@ -38,8 +38,8 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 510
-  - 0
+  - 564
+  - -160
   - -278
   Color: 0, 0, 0
   Icon: Circle
@@ -63,10 +63,10 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 129
-  - 0
+  - 85
+  - -114
   - -275
-  Color: 0, 0, 0
+  Color: 0, 255, 0
   Icon: Circle
   Playfields:
   - - 0, 0, 0
@@ -88,9 +88,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 0
-  - 0
-  - 0
+  - 549
+  - 86
+  - 143
   Color: 0, 255, 0
   Icon: Circle
   Playfields:
@@ -101,7 +101,7 @@ Sectors:
   - - 0, 0, 0
     - 'Omicron '
     - Starter-Planet-Desert
-    - Empire:0
+    - Empire:4
   - - -4158, -7284, 6472
     - Omicron Moon
     - Starter-Moon-Omicron
@@ -109,6 +109,19 @@ Sectors:
   - - 6112, -2488, -1854
     - Rostion
     - Starter-POI-Omicron
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 189
+  - -42
+  - 29
+  Color: 0, 0, 0
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Test
+    - Starter-Space-Akua
     - ''
   Allow: []
   Deny: []
