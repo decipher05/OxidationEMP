@@ -1,0 +1,97 @@
+Sectors:
+- Coordinates:
+  - 0
+  - 0
+  - 0
+  Color: 0, 0, 0
+  Icon: No
+  Playfields:
+  - - 0, 0, 0
+    - Sun
+    - Sun
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -196
+  - 5
+  - 250
+  Color: 0.04, 0.3, 0.37
+  Icon: Circle
+  OrbitLine: true
+  Playfields:
+  - - 0, 0, 0
+    - Akua Orbit
+    - SpaceAsteroidFieldRingAkua
+    - ''
+  - - 0, 0, 0
+    - Akua
+    - Temperate
+    - Federation:1
+  - - -6500, 5000, 6500
+    - Akua Moon
+    - Moon
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 185
+  - -10
+  - 251
+  Color: 0.37, 0.33, 0.04
+  Icon: Circle
+  OrbitLine: true
+  Playfields:
+  - - 0, 0, 0
+    - Omicron Orbit
+    - SpaceAsteroidFieldOmicron
+    - ''
+  - - -1609, 0, 3371
+    - Omicron
+    - Desert
+    - Empire:2
+  - - 2000, 5000, -7000
+    - Omicron Moon
+    - Moon
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -192
+  - 30
+  - -179
+  Color: 0.7, 0.7, 0.7
+  Icon: Circle
+  OrbitLine: true
+  Playfields:
+  - - 0, 0, 0
+    - Ningues Orbit
+    - SpaceEmptyNingues
+    - ''
+  - - 0, 0, 0
+    - Ningues
+    - Snow
+    - Republic:3
+  - - 0, 0, 0
+    - Ningues Moon
+    - Moon
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 0
+  - 0
+  - 0
+  Color: 0, 0, 0
+  Icon: No
+  Playfields:
+  - - 0, 0, 0
+    - Masperon Orbit
+    - SpaceAsteroidsMasperon
+    - ''
+  - - 0, 0, 0
+    - Masperon
+    - Alien2
+    - Syndicate:4
+  Allow: []
+  Deny: []
