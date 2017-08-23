@@ -1,0 +1,143 @@
+---
+# Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+
+# Playfield Characteristics
+Gravity: 0                                    # Ignore (do not change)
+AtmosphereEnabled: False                      # Ignore (do not change)
+PlanetType: Space                             # Ignore (do not change)
+PvP: False                                    # Bool var [true, false] - Set to True to allow PvP in this playfield, default is False
+Radiation: 9.2                                # Float [0, 99] - currently game is balanced to support max radiation of 20 
+TemperatureDay: -130                          # Integer [-270, 500]
+Music: space                                  # Background music playing on this playfield - Choose from pre-selection: alien, alien2, barren, desert, desert2, lava, lava2, moonstone, snow, space, temperate, temperate2, temperate3. If nothing is selected default background music is playing
+UseFixed: True                                # Ignore (do not change) - If set uses fixed drones. For space playfields, this is necessary      
+
+# Playfield difficulty 
+Difficulty: 2                                 # Integer [1, 5] Has impact on experience gains
+
+# Planet or Space
+PlayfieldType: Space                          # Ignore (do not change for space playfield)
+Description: Here you can write custom text   # Multi line text input
+
+# Sun                               
+SunFlare: EnvironmentalEffects/SunFlareWhiteSpace
+
+# Stars
+Stars: SkyboxStarsBlack                       # SkyboxStarsBlack, SkyboxStarsBlue, SkyboxStarsCyan, SkyboxStarsGreen, SkyboxStarsGrey, SkyboxStarsOrange, SkyboxStarsPurple, SkyboxStarsRed
+
+# Nebula
+Nebula: PrefabNebulaBlue                      # PrefabNebulaBlue, PrefabNebulaBlue2, PrefabNebulaBlueGlittery, PrefabNebulaBlueOrange, PrefabNebulaBluePinkPurple, PrefabNebulaBluePinkRed, PrefabNebulaBlueYellow, PrefabNebulaOrange, PrefabNebulaPurple, PrefabNebulaRed, PrefabNebulaRed2
+
+### POIs
+POIs:
+    Fixed:
+        - Type: BA_Alien                      # Type of blueprint (BA, SV, HV, CV) - for Survival use BA_Alien
+          Prefab: BAO_GhostRiderShipyard      # Filename of blueprint
+          Mode: Survival                      # Creative or Survival          
+          Name: Shipyard                      # Name of blueprint as displayed to player
+          Pos: [ -4300, -80, 5115 ]           # Position coordinates
+          Rot: [ 0, -50, 0 ]                  # Rotation angles
+          InitPower: True                     # Set if POI should be initially powered, default: False 
+          Properties: 
+            - Key: Music                      # Music that is played when a player enters the POI
+              Value: SunnySkies               # Name of the music track that is played     
+            - Key: RegenAfter                 # Enable regeneration of POI if it has been "visited" and no player is in its vicinity
+              Value: 250                      # Regenerate timer in realtime minutes (72 realtime minutes = 24h in-game)     
+            - Key: MapDistance                # Sets visibility of map markers in meters. Optional property to override the default visibility setting.
+              Value: 500                      # Reveals map marker if player is 500m away from object. If set to 0, map marker will never be revealed
+
+        - Type: AsteroidVoxel01Sathium        # AsteroidVoxel01NAME, AsteroidVoxel02NAME, AsteroidVoxel03NAME, for NAME = [Sathium, Silicon, Zascosium, Promethium, Pentaxid, Neodymium, Magnesium, Iron, Gold, Erestrum, Copper, Cobalt] 
+          Prefab: AsteroidVoxel01Sathium      # Must be same as type     
+          Name: Sathium Asteroid              # Name of asteroid as displayed to player           
+          Pos: [ -5757, 180, 4586 ]           # Position coordinates    
+          Rot: [ 0, 0, 0 ]                    # Rotation angles: do not change - should always be 0,0,0  
+          Properties: 
+            - Key: RegenAfter                 # Enable regeneration of POI if it has been "visited" and no player is in its vicinity
+              Value: 250                      # Regenerate timer in realtime minutes (72 realtime minutes = 24h in-game)     
+            - Key: MapDistance                # Sets visibility of map markers in meters. Optional property to override the default visibility setting.
+              Value: 200                      # Reveals map marker if player is 200m away from object. If set to 0, map marker will never be revealed
+ 
+        - Type: AsteroidField 
+          Name: Asteroid Field            
+          Pos: [ -5000, 0, 5000 ]    
+          Rot: [ 0, 0, 0 ]   
+
+    FixedPlayerStart:
+        - Mode: Survival                         # Creative or Survival
+          Spawn: Structure                       # In Space, use only spawn in structure  
+          Structure: "Trading Station Omicron"   # Group name of structure to spawn in			  
+          Armor: ArmorMedium                     # Start armor
+          Items: [ "Pistol, 50Caliber:250, Medikit02:3, AntidotePills:3, EmergencyRations:4, WaterBottle:2, EnergyCell:5", "Pistol, 50Caliber:150, Medikit02:2, AntidotePills:2, EmergencyRations:2, WaterBottle:2, EnergyCell:4", "Pistol, 50Caliber:100, Medikit02:1, AntidotePills:1, EmergencyRations:1, WaterBottle:1, EnergyCell:3", "#FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival" ]                 # Start equipment
+        - Mode: Creative                         # Creative or Survival       
+          SubMode: Normal   
+          Pos: [ -4498.2, -394, 3966 ]           # Position coordinates
+          RotY: 70                               # Potation angle around Y axis
+
+        - Mode: Creative                       
+          SubMode: Empty   
+          Pos: [ -4506, -389.4, 4000 ]  
+          RotY: 70                 
+ 
+# Drones
+DroneBaseSetup:
+    Fixed:
+        - Name: MainDroneBase
+          Pos: [ 5000, 200, 5000 ]               # position coordinates
+          DroneOnDuty:
+            - Name: SpaceDronePlasma
+              Pos: [ 4000, 200, 4000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -4000, -200, 4000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ 4000, 200, -4000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -4000, -200, -4000 ]
+              Radius: 350
+          SpaceVessel:
+            - Name: Freighter                     # Name of the prefab group or file name of the prefab
+              FixedMaxSpeed: 20                   # Max speed of space vessel 
+              Mission: Freighter                  # Freighter behavior of vessel 
+              Freighter:
+                DelayBetweenRespawn: 600          # Respawn timer 
+                PathWayPoint:
+                - [ -8000, 2000, 0 ]
+                - [ 8000, 2000, 8000 ]
+              Stock:
+                - Name: SpaceDronePlasma          # Name of drone   
+                  Amount: 5                       # Amount of drones in stock          
+                  Extra: 0                        # Type of drone 0..3 -> see comment above     
+            - Name: Freighter                     # Name of the prefab group or name of the prefab
+              FixedMaxSpeed: 20
+              Mission: Freighter                  # Mission among : {SpacePatrol,Freighter}
+              Freighter:
+                DelayBetweenRespawn: 1000 
+                PathWayPoint:
+                - [ -5500, 2000, 8000 ]
+                - [ -3000, 2000, -8000 ] 
+              Stock:
+                - Name: SpaceDronePlasma          # Name of drone   
+                  Amount: 5                       # Amount of drones in stock          
+                  Extra: 0                        # Type of drone 0..3 -> see comment above    
+            - Name: Carrier                       # Name of the prefab group or name of the prefab
+              FixedMaxSpeed: 20
+              Mission: SpacePatrol                # Mission among : {SpacePatrol,Freighter}
+              RangePatrol:
+                  Position3D: [-3000, 1500, 3000] # Center of the patrol area. On planet cooridnate-Y has no use.
+                  Radius: 500
+                  DistToGround: 0                 # Distance to the ground of the patrol. In space it has no use.
+              Stock:
+                - Name: SpaceDronePlasma          # Name of drone   
+                  Amount: 5                       # Amount of drones in stock          
+                  Extra: 0                        # Type of drone 0..3 -> see comment above   
+            - Name: BAO_Thermica-Station          # Name of the prefab group or name of the prefab
+              FixedMaxSpeed: 20
+              Mission: Immobile                    
+              Immobile:
+                  Position3D: [-2800, 500, -2800] # Position of POI 
+              Stock:
+                - Name: SpaceDronePlasma          # Name of drone   
+                  Amount: 20                      # Amount of drones in stock          
+                  Extra: 0                         

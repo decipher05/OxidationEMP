@@ -8,8 +8,8 @@ AtmosphereEnabled: False            # Please don't change
 PvP: True                          # Set to True to allow PvP in this playfield, default is False
 UseFixed: True                      # If set uses fixed drones
 Radiation: 9.1
-TemperatureDay: -200     
-Music: DistantWorlds      
+TemperatureDay: -200  
+Music: Migration      
 
 # Playfield difficulty (has impact on experience gains)
 Difficulty: 2                       # Between 2 and 5: larger values indicate higher difficulty
@@ -55,64 +55,43 @@ POIs:
           Prefab: AsteroidVoxel01Copper    
           Name: Copper Asteroid            
           Pos: [ 6302, -2073, 7486 ]    
-          Rot: [ 0, 0, 0 ]            
-          Properties:     
-            - Key: RegenAfter
-              Value: 180    
+          Rot: [ 0, 0, 0 ]      
 
         - Type: AsteroidVoxel01Cobalt
           Prefab: AsteroidVoxel01Cobalt    
           Name: Cobalt Asteroid            
           Pos: [ -6302, -473, -2486 ]    
-          Rot: [ 0, 0, 0 ]          
-          Properties:     
-            - Key: RegenAfter
-              Value: 180      
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel02Neodymium
           Prefab: AsteroidVoxel02Neodymium     
           Name: Neodymium Asteroid             
           Pos: [ -6038, 1225, 2595 ]    
-          Rot: [ 0, 0, 0 ]            
-          Properties:     
-            - Key: RegenAfter
-              Value: 180    
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel03Sathium
           Prefab: AsteroidVoxel03Sathium    
           Name: Sathium Asteroid             
           Pos: [ 4270, 921, 2671 ]    
-          Rot: [ 0, 0, 0 ]            
-          Properties:     
-            - Key: RegenAfter
-              Value: 180    
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel01Promethium
           Prefab: AsteroidVoxel01Promethium    
           Name: Promethium Asteroid             
           Pos: [ 318, -1251, 6607 ]    
-          Rot: [ 0, 0, 0 ]          
-          Properties:     
-            - Key: RegenAfter
-              Value: 180       
+          Rot: [ 0, 0, 0 ]       
  
         - Type: AsteroidVoxel03Neodymium
           Prefab: AsteroidVoxel03Neodymium    
           Name: Neodymium Asteroid             
           Pos: [ -3718, 2011, 4086 ]    
-          Rot: [ 0, 0, 0 ]            
-          Properties:     
-            - Key: RegenAfter
-              Value: 180      
+          Rot: [ 0, 0, 0 ]        
  
         - Type: AsteroidVoxel03Promethium
           Prefab: AsteroidVoxel03Promethium    
           Name: Promethium Asteroid             
           Pos: [ 3718, -1011, 4086 ]    
-          Rot: [ 0, 0, 0 ]           
-          Properties:     
-            - Key: RegenAfter
-              Value: 180       
+          Rot: [ 0, 0, 0 ]        
  
         - Type: AsteroidFieldFewBoxExclude 
           Name: Asteroid Field            
@@ -168,10 +147,10 @@ DroneBaseSetup:
                 - [ 7500, 500, 3000 ]
                 - [ 7500, 500, 7500 ]
               Stock:
-                - Name: SpaceDronePlasma          # Name of drone   
-                  Amount: 5                      # Amount of drones in stock          
-                  Extra: 0                        # Type of drone 0..3 -> see comment above     
-            - Name: Freighter              # Name of the prefab group or name of the prefab
+                - Name: SpaceDronePlasma        # Name of drone   
+                  Amount: 5                     # Amount of drones in stock          
+                  Extra: 0                      # Type of drone 0..3 -> see comment above     
+            - Name: Freighter                   # Name of the prefab group or name of the prefab
               FixedMaxSpeed: 20
               Mission: Freighter                # Mission among : {SpacePatrol}
               Freighter:
@@ -182,7 +161,7 @@ DroneBaseSetup:
                 - [ -3000, 550, -7500 ]
               Stock:
                 - Name: SpaceDronePlasma          # Name of drone   
-                  Amount: 5                      # Amount of drones in stock          
+                  Amount: 5                       # Amount of drones in stock          
                   Extra: 0                        # Type of drone 0..3 -> see comment above          
             - Name: BAO_Dion-III            
               FixedMaxSpeed: 20
@@ -192,7 +171,4 @@ DroneBaseSetup:
               Stock:
                 - Name: SpaceDronePlasma          
                   Amount: 20                          
-                  Extra: 0             
-              Properties: 
-                - Key: RegenAfter
-                  Value: 720                            
+                  Extra: 0                         

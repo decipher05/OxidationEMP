@@ -286,9 +286,9 @@ AsteroidResources:
       Threshold: 0.4
       Amount: 0.2
 
-    - Name: PromethiumResource
-      Threshold: 0.5
-      Amount: 0.2
+    # - Name: PromethiumResource
+      # Threshold: 0.5
+      # Amount: 0.2
 
 ### POIs
 POIs:
@@ -343,7 +343,7 @@ POIs:
           DroneProb: 1.0
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 4
-          TroopTransport: True
+          TroopTransport: False
           Properties: 
             - Key: MapMarker 
               Value: Neutral    

@@ -1,0 +1,850 @@
+---
+# Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+
+# Playfield Characteristics
+Gravity: 0                          # Please don't change
+AtmosphereEnabled: False            # Please don't change
+PvP: False                          # Set to True to allow PvP in this playfield, default is False
+UseFixed: True                      # If set uses fixed drones
+Radiation: 2.2
+TemperatureDay: -130   
+Music: moonstone                        
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 5                       # Between 2 and 5: larger values indicate higher difficulty
+
+# Planet or Space
+PlayfieldType: Space               # Please don't change
+Description: "[c][e0e020]Origin: %Origin%[-][/c]\n[c][d29818]Difficulty: Is that a brainfart soldier![-][/c]\nAn orbit start is an easy, here you start with some parts for an SV and NO ore at all, you will need to visit the planet to generate oxygen, so here its a race to the planet! Inexperienced brand new players to the game should start here, the planets in this playfield are PvE and PvP but space around these planets is PvE.This is a base start designed specifically for new players trying to grasp the game in a MP enviroment. [c][e02020]CAUTION EMPYRION VET's, choosing this place as the survival start is recommended for really new players, very easy start.[-][/c]" 
+
+PlanetType: Space                  # No functionality yet
+
+# Sun                               
+SunFlare: EnvironmentalEffects/SunFlareWhite4Space
+
+# Stars
+Stars: SkyboxStarsRed                        
+
+# Nebula
+Nebula: PrefabNebulaBlueYellow
+
+### POIs
+POIs:
+    Fixed:
+        - Type: BA_Admin
+          Prefab: TSO-Vulcan    
+          Mode: Survival                     
+          Name: Trade-Vulcan            
+          Pos: [ -4400, 2000, -250 ]      
+          Rot: [ 0, -50, 0 ]           
+          InitPower: True                 
+          Properties: 
+            - Key: Music
+              Value: NebularClouds              
+
+        - Type: AsteroidVoxel01Sathium
+          Prefab: AsteroidVoxel01Sathium    
+          Name: Sathium Asteroid            
+          Pos: [ -6302, 73, -2486 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Neodymium
+          Prefab: AsteroidVoxel02Neodymium     
+          Name: Neodymium Asteroid             
+          Pos: [ -6038, -225, 2595 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel03Sathium
+          Prefab: AsteroidVoxel03Sathium    
+          Name: Sathium Asteroid             
+          Pos: [ 4270, -1, 2671 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium    
+          Name: Promethium Asteroid             
+          Pos: [ 318, 51, 6607 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel03Sathium
+          Prefab: AsteroidVoxel03Sathium    
+          Name: Sathium Asteroid             
+          Pos: [ -3718, -11, 4086 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+
+        - Type: AsteroidVoxel01Silicon
+          Prefab: AsteroidVoxel01Silicon  
+          Name: Silicon Asteroid        
+          Pos: [ -1416, 138, -4518 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium     
+          Name: Sathium Asteroid            
+          Pos: [ -1368, -264, -6273 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ 1758, 3918, -10974 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Pentaxid
+          Prefab: AsteroidVoxel01Pentaxid
+          Name: Pentaxid Asteroid               
+          Pos: [ 470, 3884, -11263 ]     
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ -1400, 3800, -11640 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ -2565, 4000, -10915 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium 
+          Name: Promethium Asteroid        
+          Pos: [ -3200, 3708, -10841 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium     
+          Name: Sathium Asteroid            
+          Pos: [ -4396, 3922, -9157 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ -5936, 4101, -7480 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Pentaxid
+          Prefab: AsteroidVoxel01Pentaxid
+          Name: Pentaxid Asteroid               
+          Pos: [ -5963, 3915, -4646 ]     
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ -6161, 4019, -2547 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ -5473, 3986, -1367 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium 
+          Name: Promethium Asteroid        
+          Pos: [ -4739, 3855, -876 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium     
+          Name: Sathium Asteroid            
+          Pos: [ -3476, 3804, 10 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ 3982, 4208, -10663 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Pentaxid
+          Prefab: AsteroidVoxel01Pentaxid
+          Name: Pentaxid Asteroid               
+          Pos: [ 4475, 4447, -9630 ]     
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ 5405, 3888, -8029 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ 5475, 3957, -2369 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium 
+          Name: Promethium Asteroid        
+          Pos: [ 5888, 3929, -2378 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium     
+          Name: Sathium Asteroid            
+          Pos: [ 5841, 3873, -2165 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ -2502, 3961, 386 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Pentaxid
+          Prefab: AsteroidVoxel01Pentaxid
+          Name: Pentaxid Asteroid               
+          Pos: [ -600, 3992, 914 ]     
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ 3500, 3930, 190 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ 6133, 3827, -4572 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium 
+          Name: Promethium Asteroid        
+          Pos: [ 6187, 3834, -6015 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium     
+          Name: Sathium Asteroid            
+          Pos: [ 5253, 4009, -6297 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Copper
+          Prefab: AsteroidVoxel02Copper    
+          Name: Copper Asteroid            
+          Pos: [ 1846, -335, 5327 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Copper
+          Prefab: AsteroidVoxel02Copper    
+          Name: Copper Asteroid               
+          Pos: [ 1634, -44, 5459 ]     
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Copper
+          Prefab: AsteroidVoxel02Copper    
+          Name: Copper Asteroid            
+          Pos: [ 1750, -104, 5872 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ 1810, -40, 5514 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium 
+          Name: Promethium Asteroid        
+          Pos: [ 1216, 138, 5118 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium     
+          Name: Sathium Asteroid            
+          Pos: [ 1568, -24, 5273 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Cobalt
+          Prefab: AsteroidVoxel02Cobalt    
+          Name: Cobalt Asteroid            
+          Pos: [ 646, -35, 6627 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid               
+          Pos: [ 234, -44, 6459 ]     
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Cobalt
+          Prefab: AsteroidVoxel02Cobalt    
+          Name: Cobalt Asteroid            
+          Pos: [ 950, -104, 6672 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ 110, -240, 6514 ]    
+          Rot: [ 0, 0, 0 ]          
+
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium 
+          Name: Promethium Asteroid        
+          Pos: [ 216, 138, 6518 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium     
+          Name: Sathium Asteroid            
+          Pos: [ 168, -264, 6273 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid            
+          Pos: [ 146, -335, 6427 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid               
+          Pos: [ 534, -44, 6759 ]     
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid            
+          Pos: [ 590, -14, 5572 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ 610, -20, 5314 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium 
+          Name: Promethium Asteroid        
+          Pos: [ 516, 0, 5518 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium     
+          Name: Sathium Asteroid            
+          Pos: [ 468, -24, 5273 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid            
+          Pos: [ 446, -335, 5527 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Silicon
+          Prefab: AsteroidVoxel01Silicon  
+          Name: Silicon Asteroid               
+          Pos: [ 434, -44, 5499 ]     
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid            
+          Pos: [ 350, -10, 5872 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ 310, -20, 5514 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium 
+          Name: Promethium Asteroid        
+          Pos: [ 3416, 138, -4518 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium     
+          Name: Sathium Asteroid            
+          Pos: [ 4368, -264, -4273 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid            
+          Pos: [ -5846, -335, 3327 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Silicon
+          Prefab: AsteroidVoxel01Silicon  
+          Name: Silicon Asteroid               
+          Pos: [ 5634, -44, 3459 ]     
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Silicon
+          Prefab: AsteroidVoxel01Silicon  
+          Name: Silicon Asteroid            
+          Pos: [ 3750, -104, 2872 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ -5110, -240, 4514 ]    
+          Rot: [ 0, 0, 0 ]          
+ 
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium 
+          Name: Promethium Asteroid        
+          Pos: [ -5216, 138, -3118 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium     
+          Name: Sathium Asteroid            
+          Pos: [ -4568, -264, -3273 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid            
+          Pos: [ 3846, -335, 3627 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Silicon
+          Prefab: AsteroidVoxel01Silicon  
+          Name: Silicon Asteroid               
+          Pos: [ -4234, -44, 4459 ]     
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid            
+          Pos: [ -2950, -104, 2872 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ 4110, -240, 4514 ]    
+          Rot: [ 0, 0, 0 ]          
+
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium 
+          Name: Promethium Asteroid        
+          Pos: [ 1216, 138, -3518 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Silicon
+          Prefab: AsteroidVoxel01Silicon  
+          Name: Silicon Asteroid            
+          Pos: [ 2168, -264, -3273 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid            
+          Pos: [ -2146, -335, 4427 ]    
+          Rot: [ 0, 0, 0 ]
+
+        - Type: AsteroidVoxel02Copper
+          Prefab: AsteroidVoxel02Copper    
+          Name: Copper Asteroid            
+          Pos: [ -5000, 2073, 2000 ]    
+          Rot: [ 0, 0, 0 ]      
+
+        - Type: AsteroidVoxel02Cobalt
+          Prefab: AsteroidVoxel02Cobalt    
+          Name: Cobalt Asteroid            
+          Pos: [ 6302, 73, 2486 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Copper
+          Prefab: AsteroidVoxel02Copper    
+          Name: Copper Asteroid             
+          Pos: [ 6038, -225, -2595 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium    
+          Name: Sathium Asteroid             
+          Pos: [ -4270, -1, -2671 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Promethium
+          Prefab: AsteroidVoxel02Promethium    
+          Name: Promethium Asteroid             
+          Pos: [ -318, 51, -6607 ]    
+          Rot: [ 0, 0, 0 ]       
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid             
+          Pos: [ 3718, -11, -4086 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Promethium
+          Prefab: AsteroidVoxel02Promethium    
+          Name: Promethium Asteroid             
+          Pos: [ -3718, 1011, -4086 ]    
+          Rot: [ 0, 0, 0 ]
+
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid             
+          Pos: [ 1000, 1011, 5000 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+
+        - Type: AsteroidVoxel02Magnesium
+          Prefab: AsteroidVoxel02Magnesium    
+          Name: Magnesium Asteroid             
+          Pos: [ 500, -1011, -4000 ]    
+          Rot: [ 0, 0, 0 ]          
+ 
+        - Type: AsteroidVoxel02Copper
+          Prefab: AsteroidVoxel02Copper    
+          Name: Copper Asteroid               
+          Pos: [ 5534, -44, 4759 ]     
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid            
+          Pos: [ 3650, -104, 2572 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ -2110, -240, 3314 ]    
+          Rot: [ 0, 0, 0 ]          
+ 
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium 
+          Name: Promethium Asteroid        
+          Pos: [ -3516, 0, 5518 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium     
+          Name: Sathium Asteroid            
+          Pos: [ -3168, -264, -3273 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid            
+          Pos: [ 3846, -335, 3627 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Copper
+          Prefab: AsteroidVoxel02Copper    
+          Name: Copper Asteroid               
+          Pos: [ -3634, -44, 3459 ]     
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid            
+          Pos: [ -3650, -104, 2872 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200          
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ 3110, -240, 4514 ]    
+          Rot: [ 0, 0, 0 ]
+          Properties:      
+            - Key: MapDistance
+              Value: 200
+
+        - Type: AsteroidVoxel01
+          Prefab: AsteroidVoxel01     
+          Name: Sathium Asteroid            
+          Pos: [ -1757, 280, -414 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02
+          Prefab: AsteroidVoxel02      
+          Name: Sathium Asteroid             
+          Pos: [ -2374, 60, -33 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel03
+          Prefab: AsteroidVoxel03      
+          Name: Sathium Asteroid             
+          Pos: [ 1387, -171, -875 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01
+          Prefab: AsteroidVoxel01      
+          Name: Sathium Asteroid             
+          Pos: [ -1493, 75, -1953 ]    
+          Rot: [ 0, 0, 0 ]        
+ 
+        - Type: AsteroidField 
+          Name: Asteroid Field            
+          Pos: [ 20, 100, 20 ]    
+          Rot: [ 0, 0, 0 ]              
+ 
+        - Type: AsteroidFieldRing 
+          Name: Asteroid Field            
+          Pos: [ 80, 3929, -5195 ]    
+          Rot: [ 550, 100, -550 ]
+
+        - Type: AsteroidFieldRing 
+          Name: Asteroid Field            
+          Pos: [ -500, -230, 400 ]    
+          Rot: [ -50, 200, 50 ]          
+ 
+        - Type: AsteroidFieldRing 
+          Name: Asteroid Field            
+          Pos: [ 0, 0, 0 ]    
+          Rot: [ 0, 0, 0 ]      
+
+    FixedPlayerStart:
+        - Mode: Survival	
+          Spawn: Structure
+          Structure: "omgdoomed"		
+          Armor: ArmorLight
+          Items: [ "Pistol, 50Caliber:250, Drill, CopperIngot:100, IronIngot:100, CobaltIngot:100, SiliconIngot:100, Chainsaw, BioFuel:4, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills:7, EVABoost, PlayerBikeKit, Medikit02:2, AntidotePills:2, EmergencyRations:2, WaterBottle:2, EnergyCell:25", "Pistol, 50Caliber:150, Drill, CopperIngot:250, IronIngot:250, CobaltIngot:250, SiliconIngot:250, Chainsaw, BioFuel:6, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills:9, EVABoost, PlayerBikeKit, Medikit02:3, AntidotePills:3, EmergencyRations:3, WaterBottle:3, EnergyCell:34", "Pistol, 50Caliber:250, Drill, CopperIngot:300, IronIngot:300, CobaltIngot:300, SiliconIngot:300, Chainsaw, BioFuel:8, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills:11, EVABoost, PlayerBikeKit, Medikit02:3, AntidotePills:3, EmergencyRations:3, WaterBottle:1, EnergyCell:43", "#FreshStart: Drill, Pistol, 50Caliber:250, CopperIngot:40, IronIngot:40, CobaltIngot:40, SiliconIngot:40, Chainsaw, BioFuel:2, ConstructorSurvival, OxygenGeneratorSmall, Core, DurianRoot, RadiationPills:2, EVABoost, Medikit02:1, AntidotePills:1, WaterBottle:2, EnergyCell:15" ]
+
+# Drones
+DroneBaseSetup:
+    Fixed:
+    Fixed:
+        - Name: MainDroneBase
+          Pos: [ 5000, 200, 5000 ]      # position coordinates
+          DroneOnDuty:
+            - Name: SpaceDroneLaser
+              Pos: [ 4000, 200, 2000 ]
+              Radius: 350
+            - Name: SpaceDroneLaser
+              Pos: [ -4000, -200, 2000 ]
+              Radius: 350
+            - Name: SpaceDroneLaser
+              Pos: [ 4000, 200, -2000 ]
+              Radius: 350
+            - Name: SpaceDroneLaser
+              Pos: [ -4000, -200, -2000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ 6000, 200, 6000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -6000, -200, 6000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ 6000, 200, -6000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -6000, -200, -6000 ]
+              Radius: 350
+          SpaceVessel:
+            - Name: Freighter              # Name of the prefab group or name of the prefab
+              FixedMaxSpeed: 20
+              Mission: Freighter                # Mission among : {SpacePatrol}
+              Freighter:
+                DelayBetweenRespawn: 600  
+                PathWayPoint:
+                - [ 5000, 250, 5000 ]
+                - [ 5000, 250, -2000 ]
+                - [ -5000, 250, -5000 ]
+              Stock:
+                - Name: SpaceDronePlasma          # Name of drone   
+                  Amount: 5                      # Amount of drones in stock          
+                  Extra: 0                        # Type of drone 0..3 -> see comment above     
+            - Name: Freighter              # Name of the prefab group or name of the prefab
+              FixedMaxSpeed: 20
+              Mission: Freighter                # Mission among : {SpacePatrol}
+              Freighter:
+                DelayBetweenRespawn: 800  
+                PathWayPoint:
+                - [ -7500, 250, -2000 ]
+                - [ -4000, 250, 2000 ]
+                - [ 7500, 250, 3000 ]
+              Stock:
+                - Name: SpaceDronePlasma          # Name of drone   
+                  Amount: 5                      # Amount of drones in stock          
+                  Extra: 0                        # Type of drone 0..3 -> see comment above        
+            - Name: BAO_XenuSupplyStation            
+              FixedMaxSpeed: 20
+              Mission: Immobile                  
+              Immobile:
+                  Position3D: [-5000, 250, 0]   
+              Stock:
+                - Name: SpaceDronePlasma          
+                  Amount: 20                          
+                  Extra: 0       
+              Properties: 
+                - Key: RegenAfter
+                  Value: 1       

@@ -1,0 +1,211 @@
+---
+# Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+
+# Playfield Characteristics
+RealRadius: 1303.797294             # Please don't change
+ScaledRadius: 1300                  # Please don't change
+Gravity: -6.5                       # Gravity on planet
+AtmosphereDensity: 0                # Please don't change
+AtmosphereO2: 0                     # Oxygen level of atmosphere
+AtmosphereBreathable: False         # If player can breathe without helmet
+Temperature: -22                    # No functionality yet
+TemperatureDay: 85                  # No functionality yet
+TemperatureNight: -105              # No functionality yet
+DayLength: 24                       # No functionality yet
+PlanetType: Barren                  # No functionality yet
+Moons: 0                            # No functionality yet
+PvP: False                          # Set to True to allow PvP in this playfield, default is False
+#Seed: 123456                       # If set overwrites main Seed
+#UseFixed: False					# If set uses fixed POIs + resources
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 3                       # Between 2 and 5: larger values indicate higher difficulty
+
+# Planet or Space
+PlayfieldType: Moon                 # Please don't change
+
+# Sun                               # SunFlareBlue, SunFlareWhite, SunFlareWhite2, SunFlareWhite3, SunFlareYellow, SunFlarePurple
+SunFlare: EnvironmentalEffects/SunFlareWhite
+
+# Special Effects
+
+# Atmosphere and Sky
+AtmosphereEnabled: False            # Atmosphere True or False
+
+# Light
+DayLightIntensity: 1.4                # Between 0 and 1: larger values = brighter, default is 0.6
+NightLightIntensity: 0.7            # Between 0 and 1: larger values = brighter, default is 0.6
+
+# Fog
+
+# Clouds
+
+# Wind Speed
+
+
+### Randomly distributed resources  # For Seed>0 games     
+RandomResources:
+    - Name: IronResource
+      CountMinMax: [ 3, 4 ]   # range of number of resources to distribute on planet
+      SizeMinMax: [ 6, 12 ]   # range of sizes of resource depots
+      DepthMinMax: [ 0, 2 ]   # Range of how deep to bury depots below terrain surface (e.g. 0 = partly visible, 3 = top of depot starts 3m below surface)
+      DroneProb: 0.3          # probability that the resource is defended by drones
+      MaxDroneCount: 1        # if at all, 1..n drones will defend the resource [default = 1]
+
+    - Name: CobaltResource
+      CountMinMax: [ 2, 4 ]
+      SizeMinMax: [ 7, 11 ]
+      DepthMinMax: [ 0, 2 ]
+      DroneProb: 0.4
+
+    - Name: CopperResource
+      CountMinMax: [ 2, 3 ]
+      SizeMinMax: [ 5, 9 ]
+      DepthMinMax: [ 0, 2 ]
+      DroneProb: 0.4
+
+    - Name: SiliconResource
+      CountMinMax: [ 2, 3 ]
+      SizeMinMax: [ 6, 11 ]
+      DepthMinMax: [ 0, 2 ]
+      DroneProb: 0.4
+
+    - Name: NeodymiumResource
+      CountMinMax: [ 4, 5 ]
+      SizeMinMax: [ 6, 10 ]
+      DepthMinMax: [ 0, 2 ]
+      DroneProb: 0.5
+
+    - Name: SathiumResource
+      CountMinMax: [ 2, 3 ]
+      SizeMinMax: [ 6, 10 ]
+      DepthMinMax: [ 0, 2 ]
+      DroneProb: 0.6
+      MaxDroneCount: 2
+
+    - Name: PromethiumResource
+      CountMinMax: [ 2, 3 ]
+      SizeMinMax: [ 9, 12 ]
+      DepthMinMax: [ 0, 2 ]
+      DroneProb: 0.6
+      MaxDroneCount: 2
+
+
+
+### Terrain and Decorations
+# Terrain and Local Decoration
+
+Terrain:
+    Name: Moonstone
+    PoleLevel: 60                       # Pole level of planet
+    NoiseStrength: 0.1
+    ColorChange:
+        YFadeCenter: 60
+        YFadeRange: 25
+        YFadeMin: 0.2
+        YFadeMax: -0.1
+
+MainBiome:
+    Textures:
+        - [ RockBlack, 3 ]   
+        - [ RockGrey08, 0 ]
+        - [ BedrockLava, 2 ]
+
+    Decorations:
+        - [ RocksmallA02, 1 ]    
+        - [ RocksmallC01, 1 ]
+        - [ RockGreySmall02, 1 ]  
+
+# Biome Definition and Main Decoration
+Biome:
+   - Altitude: [ 30, 55 ]
+     Slope: [ 0, 12 ]
+     BiomeClusterData: 
+         - ClusterSize: 30
+           NbOfClusters: 4
+           Decorations: 
+               - [ CrystalStraight, 10]
+
+### POIs
+POIs:
+    Random:  
+        - GroupName: GhostRiderDefence
+          CountMinMax: [ 1, 2 ]         # range of number of POIs of this group to distribute on planet
+          DroneProb: 0.7                # probability that a POI is defended by drones
+          DronesMinMax: [ 1, 1 ]        # range of number of drones that defend POI
+          ReserveCount: 2
+          TroopTransport: False          # if troop transport will be sent
+
+        - GroupName: GhostRiderBase
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 0.7
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 2
+          TroopTransport: False
+
+        - GroupName: CrashedShip
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 4
+          TroopTransport: False
+
+### Drones
+DroneBaseSetup:
+# PresetStyle:
+# -> 0 = no drone attack base,
+#    1 = day + 2 triggers,
+#    2 = night + 2 triggers,
+#    3 = at once + 2 triggers,
+#    4 = night + turret trigger
+    Random:
+        - GroupName: DroneBaseAkua
+          DronesMinMax: [ 0, 0 ]        # range of number of drones that defend drone base
+          ReserveCount: 0               # number of drones that will be replaced when defending drones got killed
+          DroneProb: 0                  # probability that drones will defend drone base
+          Difficulty: 0                 # 0..4 -> 0 = no drone attack base ... 4 = max difficulty level
+          PresetStyle: 0                # 0..4 -> see comment above
+          # BaseAttack: DroneSmallAttackBase              
+          Stock:
+              - Name: DroneSmallFast01Rocket    # Name of drone   
+                Amount: 10                      # Amount of drones in stock          
+                Extra: 0                        # Type of drone 0..3 -> see comment above      
+
+              - Name: DroneSmallFast01Minigun
+                Amount: 20
+                Extra: 0
+
+              - Name: DroneLargeSlow01Minigun
+                Amount: 10
+                Extra: 0
+
+              - Name: DroneSmallSlow01Cannon
+                Amount: 20
+                Extra: 0
+
+              - Name: DroneSmallAttackBase
+                Amount: 30
+                Extra: 1                        
+
+              - Name: DroneTroopsTransport
+                Amount: 1
+                Extra: 2
+
+              - Name: ZiraxMale
+                Amount: 100
+                Extra: 3
+
+              - Name: Crawler
+                Amount: 80
+                Extra: 3
+
+DroneSpawning:
+    Random:
+        - DronesMinMax: [ 5, 10 ]
+          CenterX: -2500
+          Radius: 1500
+
+        - DronesMinMax: [ 5, 10 ]
+          CenterX: 2500
+          Radius: 1500

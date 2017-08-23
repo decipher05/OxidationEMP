@@ -1,0 +1,145 @@
+---
+# Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+
+# Playfield Characteristics
+Gravity: 0                          # Please don't change
+AtmosphereEnabled: False            # Please don't change
+PvP: True                           # Set to True to allow PvP in this playfield, default is False
+UseFixed: True                      # If set uses fixed drones
+Radiation: 12.7
+TemperatureDay: -100  
+Instance:
+     Time: 100          # minutes until this instance has to be completed and players are kicked
+     MaxPlayers: 3      # portal closes after his amount of players entered
+     PortalOpen: 120    # seconds the portal is open
+     Cooldown: 90       # seconds the portal is closed after it was open (cooldown time)
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 2                       # Between 2 and 5: larger values indicate higher difficulty
+
+# Planet or Space
+PlayfieldType: Space               # Please don't change
+
+PlanetType: Space                  # No functionality yet
+
+# Sun                               
+SunFlare: EnvironmentalEffects/SunFlareWhite4Space
+
+# Stars
+Stars: SkyboxStarsPurple    
+
+# Nebula
+Nebula: PrefabNebulaBluePinkPurple
+
+### POIs
+POIs:
+    Fixed:
+        - Type: BA_Alien
+          Prefab: BA_Taipane         # filename of blueprint
+          Mode: Survival                      # Creative or Survival          
+          Name: Taipane              # name of blueprint as displayed to player
+          Pos: [ 700, -320, 400 ]             # position coordinates
+          Rot: [ 0, 75, 0 ]                   # rotation angles
+          InitPower: True                     # set if POI should be initially powered, default: False
+ 
+        - Type: BA_Alien
+          Prefab: BAO_PF2          
+          Mode: Survival 
+          Name: Research Station            
+          Pos: [ -670, 550, 200 ]    
+          Rot: [ 0, 75, 0 ]             
+          InitPower: True
+
+        - Type: BA_Alien
+          Prefab: Pyramid-Instance
+          Mode: Survival
+          Name: Pyramid Madness
+          Pos: [ 0, 7000, 0 ]
+          Rot: [ 0, 75, 0 ]
+ 
+        - Type: AsteroidVoxel01Neodymium
+          Prefab: AsteroidVoxel01Neodymium     
+          Name: Neodymium Asteroid            
+          Pos: [ -757, 180, -414 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Silicon
+          Prefab: AsteroidVoxel02Silicon  
+          Name: Silicon Asteroid             
+          Pos: [ -374, -44, -33 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel03Sathium
+          Prefab: AsteroidVoxel03Sathium  
+          Name: Sathium Asteroid             
+          Pos: [ 1387, -271, -875 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium 
+          Name: Magnesium Asteroid             
+          Pos: [ -893, 175, -1953 ]    
+          Rot: [ 0, 0, 0 ]        
+ 
+        - Type: AsteroidVoxel03Copper
+          Prefab: AsteroidVoxel03Copper  
+          Name: Copper Asteroid             
+          Pos: [ -1893, 75, -1953 ]    
+          Rot: [ 0, 0, 0 ]        
+ 
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium  
+          Name: Promethium Asteroid             
+          Pos: [ -893, -175, 1953 ]    
+          Rot: [ 0, 0, 0 ]        
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron  
+          Name: Iron Asteroid             
+          Pos: [ 493, 175, 953 ]    
+          Rot: [ 0, 0, 0 ]        
+ 
+        - Type: AsteroidField 
+          Name: Asteroid Field            
+          Pos: [ 0, 0, 0 ]    
+          Rot: [ 0, 0, 0 ]      
+
+    FixedPlayerStart:              
+
+        - Mode: Debug
+          Pos: [ -5000, 0, -5000 ]
+          RotY: 0                       # rotation angle around Y axis
+ 
+# Drones
+DroneBaseSetup:
+    Fixed:
+        - Name: MainDroneBase
+          Pos: [ 5000, 200, 5000 ]      # position coordinates
+          DroneOnDuty:
+            - Name: SpaceDroneLaser
+              Pos: [ 500, 700, -3000 ]
+              Radius: 250
+            - Name: SpaceDroneLaser
+              Pos: [ -500, -700, -3000 ]
+              Radius: 250
+            - Name: SpaceDroneLaser
+              Pos: [ 3500, 800, -2500 ]
+              Radius: 250
+            - Name: SpaceDronePlasma
+              Pos: [ 3000, 200, -800 ]
+              Radius: 250
+            - Name: SpaceDronePlasma
+              Pos: [ -2000, 500, -3000 ]
+              Radius: 250
+            - Name: SpaceDronePlasma
+              Pos: [ -3000, 1000, 0 ]
+              Radius: 350
+          DroneSpaceFreighter:
+            - Name: Freighter           # GroupName
+              FixedMaxSpeed: 15         # Max speed of a freighter in m/sec
+              DelayBetweenRespawn: 600  # Time in seconds between respawn of freighters
+              PathWayPoint:
+                - [ 5000, 9000, 8000 ]
+                - [ 5000, 9000, -2000 ]
+                - [ -5000, 9000, -8000 ]

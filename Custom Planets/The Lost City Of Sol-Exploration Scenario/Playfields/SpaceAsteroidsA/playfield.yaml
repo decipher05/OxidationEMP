@@ -1,0 +1,372 @@
+---
+# Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+
+# Playfield Characteristics
+Gravity: 0                          # Please don't change
+AtmosphereEnabled: False            # Please don't change
+PvP: True                          # Set to True to allow PvP in this playfield, default is False
+UseFixed: True                      # If set uses fixed drones
+Radiation: 5.1
+TemperatureDay: -130
+Music: space  
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 2                       # Between 2 and 5: larger values indicate higher difficulty
+
+# Planet or Space
+PlayfieldType: Space               # Please don't change
+
+PlanetType: Space                  # No functionality yet
+
+# Sun                               
+SunFlare: EnvironmentalEffects/SunFlareWhiteSpace
+
+# Stars
+Stars: SkyboxStarsCyan                        
+
+# Nebula
+Nebula: PrefabNebulaBlueYellow
+
+### POIs
+POIs:
+    Fixed:
+        - Type: BA_Alien
+          Prefab: BAO_AntarisSpacefarm                  # filename of blueprint
+          Mode: Survival                      # Creative or Survival          
+          Name: Antaris Spacefarm                      # name of blueprint as displayed to player
+          Pos: [ -5000, 250, 0 ]               # position coordinates
+          Rot: [ 0, -50, 0 ]                  # rotation angles
+          InitPower: True                     # set if POI should be initially powered, default: False  
+
+        # - Type: BA_Admin
+          # Prefab: Pyramid-Instance-Portal
+          # Mode: Survival
+          # Name: Pyramid Madness Portal
+          # Pos: [ -5000, 1000, -1111 ]
+          # Rot: [ 0, -50, 0 ]
+          # InitPower: True
+
+        - Type: BA_Admin
+          Prefab: Trade-Station    
+          Mode: Survival                     
+          Name: Trading Station            
+          Pos: [ 4400, 2000, 250 ]      
+          Rot: [ 0, -50, 0 ]           
+          InitPower: True
+
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium 
+          Name: Promethium Asteroid        
+          Pos: [ 3416, 138, -4518 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium     
+          Name: Sathium Asteroid            
+          Pos: [ 4368, -264, -4273 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ -5846, -335, 3327 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Pentaxid
+          Prefab: AsteroidVoxel01Pentaxid
+          Name: Pentaxid Asteroid               
+          Pos: [ 5634, -44, 3459 ]     
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ 3750, -104, 2872 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ -5110, -240, 4514 ]    
+          Rot: [ 0, 0, 0 ]          
+ 
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium 
+          Name: Promethium Asteroid        
+          Pos: [ -5216, 138, -3118 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium     
+          Name: Sathium Asteroid            
+          Pos: [ -4568, -264, -3273 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ 3846, -335, 3627 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Pentaxid
+          Prefab: AsteroidVoxel01Pentaxid
+          Name: Pentaxid Asteroid               
+          Pos: [ -4234, -44, 4459 ]     
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ -2950, -104, 2872 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ 4110, -240, 4514 ]    
+          Rot: [ 0, 0, 0 ]          
+
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium 
+          Name: Promethium Asteroid        
+          Pos: [ 1216, 138, -3518 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium     
+          Name: Sathium Asteroid            
+          Pos: [ 2168, -264, -3273 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ -2146, -335, 4427 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Pentaxid
+          Prefab: AsteroidVoxel01Pentaxid
+          Name: Pentaxid Asteroid               
+          Pos: [ 5534, -44, 4759 ]     
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ 3650, -104, 2572 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ -2110, -240, 3314 ]    
+          Rot: [ 0, 0, 0 ]          
+ 
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium 
+          Name: Promethium Asteroid        
+          Pos: [ -3516, 5518 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium     
+          Name: Sathium Asteroid            
+          Pos: [ -3168, -264, -3273 ]    
+          Rot: [ 0, 0, 0 ]
+
+        - Type: AsteroidVoxel02Copper
+          Prefab: AsteroidVoxel02Copper    
+          Name: Copper Asteroid            
+          Pos: [ -5000, 2073, 2000 ]    
+          Rot: [ 0, 0, 0 ]      
+
+        - Type: AsteroidVoxel02Cobalt
+          Prefab: AsteroidVoxel02Cobalt    
+          Name: Cobalt Asteroid            
+          Pos: [ 6302, 73, 2486 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Neodymium
+          Prefab: AsteroidVoxel02Neodymium     
+          Name: Neodymium Asteroid             
+          Pos: [ 6038, -225, -2595 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Sathium
+          Prefab: AsteroidVoxel02Sathium    
+          Name: Sathium Asteroid             
+          Pos: [ -4270, -1, -2671 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Promethium
+          Prefab: AsteroidVoxel02Promethium    
+          Name: Promethium Asteroid             
+          Pos: [ -318, 51, -6607 ]    
+          Rot: [ 0, 0, 0 ]       
+ 
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid             
+          Pos: [ 3718, -11, -4086 ]    
+          Rot: [ 0, 0, 0 ]        
+ 
+        - Type: AsteroidVoxel02Promethium
+          Prefab: AsteroidVoxel02Promethium    
+          Name: Promethium Asteroid             
+          Pos: [ -3718, 1011, -4086 ]    
+          Rot: [ 0, 0, 0 ]
+
+        - Type: AsteroidVoxel02Iron
+          Prefab: AsteroidVoxel02Iron    
+          Name: Iron Asteroid             
+          Pos: [ 1000, 1011, 5000 ]    
+          Rot: [ 0, 0, 0 ]
+
+        - Type: AsteroidVoxel02Magnesium
+          Prefab: AsteroidVoxel02Magnesium    
+          Name: Magnesium Asteroid             
+          Pos: [ 500, -1011, -4000 ]    
+          Rot: [ 0, 0, 0 ]          
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ 3846, -335, 3627 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Pentaxid
+          Prefab: AsteroidVoxel01Pentaxid
+          Name: Pentaxid Asteroid               
+          Pos: [ -3634, -44, 3459 ]     
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel03Zascosium
+          Prefab: AsteroidVoxel03Zascosium   
+          Name: Zascosium Asteroid            
+          Pos: [ -3650, -104, 2872 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Magnesium
+          Prefab: AsteroidVoxel01Magnesium   
+          Name: Magnesium Asteroid            
+          Pos: [ 3110, -240, 4514 ]    
+          Rot: [ 0, 0, 0 ]
+
+        - Type: AsteroidFieldBoxExclude 
+          Name: Asteroid Field            
+          Pos: [ 0, 0, 0 ]    
+          Rot: [ 0, 0, 0 ]   
+
+    FixedPlayerStart:
+        - Mode: Debug                # Creative or Survival  
+          Pos: [ -5000, 0, 5000 ]    # position coordinates
+          RotY: 0                    # rotation angle around Y axis
+
+# Drones
+DroneBaseSetup:
+    Fixed:
+    Fixed:
+        - Name: MainDroneBase
+          Pos: [ 5000, 200, 5000 ]      # position coordinates
+          DroneOnDuty:
+            - Name: SpaceDronePlasma
+              Pos: [ 4000, 200, 4000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -4000, -200, 4000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ 4000, 200, -4000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -4000, -200, -4000 ]
+              Radius: 350
+            - Name: SpaceDroneLaser
+              Pos: [ 4000, 200, 2000 ]
+              Radius: 350
+            - Name: SpaceDroneLaser
+              Pos: [ -4000, -200, 2000 ]
+              Radius: 350
+            - Name: SpaceDroneLaser
+              Pos: [ 4000, 200, -2200 ]
+              Radius: 350
+            - Name: SpaceDroneLaser
+              Pos: [ -4000, -200, -2200 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ 6000, 200, 6200 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -6000, -200, 6200 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ 6000, 200, -6200 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -6000, -200, -6200 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ 3000, 200, 4000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -3000, -200, 4000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ 3000, 200, -4000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -3000, -200, -4000 ]
+              Radius: 350
+            - Name: SpaceDroneLaser
+              Pos: [ 3000, 200, 2000 ]
+              Radius: 350
+            - Name: SpaceDroneLaser
+              Pos: [ -3000, -200, 2000 ]
+              Radius: 350
+            - Name: SpaceDroneLaser
+              Pos: [ 3000, 200, -2200 ]
+              Radius: 350
+            - Name: SpaceDroneLaser
+              Pos: [ -3000, -200, -2200 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ 5000, 200, 6200 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -5000, -200, 6200 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ 5000, 200, -6200 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -5000, -200, -6200 ]
+              Radius: 350
+          SpaceVessel:
+            - Name: Freighter              # Name of the prefab group or name of the prefab
+              FixedMaxSpeed: 20
+              Mission: Freighter                # Mission among : {SpacePatrol}
+              Freighter:
+                DelayBetweenRespawn: 600  
+                PathWayPoint:
+                - [ 5000, 250, 5000 ]
+                - [ 5000, 250, -2000 ]
+                - [ -5000, 250, -5000 ]
+              Stock:
+                - Name: SpaceDronePlasma          # Name of drone   
+                  Amount: 5                      # Amount of drones in stock          
+                  Extra: 0                        # Type of drone 0..3 -> see comment above     
+            - Name: Freighter              # Name of the prefab group or name of the prefab
+              FixedMaxSpeed: 20
+              Mission: Freighter                # Mission among : {SpacePatrol}
+              Freighter:
+                DelayBetweenRespawn: 800  
+                PathWayPoint:
+                - [ -7500, 250, -2000 ]
+                - [ -4000, 250, 2000 ]
+                - [ 7500, 250, 3000 ]
+              Stock:
+                - Name: SpaceDronePlasma          # Name of drone   
+                  Amount: 5                      # Amount of drones in stock          
+                  Extra: 0                        # Type of drone 0..3 -> see comment above
+                

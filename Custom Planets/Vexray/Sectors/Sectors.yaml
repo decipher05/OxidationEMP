@@ -1,0 +1,214 @@
+- Coordinates: [0, 0, 0]
+  Color: 0, 0, 0
+  Playfields:
+  - ['0, 0, 0', Sun, Sun]
+- Coordinates: [-91, 0, 48]
+  Color: 0, 1, 0
+  Icon: Circle
+  Playfields:
+  - ['0, 0, 0', Aestus Orbit, SpaceAsteroidFieldRingAestus]
+  - ['0, 0, 0', Aestus, Lava]
+- Coordinates: [-1, 0, 303]
+  Color: 0.5, 0.5, 0.5
+  Icon: Kite
+  Playfields:
+  - ['0, 0, 0', Alien Outpost, SpaceAlienStation]
+- Coordinates: [1, 0, 155]
+  Color: 0, 1, 0
+  Icon: Circle
+  Playfields:
+  - ['0, 0, 0', Skillon Orbit, SpaceAsteroidsFewSkillon]
+  - ['0, 0, 0', Skillon, Barren]
+- Coordinates: [1, 0, -531]
+  Color: 0.5, 0.5, 0.5
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', Trading Outpost, SpaceTradingStation]
+- Coordinates: [-1, 0, -357]
+  Color: 0, 1, 0
+  Icon: Circle
+  Playfields:
+  - ['0, 0, 0', Akua Orbit, SpaceAsteroidFieldRingAkua]
+  - ['0, 0, 0', Akua, Temperate, 'Human:1']
+  - ['-6500, 5000, 6500', Akua Moon, Moon]
+- Coordinates: [-1, 0, -98]
+  Color: 0, 1, 0
+  Icon: Circle
+  Playfields:
+  - ['0, 0, 0', Omicron Orbit, SpaceAsteroidFieldOmicron]
+  - ['0, 0, 0', Omicron, Desert]
+  - ['2000, 5000, -7000', Omicron Moon, Moon]
+- Coordinates: [-191, 0, 110]
+  Color: 0, 1, 0
+  Icon: Circle
+  Playfields:
+  - ['0, 0, 0', Ningues Orbit, SpaceEmptyNingues]
+  - ['0, 0, 0', Ningues, Snow]
+- Coordinates: [85, 0, 39]
+  Color: 0, 1, 0
+  Icon: Circle
+  Playfields:
+  - ['0, 0, 0', Aitis Orbit, SpaceAsteroidFieldRingAitis]
+  - ['0, 0, 0', Aitis, Lava2]
+- Coordinates: [179, 0, 96]
+  Color: 0, 1, 0
+  Icon: Circle
+  Playfields:
+  - ['0, 0, 0', Zeyhines Orbit, SpaceAsteroidsFewZeyhines]
+  - ['0, 0, 0', Zeyhines, Desert2]
+- Coordinates: [-1, 0, 423]
+  Color: 0, 1, 0
+  Icon: Circle
+  Playfields:
+  - ['0, 0, 0', Masperon Orbit, SpaceAsteroidsMasperon]
+  - ['0, 0, 0', Masperon, Alien2]
+  - ['6000, -4000, 7000', Masperon Moon, Alien, '']
+- Coordinates: [-1, 0, -231]
+  Color: 0, 1, 0
+  Icon: Circle
+  Playfields:
+  - ['0, 0, 0', Oscutune Orbit, SpaceAsteroidsOscutune]
+  - ['0, 0, 0', Oscutune, Temperate2]
+- Coordinates: [253, 0, -477]
+  Color: 0, 0, 1
+  Icon: Hexagon
+  Playfields:
+  - ['0, 0, 0', Vulca Orbit, SpacePVE]
+  - ['3366, 0, 2852', Vulca, Vulca]
+  - ['-5256, 5000, 6834', Vulca Moon, MoonPVE]
+- Coordinates: [352, 0, -384]
+  Color: 0, 0, 1
+  Icon: Hexagon
+  Playfields:
+  - ['0, 0, 0', Andromeda Orbit, SpacePVE]
+  - ['0, 0, 0', Andromeda, Andromeda]
+  - ['-6500, 5000, 8500', Andromeda Moon, MoonPVE]
+- Coordinates: [503, 0, -182]
+  Color: 0, 0, 1
+  Icon: Hexagon
+  Playfields:
+  - ['0, 0, 0', Mios Orbit, SpacePVE]
+  - ['0, 0, 0', Mios, Mios]
+  - ['-6500, 5000, 6500', Mios Moon, MoonPVE]
+- Coordinates: [403, 0, -114]
+  Color: 0, 0, 1
+  Icon: Hexagon
+  Playfields:
+  - ['0, 0, 0', Seranis Orbit, SpacePVE]
+  - ['863, 0, -2126', Seranis, Seranis]
+  - ['-6500, 5000, 6500', Seranis Moon, MoonPVE]
+- Coordinates: [374, 0, -520]
+  Color: 0, 0, 1
+  Icon: Hexagon
+  Playfields:
+  - ['0, 0, 0', Veros Orbit, SpacePVE]
+  - ['-3657, 0, -225', Veros, Veros]
+  - ['-6500, 5000, 6500', Veros Moon, MoonPVE]
+- Coordinates: [403, 0, -260]
+  Color: 0.72, 0.18, 0.67
+  Icon: Hexagon
+  Playfields:
+  - ['0, 0, 0', Kahl Orbit, SpaceAsteroidField]
+  - ['-2058, 0, 3214', Kahl, Savannah]
+  - ['2000, -5000, -3000', Keil Comet, MoonPVE]
+- Coordinates: [-260, 0, -463]
+  Color: 1, 0, 0
+  Icon: Square
+  Playfields:
+  - ['0, 0, 0', Lumia Orbit, SpacePVP]
+  - ['0, 0, 0', Lumia, Lumia]
+  - ['-6500, 5000, 6500', Lumia Moon, Moon]
+- Coordinates: [-130, 0, -485]
+  Color: 1, 0, 0
+  Icon: Square
+  Playfields:
+  - ['0, 0, 0', Dalos Orbit, SpacePVP]
+  - ['0, 0, 0', Dalos, Dalos, true]
+- Coordinates: [-382, 0, -502]
+  Color: 1, 0, 0
+  Icon: Square
+  Playfields:
+  - ['0, 0, 0', Ovus Orbit, SpacePVP]
+  - ['0, 0, 0', Ovus, Ovus]
+- Coordinates: [-348, 0, -362]
+  Color: 1, 0, 0
+  Icon: Square
+  Playfields:
+  - ['0, 0, 0', Mordica Orbit, SpacePVP]
+  - ['0, 0, 0', Mordica, Mordica, true]
+  - ['-6500, 5000, 6500', Mordica Moon1, Moon]
+- Coordinates: [-414, 0, -106]
+  Color: 1, 0, 0
+  Icon: Square
+  Playfields:
+  - ['0, 0, 0', Vyrdis Orbit, SpacePVP]
+  - ['0, 0, 0', Vyrdis, Vyrdis]
+  - ['-6500, 5000, 6500', Vyrdis Comet, Moon]
+- Coordinates: [-416, 0, -249]
+  Color: 1, 0, 0
+  Icon: Square
+  Playfields:
+  - ['0, 0, 0', Piercia Orbit, SpacePVP]
+  - ['0, 0, 0', Piercia, Piercia]
+  - ['-6500, 5000, 6500', Piercia Moon, Moon]
+- Coordinates: [-516, 0, -168]
+  Color: 1, 0, 0
+  Icon: Square
+  Playfields:
+  - ['0, 0, 0', Alphine Orbit, SpacePVP]
+  - ['0, 0, 0', Alphine, Alphine]
+  - ['-6500, 5000, 6500', Alphine Moon, Moon]
+- Coordinates: [124, 0, -496]
+  Color: 0, 0, 1
+  Icon: Hexagon
+  Playfields:
+  - ['0, 0, 0', Aeris Orbit, SpacePVP]
+  - ['0, 0, 0', Aeris, Aeris]
+  - ['-6500, 5000, 6500', Aeris Moon, Moon]
+#- Coordinates: [-119, 0, 547]
+#  Color: 1, 0, 0
+#  Icon: Star
+#  Playfields:
+#  - ['0, 0, 0', Lorien Federation, SpacePVP]
+#  - ['0, 0, 0', Lorien Homeworld, Lumia]
+#- Coordinates: [103, 0, 546]
+#  Color: 1, 0, 0
+#  Icon: Star
+#  Playfields:
+#  - ['0, 0, 0', Scarab Legion, SpacePVP]
+#  - ['0, 0, 0', Scarab Homeworld, Dalos]
+- Coordinates: [-345, 0, 17]
+  Color: 0.5, 0.5, 0.5
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', PVP Outpost, SpaceTradingStation]
+- Coordinates: [334, 0, 11]
+  Color: 0.5, 0.5, 0.5
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', PVE Outpost, SpaceTradingStation]
+#- Coordinates: [-119, 0, 547]
+#  Color: 1, 0, 0
+#  Icon: Star
+#  Playfields:
+#  - ['0, 0, 0', Lorien Federation, SpacePVP]
+#  - ['0, 0, 0', Headquarters, Dalos]
+#- Coordinates: [-442, 0, 146]
+#  Color: 1, 0, 0
+#  Icon: Kite
+#  Playfields:
+#  - ['0, 0, 0', (WD)PVP Farm, SpacePVP]
+#  - ['0, 0, 0', PVP Farm, FarmPVP]
+#- Coordinates: [431, 0, 135]
+#  Color: 1, 0, 0
+#  Icon: Kite
+#  Playfields:
+#  - ['0, 0, 0', (WD)PVE Farm, SpacePVE]
+#  - ['0, 0, 0', PVE Farm, FarmPVE]
+
+- Coordinates: [-40, 13, -40]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', Instance Orbit, SpaceAsteroids]
+  - ['0, 0, 0', Instance, InstanceTaipane]

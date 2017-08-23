@@ -1,0 +1,138 @@
+---
+# Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+
+# Playfield Characteristics
+Gravity: 0                          # Please don't change
+AtmosphereEnabled: False            # Please don't change
+PvP: False                           # Set to True to allow PvP in this playfield, default is False
+UseFixed: True                      # If set uses fixed drones
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 1                       # Between 2 and 5: larger values indicate higher difficulty
+
+# Planet or Space
+PlayfieldType: Space               # Please don't change
+
+PlanetType: Space                  # No functionality yet
+
+### POIs
+POIs:
+    Fixed:
+        - Type: BA_Alien
+          Prefab: BAO_OrbitalSpire      # filename of blueprint
+          Mode: Survival                # Creative or Survival          
+          Name: Alien Base              # name of blueprint as displayed to player
+          Pos: [ 0, 0, 500 ]            # position coordinates
+          Rot: [ 0, 75, 0 ]             # rotation angles
+          InitPower: True               # set if POI should be initially powered, default: False
+ 
+        - Type: BA_Alien
+          Prefab: BAO_SpireSatellite          
+          Mode: Survival 
+          Name: Alien Satellite            
+          Pos: [ 0, 100, 700 ]    
+          Rot: [ 0, 75, 0 ]             
+          InitPower: True  
+ 
+        - Type: BA_Alien
+          Prefab: BAO_SpireSatellite          
+          Mode: Survival 
+          Name: Alien Satellite            
+          Pos: [ 0, 200, 300 ]    
+          Rot: [ 0, 75, 0 ]             
+          InitPower: True   
+ 
+        - Type: BA_Alien
+          Prefab: BAO_SpireSatellite          
+          Mode: Survival 
+          Name: Alien Satellite            
+          Pos: [ 200, 200, 300 ]    
+          Rot: [ 0, 75, 0 ]             
+          InitPower: True   
+ 
+        - Type: BA_Alien
+          Prefab: BAO_XenuSupplyStation          
+          Mode: Survival 
+          Name: Supply Station            
+          Pos: [ 2000, 0, 2000 ]    
+          Rot: [ 0, 75, 0 ]             
+          InitPower: True   
+ 
+        - Type: AsteroidVoxel01
+          Prefab: AsteroidVoxel01    
+          Name: Sathium Asteroid            
+          Pos: [ -634, -44, 459 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02
+          Prefab: AsteroidVoxel02     
+          Name: Sathium Asteroid            
+          Pos: [ -568, -264, -1273 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel03
+          Prefab: AsteroidVoxel03   
+          Name: Sathium Asteroid            
+          Pos: [ 846, -335, 627 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01
+          Prefab: AsteroidVoxel01   
+          Name: Sathium Asteroid            
+          Pos: [ -1216, 138, -518 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel03
+          Prefab: AsteroidVoxel03   
+          Name: Sathium Asteroid            
+          Pos: [ -1650, -104, 2872 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01
+          Prefab: AsteroidVoxel01   
+          Name: Sathium Asteroid            
+          Pos: [ 2110, -240, 4514 ]    
+          Rot: [ 0, 0, 0 ]        
+ 
+        - Type: AsteroidFieldRectangle2 
+          Name: Asteroid Field            
+          Pos: [ 0, 0, 0 ]    
+          Rot: [ 0, 0, 0 ]      
+
+    FixedPlayerStart:              
+
+        - Mode: Debug
+          Pos: [ -353, 72, -306 ]
+          RotY: 0                       # rotation angle around Y axis
+ 
+# Drones
+DroneBaseSetup:
+    Fixed:
+        - Name: MainDroneBase
+          Pos: [ 5000, 200, 5000 ]      # position coordinates
+          DroneOnDuty:
+            - Name: SpaceDroneLaser
+              Pos: [ 500, 500, 500 ]
+              Radius: 150
+            - Name: SpaceDroneLaser
+              Pos: [ -500, -500, 500 ]
+              Radius: 150
+            - Name: SpaceDroneLaser
+              Pos: [ 500, 500, -500 ]
+              Radius: 150
+            - Name: SpaceDroneLaser
+              Pos: [ -500, -500, -500 ]
+              Radius: 150
+            - Name: SpaceDronePlasma
+              Pos: [ 3000, 800, 3000 ]
+              Radius: 250
+            - Name: SpaceDronePlasma
+              Pos: [ -3000, -800, 3000 ]
+              Radius: 250
+            - Name: SpaceDronePlasma
+              Pos: [ 3000, 800, -3000 ]
+              Radius: 250
+            - Name: SpaceDronePlasma
+              Pos: [ -3000, -800, -3000 ]
+              Radius: 250

@@ -1,0 +1,96 @@
+# Dedicated server settings
+# To use your own dedicated.yaml (e.g., "MyDedicatedConfig.yaml"), add "-dedicated MyDedicatedConfig.yaml" to the corresponding batch file
+
+ServerConfig:
+    Srv_Port: 30000
+    Srv_Name: The Lost City Of Sol-Exploration
+    # Srv_Password: Abc
+    Srv_MaxPlayers: 120
+    # Srv_ReservePlayfields: 1  # Idle playfield servers held in reserve. For busy public servers, we recommend at least 2 (default = 1)
+
+    # Server description shown in Server Browser
+    # max 127 chars: "-------------------------------------------------------------------------------------------------------------------------------"
+    # Srv_Description: "Server info, can contain [b]bold[/b] text or a [u][url=empyriongame.com]link[/url][/u]."
+
+    # All playfield servers will be automatically stopped every <n> real time hours. Players will get some warning messages before
+    # Srv_StopPeriod: 48
+
+    # Tel_Enabled: true   # Activate Telnet server
+    # Tel_Port: 30004
+    # Tel_Pwd: Abc
+
+    # EACActive: false    # Activate Easy Anti Cheat (clients have to enable EAC via Options -> Misc to connect to a EAC protected server)
+    # SaveDirectory: Saves
+
+    # Restrict allowed Blueprint size class: restricted types are not allowed to be produced or spawned
+    # 1 = allow only small blueprints, ... , 10 = allow very large blueprints, 0 = no limits (Warning: large blueprints can have very strong performance impact)
+    MaxAllowedSizeClass: 0
+
+    # Restrict Blueprint types allowed for production in factory
+    # None      = Blueprint system completely disabled
+    # StockOnly = only stock blueprints can be produced
+    # All       = all types allowed (default)
+    AllowedBlueprints: All
+
+    # Timeout in seconds after which a playfield server will be killed (and all players on it disconnected)
+    # if it does no longer send heartbeat messages to the dedi (0 = feature disabled)
+    HeartbeatServer: 15
+
+    # Timeout in seconds after which a client will be disconnected if it
+    # does no longer send heartbeat messages to the dedi (0 = feature disabled)
+    # HeartbeatClient: 30
+
+    # Enable extra log outputs (for debugging purposes)
+    # Defined flags: (add together the values if more than one group should be active at the same time)
+    # 1 = EAC
+    # 2 = EAC_all_details (includes EAC - Note: this generates a lot of log lines)
+    # LogFlags: 2
+
+    # Uncomment the following line if you want to prohibit Steam Family Sharers playing (only the game owner can play then)
+    # DisableSteamFamilySharing: True
+
+    # Players with a ping higher than the value specified below will be locked out of the game. We recommend to not allow
+    # too high pings as this can result in player cheating
+    # KickPlayerWithPing: 300
+
+GameConfig:
+    GameName: Exploration Final Testing                      # Determines name of the save game 
+    Mode: Survival                           # Survival or Creative
+    Seed: 3031973                            # The seed determines how the world is procedurally generated - the same seed means the same world
+    CustomScenario: The Lost City Of Sol-Exploration      # Enable custom scenario. Name of custom scenario from folder Content\Scenarios
+    # CustomScenario: Invader vs Defender    # We recommend trying out this multiplayer scenario. Use OriginDefault: Defender for this scenario 
+
+    # Note: All times are given in real time hours, 1h real time = approximately 24h in game (Important: Timer counts down as long as the dedicated process is active - deactivated playfields do not stop the timer)
+    DecayTime: 2                 # Time after which player-built structures without core or less than 10 blocks get removed when not visited (0 = disabled)
+    WipeTime: 0                  # Time after which any player-built structures get removed when not visited (0 = disabled)
+    ProtectTime: 2160              # Time during which structures are offline protected
+
+    MaxStructures: 200           # Max number of structures per playfield (limit = 255, reduce on performance problems)
+    AntiGriefDistance: 30        # Distance (in m) around a faction's base where no other faction's base can be built
+    AntiGriefZone: PvE           # Zone where the AntiGriefDistance is valid (All, PvP, PvE)
+    AntiGriefOresDistance: 30    # Distance (in m) around ore deposits where no other faction's base can be built
+    AntiGriefOresZone: PvE       # Zone where the AntiGriefOresDistance is valid (All, PvP, PvE)
+    EnableTrading: GlobalVirtual # Enables a global virtual marketplace for player-to-player trading
+    EnableMaxBlockCount: True    # Enable or disable the max counting of blocks such as the weapon limit
+
+    OriginDefault: Human      # The name of the default Origin
+    # OriginDefault: Defender      # Use this default origin when playing Invader vs Defender multiplayer scenario
+    OriginAccessOthers: True     # False will not allow any alliances with or join to factions from other Origins
+    OriginAutoAlliance: True     # Factions are per default allied if they are in the same Origin
+    FriendlyFireInPvP: False     # False will not damage any allied structure even in PvP. Still does hurt players
+
+    # --- Difficulty settings ---
+    # Notice: Changing some of the difficulty settings require to start a new game in order to take effect
+    DiffEscapePodContent: Easy        # Easy, Medium, Hard --- Determines the content of your equipment when you start a new game
+    DiffPlayerProgression: Faster       # Faster, Normal, Slower --- Influences the overall player progression speed by earning more or less XP
+    DiffDegradationSpeed: Normal        # Low, Normal, High, Off --- Influences the speed of degradation when using weapons and tools
+    DiffRadiationTemperature: Normal    # Low, Normal, High, Off --- Influences the impact of temperature and radiation on the player
+    DiffAmountOfOre: Normal             # Rich, Normal, Poor --- Influences the average amount of ore that a deposit contains
+    DiffNumberOfDeposits: Normal        # Plenty, Normal, Few --- Influences the average number of deposits per planet
+    DiffDroneBaseAttack: Medium         # Easy, Medium, Hard, Off --- Influences the difficulty of the drone base attacks (infinite waves, number of waves etc.)
+    DiffDronePresence: High           # Low, Normal, High, Off --- Influences the overall number of drones that are present on a planet
+    DiffEnemySpawnRate: High          # Low, Normal, High --- Influences the spawn rate of enemy NPCs on a planet
+    DiffAttackStrength: Medium          # Easy, Medium, Hard --- Influences the overall difficulty when attacking enemies
+    DiffConstrCraftTime: Faster         # Faster, Normal, Slower --- Influences the overall craft speed of constructors 
+    DiffBpProdTime: Faster              # Faster, Normal, Slower --- Influences the overall production speed of the blueprint factory
+    

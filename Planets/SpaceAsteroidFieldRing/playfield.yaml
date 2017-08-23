@@ -55,46 +55,31 @@ POIs:
           Prefab: AsteroidVoxel01Sathium    
           Name: Sathium Asteroid            
           Pos: [ -6302, 73, -2486 ]    
-          Rot: [ 0, 0, 0 ]            
-          Properties:     
-            - Key: RegenAfter
-              Value: 180    
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel02Neodymium
           Prefab: AsteroidVoxel02Neodymium     
           Name: Neodymium Asteroid             
           Pos: [ -6038, -225, 2595 ]    
-          Rot: [ 0, 0, 0 ]          
-          Properties:     
-            - Key: RegenAfter
-              Value: 180      
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel03Sathium
           Prefab: AsteroidVoxel03Sathium    
           Name: Sathium Asteroid             
           Pos: [ 4270, -1, 2671 ]    
-          Rot: [ 0, 0, 0 ]           
-          Properties:     
-            - Key: RegenAfter
-              Value: 180     
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel01Promethium
           Prefab: AsteroidVoxel01Promethium    
           Name: Promethium Asteroid             
           Pos: [ 318, 51, 6607 ]    
-          Rot: [ 0, 0, 0 ]           
-          Properties:     
-            - Key: RegenAfter
-              Value: 180      
+          Rot: [ 0, 0, 0 ]       
  
         - Type: AsteroidVoxel03Sathium
           Prefab: AsteroidVoxel03Sathium    
           Name: Sathium Asteroid             
           Pos: [ -3718, -11, 4086 ]    
-          Rot: [ 0, 0, 0 ]         
-          Properties:     
-            - Key: RegenAfter
-              Value: 180         
+          Rot: [ 0, 0, 0 ]        
  
         - Type: AsteroidFieldRing 
           Name: Asteroid Field            
@@ -168,7 +153,4 @@ DroneBaseSetup:
               Stock:
                 - Name: SpaceDronePlasma          # Name of drone   
                   Amount: 20                      # Amount of drones in stock          
-                  Extra: 0                        # Type of drone 0..3 -> see comment above    
-              Properties: 
-                - Key: RegenAfter
-                  Value: 720              
+                  Extra: 0                        # Type of drone 0..3 -> see comment above  

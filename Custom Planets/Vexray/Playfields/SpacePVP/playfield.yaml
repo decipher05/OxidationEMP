@@ -1,0 +1,131 @@
+---
+# Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+
+# Playfield Characteristics
+Gravity: 0                          # Please don't change
+AtmosphereEnabled: False            # Please don't change
+PvP: True                          # Set to True to allow PvP in this playfield, default is False
+UseFixed: True                      # If set uses fixed drones
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 2                       # Between 2 and 5: larger values indicate higher difficulty
+
+# Planet or Space
+PlayfieldType: Space               # Please don't change
+
+PlanetType: Space                  # No functionality yet
+
+### POIs
+POIs:
+    Fixed:
+        - Type: BA_Alien
+          Prefab: BAO_GhostRiderShipyard      # filename of blueprint
+          Mode: Survival                      # Creative or Survival          
+          Name: Shipyard                      # name of blueprint as displayed to player
+          Pos: [ -4300, -80, 5115 ]           # position coordinates
+          Rot: [ 0, -50, 0 ]                  # rotation angles
+          InitPower: True                     # set if POI should be initially powered, default: False
+ 
+        - Type: BA_Player
+          Prefab: BA_EmptyPlane          
+          Mode: Creative          
+          SubMode: Empty      
+          Name: Platform            
+          Pos: [ -4484, -393.4, 3995 ]    
+          Rot: [ 0, 75, 0 ]             
+          InitPower: True  
+ 
+        - Type: SV_Player
+          Prefab: SV_Starfighter-DH02        
+          Mode: Creative          
+          SubMode: Empty      
+          Name: Starfighter DH02           
+          Pos: [ -4481, -389.89, 3995 ]    
+          Rot: [ 0, 78, 0 ]             
+          InitPower: False  
+ 
+        - Type: CV_Player
+          Prefab: CV_Polaris         
+          Mode: Creative          
+          SubMode: Normal      
+          Name: Polaris Cruiser MKI           
+          Pos: [ -4500, -400, 4000 ]    
+          Rot: [ 0, 0, 0 ]             
+          InitPower: True   
+ 
+        - Type: SV_Player
+          # Prefab: SV_Scorpio
+          Prefab: SV_Recluse       
+          Mode: Creative          
+          SubMode: Normal      
+          Name: Recluse MKI          
+          Pos: [ -4499, -386.83, 3980 ]    
+          Rot: [ 0, 0, 0 ]             
+          InitPower: False  
+ 
+        - Type: HV_Player
+          Prefab: HV_Walker          
+          Mode: Creative          
+          SubMode: Normal      
+          Name: Walker MKI          
+          Pos: [ -4499, -398.6, 3993 ]    
+          Rot: [ 0, 0, 0 ]             
+          InitPower: False  
+
+        - Type: AsteroidVoxel01
+          Prefab: AsteroidVoxel01     
+          Name: Sathium Asteroid            
+          Pos: [ -5757, 180, 4586 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02
+          Prefab: AsteroidVoxel02      
+          Name: Sathium Asteroid             
+          Pos: [ -5374, -100, 4967 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel03
+          Prefab: AsteroidVoxel03      
+          Name: Sathium Asteroid             
+          Pos: [ -3613, -271, 4125 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01
+          Prefab: AsteroidVoxel01      
+          Name: Sathium Asteroid             
+          Pos: [ -5893, 175, 3047 ]    
+          Rot: [ 0, 0, 0 ]        
+ 
+        - Type: AsteroidField 
+          Name: Asteroid Field            
+          Pos: [ -5000, 0, 5000 ]    
+          Rot: [ 0, 0, 0 ]   
+
+    FixedPlayerStart:
+        - Mode: Creative                 # Creative or Survival       
+          SubMode: Normal   
+          Pos: [ -4500, -386, 3987 ]     # position coordinates
+          RotY: -11                      # rotation angle around Y axis
+
+        - Mode: Creative                       
+          SubMode: Empty   
+          Pos: [ -4484, -389.4, 4000 ]  
+          RotY: 70                      
+
+        - Mode: Debug
+          Pos: [ 5000, 0, 5000 ]
+          RotY: 0
+ 
+# Drones
+DroneBaseSetup:
+    Fixed:
+        - Name: MainDroneBase
+          Pos: [ 5000, 200, 5000 ]      # position coordinates
+          DroneOnDuty:
+            - Name: SpaceDronePlasma
+              Pos: [ -5000, 1000, 5000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -5000, -1000, 5000 ]
+              Radius: 350

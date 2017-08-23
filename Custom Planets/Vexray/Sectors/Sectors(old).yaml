@@ -1,0 +1,290 @@
+--- 
+# Sectors
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs: http://yaml.org/faq.html
+# Default starter planets on a Dedicated Server are Akua, Omicron, Ningues and Masperon. 'Origin:Number' behind playfield template sets starter planet [ "0, 0, 0", Akua, Temperate, 'Human:1' ]
+# Allow and Deny lists: If “Allow” is set, sectors that are given in list are accessible in addition to those that are close enough. If “Deny” is set, sectors that are given in list are not accessible. 
+# Available Icons: Circle, Kite, Rhombus, Pentagon, Square, Star, Triangle, Hexagon
+
+- Coordinates: [0, 30, 0]
+  Color: 0.1, 0.1, 0.1
+  Icon: Hexagon
+# Allow: [Sun2 Orbit]
+  Playfields:
+  - ['0, 0, 0', Sun, Sun]
+  #- ['0, 0, 0', Sun Orbit, Sun]
+- Coordinates: [-170, 62, 21]
+  Color: 0.3, 0.06, 0.04
+  Icon: Circle
+  OrbitLine: True
+  Playfields:
+  - ['0, 0, 0', Aestus Orbit, SpaceAsteroidFieldRingAestus]
+  - ['0, 0, 0', Aestus, Lava]
+- Coordinates: [243, -61, -285]
+  Color: 0.5, 0.5, 0.5
+  Icon: Kite
+  Playfields:
+  - ['0, 0, 0', Alien Outpost, SpaceAlienStation]
+- Coordinates: [215, 85, 295]
+  Color: 0.37, 0.33, 0.04
+  Icon: Circle
+  OrbitLine: True
+  Playfields:
+  - ['0, 0, 0', Skillon Orbit, SpaceAsteroidsFewSkillon]
+  - ['0, 0, 0', Skillon, Barren]
+- Coordinates: [-10, 109, 148]
+  Color: 1, 0.5, 0
+  Icon: Star
+  Deny: [Asteroid Field, Masperon Orbit]
+  Playfields:
+  - ['0, 0, 0', Trading Outpost, SpaceTradingStation]
+- Coordinates: [90, 5, 115]
+  Color: 0.04, 0.3, 0.37
+  Icon: Circle
+  OrbitLine: True
+  Playfields:
+  - ['0, 0, 0', Akua Orbit, SpaceAsteroidFieldRingAkua]
+  - ['0, 0, 0', Akua, Temperate, 'Human:1']
+  - ['-6500, 5000, 6500', Akua Moon, Moon]
+- Coordinates: [110, -10, -57]
+  Color: 0.37, 0.33, 0.04
+  Icon: Circle
+  OrbitLine: True
+  Playfields:
+  - ['0, 0, 0', Omicron Orbit, SpaceAsteroidFieldOmicron]
+  - ['0, 0, 0', Omicron, Desert, 'Explorer:2']
+  - ['2000, 5000, -7000', Omicron Moon, Moon]
+- Coordinates: [20, 30, 382]
+  Color: 0.7, 0.7, 0.7
+  Icon: Circle
+  OrbitLine: True
+  Playfields:
+  - ['0, 0, 0', Ningues Orbit, SpaceEmptyNingues]
+  - ['0, 0, 0', Ningues, Snow, 'Explorer:2']
+- Coordinates: [324, 123, 106]
+  Color: 0.3, 0.06, 0.04
+  Icon: Circle
+  OrbitLine: True
+  Playfields:
+  - ['0, 0, 0', Aitis Orbit, SpaceAsteroidFieldRingAitis]
+  - ['0, 0, 0', Aitis, Lava2]
+- Coordinates: [-142, 39, 257]
+  Color: 0.5, 0.5, 0.5
+  Icon: Rhombus
+  OrbitLine: True
+  Deny: [Trading Outpost]
+  Playfields:
+  - ['0, 0, 0', Asteroid Field, SpaceAsteroidField]
+- Coordinates: [23, -43, -192]
+  Color: 0.37, 0.33, 0.04
+  Icon: Circle
+  OrbitLine: True
+  Playfields:
+  - ['0, 0, 0', Zeyhines Orbit, SpaceAsteroidsFewZeyhines]
+  - ['0, 0, 0', Zeyhines, Desert2]
+- Coordinates: [380, 38, -112]
+  Color: 0.15, 0.3, 0.04
+  Icon: Circle
+  OrbitLine: True
+  Allow: [Trading Outpost]
+  Playfields:
+  - ['0, 0, 0', Masperon Orbit, SpaceAsteroidsMasperon]
+  - ['0, 0, 0', Masperon, Alien2, 'Humanoid:3']
+  - ['6000, -4000, 7000', Masperon Moon, Alien, '']
+- Coordinates: [-145, 31, -175]
+  Color: 0.04, 0.3, 0.37
+  Icon: Circle
+  OrbitLine: True
+  Playfields:
+  - ['0, 0, 0', Oscutune Orbit, SpaceAsteroidsOscutune]
+  - ['0, 0, 0', Oscutune, Temperate2]
+- Coordinates: [-40, 13, -40]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', Instance Orbit, SpaceAsteroids]
+  - ['0, 0, 0', Instance, InstanceTaipane]
+# END VANILLA
+
+#- Coordinates: [-10, 309, 348]
+#  Color: 0.1, 0.1, 0.1
+#  Icon: Hexagon
+#  Allow: [Sun Orbit]
+#  Playfields:
+#  #- ['0, 0, 0', Sun, Sun]
+#  - ['0, 0, 0', Sun2 Orbit, Sun ]
+
+
+- Coordinates: [ 130, 20, -15 ]
+  Color:  "0.56, 0.84, 0.93"
+  Icon: "Kite"
+  Playfields:
+  - [ "0, 0, 0", "Lunaris Orbit", SpaceAsteroidFieldRing ]
+  - [ "0, 0, 0", Lunaris, Oceanland ]
+  - [ "2000, 5000, -7000", Lunarite, Moon ]
+   
+- Coordinates: [ 140, 0, -35 ]
+  Color:  "0.24, 0.05, 0.41"
+  Icon: "Kite"
+  Playfields:
+  - [ "0, 0, 0", "Mios Orbit", SpaceAsteroidFieldRing ]
+  - [ "0, 0, 0", Mios, Coldlands ]
+  - [ "3000, 5000, -6000", Mioris, Moon ]
+  - [ "-3000, 3000, 5000", Meteos, Moon ]
+  
+- Coordinates: [ -45, 0, -125 ]
+  Color:  "0.84, 0.62, 0.06"
+  Icon: "Kite"
+  Playfields:
+  - [ "0, 0, 0", "Orthos Orbit", SpaceAsteroidsFew ]
+  - [ "0, 0, 0", Orthos, LavaPlains ]
+  - [ "-5000, 5000, -7000", Volcanus, Moon ]
+
+- Coordinates: [ -30, 20, -95 ]
+  Color:  "0.07, 0.37, 1.00"
+  Icon: "Kite"
+  Playfields:
+  - [ "0, 0, 0", "Vyrdis Orbit", SpaceAsteroidFieldRingAestus ]
+  - [ "0, 0, 0", Vyrdis, Plateau ]
+  - [ "1000, 8000, -2000", Vyrdis Moon, Moon ]
+
+- Coordinates: [ -40, 0, -95 ]
+  Color:  "0.72, 0.18, 0.67"
+  Icon: "Circle"
+  Playfields:
+  - [ "0, 0, 0", "Kahl Orbit", SpaceAsteroidFieldRing ]
+  - [ "0, 0, 0", Kahl, Savannah ]
+  - [ "2000, -5000, -3000", Keil Comet, Moon ]
+  - [ "5000, 3000, 6000", Kahl Moon, Moon ]
+  
+- Coordinates: [ -180, 100, -10 ]
+  Color:  "0.04, 0.3, 0.37"
+  Icon: "Circle"
+  Playfields:
+  - [ "0, 0, 0", "Dalos Orbit", SpaceAsteroids ]
+  - [ "0, 0, 0", Dalos, Desolate ]   
+  - [ "-10500, 5000, 6500", Dalos Comet, MoonPVE ] 
+
+- Coordinates: [ -120, 40, -110 ]
+  Color:  "0.04, 0.3, 0.37"
+  Icon: "Circle"
+  Playfields:
+  - [ "0, 0, 0", "Twin Niles", SpaceAsteroidField ]
+  - [ "5000, 0, 5000", Nile Ovos, MoonLush ]
+  - [ "-5000, 5000, 00", Nile Alphine, MoonLush2 ]
+
+
+- Coordinates: [ -20, 110, 20 ]
+  Color:  "0.04, 0.3, 0.37"
+  Icon: "Circle"
+  Playfields:
+  - [ "0, 0, 0", "Aeris Orbit", SpaceAsteroids ]
+  - [ "0, 0, 0", Aeris, Marsh ]
+
+# END PLANETS?
+
+- Coordinates: [ -360, 100, -10]
+  Color:  "0.04, 0.3, 0.37"
+  Icon: "Circle"
+  Playfields:
+  - [ "0, 0, 0", "New Horizons Outpost", SpaceTradingStation ]  
+# PVE
+#    
+- Coordinates: [ -536, 100, 166]
+  Color:  "0, 0, 1"
+  Icon: "Circle"
+  Playfields:
+  - [ "0, 0, 0", "Aeris 2 Orbit", SpacePVE ]
+  - [ "0, 0, 0", Aeris 2, Aeris, true]
+  - [ "-6500, 5000, 6500", Placeholder1, MoonPVE ]
+  
+- Coordinates: [ -664, 93, 243]
+  Color:  "0, 0, 1"
+  Icon: "Circle"
+  Playfields:
+  - [ "0, 0, 0", "Vulca Orbit", SpacePVE ]
+  - [ "0, 0, 0", Vulca, Vulca, true]
+  - [ "-6500, 5000, 6500", Placeholder2, MoonPVE ]
+
+- Coordinates: [ -450, 93, 400]
+  Color:  "0, 0, 1"
+  Icon: "Circle"
+  Playfields:
+  - [ "0, 0, 0", "Andromeda Orbit", SpacePVE ]           
+  - [ "0, 0, 0", Andromida, Andromeda ] 
+  - [ "-6500, 5000, 8500", Moon 1, MoonPVE ]
+  - [ "1447, 3122, -6157", Moon 2, MoonPVE ]
+  - [ "-1500, 2500, 3500", Moon 3, MoonPVE ] 
+
+- Coordinates: [ -453,  95, 549]
+  Color:  "0, 0, 1"
+  Icon: "Circle"
+  Playfields:
+  - [ "0, 0, 0", "Mios 2 Orbit", SpacePVE ]           
+  - [ "0, 0, 0", Mios 2, Mios ] 
+  - [ "-6500, 5000, 6500", Mioris Moon, MoonPVE ]
+  - [ "-7747, 3059, -532", Meteos Moon, MoonPVE ] 
+  
+### PVP
+#   
+- Coordinates: [ -535, 100, -186]
+  Color:  "1, 0, 0"
+  Icon: "Square"
+  Playfields:
+  - [ "0, 0, 0", "Lumia Orbit", SpacePVP ]           
+  - [ "0, 0, 0", Lumia, Lumia, true ]                          
+  - [ "-6500, 5000, 6500", Placeholder3, Moon ]
+  
+- Coordinates: [ -662, 93, -263]
+  Color:  "1, 0, 0"
+  Icon: "Square"
+  Playfields:
+  - [ "0, 0, 0", "Dalos 2 Orbit", SpacePVP ]           
+  - [ "0, 0, 0", Dalos 2, Dalos, true ] 
+  - [ "-6500, 5000, 6500", Placeholder4, Moon ]
+
+- Coordinates: [ -448, 93, -420]
+  Color:  "1, 0, 0"
+  Icon: "Square"
+  Playfields:
+  - [ "0, 0, 0", "Ovus Orbit", SpacePVP ]           
+  - [ "0, 0, 0", Ovus, Ovus] 
+
+- Coordinates: [-451, 95, -569]
+  Color:  "1, 0, 0"
+  Icon: "Square"
+  Playfields:
+  - [ "0, 0, 0", "Mordica Orbit", SpacePVP ]           
+  - [ "0, 0, 0", Mordica, Mordica ] 
+  - [ "-6500, 5000, 6500", Mordica Moon1, Moon ]
+  - [ "-9500, 4000, 2500", Mordica Moon2, Moon ]
+
+- Coordinates: [ -650, 106, -582]
+  Color:  "1, 0, 0"
+  Icon: "Square"
+  Playfields:
+  - [ "0, 0, 0", "Vyrdis 2 Orbit", SpacePVP ]           
+  - [ "0, 0, 0", Vyrdis 2, Vyrdis]
+  - [ "-6500, 5000, 6500", Vyrdis Comet, Moon ]
+### AI Faction
+
+- Coordinates: [ -712, 100, -10]
+  Color:  "1, 1, 0"
+  Icon: "Triangle"
+  Playfields:
+  - [ "0, 0, 0", "Lorien Light Outpost", SpacePVE ]
+  - [ "0, 0, 0", "Lorien Contested Planet", AILorien1 ] 
+
+- Coordinates: [ -846, 100, -77]
+  Color:  "1, 1, 0"
+  Icon: "Triangle"
+  Playfields:
+  - [ "0, 0, 0", "Lorien Small Federation", SpacePVE ]
+  - [ "0, 0, 0", "Lorien Defending Planet", AILorien2 ]
+
+
+- Coordinates: [ -989 , 100, 61]
+  Color:  "1, 1, 0"
+  Icon: "Triangle"
+  Playfields:
+  - [ "0, 0, 0", "Lorien Conflict", SpacePVE ] 
+  - [ "0, 0, 0", "Lorien Raiding Planet", AILorien3 ]

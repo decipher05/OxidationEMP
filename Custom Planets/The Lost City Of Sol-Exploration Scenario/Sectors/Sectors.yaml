@@ -1,0 +1,555 @@
+--- 
+# Sectors
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs: http://yaml.org/faq.html
+# Default starter planets on a Dedicated Server are Akua, Omicron, Ningues and Masperon. 'Origin:Number' behind playfield template sets starter planet [ "0, 0, 0", Akua, Temperate, 'Human:1' ]
+# Allow and Deny lists: If “Allow” is set, sectors that are given in list are accessible in addition to those that are close enough. If “Deny” is set, sectors that are given in list are not accessible. 
+# Available Icons: Circle, Kite, Rhombus, Pentagon, Square, Star, Triangle, Hexagon
+
+- Coordinates: [0, 30, 0]
+  Color: 0, 0, 0
+  Playfields:
+  - ['0, 0, 0', Sun, Sun]  
+- Coordinates: [3376, 62, 721]
+  Color: 1, 0, 0
+  Icon: Rhombus
+  Allow: [Vyrdis]  
+  Playfields:
+  - ['0, 0, 0', Icarus Orbit, IcarusOrbit]
+  - ['0, 0, 0', Icarus, Icarus]
+- Coordinates: [-492, 10, 400]
+  Color: 1, 1, 0
+  Icon: Kite
+  Deny: [Ziraxus]  
+  Playfields:
+  - ['0, 0, 0', Asteroid Field, SpaceAsteroidFieldA]
+- Coordinates: [180, 61, 67]
+  Color: 1, 1, 0  
+  Icon: Star  
+  Playfields:
+  - ['0, 0, 0', Alien Outpost, SpaceAlienStationA]
+- Coordinates: [93, -134, -80]
+  Color: 1, 1, 0
+  Icon: Kite
+  Allow: [Asteroid Field]  
+  Playfields:
+  - ['0, 0, 0', Trading Outpost, SpaceTradingStationA]
+- Coordinates: [3100, -10, 580]
+  Color: 1, 1, 0
+  Icon: Star  
+  Playfields:
+  - ['0, 0, 0', Vulcan Trading Outpost, SpaceVulcanTradingStation]  
+- Coordinates: [3500, -100, -580]
+  Color: 1, 1, 0
+  Icon: Star
+  Allow: [Andromeda]  
+  Playfields:
+  - ['0, 0, 0', Alien Trading Outpost, SpaceAlienStationA]  
+- Coordinates: [38, -123, 133]
+  Color: 0, 1, 0.5
+  Icon: Circle  
+  Playfields:
+  - ['0, 0, 0', Mercury Orbit, MercuryOrbit]
+  - ['0, 0, 0', Mercury, Mercury, 'Human:1']
+  - ['2000, 5000, -7000', Mercury Moon, Moon1]
+- Coordinates: [146, -131, 27]
+  Color: 0, 1, 0.5
+  Icon: Square  
+  Playfields:
+  - ['0, 0, 0', Venus Orbit, VenusOrbit]
+  - ['0, 0, 0', Venus, Venus, 'Explorer:2']
+  - ['2000, 5000, -7000', Venus Moon, Moon10]  
+- Coordinates: [94, -133, -122]
+  Color: 0, 1, 0.5
+  Icon: Circle  
+  Playfields:
+  - ['0, 0, 0', Earth Orbit, EarthOrbit]
+  - ['0, 0, 0', Earth, Earth, 'Human:1']
+  - ['-6500, 5000, 6500', Earth Moon, Moon1]
+- Coordinates: [-49, -115, -195]
+  Color: 0, 1, 0.5
+  Icon: Circle
+  Playfields:
+  - ['0, 0, 0', Mars Orbit, MarsOrbit]
+  - ['0, 0, 0', Mars, Mars, 'Human:1']
+  - ['2000, 5000, -7000', Mars Moon, Moon12]
+- Coordinates: [-227, -108, -95]
+  Color: 0, 1, 0.5
+  Icon: Square  
+  Playfields:
+  - ['0, 0, 0', Jupiter Orbit, JupiterOrbit]
+  - ['0, 0, 0', Jupiter, Jupiter, 'Explorer:2']
+  - ['3000, 5000, -3000', Lo Moon, Moon3]
+  - ['2000, 5000, -7000', Europa Moon, Moon4]
+  - ['2000, 5000, 7000', Ganymede Moon, Moon5]
+  - ['-4000, 5000, 4000', Callisto Moon, Moon6]
+- Coordinates: [-224, -121, 110]
+  Color: 0, 1, 0.5
+  Icon: Square
+  Allow: [Kepler737]  
+  Playfields:
+  - ['0, 0, 0', Saturn Orbit, SaturnOrbit]
+  - ['0, 0, 0', Saturn, Saturn, 'Explorer:2']
+  - ['2000, 5000, -7000', Saturn Moon, Moon14]
+- Coordinates: [-235, -133, 256]
+  Color: 1, 0, 0
+  Icon: Square
+  Playfields:
+  - ['0, 0, 0', Uranus Orbit, UranusOrbit]
+  - ['0, 0, 0', Uranus, Uranus, 'Explorer:2']
+  - ['2000, 5000, -7000', Uranus Moon, Moon9]  
+- Coordinates: [-170, -100, 366]
+  Color: 0, 1, 0.5
+  Icon: Square
+  Playfields:
+  - ['0, 0, 0', Neptune Orbit, NeptuneOrbit]
+  - ['0, 0, 0', Neptune, Neptune, 'Explorer:2']
+  - ['2000, 5000, -7000', Neptune Moon, Moon1]
+- Coordinates: [-160, -90, 420]
+  Color: 1, 0, 0
+  Icon: Circle  
+  Playfields:
+  - ['0, 0, 0', Pluto Orbit, PlutoOrbit]
+  - ['0, 0, 0', Pluto, Pluto, 'Human:1']
+  - ['2000, 5000, -7000', Pluto Moon, Moon13]
+- Coordinates: [450, 120, -480]
+  Color: 0, 1, 0.5
+  Icon: Circle  
+  Playfields:
+  - ['0, 0, 0', Amara Orbit, AmaraOrbit, 'Human:1']
+  - ['0, 0, 0', Amara, Amara, 'Human:1']
+  - ['2000, 5000, -7000', Amara Moon, Jungle1]
+- Coordinates: [550, -120, -580]
+  Color: 1, 0, 0
+  Icon: Circle
+  Playfields:
+  - ['0, 0, 0', Amy Orbit, AmyOrbit, 'Explorer:2']
+  - ['0, 0, 0', Amy, Amy, 'Human:1']
+  - ['2000, 5000, -7000', Amy Moon, Jungle1]  
+- Coordinates: [600, 0, -680]
+  Color: 0, 1, 0.5
+  Icon: Square  
+  Playfields:
+  - ['0, 0, 0', Wookie Orbit, WookieOrbit, 'Explorer:2']
+  - ['0, 0, 0', Wookie, Wookie, 'Explorer:2']
+  - ['2000, 5000, -7000', Wookie Moon, Jungle2, Jungle1, Moon15]  
+- Coordinates: [3236, 62, 721]
+  Color: 1, 0, 0
+  Icon: Rhombus
+  Allow: [Icarus]  
+  Playfields:
+  - ['0, 0, 0', Vyrdis Orbit, VyrdisOrbit]
+  - ['0, 0, 0', Vyrdis, Vyrdis]
+  - ['2000, 5000, -7000', Vyrdis Moon, Moon15]  
+- Coordinates: [3190, 5, 685]
+  Color: 0, 1, 0.5
+  Icon: Rhombus
+  Deny: [Fluctus]  
+  Playfields:
+  - ['0, 0, 0', Vulca Orbit, VulcaOrbit]
+  - ['0, 0, 0', Vulca, Vulca]
+  - ['-6500, 5000, 6500', Vulca Moon, Moon2]
+- Coordinates: [3006, 62, 611]
+  Color: 1, 0, 0
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Mordica Orbit, MordicaOrbit]
+  - ['0, 0, 0', Mordica, Mordica]
+  - ['2000, 5000, -7000', Mordica Moon, Moon15]
+  - ['3000, 5000, 5000', Mordica2 Moon, Moon1]  
+- Coordinates: [2976, 62, 651]
+  Color: 0, 1, 0.5
+  Icon: Rhombus
+  Playfields:
+  - ['0, 0, 0', Mios Orbit, MiosOrbit]
+  - ['0, 0, 0', Mios, Mios]
+  - ['2000, 5000, -7000', Mios Moon, Moon2]
+  - ['-2000, 5000, -5000', Mios2 Moon, Moon1]  
+- Coordinates: [2776, 62, 711]
+  Color: 1, 0, 0
+  Icon: Rhombus
+  Playfields:
+  - ['0, 0, 0', Lumia Orbit, LumiaOrbit]
+  - ['0, 0, 0', Lumia, Lumia]
+  - ['2000, 5000, -7000', Lumia Moon, Moon5]
+- Coordinates: [2776, 62, 891]
+  Color: 0, 1, 0.5
+  Icon: Rhombus
+  Playfields:
+  - ['0, 0, 0', Dalos Orbit, DalosOrbit]
+  - ['0, 0, 0', Dalos, Dalos]
+  - ['2000, 5000, -7000', Dalos Moon, Moon4]
+- Coordinates: [2576, 62, 821]
+  Color: 0, 1, 0.5
+  Icon: Rhombus
+  Allow: [Alien Trading Outpost]  
+  Playfields:
+  - ['0, 0, 0', Andromeda Orbit, AndromedaOrbit]
+  - ['0, 0, 0', Andromeda, Andromeda]
+  - ['2000, 5000, -7000', Andromeda Moon, Moon3]
+- Coordinates: [2676, 62, 911]
+  Color: 0, 1, 0.5
+  Icon: Rhombus
+  Playfields:
+  - ['0, 0, 0', Aeris Orbit, AerisOrbit]
+  - ['0, 0, 0', Aeris, Aeris]
+  - ['2000, 5000, -7000', Aeris Moon, Moon1]     
+- Coordinates: [-170, -100, 500]
+  Color: 1, 0, 0
+  Icon: Square
+  Allow: [Asteroid Field]  
+  Playfields:
+  - ['0, 0, 0', Ziraxus Orbit, ZiraxusOrbit]
+  - ['0, 0, 0', Ziraxus, Ziraxus, 'Explorer:2']
+  - ['2000, 5000, -7000', Ziraxus Moon, Moon7]      
+- Coordinates: [3776, 62, -811]
+  Color: 0, 1, 0.5
+  Icon: Pentagon    
+  Playfields:
+  - ['0, 0, 0', Coronae Orbit, CoronaeOrbit]
+  - ['0, 0, 0', Coronae, Coronae]
+  - ['2000, 5000, -7000', Coronae Moon, Moon2]  
+- Coordinates: [3676, 62, -891]
+  Color: 1, 0, 0
+  Icon: Pentagon
+  Playfields:
+  - ['0, 0, 0', Farra Orbit, FarraOrbit]
+  - ['0, 0, 0', Farra, Farra]
+  - ['2000, 5000, -7000', Farra Moon, Moon15]
+- Coordinates: [3590, 5, -715]
+  Color: 1, 0, 0
+  Icon: Pentagon  
+  Allow: [Vulcan Trading Outpost]  
+  Playfields:
+  - ['0, 0, 0', Fluctus Orbit, FluctusOrbit]
+  - ['0, 0, 0', Fluctus, Fluctus]
+  - ['-6500, 5000, 6500', Fluctus Moon, Moon8]
+- Coordinates: [3626, -10, -600]
+  Color: 1, 0, 0
+  Icon: Pentagon  
+  Playfields:
+  - ['0, 0, 0', Fossae Orbit, FossaeOrbit]
+  - ['0, 0, 0', Fossae, Fossae]
+  - ['2000, 5000, -7000', Fossae Moon, Moon7]
+- Coordinates: [-706, -10, 547]
+  Color: 1, 0, 0
+  Icon: Circle
+  Playfields:
+  - ['0, 0, 0', Lucia Orbit, LuciaOrbit]
+  - ['0, 0, 0', Lucia, Lucia, 'Human:1']
+  - ['2000, 5000, -7000', Lucia Moon, Moon7]  
+- Coordinates: [3706, 62, -491]
+  Color: 1, 0, 0
+  Icon: Pentagon  
+  Playfields:
+  - ['0, 0, 0', Paterae Orbit, PateraeOrbit]
+  - ['0, 0, 0', Paterae, Paterae]
+  - ['2000, 5000, -7000', Paterae Moon, Moon10]  
+- Coordinates: [3916, 62, -611]
+  Color: 1, 0, 0
+  Icon: Pentagon
+  Allow: [Trading Outpost]
+  Deny: [Andromeda]  
+  Playfields:
+  - ['0, 0, 0', Rupes Orbit, RupesOrbit]
+  - ['0, 0, 0', Rupes, Rupes]
+  - ['2000, 5000, -7000', Rupes Moon, Moon9]
+- Coordinates: [3600, 62, -800]
+  Color: 0, 1, 0.5
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Agnostino Orbit, AgnostinoOrbit]
+  - ['0, 0, 0', Agnostino, Agnostino]
+  - ['2000, 5000, -7000', Agnostino Moon, Moon9]
+- Coordinates: [3400, 62, -850]
+  Color: 1, 0, 0
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Agricola Orbit, AgricolaOrbit]
+  - ['0, 0, 0', Agricola, Agricola]
+  - ['2000, 5000, -7000', Agricola Moon, Moon9]
+- Coordinates: [3200, 62, -900]
+  Color: 1, 0, 0
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Agripina Orbit, AgripinaOrbit]
+  - ['0, 0, 0', Agripina, Agripina]
+  - ['2000, 5000, -7000', Agripina Moon, Moon13]
+- Coordinates: [3050, 62, -850]
+  Color: 1, 0, 0
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Bhat Orbit, BhatOrbit]
+  - ['0, 0, 0', Bhat, Bhat]
+  - ['2000, 5000, -7000', Bhat Moon, Moon12]
+- Coordinates: [3000, 62, -820]
+  Color: 0, 1, 0.5
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Biela Orbit, BielaOrbit]
+  - ['0, 0, 0', Biela, Biela]
+  - ['2000, 5000, -7000', Biela Moon, Moon12]
+- Coordinates: [2850, 62, -860]
+  Color: 0, 1, 0.5
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Bokhan Orbit, BokhanOrbit]
+  - ['0, 0, 0', Bokhan, Bokhan]
+  - ['2000, 5000, -7000', Bokhan Moon, Moon9]
+- Coordinates: [2670, 62, -780]
+  Color: 0, 1, 0.5
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Bolsche Orbit, BolscheOrbit]
+  - ['0, 0, 0', Bolsche, Bolsche]
+  - ['2000, 5000, -7000', Bolsche Moon, Moon7]
+- Coordinates: [2420, 62, -750]
+  Color: 1, 0, 0
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Collurio Orbit, CollurioOrbit]
+  - ['0, 0, 0', Collurio, Collurio]
+  - ['2000, 5000, -7000', Collurio Moon, Moon12]
+- Coordinates: [2250, 62, -900]
+  Color: 1, 0, 0
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Comba Orbit, CombaOrbit]
+  - ['0, 0, 0', Comba, Comba]
+  - ['2000, 5000, -7000', Comba Moon, Moon13]
+- Coordinates: [2100, 62, -950]
+  Color: 1, 0, 0
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Danzler Orbit, DanzlerOrbit]
+  - ['0, 0, 0', Danzler, Danzler]
+  - ['2000, 5000, -7000', Danzler Moon, Moon8]
+- Coordinates: [1860, 62, -950]
+  Color: 1, 0, 0
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Darwin Orbit, DarwinOrbit]
+  - ['0, 0, 0', Darwin, Darwin]
+  - ['2000, 5000, -7000', Darwin Moon, Moon7]
+- Coordinates: [1700, 62, -950]
+  Color: 0, 1, 0.5
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Datura Orbit, DaturaOrbit]
+  - ['0, 0, 0', Datura, Datura]
+  - ['2000, 5000, -7000', Datura Moon, Moon12]
+- Coordinates: [1500, 62, -950]
+  Color: 0, 1, 0.5
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Enos Orbit, EnosOrbit]
+  - ['0, 0, 0', Enos, Enos]
+  - ['2000, 5000, -7000', Enos Moon, Moon1]
+- Coordinates: [1350, 62, -900]
+  Color: 0, 1, 0.5
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Ensor Orbit, EnsorOrbit]
+  - ['0, 0, 0', Ensor, Ensor]
+  - ['2000, 5000, -7000', Ensor Moon, Moon7]
+- Coordinates: [1400, 62, -720]
+  Color: 0, 1, 0.5
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Equisto Orbit, EquistoOrbit]
+  - ['0, 0, 0', Equisto, Equisto]
+  - ['2000, 5000, -7000', Equisto Moon, Moon12]
+- Coordinates: [1650, 62, -720]
+  Color: 0, 1, 0.5
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Faro Orbit, FaroOrbit]
+  - ['0, 0, 0', Faro, Faro]
+  - ['2000, 5000, -7000', Faro Moon, Moon12]
+- Coordinates: [1550, 62, -620]
+  Color: 0, 1, 0.5
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Ovus Orbit, OvusOrbit]
+  - ['0, 0, 0', Ovus, Ovus]
+  - ['2000, 5000, -7000', Ovus Moon, Moon9]  
+- Coordinates: [2750, 62, -750]
+  Color: 0, 1, 0.5
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Fedina Orbit, FedinaOrbit]
+  - ['0, 0, 0', Fedina, Fedina]
+  - ['2000, 5000, -7000', Fedina Moon, Moon13]
+- Coordinates: [2650, 62, -710]
+  Color: 0, 1, 0.5
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Harwit Orbit, HarwitOrbit]
+  - ['0, 0, 0', Harwit, Harwit]
+  - ['2000, 5000, -7000', Harwit Moon, Moon13]
+- Coordinates: [3300, 62, -1100]
+  Color: 0, 1, 0.5
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Jhan Orbit, JhanOrbit]
+  - ['0, 0, 0', Jhan, Jhan]
+  - ['2000, 5000, -7000', Jhan Moon, Moon9]  
+- Coordinates: [3320, 62, -1200]
+  Color: 0, 1, 0.5
+  Icon: Rhombus  
+  Playfields:
+  - ['0, 0, 0', Kazo Orbit, KazoOrbit]
+  - ['0, 0, 0', Kazo, Kazo]
+  - ['2000, 5000, -7000', Kazo Moon, Moon13]
+- Coordinates: [376, 62, -721]
+  Color: 0, 1, 0.5
+  Icon: Pentagon  
+  Playfields:
+  - ['0, 0, 0', Hubble289 Orbit, Hubble289Orbit]
+  - ['0, 0, 0', Hubble289, Hubble289]
+  - ['2000, 5000, -7000', Hubble289 Moon, Moon9]
+- Coordinates: [290, 5, -515]
+  Color: 0, 1, 0.5
+  Icon: Circle
+  Playfields:
+  - ['0, 0, 0', Hubble635 Orbit, Hubble635Orbit]
+  - ['0, 0, 0', Hubble635, Hubble635, 'Human:1']
+  - ['-6500, 5000, 6500', Hubble635 Moon, Moon7]
+- Coordinates: [226, -10, -257]
+  Color: 0, 1, 0.5
+  Icon: Circle  
+  Playfields:
+  - ['0, 0, 0', Hubble333 Orbit, Hubble333Orbit]
+  - ['0, 0, 0', Hubble333, Hubble333, 'Human:1']
+  - ['2000, 5000, -7000', Hubble333 Moon, Moon8]
+- Coordinates: [306, 62, -421]
+  Color: 0, 1, 0.5  
+  Icon: Square  
+  Playfields:
+  - ['0, 0, 0', Hubble175 Orbit, Hubble175Orbit]
+  - ['0, 0, 0', Hubble175, Hubble175, 'Explorer:2']
+  - ['2000, 5000, -7000', Hubble175 Moon, Moon15]
+- Coordinates: [376, 62, -521]
+  Color: 1, 0, 0
+  Icon: Pentagon
+  Playfields:
+  - ['0, 0, 0', Hubble751 Orbit, Hubble751Orbit]
+  - ['0, 0, 0', Hubble751, Hubble751]
+  - ['2000, 5000, -7000', Hubble751 Moon, Moon2]  
+- Coordinates: [-376, 62, 721]
+  Color: 0, 1, 0.5
+  Icon: Pentagon  
+  Playfields:
+  - ['0, 0, 0', Kepler412 Orbit, Kepler412Orbit]
+  - ['0, 0, 0', Kepler412, Kepler412]
+  - ['2000, 5000, -7000', Kepler412 Moon, Kepler412Moon]
+- Coordinates: [-476, 62, 621]
+  Color: 1, 0, 0
+  Icon: Pentagon
+  Playfields:
+  - ['0, 0, 0', Kepler501 Orbit, Kepler501Orbit]
+  - ['0, 0, 0', Kepler501, Kepler501]
+  - ['2000, 5000, -7000', Kepler501 Moon, Kepler501Moon]
+- Coordinates: [-576, 62, 521]
+  Color: 1, 0, 0
+  Icon: Pentagon
+  Playfields:
+  - ['0, 0, 0', Kepler666 Orbit, Kepler666Orbit]
+  - ['0, 0, 0', Kepler666, Kepler666]
+  - ['2000, 5000, -7000', Kepler666 Moon, Kepler666Moon]
+- Coordinates: [-356, 62, 351]
+  Color: 0, 1, 0.5
+  Icon: Pentagon  
+  Playfields:
+  - ['0, 0, 0', Kepler737 Orbit, Kepler737Orbit]
+  - ['0, 0, 0', Kepler737, Kepler737]
+  - ['2000, 5000, -7000', Kepler737 Moon, Kepler737Moon]  
+- Coordinates: [-120, 13, -300]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', InstanceRadosplanet Orbit, SpaceEmptyA]
+  - ['0, 0, 0', InstanceRadosplanet, InstanceRadosplanet]
+- Coordinates: [-220, 13, -300]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', InstanceXenuplanet Orbit, SpaceEmptyA]
+  - ['0, 0, 0', InstanceXenuplanet, InstanceXenuplanet]
+- Coordinates: [-320, 13, -300]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', InstanceZenplanet Orbit, SpaceEmptyA]
+  - ['0, 0, 0', InstanceZenplanet, InstanceZenplanet]  
+- Coordinates: [-120, 13, -500]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', Instancemission1 Orbit, SpaceEmptyA]
+  - ['0, 0, 0', Instancemission1, Instancemission1]
+- Coordinates: [-220, 13, -500]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', Instancemission2 Orbit, SpaceEmptyA]
+  - ['0, 0, 0', Instancemission2, Instancemission2]
+- Coordinates: [-320, 13, -500]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', Instancemission3 Orbit, SpaceEmptyA]
+  - ['0, 0, 0', Instancemission3, Instancemission3]
+- Coordinates: [-420, 13, -500]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', Instancemission4 Orbit, SpaceEmptyA]
+  - ['0, 0, 0', Instancemission4, Instancemission4]
+- Coordinates: [-520, 13, -500]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', Instancemission5 Orbit, SpaceEmptyA]
+  - ['0, 0, 0', Instancemission5, Instancemission5]
+- Coordinates: [-620, 13, -500]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', Instancemission6 Orbit, SpaceEmptyA]
+  - ['0, 0, 0', Instancemission6, Instancemission6]
+- Coordinates: [-720, 13, -500]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', Instancemission7 Orbit, SpaceEmptyA]
+  - ['0, 0, 0', Instancemission7, Instancemission7]
+- Coordinates: [-820, 13, -500]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', Instancemission8 Orbit, SpaceEmptyA]
+  - ['0, 0, 0', Instancemission8, Instancemission8]
+- Coordinates: [-920, 13, -500]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', InstanceTradplanet Orbit, SpaceEmptyA]
+  - ['0, 0, 0', InstanceTradplanet, InstanceTradplanet]
+- Coordinates: [-1020, 13, -500]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', Bank2mission Orbit, SpaceEmptyA]
+  - ['0, 0, 0', Bank2mission, Bank2mission]
+- Coordinates: [-1120, 13, -500]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', Bank1mission Orbit, SpaceEmptyA]
+  - ['0, 0, 0', Bank1mission, Bank1mission]
+- Coordinates: [-1220, 13, -500]
+  Color: 0.7, 0.7, 0.7
+  Icon: Triangle
+  Playfields:
+  - ['0, 0, 0', Bank3mission Orbit, SpaceEmptyA]
+  - ['0, 0, 0', Bank3mission, Bank3mission]  

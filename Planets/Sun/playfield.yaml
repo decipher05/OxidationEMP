@@ -1,0 +1,84 @@
+---
+# Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+
+# Playfield Characteristics
+RealRadius: 1303.797294             # Please don't change
+ScaledRadius: 1300                  # Please don't change
+Gravity: -50
+AtmosphereDensity: 0                # Please don't change
+AtmosphereBreathable: False
+Temperature: 5500                    # No functionality yet
+TemperatureDay: 6000                  # No functionality yet
+TemperatureNight: 5000              # No functionality yet
+DayLength: 24                       # No functionality yet
+PlanetType: Sun                     # No functionality yet
+Moons: 0                            # No functionality yet
+PvP: True   		 	            # Set to True to allow PvP in this playfield, default is False
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 3                       # Between 2 and 5: larger values indicate higher difficulty
+
+# Planet or Space
+PlayfieldType: Sun               # Please don't change
+LegacyBiome: moonstone
+
+# Sun                               # SunFlareBlue, SunFlareWhite, SunFlareWhite2, SunFlareWhite3, SunFlareYellow, SunFlarePurple
+SunFlare: EnvironmentalEffects/SunFlareWhite
+
+# Special Effects
+
+# Atmosphere and Sky
+AtmosphereEnabled: False            # Atmosphere True or False
+
+# Light
+DayLightIntensity: 1                # Between 0 and 1: larger values = brighter, default is 0.6
+NightLightIntensity: 1              # Between 0 and 1: larger values = brighter, default is 0.6
+
+# Fog
+
+# Clouds
+
+# Wind Speed
+
+
+### Fixed Resources for Seed=0      # No functionality in Seed>0 games
+# pos, radius, name
+FixedResources:
+    - Name: PromethiumResource
+      Pos: [ 315, 10, -500 ]
+      Radius: 10
+
+### Randomly distributed resources  # For Seed>0 games     # Please don't change
+# RandomResources:
+
+### POIs      # Please don't change
+# Parameters:
+# 1: Prefab group name
+# 2: min,max = range of number of POIs of this group to distribute on planet
+# 3: min,max,reserveCount,prob
+#    min,max = range of number of Drones that defend POI
+#    reserveCount = number of Drones that will replace killed Drone
+#    prob = probability that a certain POI is defended by Drones, if 4 digits -> TroopTransport
+RandomPOIs:
+    - [ AlienTower, "3,4", "1,2,2,50" ]
+    - [ CrashedShip, "1,1", "1,2,4,100" ]
+
+
+### Drone Base     # Please don't change
+# Parameters:
+# 1: Prefab group name
+# 2: min,max,reserveCount,prob
+#    min,max = range of number of Drones that defend POI
+#    reserveCount = number of Drones that will replace killed Drone
+#    prob = probability that a certain POI is defended by Drones
+# 3: LevelOfDifficulty, PresetStyle
+#    LevelOfDifficulty : in the range [0, 4] -> 0 = no drone attack base, ..., 4 = Max difficulty level
+#    PresetStyle : in range [0, 4]
+#    -> 0 = no drone attack base,
+#       1 = day + 2 triggers,
+#       2 = night + 2 triggers,
+#       3 = at once + 2 triggers,
+#       4 = night + turret trigger
+RandomDroneBase:
+    - [ DroneBaseAkua, "0,0,0,0", "0, 0" ]
