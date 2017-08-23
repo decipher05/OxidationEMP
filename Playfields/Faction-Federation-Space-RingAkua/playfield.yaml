@@ -18,7 +18,7 @@ Difficulty: 5                       # Between 2 and 5: larger values indicate hi
 PlayfieldType: Space               # Please don't change
 
 PlanetType: Space                  # No functionality yet
-#Description: "The space around Akua features an asteroid ring."
+Description: "The space an asteroid ring."
 
 # Sun
 SunFlare: EnvironmentalEffects/SunFlareWhite4Space
@@ -126,7 +126,7 @@ DroneBaseSetup:
               FixedMaxSpeed: 20
               Mission: Freighter                  # Mission among : {SpacePatrol,Freighter}
               Freighter:
-                DelayBetweenRespawn: 60 
+                DelayBetweenRespawn: 60
                 PathWayPoint:
                 - [ -5500, 2000, 8000 ]
                 - [ -3000, 2000, -8000 ]

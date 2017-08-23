@@ -113,9 +113,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 119
+  - 155
   - 0
-  - 93
+  - 65
   Color: 0, 0, 0
   Icon: Hexagon
   Playfields:
