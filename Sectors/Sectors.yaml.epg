@@ -5,6 +5,7 @@ Sectors:
   - 0
   Color: 0, 0, 0
   Icon: No
+  OrbitLine: true
   Playfields:
   - - 0, 0, 0
     - Sun
@@ -13,93 +14,106 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - -196
+  - 53
   - 5
-  - 250
-  Color: 0.04, 0.3, 0.37
+  - 217
+  Color: 255, 255, 51
   Icon: Circle
   OrbitLine: true
   Playfields:
   - - 0, 0, 0
     - Akua Orbit
-    - Space-Akua-Starter
+    - Starter-Space-Akua
     - ''
   - - 0, 0, 0
     - Akua
-    - Starter-Temperate
+    - Starter-Planet-Temperate
     - Federation:1
   - - -5817, 8825, -3031
     - Akua Moon
-    - startermoonAkua
+    - Starter-Moon-Akua
     - ''
   - - 8629, -5565, -4479
-    - PoI Planet
-    - AlienPoIMoonStarterAkua
+    - Vutis
+    - Starter-POI-Akua
     - ''
   Allow: []
   Deny: []
 - Coordinates:
-  - 185
+  - 334
   - -10
-  - 251
-  Color: 0.37, 0.33, 0.04
+  - 211
+  Color: 255, 255, 51
   Icon: Circle
   OrbitLine: true
   Playfields:
   - - 0, 0, 0
     - Omicron Orbit
-    - Space-Omicron-Starter
+    - Starter-Space-Omicron
     - ''
   - - 0, 0, 0
     - Omicron
-    - Starter-Desert
+    - Starter-Planet-Desert
     - Empire:2
   - - -8092, 5000, -2759
     - Omicron Moon
-    - startermoonOmicron
+    - Starter-Moon-Omicron
+    - ''
+  - - 1270, -6651, 6653
+    - Slevater
+    - Starter-POI-Omicron
     - ''
   Allow: []
   Deny: []
 - Coordinates:
-  - -192
-  - 30
-  - -179
-  Color: 0.7, 0.7, 0.7
+  - 85
+  - -123
+  - -224
+  Color: 255, 255, 51
   Icon: Circle
   OrbitLine: true
   Playfields:
   - - 0, 0, 0
     - Ningues Orbit
-    - Space-Ningues-Starters
+    - Starter-Space-Ningues
     - ''
   - - 0, 0, 0
     - Ningues
-    - Starter-Snow
+    - Starter-Planet-Snow
     - Republic:3
-  - - -7341, 6381, -2397
+  - - -3947, 5518, -2397
     - Ningues Moon
-    - startermoonOmicron
+    - Starter-Moon-Ningues
+    - ''
+  - - -4396, -7083, 5518
+    - Luavis
+    - Starter-POI-Ningues
     - ''
   Allow: []
   Deny: []
 - Coordinates:
-  - 193
-  - 0
-  - -119
-  Color: 0, 0, 0
-  Icon: No
+  - 389
+  - -135
+  - -234
+  Color: 255, 255, 51
+  Icon: Circle
+  OrbitLine: true
   Playfields:
   - - 0, 0, 0
     - Masperon Orbit
-    - Space-Masperon-Starter
+    - Starter-Space-Masperon
     - ''
   - - 0, 0, 0
     - Masperon
-    - Starter-Alien2
+    - Starter-Planet-Alien2
     - Syndicate:4
   - - -8950, 5657, -7194
     - Masperon Moon
-    - startermoonMasperon
+    - Starter-Moon-Masperon
+    - ''
+  - - -5511, 2580, 6301
+    - Beponic
+    - Starter-POI-Masperon
     - ''
   Allow: []
   Deny: []
