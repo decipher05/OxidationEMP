@@ -28,9 +28,9 @@ Sectors:
     - Akua
     - Temperate
     - Federation:1
-  - - -6500, 5000, 6500
+  - - -6750, 5000, -5836
     - Akua Moon
-    - Moon
+    - startermoon
     - ''
   Allow: []
   Deny: []
@@ -50,9 +50,9 @@ Sectors:
     - Omicron
     - Desert
     - Empire:2
-  - - 2000, 5000, -7000
+  - - -8092, 5000, -2759
     - Omicron Moon
-    - Moon
+    - startermoon
     - ''
   Allow: []
   Deny: []
@@ -72,9 +72,9 @@ Sectors:
     - Ningues
     - Snow
     - Republic:3
-  - - 0, 0, 0
+  - - -6822, 0, -2397
     - Ningues Moon
-    - Moon
+    - startermoon
     - ''
   Allow: []
   Deny: []
@@ -93,5 +93,9 @@ Sectors:
     - Masperon
     - Alien2
     - Syndicate:4
+  - - -8316, 0, -7194
+    - Masperon Moon
+    - startermoon
+    - ''
   Allow: []
   Deny: []
