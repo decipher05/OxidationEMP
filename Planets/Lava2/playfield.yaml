@@ -389,9 +389,9 @@ RandomResources:
 
 ### Resource Asteroids
 AsteroidResources:
-    # - Name: ErestrumResource              
-      # Threshold: 0.5
-      # Amount: 0.5
+    - Name: ErestrumResource              
+      Threshold: 0.5
+      Amount: 0.5
 
     - Name: SathiumResource
       Threshold: 0.4

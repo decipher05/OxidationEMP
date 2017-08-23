@@ -128,7 +128,7 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Federation Space
-    - Faction-Federation-Space-Ring-Akua
+    - Faction-Federation-Space-AsteroidRing
     - ''
   Allow: []
   Deny: []

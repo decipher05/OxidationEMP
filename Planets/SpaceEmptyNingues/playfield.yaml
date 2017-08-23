@@ -8,7 +8,7 @@ AtmosphereEnabled: False            # Please don't change
 PvP: True                          # Set to True to allow PvP in this playfield, default is False
 UseFixed: True                      # If set uses fixed drones
 Radiation: 7.7
-TemperatureDay: -130  
+TemperatureDay: -130     
 Music: Migration      
 
 # Playfield difficulty (has impact on experience gains)
@@ -63,55 +63,82 @@ POIs:
           Prefab: AsteroidVoxel02Copper    
           Name: Copper Asteroid            
           Pos: [ 1000, 1011, 5000 ]    
-          Rot: [ 0, 0, 0 ]      
+          Rot: [ 0, 0, 0 ]            
+          Properties:     
+            - Key: RegenAfter
+              Value: 180    
 
         - Type: AsteroidVoxel02Cobalt
           Prefab: AsteroidVoxel02Cobalt    
           Name: Cobalt Asteroid            
           Pos: [ -3718, 1011, -4086 ]    
-          Rot: [ 0, 0, 0 ]      
+          Rot: [ 0, 0, 0 ]            
+          Properties:     
+            - Key: RegenAfter
+              Value: 180    
  
         - Type: AsteroidVoxel02Neodymium
           Prefab: AsteroidVoxel02Neodymium     
           Name: Neodymium Asteroid             
           Pos: [ 6038, -225, -2595 ]    
-          Rot: [ 0, 0, 0 ]      
+          Rot: [ 0, 0, 0 ]         
+          Properties:     
+            - Key: RegenAfter
+              Value: 180       
  
         - Type: AsteroidVoxel02Sathium
           Prefab: AsteroidVoxel02Sathium    
           Name: Sathium Asteroid             
           Pos: [ 500, -1011, -4000 ]    
-          Rot: [ 0, 0, 0 ]      
+          Rot: [ 0, 0, 0 ]          
+          Properties:     
+            - Key: RegenAfter
+              Value: 180      
  
         - Type: AsteroidVoxel02Promethium
           Prefab: AsteroidVoxel02Promethium    
           Name: Promethium Asteroid             
           Pos: [ -318, 51, -6607 ]    
-          Rot: [ 0, 0, 0 ]       
+          Rot: [ 0, 0, 0 ]          
+          Properties:     
+            - Key: RegenAfter
+              Value: 180       
  
         - Type: AsteroidVoxel02Iron
           Prefab: AsteroidVoxel02Iron    
           Name: Iron Asteroid             
           Pos: [ 3718, -11, -4086 ]    
-          Rot: [ 0, 0, 0 ]        
+          Rot: [ 0, 0, 0 ]          
+          Properties:     
+            - Key: RegenAfter
+              Value: 180        
  
         - Type: AsteroidVoxel02Promethium
           Prefab: AsteroidVoxel02Promethium    
           Name: Promethium Asteroid             
           Pos: [ 6302, 73, 2486 ]    
-          Rot: [ 0, 0, 0 ]
+          Rot: [ 0, 0, 0 ]      
+          Properties:     
+            - Key: RegenAfter
+              Value: 180    
 
         - Type: AsteroidVoxel02Iron
           Prefab: AsteroidVoxel02Iron    
           Name: Iron Asteroid             
           Pos: [ -5000, 2073, 2000 ]    
-          Rot: [ 0, 0, 0 ]
+          Rot: [ 0, 0, 0 ]      
+          Properties:     
+            - Key: RegenAfter
+              Value: 180    
 
         - Type: AsteroidVoxel02Magnesium
           Prefab: AsteroidVoxel02Magnesium    
           Name: Magnesium Asteroid             
           Pos: [ -4270, -1, -2671 ]    
-          Rot: [ 0, 0, 0 ]
+          Rot: [ 0, 0, 0 ]      
+          Properties:     
+            - Key: RegenAfter
+              Value: 180    
 
     FixedPlayerStart:
         - Mode: Debug                   # Creative or Survival
@@ -171,4 +198,7 @@ DroneBaseSetup:
               Stock:
                 - Name: SpaceDronePlasma          
                   Amount: 20                          
-                  Extra: 0                              
+                  Extra: 0            
+              Properties: 
+                - Key: RegenAfter
+                  Value: 720                                   
