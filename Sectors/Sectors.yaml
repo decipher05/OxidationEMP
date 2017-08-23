@@ -128,4 +128,5 @@ Sectors:
     - Faction-Federation-Planet-Ocean
     - ''
   Allow: []
-  Deny: []
+  Deny:
+  - Akua Orbit
