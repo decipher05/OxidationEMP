@@ -32,6 +32,10 @@ Sectors:
     - Akua Moon
     - startermoon
     - ''
+  - - 5832, 0, -6560
+    - PoI Planet
+    - AlienPoIMoonStarter
+    - ''
   Allow: []
   Deny: []
 - Coordinates:
