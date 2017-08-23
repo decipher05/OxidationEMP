@@ -22,19 +22,19 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Akua Orbit
-    - SpaceAsteroidFieldRingAkua
+    - Space-Akua-Starter
     - ''
   - - 0, 0, 0
     - Akua
-    - Temperate
+    - Starter-Temperate
     - Federation:1
   - - -5817, 8825, -3031
     - Akua Moon
-    - startermoon
+    - startermoonAkua
     - ''
-  - - 8311, 3666, -4479
+  - - 8629, -5565, -4479
     - PoI Planet
-    - AlienPoIMoonStarter
+    - AlienPoIMoonStarterAkua
     - ''
   Allow: []
   Deny: []
@@ -48,15 +48,15 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Omicron Orbit
-    - SpaceAsteroidFieldOmicron
+    - Space-Omicron-Starter
     - ''
-  - - -1609, 0, 3371
+  - - 0, 0, 0
     - Omicron
-    - Desert
+    - Starter-Desert
     - Empire:2
   - - -8092, 5000, -2759
     - Omicron Moon
-    - startermoon
+    - startermoonOmicron
     - ''
   Allow: []
   Deny: []
@@ -70,15 +70,15 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Ningues Orbit
-    - SpaceEmptyNingues
+    - Space-Ningues-Starters
     - ''
   - - 0, 0, 0
     - Ningues
-    - Snow
+    - Starter-Snow
     - Republic:3
-  - - -6822, 0, -2397
+  - - -7341, 6381, -2397
     - Ningues Moon
-    - startermoon
+    - startermoonOmicron
     - ''
   Allow: []
   Deny: []
@@ -91,15 +91,15 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Masperon Orbit
-    - SpaceAsteroidsMasperon
+    - Space-Masperon-Starter
     - ''
   - - 0, 0, 0
     - Masperon
-    - Alien2
+    - Starter-Alien2
     - Syndicate:4
-  - - -8316, 0, -7194
+  - - -8950, 5657, -7194
     - Masperon Moon
-    - startermoon
+    - startermoonMasperon
     - ''
   Allow: []
   Deny: []
