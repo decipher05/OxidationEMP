@@ -13,27 +13,52 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
+  - 120
   - 0
-  - 0
-  - 0
+  - 99
   Color: 0, 0, 0
-  Icon: No
+  Icon: Circle
   Playfields:
   - - 0, 0, 0
     - Akua Orbit
     - Starter-Space-Akua
-    - Federation:0
-  - - 0, 0, 0
-    - Akua
-    - Starter-Moon-Akua
     - ''
   - - 0, 0, 0
+    - Akua
+    - Starter-Planet-Temperate
+    - Federation:0
+  - - -4876, -3031, -6017
     - Akua Moon
     - Starter-Moon-Akua
     - ''
-  - - 0, 0, 0
+  - - 2582, 8463, 4571
     - Dotrerth
     - Starter-POI-Akua
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 391
+  - 0
+  - -150
+  Color: 0, 0, 0
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Masperon Orbit
+    - Starter-Space-Masperon
+    - ''
+  - - 0, 0, 0
+    - Masperon
+    - Starter-Planet-Alien2
+    - Syndicate:3
+  - - -980, 6200, 5114
+    - Masperon Moon
+    - Starter-Moon-Masperon
+    - ''
+  - - 5052, -4207, -2669
+    - Coihines
+    - Starter-POI-Masperon
     - ''
   Allow: []
   Deny: []
