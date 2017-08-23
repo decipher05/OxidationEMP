@@ -374,10 +374,6 @@ Biome:
 
 
 
-    FixedPlayerStart:
-        - Mode: Debug
-          Pos: [ -420, 90, -15 ]
-          RotY: -180
 
 ### Drones
 DroneBaseSetup:
