@@ -121,7 +121,11 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Test
-    - Starter-Space-Akua
+    - Faction-Federation-Space-AsteroidRing
+    - ''
+  - - 0, 0, 0
+    - ''
+    - ''
     - ''
   Allow: []
   Deny: []
