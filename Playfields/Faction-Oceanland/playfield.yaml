@@ -6,7 +6,7 @@
 # Playfield Characteristics
 RealRadius: 1303.797294            # Please don't change
 ScaledRadius: 1300                 # Please don't change
-Gravity: -9.55                     # Gravity on planet                     
+Gravity: -9.55                     # Gravity on planet
 AtmosphereDensity: 1.217           # Please don't change
 AtmosphereO2: 0.45                 # Oxygen level of atmosphere
 AtmosphereBreathable: True         # If player can breathe without helmet
@@ -23,11 +23,11 @@ PvP: True                         # Set to True to allow PvP in this playfield, 
 #UseFixed: False					# If set uses fixed POIs + resources
 
 # Playfield difficulty (has impact on experience gains)
-Difficulty: 4                      # Between 2 and 5: larger values indicate higher difficulty
+Difficulty: 5                      # Between 2 and 5: larger values indicate higher difficulty
 
 # Planet or Space
 PlayfieldType: Planet              # Please don't change
-Description: Lunaris is a temperate planet consisting of mainly oceans. It has a breathable atmosphere. Choose this planet as the survival start if you are a beginner. 
+Description: This is a temperate planet consisting of mainly oceans. It has a breathable atmosphere.
 
 # Sun                              # SunFlareBlue, SunFlareWhite, SunFlareWhite2, SunFlareWhite3, SunFlareYellow, SunFlarePurple
 SunFlare: EnvironmentalEffects/SunFlarePurple
@@ -71,59 +71,54 @@ WindSpeed: 7                        # Between 0 and 10: larger values = faster m
 ### Randomly distributed resources    # For Seed>0 games     # Please don't change
 RandomResources:
     - Name: IronResource
-      CountMinMax: [ 5, 8 ]   # range of number of resources to distribute on planet
-      SizeMinMax: [ 8, 14 ]  # range of sizes of resource depots
-      DepthMinMax: [ 3, 5 ]   # Range of how deep to bury depots below terrain surface (e.g. 0 = partly visible, 3 = top of depot starts 3m below surface)
-      DroneProb: 0.2          # probability that the resource is defended by drones
-      MaxDroneCount: 1        # if at all, 1..n drones will defend the resource [default = 1]
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
 
     - Name: CobaltResource
-      CountMinMax: [ 5, 7 ]
-      SizeMinMax: [ 6, 14 ]
-      DepthMinMax: [ 3, 5 ]
-      DroneProb: 0.2
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
 
     - Name: CopperResource
-      CountMinMax: [ 4, 8 ]
-      SizeMinMax: [ 6, 13 ]
-      DepthMinMax: [ 3, 5 ]
-      DroneProb: 0.3
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
 
     - Name: SiliconResource
-      CountMinMax: [ 4, 5 ]
-      SizeMinMax: [ 6, 13 ]
-      DepthMinMax: [ 3, 5 ]
-      DroneProb: 0.3
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
 
     - Name: PromethiumResource
-      CountMinMax: [ 6, 7 ]
-      SizeMinMax: [ 8, 12 ]
-      DepthMinMax: [ 4, 5 ]
-      DroneProb: 0.4
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.2
+      MaxDroneCount: 1
 
     - Name: MagnesiumResource
-      CountMinMax: [ 5, 9 ]
-      SizeMinMax: [ 8, 11 ]
-      DepthMinMax: [ 3, 5 ]
-      DroneProb: 0.4
-      
-    - Name: GoldResource
-      CountMinMax: [ 2, 6 ]
-      SizeMinMax: [ 8, 11 ]
-      DepthMinMax: [ 3, 5 ]
-      DroneProb: 1.0
-      
-    - Name: ErestrumResource
-      CountMinMax: [ 3, 5 ]
-      SizeMinMax: [ 3, 8 ]
-      DepthMinMax: [ 3, 5 ]
-      DroneProb: 0.4
-      
-    - Name: SathiumResource
-      CountMinMax: [ 5, 9 ]
-      SizeMinMax: [ 8, 11 ]
-      DepthMinMax: [ 3, 5 ]
-      DroneProb: 0.4
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: NeodymiumResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
 
 
 
@@ -148,8 +143,8 @@ MainBiome:
         - [ BedrockLava, 2 ]
 
     Decorations:
-        - [ RocksmallA02, 0.35 ]    
-        - [ RocksmallC01, 0.35 ] 
+        - [ RocksmallA02, 0.35 ]
+        - [ RocksmallC01, 0.35 ]
         - [ RockA01, 0.25 ]
         - [ RockB01, 0.25 ]
 
@@ -163,7 +158,7 @@ SubBiomes:
       Textures:
         - [ SandBeach, 6 ]
       Decorations:
-        - [ RocksmallA02, 1 ] 
+        - [ RocksmallA02, 1 ]
         - [ RocksmallC01, 1 ]
         - [ RockA01, 0.5 ]
         - [ RockB01, 0.5 ]
@@ -174,29 +169,29 @@ Biome:
 # Underwater
    - Altitude: [ 10, 65 ]
      Slope: [ 0, 45 ]
-     BiomeClusterData:          
+     BiomeClusterData:
          - Name: "Ocean"
            Id: 1
            ClusterSize: 0
            NbOfClusters: 0
-           Decorations: 
+           Decorations:
                - [ CoralBig01, 2]
                - [ CoralBig08, 2]
                - [ RealRock8Water, 0.5]
-               - [ RealRock9Water, 0.5] 
+               - [ RealRock9Water, 0.5]
                - [ CrystalsPyramidBlue, 3]
    - Altitude: [ 65, 75 ]
      Slope: [ 0, 35 ]
-     BiomeClusterData:          
+     BiomeClusterData:
          - Name: "Ocean"
            Id: 1
            ClusterSize: 0
            NbOfClusters: 0
-           Decorations: 
-               - [ Hydrilla2, 1] 
+           Decorations:
+               - [ Hydrilla2, 1]
                - [ SeaWeed02-04, 1]
                - [ RealRock1Water, 0.2]
-               - [ RealRock5Water, 0.2] 
+               - [ RealRock5Water, 0.2]
            Grass:
                - Name: "GrassGreen01"
                  Density: 1200
@@ -213,7 +208,7 @@ Biome:
            Id: 1
            ClusterSize: 0
            NbOfClusters: 0
-           Decorations: 
+           Decorations:
                - [ SeaWeed02-04, 2]
    - Altitude: [ 0, 96 ]
      Slope: [ 0, 180 ]
@@ -222,9 +217,9 @@ Biome:
            Id: 1
            ClusterSize: 0
            NbOfClusters: 0
-           Decorations: 
+           Decorations:
                - [ SeaWeed02-04, 0]
-# Flat Beach  
+# Flat Beach
    - Altitude: [ 96, 106 ]
      Slope: [ 0, 40]
      BiomeClusterData:
@@ -232,23 +227,23 @@ Biome:
            Id: 1
            ClusterSize: 30
            NbOfClusters: 80
-           Decorations: 
+           Decorations:
                - [ OmicronPalm, 10]
-               - [ CoralStone04-03, 0.2]    
-               - [ CornDogBush, 0.2]    
-               - [ AridRockBrown01, 0.01]           
-               - [ AridRockBrown02, 0.01]           
-               - [ AridRockBrown03, 0.01]  
+               - [ CoralStone04-03, 0.2]
+               - [ CornDogBush, 0.2]
+               - [ AridRockBrown01, 0.01]
+               - [ AridRockBrown02, 0.01]
+               - [ AridRockBrown03, 0.01]
                - [ RealRock1, 0.05]
                - [ RealRock10, 0.05]
                - [ RealRock3, 0.05]
                - [ RealRock4, 0.05]
-               - [ RealRock5, 0.05]    
+               - [ RealRock5, 0.05]
            Grass:
                - Name: "GrassBrown02"
                  Density: 800
                  YScale: 0.8
-                 Preset: "GrassDense3a" 
+                 Preset: "GrassDense3a"
    - Altitude: [ 96, 106 ]
      Slope: [ 0, 180 ]
      BiomeClusterData:
@@ -256,99 +251,99 @@ Biome:
            Id: 1
            ClusterSize: 0
            NbOfClusters: 0
-           Decorations: 
+           Decorations:
                - [ SeaWeed02-04, 0]
 # Higher altitude flat
    - Altitude: [ 106, 135 ]
      Slope: [ 0, 30 ]
-     BiomeClusterData: 
+     BiomeClusterData:
          - Name: "Islands"
            Id: 2
            ClusterSize: 150
            NbOfClusters: 30
-           Decorations: 
-               - [ WeepingPalm1, 4] 
-               - [ WeepingPalm3, 4]     
-               - [ BushGreen02, 0.5]       
+           Decorations:
+               - [ WeepingPalm1, 4]
+               - [ WeepingPalm3, 4]
+               - [ BushGreen02, 0.5]
                - [ RealRock10, 0.05]
                - [ RealRock3, 0.05]
                - [ RealRock4, 0.05]
-               - [ RealRock5, 0.05]    
+               - [ RealRock5, 0.05]
            Grass:
                - Name: "GrassBrown02"
                  Density: 1000
                  YScale: 1
-                 Preset: "GrassDense5"  
+                 Preset: "GrassDense5"
                - Name: "GrassGreen01a"
                  Density: 800
                  YScale: 0.7
-                 Preset: "GrassPatches5"  
+                 Preset: "GrassPatches5"
          - Name: "Islands"
            Id: 2
            ClusterSize: 0
            NbOfClusters: 0
-           Decorations: 
-               - [ WeepingPalm1, 1] 
-               - [ WeepingPalm3, 0.7] 
-               - [ BushGreen01, 0.5]       
-               - [ AlienPlant02, 0.3]  
+           Decorations:
+               - [ WeepingPalm1, 1]
+               - [ WeepingPalm3, 0.7]
+               - [ BushGreen01, 0.5]
+               - [ AlienPlant02, 0.3]
                - [ RealRock1, 0.1]
                - [ RealRock7, 0.1]
-               - [ RealRock5, 0.05]     
-               - [ AridRockBrown01, 1]           
-               - [ AridRockBrown02, 1]           
-               - [ AridRockBrown03, 1]  
+               - [ RealRock5, 0.05]
+               - [ AridRockBrown01, 1]
+               - [ AridRockBrown02, 1]
+               - [ AridRockBrown03, 1]
                - [ RealRock10, 0.05]
                - [ RealRock3, 0.05]
                - [ RealRock4, 0.05]
-               - [ RealRock5, 0.05]     
+               - [ RealRock5, 0.05]
            Grass:
                - Name: "GrassGreen01a"
                  Density: 800
                  YScale: 0.8
-                 Preset: "GrassDense1"    
+                 Preset: "GrassDense1"
                - Name: "Plant01Brown"
                  Density: 250
                  YScale: 1.5
-                 Preset: "GrassPatches3a"    
+                 Preset: "GrassPatches3a"
 # Higher altitude steep (only grass)
    - Altitude: [ 106, 135 ]
      Slope: [ 0, 65 ]
-     BiomeClusterData: 
+     BiomeClusterData:
          - Name: "Islands"
            Id: 2
            ClusterSize: 0
            NbOfClusters: 0
-           Decorations: 
-               - [ WeepingPalm1, 0]   
+           Decorations:
+               - [ WeepingPalm1, 0]
            Grass:
                - Name: "GrassGreen01a"
                  Density: 800
                  YScale: 0.8
-                 Preset: "GrassDense1"    
+                 Preset: "GrassDense1"
                - Name: "Plant01Brown"
                  Density: 250
                  YScale: 1.5
-                 Preset: "GrassPatches3a" 
+                 Preset: "GrassPatches3a"
    - Altitude: [ 106, 135 ]
      Slope: [ 0, 180 ]
-     BiomeClusterData: 
+     BiomeClusterData:
          - Name: "Islands"
            Id: 2
            ClusterSize: 0
            NbOfClusters: 0
-           Decorations: 
-               - [ WeepingPalm1, 0]   
+           Decorations:
+               - [ WeepingPalm1, 0]
 # Higher altitude steep (no grass)
    - Altitude: [ 135, 250 ]
      Slope: [ 0, 180 ]
-     BiomeClusterData: 
+     BiomeClusterData:
          - Name: "Mountains"
            Id: 3
            ClusterSize: 0
            NbOfClusters: 0
-           Decorations: 
-               - [ WeepingPalm1, 0]   
+           Decorations:
+               - [ WeepingPalm1, 0]
 
 ### POIs
 POIs:
@@ -391,7 +386,7 @@ DroneBaseSetup:
           Stock:
               - Name: DroneSmallFast01Plasma
                 Amount: 20
-                Extra: 0    
+                Extra: 0
 
               - Name: DroneLargeSlow01Plasma
                 Amount: 20
@@ -403,11 +398,11 @@ DroneBaseSetup:
 
               - Name: DroneSmallFast01Plasma   # Base attack drones
                 Amount: 60
-                Extra: 1  
+                Extra: 1
 
               - Name: EnemyDroneV2Minigun      # Base attack drones
                 Amount: 40
-                Extra: 1                                
+                Extra: 1
 
               - Name: DroneTroopsTransport
                 Amount: 1
@@ -455,7 +450,7 @@ CreatureSpawning:
     - Biome: Mountains
       Entities:
         - Name: GolemsDesert
-          Period: Night              
+          Period: Night
           Amount: 2
           Delay: 0
 

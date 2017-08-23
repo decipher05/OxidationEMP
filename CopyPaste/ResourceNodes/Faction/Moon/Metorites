@@ -1,0 +1,32 @@
+AsteroidResources:
+    - Name: IronResource
+      Threshold: 0.3
+      Amount: 0.5
+
+    - Name: CobaltResource
+      Threshold: 0.3
+      Amount: 0.5
+
+    - Name: CopperResource
+      Threshold: 0.3
+      Amount: 0.5
+
+    - Name: SiliconResource
+      Threshold: 0.3
+      Amount: 0.5
+
+    - Name: PromethiumResource
+      Threshold: 0.3
+      Amount: 0.5
+
+    - Name: MagnesiumResource
+      Threshold: 0.3
+      Amount: 0.5
+
+    - Name: NeodymiumResource
+      Threshold: 0.3
+      Amount: 0.5
+
+    - Name: PentaxidResource
+      Threshold: 0.3
+      Amount: 0.5
