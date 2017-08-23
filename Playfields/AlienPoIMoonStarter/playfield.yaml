@@ -385,8 +385,8 @@ POIs:
               Value: moonstone
             - Key: RegenAfter
               Value: 240
-           - Key: PersonalContainer
-             Value:  "AutoMinerCore:5, Core"
+            - Key: PersonalContainer
+              Value:  "AutoMinerCore:5, Core"
 
 
         - GroupName: PlanetVesselBase
