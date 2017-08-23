@@ -36,7 +36,8 @@ Sectors:
     - Starter-POI-Akua
     - ''
   Allow: []
-  Deny: []
+  Deny:
+  - Federation Orbit
 - Coordinates:
   - 385
   - -179
@@ -113,15 +114,19 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
+  - 119
   - 0
-  - 0
-  - 0
+  - 93
   Color: 0, 0, 0
-  Icon: No
+  Icon: Hexagon
   Playfields:
   - - 0, 0, 0
     - Federation Orbit
     - Faction-Federation-Space-RingAkua
+    - ''
+  - - 0, 0, 0
+    - Waskion
+    - Faction-Federation-Planet-Ocean
     - ''
   Allow: []
   Deny: []
