@@ -1,0 +1,50 @@
+ServerConfig:
+  Srv_Port: 30000
+  Srv_Name: Oxidation PVP/BigStarter/ActiveAdmin
+  Srv_Password: 0189
+  Srv_MaxPlayers: 100
+  Srv_ReservePlayfields: 5
+  Srv_Description: Launching soon <Details to come>
+  Srv_Public: true
+  Srv_Visible: true
+  AdminConfigFile: adminconfig.yaml
+  Tel_Enabled: true
+  Tel_Port: 30004
+  Tel_Pwd: 328964fadsf$@d
+  SaveDirectory: Saves
+  EACActive: true
+  MaxAllowedSizeClass: 8
+  AllowedBlueprints: All
+  HeartbeatServer: 30
+  HeartbeatClient: 60
+  KickPlayerWithPing: 400
+GameConfig:
+  GameName: Oxidation Test
+  Mode: Survival
+  Seed: 381890
+  PlayerSafeZoneHours: 24
+  MaxSpawnedEnemies: 60
+  ProtectTime: 72
+  WipeTime: 168
+  DecayTime: 2
+  MaxStructures: 200
+  AntiGriefDistance: 30
+  AntiGriefZone: All
+  AntiGriefOresDistance: 30
+  EnableTrading: GlobalVirtual
+  DiffEscapePodContent: Easy
+  DiffPlayerProgression: Slower
+  DiffAmountOfOre: Normal
+  DiffNumberOfDeposits: Normal
+  DiffDroneBaseAttack: Hard
+  DiffDronePresence: Normal
+  DiffEnemySpawnRate: Normal
+  DiffAttackStrength: Hard
+  DiffConstrCraftTime: Normal
+  DiffBpProdTime: Normal
+  DiffDegradationSpeed: Normal
+  DiffRadiationTemperature: Normal
+  EnableMaxBlockCount: true
+  OriginDefault: Federation
+  FriendlyFireInPvP: true
+  CustomScenario: Survival MultiPlayer
