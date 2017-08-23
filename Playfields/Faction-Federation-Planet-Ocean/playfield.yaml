@@ -19,7 +19,7 @@ Moons: 1                           # No functionality yet
 Water: WaterBlue              # WaterBlue, WaterGreen, WaterBrown
 SeaLevel: 110                      # Sea level of planet
 PvP: True                         # Set to True to allow PvP in this playfield, default is False
-#Seed: 123456                       # If set overwrites main Seed
+Seed: 43823966                       # If set overwrites main Seed
 #UseFixed: False					# If set uses fixed POIs + resources
 
 # Playfield difficulty (has impact on experience gains)
@@ -119,6 +119,34 @@ RandomResources:
       DroneProb: 0.3
       MaxDroneCount: 1
 
+AsteroidResources:
+    - Name: IronResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: CobaltResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: CopperResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: SiliconResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: PromethiumResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: MagnesiumResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: NeodymiumResource
+      Threshold: 0.4
+      Amount: 0.5
 
 
 
@@ -435,28 +463,28 @@ CreatureSpawning:
     - Biome: Islands
       Entities:
         - Name: AlienBugs01
-          Period: Day              #  Night / Day / Always
-          Amount: 2
+          Period: Always              #  Night / Day / Always
+          Amount: 5
           Delay: 0
         - Name: Spiders01
-          Period: Day
-          Amount: 2
+          Period: Always
+          Amount: 5
           Delay: 0
         - Name: CaveWormsGrey
-          Period: Night
-          Amount: 2
+          Period: Always
+          Amount: 5
           Delay: 0
 
     - Biome: Mountains
       Entities:
         - Name: GolemsDesert
-          Period: Night
-          Amount: 2
+          Period: Always
+          Amount: 5
           Delay: 0
 
     - Biome: Ocean
       Entities:
         - Name: PlantMonsters
-          Period: Night
-          Amount: 2
+          Period: Always
+          Amount: 5
           Delay: 0

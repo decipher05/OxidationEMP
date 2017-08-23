@@ -26,3 +26,7 @@ AsteroidResources:
     - Name: NeodymiumResource
       Threshold: 0.4
       Amount: 0.5
+
+    - Name: SathiumResource
+      Threshold: 0.4
+      Amount: 0.5
