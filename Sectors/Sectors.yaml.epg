@@ -87,3 +87,28 @@ Sectors:
     - ''
   Allow: []
   Deny: []
+- Coordinates:
+  - 0
+  - 0
+  - 0
+  Color: 0, 255, 0
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Omicron Orbit
+    - Starter-Space-Omicron
+    - ''
+  - - 0, 0, 0
+    - 'Omicron '
+    - Starter-Planet-Desert
+    - Empire:0
+  - - -4158, -7284, 6472
+    - Omicron Moon
+    - Starter-Moon-Omicron
+    - ''
+  - - 6112, -2488, -1854
+    - Rostion
+    - Starter-POI-Omicron
+    - ''
+  Allow: []
+  Deny: []
