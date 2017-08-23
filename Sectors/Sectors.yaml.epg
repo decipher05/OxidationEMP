@@ -14,8 +14,8 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 53
-  - 5
+  - 58
+  - 57
   - 217
   Color: 255, 255, 51
   Icon: Circle
@@ -40,8 +40,8 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 334
-  - -10
+  - 351
+  - 74
   - 211
   Color: 255, 255, 51
   Icon: Circle
@@ -66,8 +66,8 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 85
-  - -123
+  - 81
+  - -69
   - -224
   Color: 255, 255, 51
   Icon: Circle
@@ -92,8 +92,8 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 389
-  - -135
+  - 364
+  - -42
   - -234
   Color: 255, 255, 51
   Icon: Circle
@@ -117,21 +117,4 @@ Sectors:
     - ''
   Allow:
   - 
-  Deny: []
-- Coordinates:
-  - 148
-  - 0
-  - 93
-  Color: 0, 0, 0
-  Icon: Circle
-  Playfields:
-  - - 0, 0, 0
-    - Federation Space
-    - Faction-Federation-Space-AsteroidRing
-    - ''
-  - - 0, 0, 0
-    - Akua1
-    - Starter-POI-Akua
-    - Federation:1
-  Allow: []
   Deny: []
