@@ -186,7 +186,7 @@ DroneBaseSetup:
               FixedMaxSpeed: 20
               Mission: Freighter                # Mission among : {SpacePatrol}
               Freighter:
-                DelayBetweenRespawn: 600
+                DelayBetweenRespawn: 60
                 PathWayPoint:
                 - [ 5000, 250, 5000 ]
                 - [ 5000, 250, -2000 ]
@@ -199,7 +199,7 @@ DroneBaseSetup:
               FixedMaxSpeed: 20
               Mission: Freighter                # Mission among : {SpacePatrol}
               Freighter:
-                DelayBetweenRespawn: 800
+                DelayBetweenRespawn: 60
                 PathWayPoint:
                 - [ -7500, 250, -2000 ]
                 - [ -4000, 250, 2000 ]
@@ -219,4 +219,4 @@ DroneBaseSetup:
                   Extra: 0
               Properties:
                 - Key: RegenAfter
-                  Value: 240
+                  Value: 120
