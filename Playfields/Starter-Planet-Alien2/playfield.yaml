@@ -42,7 +42,7 @@ Description: "Difficulty:[c][FFFFFF] Hard[-][/c]    Origin:[c][FFFFFF] %Origin%[
 
 
 
-  Start: [c][FFFFFF]Wreckage Base[-][/c]"
+  Start: [c][FFFFFF]Escape Pod[-][/c]"
 
 # Sun
 SunFlare: EnvironmentalEffects/SunFlareWhite4
@@ -610,7 +610,7 @@ POIs:
     FixedPlayerStart:
         - Mode: Survival
           Spawn: EscapePod
-          Armor: ArmorHeavy
+          Armor: ArmorMedium
           Items: [ "Pistol, 50Caliber:500, Medikit02:5, AntidotePills:5, AutoMiningDeviceT1:5, WaterBottle:2, DrillCharge:10, EmergencyRations:5, DrillT2, Chainsaw, BioFuel:3, ConstructorSurvival, EnergyCell:10, OxygenGeneratorSmall, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, EVABoost, PlayerBikeKit, PromethiumPellets:200, IronIngot:100, CopperIngot:100, CobaltIngot:100, SiliconIngot:100, OxygenBottleSmall:5, OxygenBottleLarge:10", "#FreshStart: DrillT2, DrillCharge:5, Chainsaw, BioFuel:5, ConstructorSurvival,OxygenBottleSmall:5, OxygenBottleLarge:10" ]
 
 ### Drones

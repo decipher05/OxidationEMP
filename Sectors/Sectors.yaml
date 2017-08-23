@@ -13,9 +13,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 120
+  - 105
   - 0
-  - 99
+  - 167
   Color: 0, 0, 0
   Icon: Circle
   Playfields:
@@ -38,9 +38,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 391
+  - 510
   - 0
-  - -150
+  - -278
   Color: 0, 0, 0
   Icon: Circle
   Playfields:
@@ -59,6 +59,31 @@ Sectors:
   - - 5052, -4207, -2669
     - Coihines
     - Starter-POI-Masperon
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 132
+  - 0
+  - -277
+  Color: 0, 0, 0
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Ningues Orbit
+    - Starter-Space-Ningues
+    - ''
+  - - 0, 0, 0
+    - Ningues
+    - Starter-Planet-Snow
+    - Republic:2
+  - - 0, 0, 0
+    - Ningues Moon
+    - Starter-Moon-Ningues
+    - ''
+  - - 0, 0, 0
+    - Tietov
+    - Starter-POI-Ningues
     - ''
   Allow: []
   Deny: []
