@@ -10,7 +10,7 @@ UseFixed: True                      # If set uses fixed drones
 Radiation: 2.2
 TemperatureDay: -130     
 Music: space                        
-
+#testSpace
 # Playfield difficulty (has impact on experience gains)
 Difficulty: 2                       # Between 2 and 5: larger values indicate higher difficulty
 
