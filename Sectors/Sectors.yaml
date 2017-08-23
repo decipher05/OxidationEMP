@@ -129,5 +129,4 @@ Sectors:
     - ''
   Allow:
   - 
-  Deny:
-  - Akua Orbit
+  Deny: []
