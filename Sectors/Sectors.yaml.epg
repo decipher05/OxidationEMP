@@ -112,3 +112,20 @@ Sectors:
     - ''
   Allow: []
   Deny: []
+- Coordinates:
+  - 151
+  - 20
+  - 0
+  Color: 0, 0, 0
+  Icon: No
+  Playfields:
+  - - 0, 0, 0
+    - Federation Orbit
+    - SpaceAsteroidFieldRingAkua
+    - ''
+  - - 0, 0, 0
+    - Test POI Fed
+    - Starter-POI-Akua
+    - ''
+  Allow: []
+  Deny: []
