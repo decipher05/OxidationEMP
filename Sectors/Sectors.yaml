@@ -38,7 +38,8 @@ Sectors:
     - Starter-POI-Akua
     - ''
   Allow: []
-  Deny: []
+  Deny:
+  - Federation Space
 - Coordinates:
   - 334
   - -10
@@ -114,6 +115,20 @@ Sectors:
   - - -5511, 2580, 6301
     - Beponic
     - Starter-POI-Masperon
+    - ''
+  Allow:
+  - 
+  Deny: []
+- Coordinates:
+  - 117
+  - 0
+  - 147
+  Color: 0, 0, 0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Federation Space
+    - Faction-Federation-Space-RingAkua
     - ''
   Allow: []
   Deny: []
