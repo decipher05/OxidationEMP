@@ -38,8 +38,7 @@ Sectors:
     - Starter-POI-Akua
     - ''
   Allow: []
-  Deny:
-  - Federation Space
+  Deny: []
 - Coordinates:
   - 334
   - -10
@@ -124,11 +123,15 @@ Sectors:
   - 0
   - 93
   Color: 0, 0, 0
-  Icon: No
+  Icon: Circle
   Playfields:
   - - 0, 0, 0
     - Federation Space
     - Faction-Federation-Space-AsteroidRing
+    - ''
+  - - 0, 0, 0
+    - Akua
+    - Starter-POI-Akua
     - ''
   Allow: []
   Deny: []
