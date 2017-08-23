@@ -63,9 +63,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 132
+  - 129
   - 0
-  - -277
+  - -275
   Color: 0, 0, 0
   Icon: Circle
   Playfields:
@@ -77,11 +77,11 @@ Sectors:
     - Ningues
     - Starter-Planet-Snow
     - Republic:2
-  - - 0, 0, 0
+  - - -887, 4933, -8732
     - Ningues Moon
     - Starter-Moon-Ningues
     - ''
-  - - 0, 0, 0
+  - - 4058, -5836, 7648
     - Tietov
     - Starter-POI-Ningues
     - ''
