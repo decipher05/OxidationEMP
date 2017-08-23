@@ -99,7 +99,7 @@ Sectors:
     - Starter-Space-Omicron
     - ''
   - - 0, 0, 0
-    - 'Omicron '
+    - Omicron
     - Starter-Planet-Desert
     - Empire:4
   - - -4158, -7284, 6472
