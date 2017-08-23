@@ -130,8 +130,8 @@ Sectors:
     - Faction-Federation-Space-AsteroidRing
     - ''
   - - 0, 0, 0
-    - Akua
+    - Akua1
     - Starter-POI-Akua
-    - ''
+    - Federation:1
   Allow: []
   Deny: []
