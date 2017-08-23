@@ -16,7 +16,7 @@ Sectors:
   - 74
   - 159
   - 167
-  Color: 0, 0, 0
+  Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
   - - 0, 0, 0
@@ -38,10 +38,10 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 385
+  - 401
   - -179
-  - -278
-  Color: 0, 0, 0
+  - -273
+  Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
   - - 0, 0, 0
@@ -66,7 +66,7 @@ Sectors:
   - 95
   - -164
   - -275
-  Color: 0, 0, 0
+  Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
   - - 0, 0, 0
@@ -91,7 +91,7 @@ Sectors:
   - 371
   - 159
   - 161
-  Color: 0, 0, 0
+  Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
   - - 0, 0, 0
@@ -113,9 +113,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 155
+  - 156
   - 0
-  - 65
+  - 69
   Color: 0, 0, 0
   Icon: Hexagon
   Playfields:
