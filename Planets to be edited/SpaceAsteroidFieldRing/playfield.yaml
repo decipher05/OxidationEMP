@@ -1,0 +1,174 @@
+---
+# Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+
+# Playfield Characteristics
+Gravity: 0                          # Please don't change
+AtmosphereEnabled: False            # Please don't change
+PvP: False                          # Set to True to allow PvP in this playfield, default is False
+UseFixed: True                      # If set uses fixed drones
+Radiation: 2.2
+TemperatureDay: -130   
+Music: moonstone                        
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 2                       # Between 2 and 5: larger values indicate higher difficulty
+
+# Planet or Space
+PlayfieldType: Space               # Please don't change
+
+PlanetType: Space                  # No functionality yet
+Description: "The space around Akua features an asteroid ring." 
+
+# Sun                               
+SunFlare: EnvironmentalEffects/SunFlareWhite4Space
+
+# Stars
+Stars: SkyboxStarsCyan                        
+
+# Nebula
+Nebula: PrefabNebulaBlueYellow
+
+### POIs
+POIs:
+    Fixed:
+        # - Type: BA_Alien
+          # Prefab: BAO_Thermica-Station        # filename of blueprint
+          # Mode: Survival                      # Creative or Survival          
+          # Name: Thermica Station              # name of blueprint as displayed to player
+          # Pos: [ -2800, 500, -2800 ]          # position coordinates
+          # Rot: [ 0, -50, 0 ]                  # rotation angles
+          # InitPower: True                     # set if POI should be initially powered, default: False
+
+        - Type: BA_Admin
+          Prefab: TSO_AkuaOrbit    
+          Mode: Survival                     
+          Name: TSO Akua            
+          Pos: [ -4400, 2000, -250 ]      
+          Rot: [ 0, -50, 0 ]           
+          InitPower: True                 
+          Properties: 
+            - Key: Music
+              Value: NebularClouds         
+
+        - Type: AsteroidVoxel01Sathium
+          Prefab: AsteroidVoxel01Sathium    
+          Name: Sathium Asteroid            
+          Pos: [ -6302, 73, -2486 ]    
+          Rot: [ 0, 0, 0 ]            
+          Properties:     
+            - Key: RegenAfter
+              Value: 180    
+ 
+        - Type: AsteroidVoxel02Neodymium
+          Prefab: AsteroidVoxel02Neodymium     
+          Name: Neodymium Asteroid             
+          Pos: [ -6038, -225, 2595 ]    
+          Rot: [ 0, 0, 0 ]          
+          Properties:     
+            - Key: RegenAfter
+              Value: 180      
+ 
+        - Type: AsteroidVoxel03Sathium
+          Prefab: AsteroidVoxel03Sathium    
+          Name: Sathium Asteroid             
+          Pos: [ 4270, -1, 2671 ]    
+          Rot: [ 0, 0, 0 ]           
+          Properties:     
+            - Key: RegenAfter
+              Value: 180     
+ 
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium    
+          Name: Promethium Asteroid             
+          Pos: [ 318, 51, 6607 ]    
+          Rot: [ 0, 0, 0 ]           
+          Properties:     
+            - Key: RegenAfter
+              Value: 180      
+ 
+        - Type: AsteroidVoxel03Sathium
+          Prefab: AsteroidVoxel03Sathium    
+          Name: Sathium Asteroid             
+          Pos: [ -3718, -11, 4086 ]    
+          Rot: [ 0, 0, 0 ]         
+          Properties:     
+            - Key: RegenAfter
+              Value: 180         
+ 
+        - Type: AsteroidFieldRing 
+          Name: Asteroid Field            
+          Pos: [ 0, 0, 0 ]    
+          Rot: [ 0, 0, 0 ]      
+
+    FixedPlayerStart:
+        - Mode: Debug                # Creative or Survival  
+          Pos: [ -5000, 0, 5000 ]    # position coordinates
+          RotY: 0                    # rotation angle around Y axis
+
+# Drones
+DroneBaseSetup:
+    Fixed:
+        - Name: MainDroneBase
+          Pos: [ 5000, 200, 5000 ]      # position coordinates
+          DroneOnDuty:
+            - Name: SpaceDronePlasma
+              Pos: [ 4000, 200, 4000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -4000, -200, 4000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ 4000, 200, -4000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -4000, -200, -4000 ]
+              Radius: 350
+          SpaceVessel:
+            - Name: Freighter              # Name of the prefab group or name of the prefab
+              FixedMaxSpeed: 20
+              Mission: Freighter                # Mission among : {SpacePatrol,Freighter}
+              Freighter:
+                DelayBetweenRespawn: 600  
+                PathWayPoint:
+                - [ -8000, 2000, 0 ]
+                - [ 8000, 2000, 8000 ]
+              Stock:
+                - Name: SpaceDronePlasma          # Name of drone   
+                  Amount: 5                       # Amount of drones in stock          
+                  Extra: 0                        # Type of drone 0..3 -> see comment above     
+            - Name: Freighter                     # Name of the prefab group or name of the prefab
+              FixedMaxSpeed: 20
+              Mission: Freighter                  # Mission among : {SpacePatrol,Freighter}
+              Freighter:
+                DelayBetweenRespawn: 1000 
+                PathWayPoint:
+                - [ -5500, 2000, 8000 ]
+                - [ -3000, 2000, -8000 ] 
+              Stock:
+                - Name: SpaceDronePlasma          # Name of drone   
+                  Amount: 5                       # Amount of drones in stock          
+                  Extra: 0                        # Type of drone 0..3 -> see comment above    
+            - Name: Carrier                       # Name of the prefab group or name of the prefab
+              FixedMaxSpeed: 20
+              Mission: SpacePatrol                # Mission among : {SpacePatrol,Freighter}
+              RangePatrol:
+                  Position3D: [-3000, 1500, 3000] # Center of the patrol area. On planet cooridnate-Y has no use.
+                  Radius: 500
+                  DistToGround: 0                 # Distance to the ground of the patrol. In space it has no use.
+              Stock:
+                - Name: SpaceDronePlasma          # Name of drone   
+                  Amount: 5                       # Amount of drones in stock          
+                  Extra: 0                        # Type of drone 0..3 -> see comment above   
+            - Name: BAO_Thermica-Station          # Name of the prefab group or name of the prefab
+              FixedMaxSpeed: 20
+              Mission: Immobile                   # Mission among : {SpacePatrol,Freighter}
+              Immobile:
+                  Position3D: [-2800, 500, -2800]   
+              Stock:
+                - Name: SpaceDronePlasma          # Name of drone   
+                  Amount: 20                      # Amount of drones in stock          
+                  Extra: 0                        # Type of drone 0..3 -> see comment above    
+              Properties: 
+                - Key: RegenAfter
+                  Value: 720              
