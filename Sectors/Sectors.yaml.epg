@@ -37,14 +37,12 @@ Sectors:
     - Vutis
     - Starter-POI-Akua
     - ''
-  Allow:
-  - 
-  Deny:
-  - Federation Space
+  Allow: []
+  Deny: []
 - Coordinates:
-  - 369
+  - 334
   - -10
-  - 214
+  - 211
   Color: 255, 255, 51
   Icon: Circle
   OrbitLine: true
@@ -66,8 +64,7 @@ Sectors:
     - Starter-POI-Omicron
     - ''
   Allow: []
-  Deny:
-  - Federation Space
+  Deny: []
 - Coordinates:
   - 85
   - -123
@@ -117,42 +114,6 @@ Sectors:
   - - -5511, 2580, 6301
     - Beponic
     - Starter-POI-Masperon
-    - ''
-  Allow: []
-  Deny: []
-- Coordinates:
-  - 117
-  - 0
-  - 104
-  Color: 0, 0, 255
-  Icon: Hexagon
-  OrbitLine: true
-  Playfields:
-  - - 0, 0, 0
-    - Federation Space
-    - Faction-Federation-Space-RingAkua
-    - ''
-  - - 0, 0, 0
-    - Josmerth
-    - Faction-Federation-Planet-Ocean
-    - ''
-  Allow: []
-  Deny: []
-- Coordinates:
-  - 213
-  - 0
-  - -12
-  Color: 255, 0, 0
-  Icon: Star
-  OrbitLine: true
-  Playfields:
-  - - 0, 0, 0
-    - FFA System
-    - Core-Space-AsteroidRing
-    - ''
-  - - 0, 0, 0
-    - Dotrerth
-    - Core-Planet-Cold Inferno
     - ''
   Allow: []
   Deny: []
