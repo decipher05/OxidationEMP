@@ -127,6 +127,5 @@ Sectors:
     - Waskion
     - Faction-Federation-Planet-Ocean
     - ''
-  Allow:
-  - 
+  Allow: []
   Deny: []
