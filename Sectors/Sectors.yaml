@@ -38,8 +38,8 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 564
-  - -160
+  - 385
+  - -179
   - -278
   Color: 0, 0, 0
   Icon: Circle
@@ -88,8 +88,8 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 549
-  - 86
+  - 392
+  - 192
   - 143
   Color: 0, 0, 0
   Icon: Circle
@@ -109,23 +109,6 @@ Sectors:
   - - 6112, -2488, -1854
     - Rostion
     - Starter-POI-Omicron
-    - ''
-  Allow: []
-  Deny: []
-- Coordinates:
-  - 179
-  - -23
-  - 29
-  Color: 0, 0, 0
-  Icon: Circle
-  Playfields:
-  - - 0, 0, 0
-    - Test
-    - SpaceAsteroidFieldRingAkua
-    - ''
-  - - 0, 0, 0
-    - ''
-    - ''
     - ''
   Allow: []
   Deny: []
