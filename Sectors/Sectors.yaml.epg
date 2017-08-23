@@ -13,8 +13,8 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 93
-  - 88
+  - 99
+  - 87
   - 167
   Color: 0, 0, 0
   Icon: Circle
@@ -113,15 +113,15 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 189
-  - -42
+  - 179
+  - -23
   - 29
   Color: 0, 0, 0
   Icon: Circle
   Playfields:
   - - 0, 0, 0
     - Test
-    - F-Federation-Space-AsteroidRing
+    - SpaceAsteroidFieldRingAkua
     - ''
   - - 0, 0, 0
     - ''
