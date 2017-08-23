@@ -473,50 +473,50 @@ Biome:
 ### Resource Deposits
 RandomResources:
     - Name: IronResource
-      CountMinMax: [ 7, 10 ]
-      SizeMinMax: [ 10, 20 ]
+      CountMinMax: [ 10, 10 ]
+      SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: CobaltResource
-      CountMinMax: [ 7, 10 ]
-      SizeMinMax: [ 8, 15 ]
+      CountMinMax: [ 10, 10 ]
+      SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: CopperResource
-      CountMinMax: [ 7, 10 ]
-      SizeMinMax: [ 8, 15 ]
+      CountMinMax: [ 10, 10 ]
+      SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: SiliconResource
-      CountMinMax: [ 7, 10 ]
-      SizeMinMax: [ 8, 15 ]
+      CountMinMax: [ 10, 10 ]
+      SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: PromethiumResource
-      CountMinMax: [ 7, 10 ]
-      SizeMinMax: [ 10, 20 ]
+      CountMinMax: [ 10, 10 ]
+      SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.2
       MaxDroneCount: 1
 
     - Name: MagnesiumResource
-      CountMinMax: [ 7, 10 ]
-      SizeMinMax: [ 10, 20 ]
+      CountMinMax: [ 10, 10 ]
+      SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: NeodymiumResource
       CountMinMax: [ 7, 10 ]
-      SizeMinMax: [ 10, 20 ]
+      SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1
