@@ -3,7 +3,7 @@
 # IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
 # For more detailed explanations of the different parameters, see examples in Empyrion\Content\Playfields\ExamplePlanet and ExampleSpace
 # Please do not use long comments here because in a multiplayer game the yaml file has to be sent from server to client 
-
+#test
 # Playfield Characteristics
 RealRadius: 1303.797294             # Please don't change
 ScaledRadius: 1300                  # Please don't change
