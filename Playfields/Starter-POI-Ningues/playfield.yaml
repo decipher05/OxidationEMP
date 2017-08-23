@@ -447,7 +447,7 @@ AsteroidResources:
 
 
 ### POIs
-#POIs:
+POIs:
     Random:
         - GroupName: XenuFortressP1
           DroneBaseSetup: DroneBaseSetup
