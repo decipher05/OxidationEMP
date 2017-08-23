@@ -517,31 +517,31 @@ RandomResources:
 AsteroidResources:
     - Name: IronResource
       Threshold: 0.6
-          Amount: 0.5
+      Amount: 0.5
 
     - Name: CobaltResource
       Threshold: 0.6
-          Amount: 0.4
+      Amount: 0.4
 
     - Name: CopperResource
       Threshold: 0.6
-          Amount: 0.4
+      Amount: 0.4
 
     - Name: SiliconResource
       Threshold: 0.6
-          Amount: 0.4
+      Amount: 0.4
 
     - Name: PromethiumResource
       Threshold: 0.6
-          Amount: 0.4
+      Amount: 0.4
 
     - Name: MagnesiumResource
       Threshold: 0.6
-          Amount: 0.3
+      Amount: 0.3
 
     - Name: NeodymiumResource
       Threshold: 0.6
-          Amount: 0.3
+      Amount: 0.3
 
 
 ### POIs

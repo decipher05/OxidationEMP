@@ -2,7 +2,7 @@
 # Playfield Configuration
 # IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
 # For more detailed explanations of the different parameters, see examples in Empyrion\Content\Playfields\ExamplePlanet and ExampleSpace
-# Please do not use long comments here because in a multiplayer game the yaml file has to be sent from server to client 
+# Please do not use long comments here because in a multiplayer game the yaml file has to be sent from server to client
 
 # Playfield Characteristics
 RealRadius: 1303.797294             # Please don't change
@@ -13,7 +13,7 @@ AtmosphereO2: 0.08                  # Oxygen level of atmosphere
 AtmosphereBreathable: False         # If player can breathe without helmet
 Temperature: -38                    # No functionality yet
 TemperatureDay: 0                   # No functionality yet
-TemperatureNight: -25               # No functionality yet       
+TemperatureNight: -25               # No functionality yet
 Music: snow
 Radiation: 5.1
 DayLength: 24                       # No functionality yet
@@ -29,17 +29,17 @@ PvP: False                           # Set to True to allow PvP in this playfiel
 Difficulty: 3                       # Between 2 and 5: larger values indicate higher difficulty
 
 # Planet or Space
-PlayfieldType: Planet               # Please don't change 
+PlayfieldType: Planet               # Please don't change
 Description: "Difficulty:[c][FFFFFF] Medium[-][/c]    Origin:[c][FFFFFF] %Origin%[-][/c]
 
 
-  Ningues is an ice planet with steep mountains, large plains and hot springs. There is no breathable atmosphere but oxygen can be generated from the snow. 
-  
-  
+  Ningues is an ice planet with steep mountains, large plains and hot springs. There is no breathable atmosphere but oxygen can be generated from the snow.
+
+
   Be warned, choosing this planet as the survival start is recommended for experienced players only.
 
 
-  Start: [c][FFFFFF]Escape Pod[-][/c]"  
+  Start: [c][FFFFFF]Escape Pod[-][/c]"
 
 # Sun                               # SunFlareBlue, SunFlareWhite, SunFlareWhite2, SunFlareWhite3, SunFlareYellow, SunFlarePurple
 SunFlare: EnvironmentalEffects/SunFlareWhite3
@@ -75,7 +75,7 @@ CloudsHorizonColor: "1, 0.3, 0"  # Color of clouds if sun is on horizon, default
 # Wind Speed
 WindSpeed: 5                        # Between 0 and 10: larger values = faster moving clouds
 
-# Special Effects                   
+# Special Effects
 SpecialEffectsLocal:
   # - Name: SnowLight
     # Biome: [ ArcticLowPlains, ArcticIntermediatePlains ]
@@ -91,54 +91,54 @@ SpecialEffectsLocal:
 SpecialEffectsGlobal:
   - Name: Clear
     Type: Weather
-    InitialDelay: 0   
+    InitialDelay: 0
     Delay: 3
     Lifetime: 1200
   - Name: CloudsLight
     Type: Weather
-    InitialDelay: 0   
+    InitialDelay: 0
     Delay: 2
     Lifetime: 1200
   - Name: CloudsMedium
     Type: Weather
-    InitialDelay: 0   
+    InitialDelay: 0
     Delay: 3
     Lifetime: 1200
   - Name: Clouds
     Type: Weather
-    InitialDelay: 5   
+    InitialDelay: 5
     Delay: 3
     Lifetime: 1200
   - Name: Fog
     Type: Weather
-    InitialDelay: 12     
-    Delay: 5            
-    Lifetime: 1000      
+    InitialDelay: 12
+    Delay: 5
+    Lifetime: 1000
   - Name: SnowLight
     Type: Weather
-    InitialDelay: 24   
-    Delay: 5          
-    Lifetime: 600      
+    InitialDelay: 24
+    Delay: 5
+    Lifetime: 600
   - Name: SnowMedium
     Type: Weather
-    InitialDelay: 24   
-    Delay: 12          
-    Lifetime: 600      
+    InitialDelay: 24
+    Delay: 12
+    Lifetime: 600
   - Name: SnowHeavy
     Type: Weather
-    InitialDelay: 24   
-    Delay: 12          
-    Lifetime: 600         
+    InitialDelay: 24
+    Delay: 12
+    Lifetime: 600
   - Name: ColdWave
     Type: Weather
-    InitialDelay: 48   
-    Delay: 24          
-    Lifetime: 1000             
+    InitialDelay: 48
+    Delay: 24
+    Lifetime: 1000
   - Name: Hail
     Type: Weather
-    InitialDelay: 48   
-    Delay: 24          
-    Lifetime: 600      
+    InitialDelay: 48
+    Delay: 24
+    Lifetime: 600
 
 ### Terrain and Decorations
 # Terrain and Local Decoration
@@ -160,9 +160,9 @@ MainBiome:
         - [ BedrockLava, 2 ]
 
     Decorations:
-        - [ RockA01Snow, 0.1 ]  
+        - [ RockA01Snow, 0.1 ]
         - [ RockB01Snow, 0.1 ]
-        - [ Rocks02Snow, 0.1 ]    
+        - [ Rocks02Snow, 0.1 ]
 
 SubBiomes:
     - Altitude: 31
@@ -184,20 +184,20 @@ Biome:
    - Altitude: [ 35, 60 ]
      Slope: [ 0, 5 ]
      BiomeClusterData:
-         - Name: "ArcticForest"    
+         - Name: "ArcticForest"
            Id: 1
            ClusterSize: 200
-           NbOfClusters: 10	   
+           NbOfClusters: 10
            Temperature: 10
-           Decorations: 
-               - [ "BlueSpruceWinter", 8]                
-               - [ "AlaskaCedarBare", 2] 
-               - [ "BushWinter03", 1] 
-               - [ "PixieStalksSnow", 1] 
-               - [ "Mushroom2", 1] 
+           Decorations:
+               - [ "BlueSpruceWinter", 8]
+               - [ "AlaskaCedarBare", 2]
+               - [ "BushWinter03", 1]
+               - [ "PixieStalksSnow", 1]
+               - [ "Mushroom2", 1]
                - [ "CattailWinter", 0.8]
-               - [ "RealRock2Snow", 0.1] 
-               - [ "RealRock3Snow", 0.1] 
+               - [ "RealRock2Snow", 0.1]
+               - [ "RealRock3Snow", 0.1]
                - [ "RealRock6Snow", 0.1]
                - [ "BulbShroom", 0.5]
                - [ "PromethiumStone", 0.1]
@@ -205,54 +205,54 @@ Biome:
                - Name: "GrassGreen04aSnow"
                  Density: 1500
                  YScale: 0.8
-                 Preset: "GrassDense6"    
+                 Preset: "GrassDense6"
                - Name: "GrassGreen03bSnow"
                  Density: 600
                  YScale: 1.2
-                 Preset: "GrassPatches6" 
-         - Name: "ArcticLowPlains"     
+                 Preset: "GrassPatches6"
+         - Name: "ArcticLowPlains"
            Id: 2
            ClusterSize: 0
-           NbOfClusters: 0  
+           NbOfClusters: 0
            Temperature: 10
-           Decorations: 
-               - [ "BushWinter01", 0.5] 
+           Decorations:
+               - [ "BushWinter01", 0.5]
                - [ "PixieStalksSnow", 0.5]
-               - [ "DimpleDomeSnow", 0.5] 
-               - [ "BrainFungusSnow", 0.5] 
+               - [ "DimpleDomeSnow", 0.5]
+               - [ "BrainFungusSnow", 0.5]
                - [ "CornDogBushSnow", 1]
            Grass:
                - Name: "GrassGreen03bSnow"
                  Density: 400
                  YScale: 1.2
-                 Preset: "GrassPatches7"    
+                 Preset: "GrassPatches7"
    - Altitude: [ 35, 60 ]
      Slope: [ 0, 10 ]
      BiomeClusterData:
-         - Name: "ArcticLowPlains"     
+         - Name: "ArcticLowPlains"
            Id: 2
            ClusterSize: 0
-           NbOfClusters: 0  
+           NbOfClusters: 0
            Temperature: 10
-           Decorations: 
-               - [ "BlueSpruceWinter", 0.25] 
-               - [ "AlaskaCedarBare", 0.25] 
-               - [ "RealRock8Snow", 0.15] 
-               - [ "RealRock6Snow", 0.15] 
-               - [ "RealRock10Snow", 0.15] 
-               - [ "BushWinter01", 0.2] 
-               - [ "BushWinter02", 0.2] 
-               - [ "BushWinter03", 0.1] 
+           Decorations:
+               - [ "BlueSpruceWinter", 0.25]
+               - [ "AlaskaCedarBare", 0.25]
+               - [ "RealRock8Snow", 0.15]
+               - [ "RealRock6Snow", 0.15]
+               - [ "RealRock10Snow", 0.15]
+               - [ "BushWinter01", 0.2]
+               - [ "BushWinter02", 0.2]
+               - [ "BushWinter03", 0.1]
                - [ "CornDogBushSnow", 0.2]
    - Altitude: [ 0, 60 ]
      Slope: [ 0, 180 ]
      BiomeClusterData:
-         - Name: "ArcticLowPlains"    
+         - Name: "ArcticLowPlains"
            Id: 2
            ClusterSize: 0
-           NbOfClusters: 0  
+           NbOfClusters: 0
            Temperature: 10
-           Decorations: 
+           Decorations:
                - [ "RealRock1", 0]
 # Intermediate Plains
    - Altitude: [ 60, 75 ]
@@ -262,35 +262,35 @@ Biome:
            Id: 3
            ClusterSize: 70
            NbOfClusters: 4
-           Decorations: 
-               - [ "BlueSpruceWinter", 8]               
-               - [ "AlaskaCedarBare", 2] 
-               - [ "RealRock8Snow", 0.1] 
-               - [ "RealRock6Snow", 0.1] 
-               - [ "BushWinter03", 0.3]  
-               - [ "Mushroom2", 0.5] 
+           Decorations:
+               - [ "BlueSpruceWinter", 8]
+               - [ "AlaskaCedarBare", 2]
+               - [ "RealRock8Snow", 0.1]
+               - [ "RealRock6Snow", 0.1]
+               - [ "BushWinter03", 0.3]
+               - [ "Mushroom2", 0.5]
                - [ "CornDogBushSnow", 0.4]
            Grass:
                - Name: "GrassGreen04aSnow"
                  Density: 1200
                  YScale: 0.8
-                 Preset: "GrassDense6" 
+                 Preset: "GrassDense6"
          - Name: "ArcticIntermediatePlains"
            Id: 4
            ClusterSize: 0
            NbOfClusters: 0
-           Decorations: 
+           Decorations:
                - [ "BulbShroom", 0.2]
-               - [ "BlueSpruceWinter", 0.05] 
-               - [ "AlaskaCedarBare", 0.1] 
-               - [ "RealRock8Snow", 0.02] 
-               - [ "RealRock6Snow", 0.02] 
-               - [ "RealRock10Snow", 0.02] 
-               - [ "BrainFungusSnow", 0.05] 
-               - [ "DimpleDomeSnow", 0.05] 
-               - [ "BushWinter01", 0.05] 
-               - [ "BushWinter02", 0.05] 
-               - [ "BushWinter03", 0.05] 
+               - [ "BlueSpruceWinter", 0.05]
+               - [ "AlaskaCedarBare", 0.1]
+               - [ "RealRock8Snow", 0.02]
+               - [ "RealRock6Snow", 0.02]
+               - [ "RealRock10Snow", 0.02]
+               - [ "BrainFungusSnow", 0.05]
+               - [ "DimpleDomeSnow", 0.05]
+               - [ "BushWinter01", 0.05]
+               - [ "BushWinter02", 0.05]
+               - [ "BushWinter03", 0.05]
                - [ "CornDogBushSnow", 0.05]
            Grass:
                - Name: "GrassGreen06Snow"
@@ -304,7 +304,7 @@ Biome:
            Id: 4
            ClusterSize: 0
            NbOfClusters: 0
-           Decorations: 
+           Decorations:
                - [ "RealRock1", 0]
 # High Plains
    - Altitude: [ 75, 125 ]
@@ -314,12 +314,12 @@ Biome:
            Id: 5
            ClusterSize: 0
            NbOfClusters: 0
-           Decorations: 
-               - [ "BlueSpruceWinter", 0.01]                
-               - [ "AlaskaCedarBare", 0.04] 
-               - [ "BushWinter01", 0.02] 
-               - [ "BushWinter02", 0.02] 
-               - [ "BushWinter03", 0.02] 
+           Decorations:
+               - [ "BlueSpruceWinter", 0.01]
+               - [ "AlaskaCedarBare", 0.04]
+               - [ "BushWinter01", 0.02]
+               - [ "BushWinter02", 0.02]
+               - [ "BushWinter03", 0.02]
    - Altitude: [ 75, 125 ]
      Slope: [ 0, 180 ]
      BiomeClusterData:
@@ -327,7 +327,7 @@ Biome:
            Id: 5
            ClusterSize: 0
            NbOfClusters: 0
-           Decorations: 
+           Decorations:
                - [ "RealRock1", 0]
 # Mountains
    - Altitude: [ 125, 250 ]
@@ -337,7 +337,7 @@ Biome:
            Id: 6
            ClusterSize: 0
            NbOfClusters: 0
-           Decorations: 
+           Decorations:
                - [ "CrystalsPyramidBlue", 0.15]
                - [ "PromethiumStone", 0.07]
    - Altitude: [ 125, 250 ]
@@ -347,21 +347,21 @@ Biome:
            Id: 6
            ClusterSize: 0
            NbOfClusters: 0
-           Decorations: 
+           Decorations:
                - [ "RealRock1", 0]
 
 ### Resource Deposits
 RandomResources:
     - Name: IronResource
-      CountMinMax: [ 10, 10 ]  
-      SizeMinMax: [ 15, 20 ] 
-      DepthMinMax: [ 1, 3 ] 
-      DroneProb: 0.1 
+      CountMinMax: [ 10, 10 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: CobaltResource
       CountMinMax: [ 10, 10 ]
-      SizeMinMax: [ 15 20 ]
+      SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
@@ -407,71 +407,71 @@ RandomResources:
 AsteroidResources:
     - Name: IronResource
       Threshold: 0.6
-          Amount: 0.5
+      Amount: 0.5
 
     - Name: CobaltResource
       Threshold: 0.6
-          Amount: 0.4
+      Amount: 0.4
 
     - Name: CopperResource
       Threshold: 0.6
-          Amount: 0.4
+      Amount: 0.4
 
     - Name: SiliconResource
       Threshold: 0.6
-          Amount: 0.4
+      Amount: 0.4
 
     - Name: PromethiumResource
       Threshold: 0.6
-          Amount: 0.4
+      Amount: 0.4
 
     - Name: MagnesiumResource
       Threshold: 0.6
-          Amount: 0.3
+      Amount: 0.3
 
     - Name: NeodymiumResource
       Threshold: 0.6
-          Amount: 0.3
+      Amount: 0.3
 
 
 ### POIs
 POIs:
-    Random:               
+    Random:
         - GroupName: DroneBaseNingues
           DroneBaseSetup: DroneBaseSetup
           CountMinMax: [ 1, 1 ]
-          DroneProb: 1  
-          DronesMinMax: [ 4, 5 ]  
-          ReserveCount: 6      
+          DroneProb: 1
+          DronesMinMax: [ 4, 5 ]
+          ReserveCount: 6
           SpawnResource: ["PromethiumResource:1-2","CobaltResource:1-2"]
-          ResourceDistance: 400         
-          Properties: 
+          ResourceDistance: 400
+          Properties:
             - Key: Music
-              Value: barren    
+              Value: barren
             - Key: RegenAfter
-              Value: 240          
-          
+              Value: 240
+
         - GroupName: PlanetVesselBase
           PlanetVesselBaseSetup: PlanetVesselBaseSetup
           CountMinMax: [ 1, 1 ]
-          DroneProb: 1  
-          DronesMinMax: [ 2, 3 ]   
-          ReserveCount: 3          
-          Properties: 
+          DroneProb: 1
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 3
+          Properties:
             - Key: Music
-              Value: lava2    
+              Value: lava2
             - Key: RegenAfter
-              Value: 240              
-        
+              Value: 240
+
         - GroupName: TS_Ningues
           CountMinMax: [ 1, 1 ]
           DroneProb: 0
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
-          TroopTransport: False   
-          SpawnPOIAvoid: [DroneBaseNingues, PlanetVesselBase]  
-          POIDistance: 800     
-          Properties: 
+          TroopTransport: False
+          SpawnPOIAvoid: [DroneBaseNingues, PlanetVesselBase]
+          POIDistance: 800
+          Properties:
             - Key: Music
               Value: temperate
 
@@ -480,16 +480,16 @@ POIs:
           DroneProb: 1.0
           DronesMinMax: [ 2, 2 ]
           ReserveCount: 4
-          TroopTransport: True 
+          TroopTransport: True
           SpawnResource: ["MagnesiumResource:1-3","CobaltResource:1-3"]
-          ResourceDistance: 400         
-          Properties: 
+          ResourceDistance: 400
+          Properties:
             - Key: Music
-              Value: lava2         
+              Value: lava2
             - Key: RegenAfter
-              Value: 240      
+              Value: 240
 
-        # Spawn crashed ship parts 
+        # Spawn crashed ship parts
         - GroupName: CrashedDSEMid      # Do not use regeneration with burried POIs
           CountMinMax: [ 1, 1 ]
           DroneProb: 0.8
@@ -513,74 +513,74 @@ POIs:
           ReserveCount: 3
           TroopTransport: False
           SpawnPOINear: [CrashedDSEFront]
-          POIDistance: 1000 
+          POIDistance: 1000
 
         - GroupName: CivilSettlement
           CountMinMax: [ 2, 4 ]
-          DroneProb: 0.8 
+          DroneProb: 0.8
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: True
           SpawnPOINear: [RadosMissileSilo]
-          POIDistance: 500      
-          Properties: 
+          POIDistance: 500
+          Properties:
             - Key: RegenAfter
-              Value: 240      
+              Value: 240
 
         - GroupName: CivilSettlement
           CountMinMax: [ 4, 5 ]
-          DroneProb: 0.8 
+          DroneProb: 0.8
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: True
-          Properties: 
+          Properties:
             - Key: RegenAfter
-              Value: 240      
+              Value: 240
 
         - GroupName: RadosTierI
-          CountMinMax: [ 2, 4 ]         
-          DroneProb: 1.0                
-          DronesMinMax: [ 1, 2 ]        
+          CountMinMax: [ 2, 4 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
-          TroopTransport: True   
+          TroopTransport: True
           SpawnPOINear: [PlanetVesselBase]
-          POIDistance: 500    
+          POIDistance: 500
           SpawnResource: ["SiliconResource:0-1","PromethiumResource:0-1"]
-          ResourceDistance: 400   
-          Properties: 
+          ResourceDistance: 400
+          Properties:
             - Key: RegenAfter
-              Value: 240    
+              Value: 240
 
         - GroupName: RadosTierI
-          CountMinMax: [ 3, 4 ]         
-          DroneProb: 1.0                
-          DronesMinMax: [ 1, 2 ]        
+          CountMinMax: [ 3, 4 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
-          TroopTransport: True   
-          Properties: 
+          TroopTransport: True
+          Properties:
             - Key: RegenAfter
-              Value: 240      
+              Value: 240
 
     FixedPlayerStart:
         - Mode: Survival
-          Spawn: EscapePod    
+          Spawn: EscapePod
           Armor: ArmorMedium
           Items: [ "Pistol, 50Caliber:500, Medikit02:5, AntidotePills:5, AutoMiningDeviceT1:5, WaterBottle:2, DrillCharge:10, EmergencyRations:5, DrillT2, Chainsaw, BioFuel:3, ConstructorSurvival, EnergyCell:10, OxygenGeneratorSmall, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, EVABoost, PlayerBikeKit, PromethiumPellets:200, IronIngot:100, CopperIngot:100, CobaltIngot:100, SiliconIngot:100, OxygenBottleSmall:5, OxygenBottleLarge:10", "#FreshStart: DrillT2, DrillCharge:5, Chainsaw, BioFuel:5, ConstructorSurvival,OxygenBottleSmall:5, OxygenBottleLarge:10" ]
-          
+
 ### Drones
 DroneBaseSetup:
     Random:
         - GroupName: DroneBaseSetup
-          DronesMinMax: [ 3, 5 ] 
-          ReserveCount: 5  
-          DroneProb: 1.0  
-          Difficulty: 6 
-          PresetStyle: 3  
-          # BaseAttack: DroneSmallAttackBase              
+          DronesMinMax: [ 3, 5 ]
+          ReserveCount: 5
+          DroneProb: 1.0
+          Difficulty: 6
+          PresetStyle: 3
+          # BaseAttack: DroneSmallAttackBase
           Stock:
-              - Name: DroneSmallFast01Rocket    # Name of drone   
-                Amount: 200                     # Amount of drones in stock          
-                Extra: 0                        # Type of drone 0..3 -> see comment above      
+              - Name: DroneSmallFast01Rocket    # Name of drone
+                Amount: 200                     # Amount of drones in stock
+                Extra: 0                        # Type of drone 0..3 -> see comment above
 
               - Name: DroneSmallFast01Plasma
                 Amount: 200
@@ -592,11 +592,11 @@ DroneBaseSetup:
 
               - Name: DroneSmallFast01Minigun    # Base attack drones
                 Amount: Infinite
-                Extra: 1        
+                Extra: 1
 
               - Name: EnemyDroneV2Plasma         # Base attack drones
                 Amount: Infinite
-                Extra: 1                      
+                Extra: 1
 
               - Name: DroneTroopsTransport01
                 Amount: Infinite
