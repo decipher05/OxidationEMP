@@ -36,8 +36,7 @@ Sectors:
     - Starter-POI-Akua
     - ''
   Allow: []
-  Deny:
-  - Federation Orbit
+  Deny: []
 - Coordinates:
   - 385
   - -179
@@ -129,5 +128,6 @@ Sectors:
     - Faction-Federation-Planet-Ocean
     - ''
   Allow:
+  - 
+  Deny:
   - Akua Orbit
-  Deny: []
