@@ -19,7 +19,7 @@ DayLength: 24                       # No functionality yet
 PlanetType: Barren                  # No functionality yet
 Moons: 0                            # No functionality yet
 PvP: False                          # Set to True to allow PvP in this playfield, default is False
-#Seed: 123456                       # If set overwrites main Seed
+Seed: 1432490                       # If set overwrites main Seed
 #UseFixed: False					# If set uses fixed POIs + resources
 
 # Playfield difficulty (has impact on experience gains)
@@ -211,17 +211,17 @@ POIs:
             - Key: RegenAfter
               Value: 240
 
-        - GroupName: CrashedShip
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 4
+        - GroupName: AbandonedMine
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 0.1
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
           TroopTransport: False
           Properties:
-            - Key: MapMarker
-              Value: Neutral
+            - Key: Music
+              Value: DarkSoundscape
             - Key: RegenAfter
-              Value: 240
+              Value: 180
 
         - GroupName: CivilSettlement
           CountMinMax: [ 1, 2 ]
@@ -233,10 +233,10 @@ POIs:
             - Key: MapMarker
               Value: Neutral
             - Key: RegenAfter
-              Value: 240
+              Value: 180
 
         - GroupName: GhostTierI
-          CountMinMax: [ 3, 4 ]
+          CountMinMax: [ 2, 3 ]
           DroneProb: 0.7
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 2
@@ -245,7 +245,7 @@ POIs:
           ResourceDistance: 400
           Properties:
             - Key: RegenAfter
-              Value: 240
+              Value: 180
 
     FixedPlayerStart:
         - Mode: Debug

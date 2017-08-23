@@ -700,29 +700,29 @@ CreatureSpawning:
           Delay: 0
         - Name: Spinosauruses
           Period: Day
-          Amount: 7
+          Amount: 5
           Delay: 0
 
     - Biome: AlienForest
       Entities:
         - Name: AlienBugs03
           Period: Day
-          Amount: 6
+          Amount: 5
           Delay: 0
         - Name: Spiders03
           Period: Night
-          Amount: 7
+          Amount: 5
           Delay: 0
 
     - Biome: AlienSavanna
       Entities:
         - Name: AlienBugs02
           Period: Day
-          Amount: 7
+          Amount: 5
           Delay: 0
         - Name: Overseers
           Period: Night
-          Amount: 6
+          Amount: 5
           Delay: 0
         - Name: Spiders01
           Period: Day
@@ -733,5 +733,5 @@ CreatureSpawning:
       Entities:
         - Name: Spiders01
           Period: Always
-          Amount: 6
+          Amount: 5
           Delay: 0

@@ -32,6 +32,7 @@ Difficulty: 3                       # Between 2 and 5: larger values indicate hi
 PlayfieldType: Planet               # Please don't change
 Description: "Difficulty:[c][FFFFFF] Medium[-][/c]    Origin:[c][FFFFFF] %Origin%[-][/c]
 
+  This is a PVP Faction and this Origin primarily lives on this type of planet in the pvp sectors.
 
   Ningues is an ice planet with steep mountains, large plains and hot springs. There is no breathable atmosphere but oxygen can be generated from the snow.
 
