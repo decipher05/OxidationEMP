@@ -26,3 +26,15 @@ AsteroidResources:
     - Name: NeodymiumResource
       Threshold: 0.6
       Amount: 0.5
+
+    - Name: PentaxidResource
+      Threshold: 0.6
+      Amount: 0.5
+
+    - Name: ErestrumResource
+      Threshold: 0.6
+      Amount: 0.5
+
+    - Name: ZascosiumResource
+      Threshold: 0.6
+      Amount: 0.5

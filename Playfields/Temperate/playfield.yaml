@@ -2,34 +2,34 @@
 # Playfield Configuration
 # IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
 # For more detailed explanations of the different parameters, see examples in Empyrion\Content\Playfields\ExamplePlanet and ExampleSpace
-# Please do not use long comments here because in a multiplayer game the yaml file has to be sent from server to client 
+# Please do not use long comments here because in a multiplayer game the yaml file has to be sent from server to client
 
 # Playfield Characteristics
 RealRadius: 1303.797294
-ScaledRadius: 1300  
-Gravity: -8.25                
-AtmosphereDensity: 1.05 
-AtmosphereO2: 0.2 
-AtmosphereBreathable: True 
-TemperatureDay: 35  
-TemperatureNight: 10           
+ScaledRadius: 1300
+Gravity: -8.25
+AtmosphereDensity: 1.05
+AtmosphereO2: 0.2
+AtmosphereBreathable: True
+TemperatureDay: 35
+TemperatureNight: 10
 # Music: desert
 Music: Hyperion
 Radiation: 0
-DayLength: 24   
-PlanetType: Temperate 
-Moons: 1       
-Water: WaterBlue 
-SeaLevel: 23 
-PvP: False 
-#Seed: 123456 
-#UseFixed: False 
+DayLength: 24
+PlanetType: Temperate
+Moons: 1
+Water: WaterBlue
+SeaLevel: 23
+PvP: False
+#Seed: 123456
+#UseFixed: False
 
 # Playfield difficulty
-Difficulty: 2 
+Difficulty: 2
 
 # Planet or Space
-PlayfieldType: Planet 
+PlayfieldType: Planet
 Description: "Difficulty:[c][FFFFFF] Easy[-][/c]    Origin:[c][FFFFFF] %Origin%[-][/c]
 
 
@@ -38,41 +38,41 @@ Description: "Difficulty:[c][FFFFFF] Easy[-][/c]    Origin:[c][FFFFFF] %Origin%[
 
   Start: [c][FFFFFF]Escape Pod[-][/c]"
 
-# Sun 
+# Sun
 SunFlare: EnvironmentalEffects/SunFlareBlue
 
 # Atmosphere and Sky
-AtmosphereEnabled: True  
-AtmosphereColor: "0.19, 0.26, 0.35" 
-SkyColor: "1, 1, 1" 
-SkyHorizonColor: "1, 0.5, 0"  
+AtmosphereEnabled: True
+AtmosphereColor: "0.19, 0.26, 0.35"
+SkyColor: "1, 1, 1"
+SkyHorizonColor: "1, 0.5, 0"
 
 # Light
-DayLightIntensity: 1.4   
-NightLightIntensity: 0.65  
-DayShadowStrength: 0.95  
-NightLightColor: "0.78, 0.78, 1"     # Color of moon light, default is blueish "0.67,0.65,0.99"  
+DayLightIntensity: 1.4
+NightLightIntensity: 0.65
+DayShadowStrength: 0.95
+NightLightColor: "0.78, 0.78, 1"     # Color of moon light, default is blueish "0.67,0.65,0.99"
 
 # Fog
-AtmosphereFog: 0.5  
-FogCloudIntensity: 1  
-FogIntensity: 0.1    
-FogStartDistance: 400 
-GroundFogIntensity: 0  
-GroundFogHeight: 0   
+AtmosphereFog: 0.5
+FogCloudIntensity: 1
+FogIntensity: 0.1
+FogStartDistance: 400
+GroundFogIntensity: 0
+GroundFogHeight: 0
 
 # Clouds
-CloudsDensity: 0.5   
-CloudsSharpness: 0.35  
-CloudsBrightness: 0.7  
-CloudsOpacity: 0.95  
-CloudsZenithColor: "0.87, 0.92, 1" 
-CloudsHorizonColor: "1, 0.3, 0"  
+CloudsDensity: 0.5
+CloudsSharpness: 0.35
+CloudsBrightness: 0.7
+CloudsOpacity: 0.95
+CloudsZenithColor: "0.87, 0.92, 1"
+CloudsHorizonColor: "1, 0.3, 0"
 
 # Wind Speed
-WindSpeed: 3 
+WindSpeed: 3
 
-# Special Effects 
+# Special Effects
 SpecialEffectsLocal:
   - Name: DandelionsFew
     Biome: [ OpenPlains, Water ]
@@ -92,56 +92,56 @@ SpecialEffectsGlobal:
 # Weather
   - Name: Clear
     Type: Weather
-    InitialDelay: 0   
+    InitialDelay: 0
     Delay: 2
     Lifetime: 1200
   - Name: CloudsLight
     Type: Weather
-    InitialDelay: 0   
+    InitialDelay: 0
     Delay: 2
     Lifetime: 1200
   - Name: CloudsMedium
     Type: Weather
-    InitialDelay: 0   
+    InitialDelay: 0
     Delay: 2
     Lifetime: 1200
   - Name: Clouds
     Type: Weather
-    InitialDelay: 10   
+    InitialDelay: 10
     Delay: 5
     Lifetime: 1000
   - Name: Fog
     Type: Weather
-    InitialDelay: 24 
-    Delay: 12   
-    Lifetime: 1000  
+    InitialDelay: 24
+    Delay: 12
+    Lifetime: 1000
   - Name: Wind
     Type: Weather
-    InitialDelay: 24   
+    InitialDelay: 24
     Delay: 12
     Lifetime: 600
   - Name: RainMedium
     Type: Weather
-    InitialDelay: 24   
-    Delay: 12          
-    Lifetime: 600      
+    InitialDelay: 24
+    Delay: 12
+    Lifetime: 600
   - Name: RainHeavy
     Type: Weather
-    InitialDelay: 48  
-    Delay: 24          
-    Lifetime: 600      
+    InitialDelay: 48
+    Delay: 24
+    Lifetime: 600
   - Name: Storm
     Type: Weather
-    InitialDelay: 48   
-    Delay: 24          
-    Lifetime: 600   
+    InitialDelay: 48
+    Delay: 24
+    Lifetime: 600
 # Global Effect
   - Name: BirdFlocksCrows
     Biome: [ OpenPlains, Water, TropicalForest ]
     Time: Day
-    InitialDelay: 1 
-    Delay: 4 
-    Lifetime: 600 
+    InitialDelay: 1
+    Delay: 4
+    Lifetime: 600
     PlyDist: 100
     SpawnY: 30
     Struct: True
@@ -150,7 +150,7 @@ SpecialEffectsGlobal:
 # Terrain and Local Decoration
 Terrain:
     Name: TemperateNew2
-    PoleLevel: 30   
+    PoleLevel: 30
     NoiseStrength: 0.2
     ColorChange:
         YFadeCenter: 80
@@ -392,7 +392,7 @@ Biome:
                  Density: 250
                  YScale: 1.5
                  Preset: "GrassPatches3a"
-   - Altitude: [ 24, 55 ]   # 24 and not 28 to make sure water sound is not played on dry land 
+   - Altitude: [ 24, 55 ]   # 24 and not 28 to make sure water sound is not played on dry land
      Slope: [ 0, 180 ]
      BiomeClusterData:
          - Name: "OpenPlains"
@@ -473,10 +473,10 @@ Biome:
 ### Resource Deposits
 RandomResources:
     - Name: IronResource
-      CountMinMax: [ 7, 10 ]  
-      SizeMinMax: [ 10, 20 ] 
-      DepthMinMax: [ 1, 3 ] 
-      DroneProb: 0.1 
+      CountMinMax: [ 7, 10 ]
+      SizeMinMax: [ 10, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: CobaltResource
@@ -556,18 +556,18 @@ AsteroidResources:
 
 ### POIs
 POIs:
-    Random:          
+    Random:
         - GroupName: DroneBaseAkua
           DroneBaseSetup: DroneBaseSetup
           CountMinMax: [ 1, 1 ]
-          DroneProb: 1  
-          DronesMinMax: [ 2, 3 ]  
-          ReserveCount: 3    
-          Properties: 
+          DroneProb: 1
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 3
+          Properties:
             - Key: Music
-              Value: DarkSoundscape    
+              Value: DarkSoundscape
             - Key: RegenAfter
-              Value: 240       
+              Value: 240
 
         # Spawn TS Akua and close to it some weakly defended civil settlements
         - GroupName: TS_Akua
@@ -575,12 +575,12 @@ POIs:
           DroneProb: 0
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
-          TroopTransport: False      
-          SpawnPOIAvoid: [DroneBaseAkua]  
-          POIDistance: 1000   
+          TroopTransport: False
+          SpawnPOIAvoid: [DroneBaseAkua]
+          POIDistance: 1000
           SpawnResource: ["PromethiumResource:0-2"]
-          ResourceDistance: 300  
-          Properties: 
+          ResourceDistance: 300
+          Properties:
             - Key: Music
               Value: SunnySkies
 
@@ -590,55 +590,55 @@ POIs:
           DroneProb: 0.1
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
-          TroopTransport: False  
+          TroopTransport: False
           SpawnPOIAvoid: [TS_Akua]
-          POIDistance: 1300 
+          POIDistance: 1300
           SpawnResource: ["IronResource:0-2","CobaltResource:0-2","MagnesiumResource:0-1"]
-          ResourceDistance: 300 
-          Properties: 
+          ResourceDistance: 300
+          Properties:
             - Key: Music
-              Value: DarkSoundscape     
+              Value: DarkSoundscape
             - Key: RegenAfter
-              Value: 240              
+              Value: 240
 
         # Weakly defended Civil Settlements close to TS Akua
         - GroupName: CivilSettlementO2
           CountMinMax: [ 2, 4 ]
-          DroneProb: 0.5 
+          DroneProb: 0.5
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 2
-          TroopTransport: True    
+          TroopTransport: True
           SpawnPOINear: [TS_Akua]
           POIDistance: 500
-          Properties: 
+          Properties:
             - Key: RegenAfter
-              Value: 240           
+              Value: 240
 
         # Spawn strong defended civil settlements randomly
         - GroupName: CivilSettlement
           CountMinMax: [ 2, 3 ]
-          DroneProb: 0.9 
+          DroneProb: 0.9
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 2
-          TroopTransport: True  
-          Properties: 
+          TroopTransport: True
+          Properties:
             - Key: RegenAfter
-              Value: 240             
+              Value: 240
 
         # Tribal villages close to Abandoned Mine
         - GroupName: TribalVillage
           CountMinMax: [ 2, 4 ]
-          DroneProb: 0.8 
+          DroneProb: 0.8
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 0
-          TroopTransport: False 
+          TroopTransport: False
           SpawnPOINear: [AbandonedMine]
-          POIDistance: 500 
-          Properties: 
+          POIDistance: 500
+          Properties:
             - Key: RegenAfter
-              Value: 240        
+              Value: 240
 
-        # Spawn crashed Talos 
+        # Spawn crashed Talos
         - GroupName: CrashedTalosMid      # Do not use regeneration with burried POIs
           CountMinMax: [ 1, 1 ]
           DroneProb: 0.8
@@ -662,57 +662,57 @@ POIs:
           ReserveCount: 3
           TroopTransport: False
           SpawnPOINear: [CrashedTalosFront]
-          POIDistance: 1000 
+          POIDistance: 1000
 
-        # Spawn military POIs close to Drone Base 
+        # Spawn military POIs close to Drone Base
         - GroupName: EpsilonTierI
-          CountMinMax: [ 2, 3 ]         
-          DroneProb: 1.0                
-          DronesMinMax: [ 1, 2 ]        
+          CountMinMax: [ 2, 3 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
-          TroopTransport: True 
+          TroopTransport: True
           SpawnPOINear: [DroneBaseAkua]
           SpawnPOIAvoid: [TS_Akua]
-          POIDistance: 600 
+          POIDistance: 600
           SpawnResource: ["PromethiumResource:0-1"]
           ResourceDistance: 300
-          Properties: 
+          Properties:
             - Key: RegenAfter
-              Value: 240             
+              Value: 240
 
         # Spawn military POIs randomly
         - GroupName: EpsilonTierI
-          CountMinMax: [ 2, 4 ]         
-          DroneProb: 1.0                
-          DronesMinMax: [ 1, 2 ]        
+          CountMinMax: [ 2, 4 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
-          TroopTransport: True 
+          TroopTransport: True
           SpawnPOIAvoid: [TS_Akua]
-          POIDistance: 1000 
-          Properties: 
+          POIDistance: 1000
+          Properties:
             - Key: RegenAfter
-              Value: 240             
+              Value: 240
 
     FixedPlayerStart:
         - Mode: Survival
           Spawn: EscapePod
           Armor: ArmorLight
           Items: [ "Pistol, 50Caliber:500, Medikit02:5, AntidotePills:5, AutoMiningDeviceT1:5, WaterBottle:2, DrillCharge:10, EmergencyRations:5, DrillT2, Chainsaw, BioFuel:3, ConstructorSurvival, EnergyCell:10, OxygenGeneratorSmall, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, EVABoost, PlayerBikeKit, PromethiumPellets:200, IronIngot:100, CopperIngot:100, CobaltIngot:100, SiliconIngot:100", "#FreshStart: DrillT2, DrillCharge:5, Chainsaw, BioFuel:5, ConstructorSurvival" ]
-          
+
           ### Drones
 DroneBaseSetup:
     Random:
         - GroupName: DroneBaseSetup
-          DronesMinMax: [ 2, 3 ]        
-          ReserveCount: 3               
-          DroneProb: 1.0                
-          Difficulty: 5                 
-          PresetStyle: 2                
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 3
+          DroneProb: 1.0
+          Difficulty: 5
+          PresetStyle: 2
           # BaseAttack: DroneSmallAttackBase
           Stock:
-              - Name: DroneSmallFast01Rocket  
-                Amount: 100                   
-                Extra: 0                      
+              - Name: DroneSmallFast01Rocket
+                Amount: 100
+                Extra: 0
 
               - Name: DroneSmallFast01Minigun
                 Amount: 300
@@ -722,9 +722,9 @@ DroneBaseSetup:
                 Amount: 200
                 Extra: 0
 
-              - Name: DroneSmallAttackBase   
+              - Name: DroneSmallAttackBase
                 Amount: Infinite
-                Extra: 1                 
+                Extra: 1
 
               - Name: DroneTroopsTransport
                 Amount: Infinite
@@ -746,12 +746,12 @@ DroneBaseSetup:
                 Amount: 300
                 Extra: 3
 
-# Patrol drones on whole planet 
+# Patrol drones on whole planet
 # Type determined by stock of drone base
 DroneSpawning:
     Random:
-        - DronesMinMax: [ 5, 10 ]    
-          CenterX: -2500             
+        - DronesMinMax: [ 5, 10 ]
+          CenterX: -2500
 
         - DronesMinMax: [ 5, 10 ]
           CenterX: 2500
@@ -761,7 +761,7 @@ CreatureSpawning:
     - Biome: Water
       Entities:
         - Name: Slimes
-          Period: Day             
+          Period: Day
           Amount: 4
           Delay: 0
           RestrictYMinMax: [ 0, 40 ]

@@ -460,85 +460,37 @@ RandomResources:
       DroneProb: 0.3
       MaxDroneCount: 1
 
-RandomResources:
-    - Name: IronResource
-      CountMinMax: [ 10, 10 ]
-      SizeMinMax: [ 15, 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.1
-      MaxDroneCount: 1
 
-    - Name: CobaltResource
-      CountMinMax: [ 10, 10 ]
-      SizeMinMax: [ 15 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.1
-      MaxDroneCount: 1
-
-    - Name: CopperResource
-      CountMinMax: [ 10, 10 ]
-      SizeMinMax: [ 15, 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.1
-      MaxDroneCount: 1
-
-    - Name: SiliconResource
-      CountMinMax: [ 10, 10 ]
-      SizeMinMax: [ 15, 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.1
-      MaxDroneCount: 1
-
-    - Name: PromethiumResource
-      CountMinMax: [ 10, 10 ]
-      SizeMinMax: [ 15, 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.2
-      MaxDroneCount: 1
-
-    - Name: MagnesiumResource
-      CountMinMax: [ 10, 10 ]
-      SizeMinMax: [ 15, 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.1
-      MaxDroneCount: 1
-
-    - Name: NeodymiumResource
-      CountMinMax: [ 10, 10 ]
-      SizeMinMax: [ 15, 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.3
-      MaxDroneCount: 1
 
 ### Resource Asteroids
 AsteroidResources:
     - Name: IronResource
       Threshold: 0.6
-          Amount: 0.5
+      Amount: 0.5
 
     - Name: CobaltResource
       Threshold: 0.6
-          Amount: 0.4
+      Amount: 0.5
 
     - Name: CopperResource
       Threshold: 0.6
-          Amount: 0.4
+      Amount: 0.5
 
     - Name: SiliconResource
       Threshold: 0.6
-          Amount: 0.4
+      Amount: 0.5
 
     - Name: PromethiumResource
       Threshold: 0.6
-          Amount: 0.4
+      Amount: 0.5
 
     - Name: MagnesiumResource
       Threshold: 0.6
-          Amount: 0.3
+      Amount: 0.5
 
     - Name: NeodymiumResource
       Threshold: 0.6
-          Amount: 0.3
+      Amount: 0.5
 
 
 ### POIs
@@ -556,7 +508,7 @@ POIs:
             - Key: Music
               Value: moonstone
             - Key: RegenAfter
-              Value: 720
+              Value: 240
 
         - GroupName: PlanetVesselBase
           PlanetVesselBaseSetup: PlanetVesselBaseSetup
