@@ -18,7 +18,7 @@ Music: alien
 Radiation: 8.2
 DayLength: 24                       # No functionality yet
 PlanetType: Alien                   # No functionality yet
-Moons: 0                            # No functionality yet
+Moons: 1                            # No functionality yet
 Water: WaterBrown                   # WaterBlue, WaterGreen, WaterBrown
 SeaLevel: 50                        # Sea level of planet
 PvP: False                           # Set to True to allow PvP in this playfield, default is False
@@ -370,103 +370,9 @@ Biome:
 
 
 ### POIs
-POIs:
-    Random:
-        - GroupName: XenuFortressP1
-          DroneBaseSetup: DroneBaseSetup
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 4, 5 ]
-          ReserveCount: 6
-          #SpawnResource: ["ZascosiumResource:2-3","PromethiumResource:1-3"]
-          #ResourceDistance: 300
-          Properties:
-            - Key: Music
-              Value: moonstone
-            - Key: RegenAfter
-              Value: 240
-            - Key: PersonalContainer
-              Value:  "AutoMinerCore:5, Core"
+#POIs:
 
 
-        - GroupName: PlanetVesselBase
-          PlanetVesselBaseSetup: PlanetVesselBaseSetup
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 3
-          Properties:
-            - Key: RegenAfter
-              Value: 240
-            - Key: PersonalContainer
-              Value:  "AutoMinerCore:2, Core"
-
-        - GroupName: GhostRiderBiolab
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 4
-          TroopTransport: True
-          SpawnPOINear: [PlanetVesselBase]
-          POIDistance: 600
-          Properties:
-            - Key: Music
-              Value: DarkSoundscape
-            - Key: RegenAfter
-              Value: 240
-            - Key: PersonalContainer
-              Value:  "AutoMinerCore:5, Core"
-
-
-        - GroupName: XenuWeaponBunker
-          CountMinMax: [ 4, 4 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 4
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 240
-            - Key: PersonalContainer
-              Value:  "AutoMinerCore:5, Core"
-
-        - GroupName: AbandonedFactory
-          CountMinMax: [ 2, 2 ]
-          DroneProb: 0.8
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 240
-            - Key: PersonalContainer
-              Value:  "AutoMinerCore:5, Core"
-
-        - GroupName: GhostTierII
-          CountMinMax: [ 1, 2 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          SpawnPOINear: [XenuWeaponBunker]
-          POIDistance: 500
-          Properties:
-            - Key: RegenAfter
-              Value: 240
-            - Key: PersonalContainer
-              Value:  "AutoMinerCore:1, Core"
-
-        - GroupName: GhostTierII
-          CountMinMax: [ 2, 4 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 240
-            - Key: PersonalContainer
-              Value:  "AutoMinerCore:2, Core"
 
     FixedPlayerStart:
         - Mode: Debug
@@ -580,10 +486,7 @@ CreatureSpawning:
           Period: Always
           Amount: 2
           Delay: 0
-        - Name: Overseers
-          Period: Always
-          Amount: 2
-          Delay: 0
+
 
     - Biome: AlienForest
       Entities:
@@ -619,10 +522,7 @@ CreatureSpawning:
           Period: Always
           Amount: 2
           Delay: 0
-        - Name: Overseers
-          Period: Always
-          Amount: 2
-          Delay: 0
+
 
     - Biome: AlienSavanna
       Entities:
@@ -658,10 +558,7 @@ CreatureSpawning:
           Period: Always
           Amount: 2
           Delay: 0
-        - Name: Overseers
-          Period: Always
-          Amount: 2
-          Delay: 0
+
 
     - Biome: Mountains
       Entities:
@@ -694,10 +591,6 @@ CreatureSpawning:
             Amount: 5
             Delay: 0
           - Name: AlienBugs03
-            Period: Always
-            Amount: 2
-            Delay: 0
-          - Name: Overseers
             Period: Always
             Amount: 2
             Delay: 0
