@@ -13,9 +13,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 74
+  - 27
   - 159
-  - 167
+  - 228
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -38,9 +38,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 401
+  - 567
   - -179
-  - -273
+  - -354
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -63,9 +63,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 95
+  - 49
   - -164
-  - -275
+  - -356
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -88,9 +88,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 371
+  - 519
   - 159
-  - 161
+  - 222
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -113,9 +113,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 156
-  - 0
-  - 69
+  - 108
+  - 82
+  - 90
   Color: 0, 0, 0
   Icon: Hexagon
   Playfields:
@@ -130,3 +130,45 @@ Sectors:
   Allow: []
   Deny:
   - Akua Orbit
+- Coordinates:
+  - 462
+  - -94
+  - -243
+  Color: 0, 0.5, 1.0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Syndicate Orbit
+    - Faction-Syndicate-Space-Masperon
+    - ''
+  Allow: []
+  Deny:
+  - Masperon Orbit
+- Coordinates:
+  - 441
+  - 0
+  - 91
+  Color: 0, 0.5, 1.0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Empire Orbit
+    - Faction-Empire-Space-Omicron
+    - ''
+  Allow: []
+  Deny:
+  - Omicron Orbit
+- Coordinates:
+  - 123
+  - 0
+  - -254
+  Color: 0, 0.5, 1.0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Republic Orbit
+    - Faction-Republic-Space-Ningues
+    - ''
+  Allow: []
+  Deny:
+  - Ningues Orbit

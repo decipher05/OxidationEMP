@@ -749,7 +749,7 @@ CreatureSpawning:
       Entities:
         - Name: CaveWormsGreen
           Period: Night
-          Amount: 5
+          Amount: 3
           Delay: 0
           RestrictYMinMax: [ 30, 100 ]
 
@@ -757,17 +757,17 @@ CreatureSpawning:
       Entities:
         - Name: CaveWormGreyHerd
           Period: Day
-          Amount: 5
+          Amount: 3
           Delay: 0
           RestrictYMinMax: [ 30, 100 ]
         - Name: Spiders02
           Period: Night
-          Amount: 6
+          Amount: 3
           Delay: 0
           RestrictYMinMax: [ 30, 100 ]
         - Name: Otyughs
           Period: Night
-          Amount: 5
+          Amount: 3
           Delay: 0
           RestrictYMinMax: [ 30, 100 ]
 
@@ -775,21 +775,21 @@ CreatureSpawning:
       Entities:
         - Name: AlienAssassinGreys
           Period: Night
-          Amount: 6
+          Amount: 3
           Delay: 0
           RestrictYMinMax: [ 30, 100 ]
         - Name: GolemsDesert
           Period: Night
-          Amount: 6
+          Amount: 3
           Delay: 0
           RestrictYMinMax: [ 30, 100 ]
         - Name: WormDesertHerd
           Period: Day
-          Amount: 8
+          Amount: 3
           Delay: 0
           RestrictYMinMax: [ 30, 100 ]
         - Name: Spiders02
           Period: Day
-          Amount: 6
+          Amount: 3
           Delay: 0
           RestrictYMinMax: [ 30, 100 ]

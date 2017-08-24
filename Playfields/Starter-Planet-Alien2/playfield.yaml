@@ -691,50 +691,50 @@ CreatureSpawning:
       Entities:
         - Name: Slimes
           Period: Always
-          Amount: 4
+          Amount: 3
           Delay: 0
         - Name: AlienAssassinReds
           Period: Always
-          Amount: 5
+          Amount: 3
           Delay: 0
         - Name: Spiders03
           Period: Night
-          Amount: 5
+          Amount: 3
           Delay: 0
         - Name: Spinosauruses
           Period: Day
-          Amount: 5
+          Amount: 3
           Delay: 0
 
     - Biome: AlienForest
       Entities:
         - Name: AlienBugs03
           Period: Day
-          Amount: 5
+          Amount: 3
           Delay: 0
         - Name: Spiders03
           Period: Night
-          Amount: 5
+          Amount: 3
           Delay: 0
 
     - Biome: AlienSavanna
       Entities:
         - Name: AlienBugs02
           Period: Day
-          Amount: 5
+          Amount: 3
           Delay: 0
         - Name: Overseers
           Period: Night
-          Amount: 5
+          Amount: 3
           Delay: 0
         - Name: Spiders01
           Period: Day
-          Amount: 5
+          Amount: 3
           Delay: 0
 
     - Biome: Mountains
       Entities:
         - Name: Spiders01
           Period: Always
-          Amount: 5
+          Amount: 3
           Delay: 0

@@ -32,7 +32,7 @@ Difficulty: 2
 PlayfieldType: Planet
 Description: "Difficulty:[c][FFFFFF] Easy[-][/c]    Origin:[c][FFFFFF] %Origin%[-][/c]
 
-  This is a PVP Faction and this Origin primarily lives on this type of planet in the pvp sectors. 
+  This is a PVP Faction and this Origin primarily lives on this type of planet in the pvp sectors.
 
   Akua is a temperate planet with vast oceans, volcanic islands and large continents with mountain ranges. It has a breathable atmosphere. The average temperature is 23°C and gravity amounts to 0.84g.
 
@@ -767,12 +767,12 @@ CreatureSpawning:
       Entities:
         - Name: Slimes
           Period: Day
-          Amount: 5
+          Amount: 3
           Delay: 0
 
         - Name: PlantMonsters
           Period: Night
-          Amount: 5
+          Amount: 3
           Delay: 0
 
 
@@ -780,27 +780,27 @@ CreatureSpawning:
       Entities:
         - Name: Hexapods
           Period: Night
-          Amount: 5
+          Amount: 3
           Delay: 0
 
         - Name: Spiders01
           Period: Night
-          Amount: 5
+          Amount: 3
           Delay: 0
 
         - Name: Triceratopses
           Period: Day
-          Amount: 5
+          Amount: 3
           Delay: 0
 
         - Name: TalonGuardianHerd
           Period: Always
-          Amount: 5
+          Amount: 3
           Delay: 0
 
         - Name: PlantMonsters
           Period: Night
-          Amount: 5
+          Amount: 3
           Delay: 0
 
 
@@ -808,30 +808,30 @@ CreatureSpawning:
       Entities:
         - Name: LizardMuleHerd
           Period: Day
-          Amount: 5
+          Amount: 3
           Delay: 0
 
         - Name: RaptorHerd
           Period: Day
-          Amount: 5
+          Amount: 3
           Delay: 0
 
         - Name: RaptorsNight
           Period: Night
-          Amount: 5
+          Amount: 3
           Delay: 0
 
         - Name: TalonGuardianHerd
           Period: Night
-          Amount: 5
+          Amount: 3
           Delay: 0
 
         - Name: PlantMonsters
           Period: Night
-          Amount: 5
+          Amount: 3
           Delay: 0
 
         - Name: AlienBugs01
           Period: Night
-          Amount: 5
+          Amount: 3
           Delay: 0

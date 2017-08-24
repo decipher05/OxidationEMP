@@ -642,73 +642,73 @@ CreatureSpawning:
       Entities:
         - Name: ParasaurHerd
           Period: Day              #  Night / Day / Always
-          Amount: 5
+          Amount: 3
           Delay: 0
         - Name: Oviraptors
           Period: Always
-          Amount: 6
+          Amount: 3
           Delay: 0
         - Name: CaveWormsWhite
           Period: Night
-          Amount: 5
+          Amount: 3
           Delay: 0
 
     - Biome: ArcticForest
       Entities:
         - Name: CaveWormsWhite
           Period: Always
-          Amount: 6
+          Amount: 3
           Delay: 0
         - Name: Spiders01
           Period: Night
-          Amount: 6
+          Amount: 3
           Delay: 0
 
     - Biome: ArcticIntermediatePlains
       Entities:
         - Name: GolemsIce
           Period: Day
-          Amount: 6
+          Amount: 3
           Delay: 0
         - Name: Oviraptors
           Period: Always
-          Amount: 6
+          Amount: 3
           Delay: 0
         - Name: CaveWormsWhite
           Period: Night
-          Amount: 6
+          Amount: 3
           Delay: 0
         - Name: LizardMuleHerd
           Period: Day
-          Amount: 6
+          Amount: 3
           Delay: 0
 
     - Biome: ArcticHighPlains
       Entities:
         - Name: GolemsIce
           Period: Day
-          Amount: 6
+          Amount: 3
           Delay: 0
         - Name: Oviraptors
           Period: Always
-          Amount: 6
+          Amount: 3
           Delay: 0
         - Name: CaveWormsWhite
           Period: Night
-          Amount: 6
+          Amount: 3
           Delay: 0
         - Name: LizardMuleHerd
           Period: Day
-          Amount: 4
+          Amount: 3
           Delay: 0
 
     - Biome: ArcticHighForest
       Entities:
         - Name: GolemsIce
           Period: Night
-          Amount: 6
+          Amount: 3
           Delay: 0
         - Name: Spiders03
           Period: Always
-          Amount: 6
+          Amount: 3
           Delay: 0
