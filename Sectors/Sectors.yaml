@@ -116,7 +116,7 @@ Sectors:
   - 48
   - 82
   - 337
-  Color: 0, 0.5, 1.0
+  Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -134,7 +134,7 @@ Sectors:
   - 733
   - -94
   - -527
-  Color: 0, 0.5, 1.0
+  Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -152,7 +152,7 @@ Sectors:
   - 640
   - 74
   - 345
-  Color: 0, 0.5, 1.0
+  Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -170,7 +170,7 @@ Sectors:
   - 55
   - -100
   - -554
-  Color: 0, 0.5, 1.0
+  Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -188,7 +188,7 @@ Sectors:
   - 311
   - 0
   - -6
-  Color: 0.4, 1.0, 0
+  Color: 0.4, 1, 0
   Icon: Pentagon
   Playfields:
   - - 0, 0, 0
