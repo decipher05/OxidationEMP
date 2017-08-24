@@ -13,9 +13,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 27
+  - 49
   - 159
-  - 228
+  - 217
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -38,9 +38,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 567
+  - 573
   - -179
-  - -354
+  - -382
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -63,9 +63,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 49
+  - 60
   - -164
-  - -356
+  - -378
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -88,9 +88,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 519
+  - 542
   - 159
-  - 222
+  - 191
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -113,9 +113,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 108
+  - 142
   - 82
-  - 90
+  - 88
   Color: 0, 0, 0
   Icon: Hexagon
   Playfields:
@@ -131,9 +131,9 @@ Sectors:
   Deny:
   - Akua Orbit
 - Coordinates:
-  - 462
+  - 437
   - -94
-  - -243
+  - -240
   Color: 0, 0.5, 1.0
   Icon: Hexagon
   Playfields:
@@ -145,9 +145,9 @@ Sectors:
   Deny:
   - Masperon Orbit
 - Coordinates:
-  - 441
+  - 430
   - 0
-  - 91
+  - 86
   Color: 0, 0.5, 1.0
   Icon: Hexagon
   Playfields:
@@ -155,13 +155,17 @@ Sectors:
     - Empire Orbit
     - Faction-Empire-Space-Omicron
     - ''
+  - - 0, 0, 0
+    - Vulca
+    - Faction-Empire-Planet-Vulca
+    - ''
   Allow: []
   Deny:
   - Omicron Orbit
 - Coordinates:
-  - 123
+  - 150
   - 0
-  - -254
+  - -243
   Color: 0, 0.5, 1.0
   Icon: Hexagon
   Playfields:
@@ -172,3 +176,20 @@ Sectors:
   Allow: []
   Deny:
   - Ningues Orbit
+- Coordinates:
+  - 293
+  - 0
+  - -71
+  Color: 0.4, 1.0, 0
+  Icon: Pentagon
+  Playfields:
+  - - 0, 0, 0
+    - FFA Orbit
+    - Core-Space-AsteroidRing
+    - ''
+  - - 0, 0, 0
+    - Tabrore
+    - Core-Planet-Cold Inferno
+    - ''
+  Allow: []
+  Deny: []
