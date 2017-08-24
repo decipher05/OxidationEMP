@@ -13,9 +13,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 49
+  - -7
   - 159
-  - 217
+  - 404
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -38,9 +38,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 573
+  - 790
   - -179
-  - -382
+  - -615
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -63,9 +63,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 60
+  - -8
   - -164
-  - -378
+  - -601
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -88,9 +88,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 542
+  - 709
   - 159
-  - 191
+  - 413
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -113,83 +113,87 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 142
+  - 48
   - 82
-  - 88
-  Color: 0, 0, 0
+  - 337
+  Color: 0, 0.5, 1.0
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
-    - Federation Orbit
-    - Faction-Federation-Space-RingAkua
+    - Waskion Orbit
+    - Faction-Space-RingAkua
     - ''
   - - 0, 0, 0
     - Waskion
-    - Faction-Federation-Planet-Ocean
+    - Faction-Planet-Ocean
     - ''
   Allow: []
   Deny:
   - Akua Orbit
 - Coordinates:
-  - 437
+  - 733
   - -94
-  - -240
+  - -527
   Color: 0, 0.5, 1.0
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
-    - Syndicate Orbit
-    - Faction-Syndicate-Space-Masperon
+    - Icarus Orbit
+    - Faction-Space-Masperon
+    - ''
+  - - 0, 0, 0
+    - Icarus
+    - Faction-Planet-Icarus
     - ''
   Allow: []
   Deny:
   - Masperon Orbit
 - Coordinates:
-  - 430
-  - 0
-  - 86
+  - 640
+  - 74
+  - 345
   Color: 0, 0.5, 1.0
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
-    - Empire Orbit
-    - Faction-Empire-Space-Omicron
+    - Vulca Orbit
+    - Faction-Space-Omicron
     - ''
   - - 0, 0, 0
     - Vulca
-    - Faction-Empire-Planet-Vulca
+    - Faction-Planet-Vulca
     - ''
   Allow: []
   Deny:
   - Omicron Orbit
 - Coordinates:
-  - 150
-  - 0
-  - -243
+  - 55
+  - -100
+  - -554
   Color: 0, 0.5, 1.0
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
-    - Republic Orbit
-    - Faction-Republic-Space-Ningues
+    - Ioflorth Orbit
+    - Faction-Space-Ningues
+    - ''
+  - - 0, 0, 0
+    - Ioflorth
+    - Faction-Planet-Icarus
     - ''
   Allow: []
   Deny:
   - Ningues Orbit
 - Coordinates:
-  - 293
+  - 311
   - 0
-  - -71
+  - -6
   Color: 0.4, 1.0, 0
   Icon: Pentagon
   Playfields:
   - - 0, 0, 0
     - FFA Orbit
-    - Core-Space-AsteroidRing
-    - ''
-  - - 0, 0, 0
-    - Tabrore
-    - Core-Planet-Cold Inferno
+    - Core-Space-AsteroidField
     - ''
   Allow: []
   Deny: []
