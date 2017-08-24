@@ -14,13 +14,13 @@ Sectors:
   Deny: []
 - Coordinates:
   - -7
-  - 159
+  - 237
   - 404
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
   - - 0, 0, 0
-    - Akua Orbit
+    - Akua System
     - Starter-Space-Akua
     - ''
   - - 0, 0, 0
@@ -45,7 +45,7 @@ Sectors:
   Icon: Circle
   Playfields:
   - - 0, 0, 0
-    - Masperon Orbit
+    - Masperon System
     - Starter-Space-Masperon
     - ''
   - - 0, 0, 0
@@ -70,7 +70,7 @@ Sectors:
   Icon: Circle
   Playfields:
   - - 0, 0, 0
-    - Ningues Orbit
+    - Ningues System
     - Starter-Space-Ningues
     - ''
   - - 0, 0, 0
@@ -95,7 +95,7 @@ Sectors:
   Icon: Circle
   Playfields:
   - - 0, 0, 0
-    - Omicron Orbit
+    - Omicron System
     - Starter-Space-Omicron
     - ''
   - - 0, 0, 0
@@ -113,14 +113,14 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 48
-  - 82
+  - 37
+  - 111
   - 337
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
-    - Waskion Orbit
+    - Waskion System
     - Faction-Space-RingAkua
     - ''
   - - 0, 0, 0
@@ -134,11 +134,11 @@ Sectors:
   - 733
   - -94
   - -527
-  Color: 0, 0.5, 1
+  Color: 0.8, 1.0, 0.0
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
-    - Icarus Orbit
+    - Icarus System
     - Faction-Space-Masperon
     - ''
   - - 0, 0, 0
@@ -152,11 +152,11 @@ Sectors:
   - 640
   - 74
   - 345
-  Color: 0, 0.5, 1
+  Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
-    - Vulca Orbit
+    - Vulca System
     - Faction-Space-Omicron
     - ''
   - - 0, 0, 0
@@ -170,11 +170,11 @@ Sectors:
   - 55
   - -100
   - -554
-  Color: 0, 0.5, 1
+  Color: 0.97, 0.96, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
-    - Ioflorth Orbit
+    - Ioflorth System
     - Faction-Space-Ningues
     - ''
   - - 0, 0, 0
@@ -192,8 +192,64 @@ Sectors:
   Icon: Pentagon
   Playfields:
   - - 0, 0, 0
-    - FFA Orbit
+    - FFA System
     - Core-Space-AsteroidField
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 112
+  - 187
+  - 520
+  Color: 0, 0.5, 1.0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Ioslao System
+    - Faction-Space-SpaceAsteroidsOscutune
+    - ''
+  Allow: []
+  Deny:
+  - Akua System
+  - Huoxi System
+- Coordinates:
+  - -99
+  - 54
+  - 282
+  Color: 0.0, 0.5, 1.0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Dalos System
+    - Faction-Space-SpaceAsteroidFieldRingAitis
+    - ''
+  Allow: []
+  Deny:
+  - Akua System
+- Coordinates:
+  - 200
+  - 100
+  - 450
+  Color: 0, 0.5, 1.0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Huoxi System
+    - Faction-Space-SpaceAsteroidsFewSkillon
+    - ''
+  Allow: []
+  Deny:
+  - Ioslao System
+- Coordinates:
+  - 148
+  - 29
+  - 171
+  Color: 0, 0.5, 1.0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Elendil System
+    - Faction-Space-SpaceAsteroidField
     - ''
   Allow: []
   Deny: []
