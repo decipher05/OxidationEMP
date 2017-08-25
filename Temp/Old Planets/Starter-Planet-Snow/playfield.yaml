@@ -10,7 +10,7 @@ ScaledRadius: 1300                  # Please don't change
 Gravity: -5.3                       # Gravity on planet
 AtmosphereDensity: 1.387            # Please don't change
 AtmosphereO2: 0.08                  # Oxygen level of atmosphere
-AtmosphereBreathable: False         # If player can breathe without helmet
+AtmosphereBreathable: True         # If player can breathe without helmet
 Temperature: -38                    # No functionality yet
 TemperatureDay: 0                   # No functionality yet
 TemperatureNight: -25               # No functionality yet

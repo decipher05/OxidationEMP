@@ -1,0 +1,188 @@
+POIs:
+    Random:
+        - GroupName: XenuFortressP1
+          DroneBaseSetup: DroneBaseSetup
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 4, 5 ]
+          ReserveCount: 6
+          Properties:
+            - Key: Music
+              Value: moonstone
+            - Key: RegenAfter
+              Value: 360
+
+
+
+        - GroupName: PlanetVesselBase
+          PlanetVesselBaseSetup: PlanetVesselBaseSetup
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 3
+          Properties:
+            - Key: RegenAfter
+              Value: 360
+
+          PlanetVesselBase:
+              Name: PlanetVesselBaseSetup
+              Position3D: [ 0, 102, 0]
+              BaseType: PlanetVesselBase
+              KeyId: 0                  # Unique Key Id
+              PlanetVessel:
+                - Name: Patrol-XS-Hard           # GroupName
+                  Mission: PlanetPatrol
+                  FixedMaxSpeed: 10          # Max speed of a freighter in m/sec
+                  RangePatrolCenter: [ -1500, 0 ]
+                  RangePatrolRadius: 800
+                  RangePatrolAltitude: 60
+                  RangePatrolAltitude: 24
+
+
+        - GroupName: GhostRiderBiolab
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 4
+          TroopTransport: True
+          SpawnPOINear: [PlanetVesselBase]
+          POIDistance: 600
+          Properties:
+            - Key: Music
+              Value: DarkSoundscape
+            - Key: RegenAfter
+              Value: 240
+
+        - GroupName: XenuAdvArmory
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 4
+          TroopTransport: True
+          SpawnPOINear: [PlanetVesselBase]
+          POIDistance: 600
+          Properties:
+            - Key: Music
+              Value: DarkSoundscape
+            - Key: RegenAfter
+              Value: 240
+
+        - GroupName: XenuWeaponBunker
+          CountMinMax: [ 2, 4 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 4
+          TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 240
+
+
+        - GroupName: AbandonedFactory
+          CountMinMax: [ 1, 3 ]
+          DroneProb: 0.8
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 240
+
+        - GroupName: AbandonedMine
+          CountMinMax: [ 1, 3 ]
+          DroneProb: 0.1
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          Properties:
+            - Key: RegenAfter
+              Value: 240
+
+
+        - GroupName: GhostTierII
+          CountMinMax: [ 1, 3 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          SpawnPOINear: [XenuWeaponBunker]
+          POIDistance: 500
+          Properties:
+            - Key: RegenAfter
+              Value: 240
+
+
+        - GroupName: GhostTierII
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 240
+
+        - GroupName: EpsilonAdvComCenter
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 240
+
+        - GroupName: EpsilonAdvFortress
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 240
+
+        - GroupName: EpsilonAdvOutpost
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 240
+
+        - GroupName: EpsilonSpaceport
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 240
+
+        - GroupName: EpsilonDroneFactory
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 240
+
+        - GroupName: EpsilonFactory
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 240
+
+    FixedPlayerStart:
+        - Mode: Debug
+          Pos: [ -420, 90, -15 ]
+          RotY: -180

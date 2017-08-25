@@ -530,6 +530,9 @@ POIs:
           DronesMinMax: [ 1, 2 ]        # Range of number of drones that defend POI
           ReserveCount: 3               # Number of drones that will be replaced when destroyed
           TroopTransport: True          # If troop transport will be sent
+          Properties:
+            - Key: RegenAfter
+              Value: 1440
 
         - GroupName: DroneBaseAestus
           DroneBaseSetup: DroneBaseSetup
@@ -579,6 +582,9 @@ POIs:
           DronesMinMax: [ 2, 3 ]
           ReserveCount: 4
           TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 1440
 
         - GroupName: CivilSettlement
           CountMinMax: [ 2, 3 ]

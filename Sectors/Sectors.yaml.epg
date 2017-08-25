@@ -45,20 +45,24 @@ Sectors:
   Icon: Circle
   Playfields:
   - - 0, 0, 0
-    - Masperon System
-    - Starter-Space-Masperon
+    - Vinci System
+    - Starter-Space-Akua
     - ''
   - - 0, 0, 0
-    - Masperon
-    - Starter-Planet-Alien2
+    - Vinci
+    - Starter-Planet-Temperate
     - Syndicate:3
   - - -980, 6200, 5114
-    - Masperon Moon
-    - Starter-Moon-Masperon
+    - Vinci Moon
+    - Starter-Moon-Akua
     - ''
   - - 5052, -4207, -2669
     - Coihines
-    - Starter-POI-Masperon
+    - Starter-POI-Akua
+    - ''
+  - - 0, 0, 0
+    - ''
+    - ''
     - ''
   Allow: []
   Deny: []
@@ -70,20 +74,20 @@ Sectors:
   Icon: Circle
   Playfields:
   - - 0, 0, 0
-    - Ningues System
-    - Starter-Space-Ningues
+    - Draenor System
+    - Starter-Space-Akua
     - ''
   - - 0, 0, 0
-    - Ningues
-    - Starter-Planet-Snow
+    - Draenor
+    - Starter-Planet-Temperate
     - Republic:2
   - - -887, 4933, -8732
-    - Ningues Moon
-    - Starter-Moon-Ningues
+    - Draenor Moon
+    - Starter-Moon-Akua
     - ''
   - - 4058, -5836, 7648
     - Tietov
-    - Starter-POI-Ningues
+    - Starter-Space-Akua
     - ''
   Allow: []
   Deny: []
@@ -95,20 +99,20 @@ Sectors:
   Icon: Circle
   Playfields:
   - - 0, 0, 0
-    - Omicron System
-    - Starter-Space-Omicron
+    - Eonus  System
+    - Starter-Space-Akua
     - ''
   - - 0, 0, 0
-    - Omicron
-    - Starter-Planet-Desert
+    - Eonus
+    - Starter-Planet-Snow
     - Empire:4
   - - -4158, -7284, 6472
-    - Omicron Moon
-    - Starter-Moon-Omicron
+    - Eonus Moon
+    - Starter-Moon-Akua
     - ''
   - - 6112, -2488, -1854
     - Rostion
-    - Starter-POI-Omicron
+    - Starter-POI-Akua
     - ''
   Allow: []
   Deny: []
@@ -129,12 +133,12 @@ Sectors:
     - ''
   Allow: []
   Deny:
-  - Akua Orbit
+  - Akua System
 - Coordinates:
   - 733
   - -94
   - -527
-  Color: 0.8, 1.0, 0.0
+  Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -147,7 +151,7 @@ Sectors:
     - ''
   Allow: []
   Deny:
-  - Masperon Orbit
+  - Vinci System
 - Coordinates:
   - 640
   - 74
@@ -165,7 +169,7 @@ Sectors:
     - ''
   Allow: []
   Deny:
-  - Omicron Orbit
+  - Eonus  System
 - Coordinates:
   - 55
   - -100
@@ -183,7 +187,7 @@ Sectors:
     - ''
   Allow: []
   Deny:
-  - Ningues Orbit
+  - Draenor System
 - Coordinates:
   - 311
   - 0
@@ -201,7 +205,7 @@ Sectors:
   - 112
   - 187
   - 520
-  Color: 0, 0.5, 1.0
+  Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -216,7 +220,7 @@ Sectors:
   - -99
   - 54
   - 282
-  Color: 0.0, 0.5, 1.0
+  Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -230,7 +234,7 @@ Sectors:
   - 200
   - 100
   - 450
-  Color: 0, 0.5, 1.0
+  Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -244,7 +248,7 @@ Sectors:
   - 148
   - 29
   - 171
-  Color: 0, 0.5, 1.0
+  Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
