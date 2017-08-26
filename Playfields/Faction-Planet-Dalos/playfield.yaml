@@ -12,56 +12,43 @@ AtmosphereO2: 0.2
 AtmosphereBreathable: True
 TemperatureDay: 35
 TemperatureNight: 10
-Music: temperate3
+Music: temperate2
 Radiation: 0
-DayLength: 24                      # No functionality yet
-PlanetType: Temperate              # No functionality yet
-Moons: 1                           # No functionality yet
-Water: WaterGreen                   # WaterBlue, WaterGreen, WaterBrown
-SeaLevel: 32                       # Sea level of planet
+DayLength: 24
+PlanetType: Temperate
+Moons: 1
+Water: WaterBrown
+SeaLevel: 23
 PvP: True
 
-Seed: 2344356                       # If set overwrites main Seed
-#UseFixed: False					# If set uses fixed POIs + resources
+#Seed: 123456
+#UseFixed: False
 
 # Playfield difficulty (has impact on experience gains)
-Difficulty: 5                      # Between 2 and 5: larger values indicate higher difficulty
+Difficulty: 5
 
 # Planet or Space
 PlayfieldType: Planet              # Please don't change
-Description: A steamy marsh planet filled with swamps,low radiation, tall grass and lots of forest.
+Description: Dalos was once the Lorien Federation homeland. Riddled with waste, the Loriens left this planet in search for survival. This planet is PVP and Breathable.
 
 # Sun                              # SunFlareBlue, SunFlareWhite, SunFlareWhite2, SunFlareWhite3, SunFlareYellow, SunFlarePurple
-SunFlare: EnvironmentalEffects/SunFlareBlue
+SunFlare: EnvironmentalEffects/SunFlareYellow
 
 # Special Effects                  # Please don't change
 SpecialEffectsLocal:
   - Name: EnvironmentalEffects/Sparks
-    MaxHeight: 400
+    MaxHeight: 200
   - Name: FireFliesOrangeFew
-    Biome: [ Low Fields, Mountains ]
+    Biome: [ TropicalForest, Mountains ]
     Time: Night
     MaxHeight: 150
 
 SpecialEffectsGlobal:
-  - Name: MeteorShower
-    Biome: [ Any ]
-    Time: Day
-    InitialDelay: 3.5   # in game hours
-    Delay: 5
-    Lifetime: 60
-    PlyDist: 200
-    SpawnY: 100
-    Struct: Avoid
-  - Name: ThunderAndLightningRed
-    Biome: [ Any ]
-    Time: Always
-    InitialDelay: 1.5
-    Delay: 5
-    Lifetime: 300
-    PlyDist: 100
-    SpawnY: 500
-    Struct: Avoid
+  - Name: Fog
+    Type: Weather
+    InitialDelay: 0    # in game hours
+    Delay: 5           # in game hours
+    Lifetime: 1000     # in realtime seconds
   - Name: Clear
     Type: Weather
     InitialDelay: 0
@@ -97,19 +84,25 @@ SpecialEffectsGlobal:
     InitialDelay: 5
     Delay: 10
     Lifetime: 500
+  - Name: ThunderAndLightningRed
+    Biome: [ Any ]
+    Time: Always
+    InitialDelay: 1.5
+    Delay: 5
+    Lifetime: 300
+    PlyDist: 100
+    SpawnY: 500
+    Struct: Avoid
 
 # Atmosphere and Sky
 AtmosphereEnabled: True
 AtmosphereColor: "0, 0.26, 0.35"
-SkyColor: ".67, .95, .45"
-LightZenithColor: "0.67, 0.95, 0.45"
-LightHorizonColor: "0.82, 0.96, 0.72"
+SkyColor: "0.67, 0.95, 0.45"
+SkyHorizonColor: "0.82, 0.96, 0.72"
 
 # Light
 DayLightIntensity: 1
-NightLightIntensity: 1.15
-LightZenithColor: "1, 0.5, 0.5"
-LightHorizonColor: "1, 0.5, 0.0"
+NightLightIntensity: 0.85
 DayShadowStrength: 0.95
 
 # Fog
@@ -121,84 +114,219 @@ GroundFogIntensity: 0.1
 GroundFogHeight: 35
 
 # Clouds
-CloudsDensity: 0.6
+CloudsDensity: 0.9
 CloudsSharpness: 0.4
-CloudsBrightness: 1
+CloudsBrightness: 0.1
 CloudsOpacity: 0.2
-CloudsZenithColor: "0.47, 0.82, 0.56"
-CloudsHorizonColor: "1, 0.76, 0.56"
+CloudsZenithColor: "0.6,1,0.1"
+CloudsHorizonColor: "0,1,0"
 
 # Wind Speed
 WindSpeed: 3
 
 ### Randomly distributed resources    # For Seed>0 games     # Please don't change
 RandomResources:
+    - Name: IronResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: CobaltResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: CopperResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: SiliconResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
     - Name: PromethiumResource
-      CountMinMax: [ 0, 2 ]
+      CountMinMax: [ 0, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.2
       MaxDroneCount: 1
 
-    - Name: PentaxidResource
+    - Name: MagnesiumResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: NeodymiumResource
       CountMinMax: [ 0, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1
 
+    - Name: SathiumResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
+
 AsteroidResources:
-    - Name: PromethiumResource
-      Threshold: 0.6
+    - Name: IronResource
+      Threshold: 0.4
       Amount: 0.5
 
-    - Name: PentaxidResource
+    - Name: CobaltResource
       Threshold: 0.4
-      Amount: 0.4
+      Amount: 0.5
 
+    - Name: CopperResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: SiliconResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: PromethiumResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: MagnesiumResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: NeodymiumResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: SathiumResource
+      Threshold: 0.4
+      Amount: 0.5
 
 
 ### Terrain and Decorations
 # Terrain and Local Decoration
 
 Terrain:
-    Name: Temperate
-    PoleLevel: 30            # Pole level of planet
+    Name: Barren
+    PoleLevel: 60                        # Pole level of planet
     NoiseStrength: 0.1
     ColorChange:
-        YFadeCenter: 45
-        YFadeRange: 20
-        YFadeMin: -0.1
-        YFadeMax: -0.15
+        YFadeCenter: 40
+        YFadeRange: 30
+        YFadeMin: 0.1
+        YFadeMax: -0.05
+
 
 MainBiome:
     Textures:
-        - [ Grass02Cliff, 1 ]
+        - [ GravelRockBrown03, 1 ]
         - [ Cliff, 2 ]
+        - [ DirtCliff, 1 ]
         - [ RockBrown01, 0 ]
-        - [ BedrockLava, 1 ]
+        - [ BedrockLava, 2 ]
 
     Decorations:
+        - [ RocksmallA02, 0.1 ]  # name, probability
+        - [ RocksmallC01, 0.1 ]
+        - [ Rocks02, 0.1 ]
         - [ Rocks03, 0.05 ]
+        - [ Rocks05, 0.1 ]
 
 SubBiomes:
-    - Altitude: 22
+    - Altitude: 10
       Textures:
-        - [ SeaGround02, 5 ]
+        - [ SeaGround02, 20 ]
     - Altitude: 26
       Textures:
-        - [ SandBeach01Cliff, 4 ]
+        - [ AlienGreen02, 22, 4 ]
       Decorations:
         - [ RocksmallA02, 3.0 ]
         - [ RocksmallC01, 3.0 ]
         - [ RockA01, 0.5 ]
         - [ RockB01, 0.5 ]
+    - Altitude: 30
+      Textures:
+        - [ AlienBlack01, 40 ]
+      Decorations:
+        - [ RocksmallA02, 0.2 ]
 
 # Biome Definition and Main Decoration
 Biome:
+# Swamp
+   - Altitude: [ 45, 50 ]
+     Slope: [ 0, 7 ]
+     BiomeClusterData:
+         - Name: "Swamp"
+           Id: 1
+           ClusterSize: 10
+           NbOfClusters: 10
+           Decorations:
+               - [ OmicronWaterleaf, 6]
+               - [ AlienPlant04, 1]
+               - [ CrystalsPyramidBlue, 1]
+         - ClusterSize: 40
+           NbOfClusters: 10
+           Decorations:
+               - [ AlienPlantThorn2, 10]
 # Water Area
-   - Altitude: [ 10, 12 ]
-     Slope: [ 0, 2 ]
+   - Altitude: [ 10, 25 ]
+     Slope: [ 0, 20 ]
+     BiomeClusterData:
+         - Name: "Water"
+           Id: 1
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations:
+               - [ CoralBig01, 2]
+               - [ CoralBig08, 2]
+               - [ FingerSponge03-01, 1]
+               - [ CoralStone03-05, 2]
+               - [ Hydrilla2, 2]
+               - [ SeaWeed02-04, 3]
+               - [ RealRock1Water, 1]
+               - [ RealRock5Water, 1]
+               - [ CrystalStraight, 1]
+           Grass:
+               - Name: "GrassGreen01"
+                 Density: 800
+                 YScale: 1
+                 Preset: "GrassDense"
+               - Name: "GrassGreen01"
+                 Density: 500
+                 YScale: 2
+                 Preset: "GrassPatches"
+         - Name: "Water"
+           Id: 1
+           ClusterSize: 8
+           NbOfClusters: 5
+           Decorations:
+               - [ SeaWeed02-04, 20]
+               - [ Hydrilla2, 10]
+           Grass:
+               - Name: "GrassGreen01"
+                 Density: 800
+                 YScale: 1
+                 Preset: "GrassDense"
+               - Name: "GrassGreen01"
+                 Density: 500
+                 YScale: 3
+                 Preset: "GrassPatches"
+   - Altitude: [ 18, 27 ]
+     Slope: [ 0, 60 ]
      BiomeClusterData:
          - Name: "Water"
            Id: 1
@@ -206,55 +334,71 @@ Biome:
            NbOfClusters: 0
            Decorations:
                - [ CoralBig01, 0]
-               - [ CrystalStraight, .8]
            Grass:
                - Name: "GrassGreen01"
                  Density: 0
                  YScale: 0.8
                  Preset: "GrassDense2"
-   - Altitude: [ 0, 10 ]
-     Slope: [ 0, 2 ]
+   - Altitude: [ 22, 27 ]
+     Slope: [ 0, 180 ]
      BiomeClusterData:
          - Name: "Water"
            Id: 1
-           ClusterSize: 3
-           NbOfClusters: 3
+           ClusterSize: 0
+           NbOfClusters: 0
            Decorations:
-               - [ CoralBig01, 2]
+               - [ CoralBig01, 0]
 # Forest
    - Altitude: [ 27, 52 ]
      Slope: [ 0, 12 ]
      BiomeClusterData:
-         - Name: "Marshlands"
+         - Name: "TropicalForest"
            Id: 2
-           ClusterSize: 200
-           NbOfClusters: 10
+           ClusterSize: 100
+           NbOfClusters: 4
            Decorations:
-               - [ ChineseBanyan, 3]
-               - [ BushGreen01, 2]
-               - [ BushGreen02, 2]
+               - [ ChineseBanyan, 1]
+               - [ BaldCypresFall, .5]
+               - [ BaldCypres, .8]
+               - [ BushGreen01, 0.5]
+               - [ BushGreen02, 0.5]
                - [ CobraLeavesPlant, 0.5]
+               - [ MushroomBellBrown01, 0.4]
+               - [ CattailWinter, 0.1]
                - [ PixieStalks, 0.4]
                - [ InsanityPepper, 0.1]
-               - [ AlienPlant05, 0.1]
+               - [ AlienPlant05, 0.4]
+               - [ AlienPlant07, 0.5]
                - [ AlienPlant14, 0.1]
+               - [ DeadTree01, 1]
+               - [ DeadTree02b, 0.8]
                - [ RealRock2, 0.1]
                - [ RealRock1, 0.1]
+               - [ AlienTreeBlue, 0.8]
+               - [ AlienBush01, 1]
+               - [ AkuaBushRed, 2]
+               - [ AlienPlant20, 1]
+               - [ AlienPlant11Blue, 1]
+               - [ RealRock3, 0.05]
            Grass:
                - Name: "GrassGreen04"
-                 Density: 1000
-                 YScale: 1.8
+                 Density: 800
+                 YScale: 2.8
                  Preset: "GrassDense3"
                - Name: "GrassGreen03"
                  Density: 500
-                 YScale: 1.3
+                 YScale: 1.2
                  Preset: "GrassPatches2"
                - Name: "Plant01"
                  Density: 250
-                 YScale: 1.15
+                 YScale: 2.15
                  Preset: "GrassPatches3"
+
+   - Altitude: [ 20, 35 ]
+     Slope: [ 0, 12 ]
+     BiomeClusterData:
 # Open Plains
-         - Name: "Low Fields"
+         - Name: "OpenPlains"
            Id: 3
            ClusterSize: 45
            NbOfClusters: 20
@@ -263,15 +407,15 @@ Biome:
                - [ RealRock3, 3]
                - [ RealRock4, 3]
                - [ RealRock5, 3]
-               - [ DesertPlant20, 3]
+               - [ DesertPlant20, 8]
                - [ PixieStalks, 2]
                - [ Snakeweed, 3]
            Grass:
                - Name: "GrassGreen04"
-                 Density: 2000
-                 YScale: 1.2
+                 Density: 1000
+                 YScale: 0.8
                  Preset: "GrassDense3"
-         - Name: "Wetlands"
+         - Name: "OpenPlains"
            Id: 3
            ClusterSize: 0
            NbOfClusters: 0
@@ -281,8 +425,8 @@ Biome:
                - [ ChineseBanyan, 0.3]
                - [ BaldCypresFall, 0.05]
                - [ BaldCypres, 0.03]
-               - [ AkuaBush1, 2]
-               - [ CornDogBush, 0.1]
+               - [ AkuaBush1, 0.3]
+               - [ CornDogBush, 0.3]
                - [ Snakeweed, 0.5]
                - [ DesertPlant20, 0.25]
                - [ CattailWinter, 0.5]
@@ -294,16 +438,16 @@ Biome:
                - [ RealRock9, 0.02]    # large rock
            Grass:
                - Name: "GrassGreen06"
-                 Density: 1000
-                 YScale: 1.5
+                 Density: 2000
+                 YScale: 0.8
                  Preset: "GrassDense3"
                - Name: "Flower01"
-                 Density: 500
+                 Density: 1000
                  YScale: 0.9
                  Preset: "GrassPatches2a"
                - Name: "Flower02"
-                 Density: 30
-                 YScale: 1.8
+                 Density: 70
+                 YScale: 0.8
                  Preset: "GrassPatches2"
    - Altitude: [ 27, 55 ]
      Slope: [ 0, 27 ]
@@ -324,7 +468,7 @@ Biome:
                  YScale: 1.5
                  Preset: "GrassPatches3a"
 #Mountains
-   - Altitude: [ 55, 110 ]
+   - Altitude: [ 42, 90 ]
      Slope: [ 0, 27 ]
      BiomeClusterData:
          - Name: "Mountains"
@@ -343,7 +487,7 @@ Biome:
                  Density: 250
                  YScale: 1.5
                  Preset: "GrassPatches3a"
-   - Altitude: [ 55, 110 ]
+   - Altitude: [ 42, 90 ]
      Slope: [ 0, 27 ]
      BiomeClusterData:
          - Name: "Mountains"
@@ -361,7 +505,7 @@ Biome:
                  Density: 250
                  YScale: 1.5
                  Preset: "GrassPatches3a"
-   - Altitude: [ 55, 110 ]
+   - Altitude: [ 42, 120 ]
      Slope: [ 0, 180 ]
      BiomeClusterData:
          - Name: "Mountains"
@@ -374,19 +518,15 @@ Biome:
 ### POIs
 POIs:
     Random:
-        - GroupName: XenuFortressP1
+        - GroupName: DroneBaseAestus
           DroneBaseSetup: DroneBaseSetup
           CountMinMax: [ 1, 1 ]
           DroneProb: 1.0
           DronesMinMax: [ 4, 5 ]
           ReserveCount: 6
           Properties:
-            - Key: Music
-              Value: moonstone
             - Key: RegenAfter
-              Value: 360
-
-
+              Value: 1440
 
         - GroupName: PlanetVesselBase
           PlanetVesselBaseSetup: PlanetVesselBaseSetup
@@ -396,7 +536,7 @@ POIs:
           ReserveCount: 3
           Properties:
             - Key: RegenAfter
-              Value: 360
+              Value: 1440
 
           PlanetVesselBase:
               Name: PlanetVesselBaseSetup
@@ -412,159 +552,62 @@ POIs:
                   RangePatrolAltitude: 60
                   RangePatrolAltitude: 24
 
-
-        - GroupName: GhostRiderBiolab
-          CountMinMax: [ 1, 2 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 4
-          TroopTransport: True
-          SpawnPOINear: [PlanetVesselBase]
-          POIDistance: 600
-          Properties:
-            - Key: Music
-              Value: DarkSoundscape
-            - Key: RegenAfter
-              Value: 240
-
-        - GroupName: XenuAdvArmory
-          CountMinMax: [ 1, 2 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 4
-          TroopTransport: True
-          SpawnPOINear: [PlanetVesselBase]
-          POIDistance: 600
-          Properties:
-            - Key: Music
-              Value: DarkSoundscape
-            - Key: RegenAfter
-              Value: 240
-
-        - GroupName: XenuWeaponBunker
-          CountMinMax: [ 2, 4 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 4
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 240
-
-
         - GroupName: AbandonedFactory
-          CountMinMax: [ 2, 4 ]
+          CountMinMax: [ 1, 1 ]
           DroneProb: 0.8
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: True
           Properties:
             - Key: RegenAfter
-              Value: 240
+              Value: 1440
 
         - GroupName: AbandonedMine
-          CountMinMax: [ 2, 4 ]
+          CountMinMax: [ 1, 1 ]
           DroneProb: 0.1
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
           TroopTransport: False
           Properties:
             - Key: RegenAfter
-              Value: 240
+              Value: 1440
 
-
-        - GroupName: GhostTierII
-          CountMinMax: [ 1, 3 ]
-          DroneProb: 1.0
+        # Weakly defended Civil Settlements close to TS Akua
+        - GroupName: CivilSettlementO2
+          CountMinMax: [ 2, 4 ]
+          DroneProb: 0.5
           DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
+          ReserveCount: 2
           TroopTransport: True
-          SpawnPOINear: [XenuWeaponBunker]
+          SpawnPOINear: [TS_Akua]
           POIDistance: 500
           Properties:
             - Key: RegenAfter
-              Value: 240
+              Value: 1440
 
-
-        - GroupName: GhostTierII
-          CountMinMax: [ 1, 2 ]
-          DroneProb: 1.0
+        # Spawn strong defended civil settlements randomly
+        - GroupName: CivilSettlement
+          CountMinMax: [ 2, 3 ]
+          DroneProb: 0.9
           DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
+          ReserveCount: 2
           TroopTransport: True
           Properties:
             - Key: RegenAfter
-              Value: 240
+              Value: 1000
 
-        - GroupName: EpsilonAdvComCenter
-          CountMinMax: [ 1, 2 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 240
-
-        - GroupName: EpsilonAdvFortress
-          CountMinMax: [ 1, 2 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 240
-
-        - GroupName: EpsilonAdvOutpost
-          CountMinMax: [ 1, 2 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 240
-
-        - GroupName: EpsilonSpaceport
-          CountMinMax: [ 1, 2 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 240
-
-        - GroupName: EpsilonDroneFactory
-          CountMinMax: [ 1, 2 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 240
-
-        - GroupName: EpsilonFactory
-          CountMinMax: [ 1, 2 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 240
-
-        - GroupName: XenuWeaponBunker
+        # Tribal villages close to Abandoned Mine
+        - GroupName: TribalVillage
           CountMinMax: [ 2, 4 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 4
-          TroopTransport: True
+          DroneProb: 0.8
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 0
+          TroopTransport: False
+          SpawnPOINear: [AbandonedMine]
+          POIDistance: 500
           Properties:
             - Key: RegenAfter
-              Value: 240
+              Value: 1000
 
 
     Fixed:
@@ -685,83 +728,47 @@ DroneSpawning:
 
 ### Creatures
 CreatureSpawning:
-    - Biome: Wetlands
+    - Biome: Swamp
       Entities:
         - Name: Slimes
           Period: Always              #  Night / Day / Always
-          Amount: 1
+          Amount: 4
           Delay: 0
-        - Name: PlantMonsters
+        - Name: GolemsSwamp
           Period: Always
+          Amount: 3
+          Delay: 0
+    - Biome: Water
+      Entities:
+        - Name: Slimes
+          Period: Day              #  Night / Day / Always
           Amount: 2
           Delay: 0
-        - Name: Hexapods
-          Period: Always
-          Amount: 2
-          Delay: 0
-        - Name: Spiders01
+          RestrictYMinMax: [ 0, 40 ]
+        - Name: RaptorsNight
           Period: Night
-          Amount: 2
+          Amount: 3
           Delay: 0
-        - Name: Triceratopses
+        - Name: RaptorsNight
           Period: Day
-          Amount: 2
-          Delay: 0
-        - Name: RaptorsNight
-          Period: Always
-          Amount: 3
-          Delay: 0
-        - Name: RaptorsNight
-          Period: Always
           Amount: 4
           Delay: 0
         - Name: PlantMonsters
-          Period: Always
+          Period: Night
           Amount: 4
-          Delay: 0
-        - Name: TalonGuardianHerd
-          Period: Always
-          Amount: 2
-          Delay: 0
-        - Name: Raptors
-          Period: Always
-          Amount: 3
-          Delay: 0
-        - Name: LizardMuleHerd
-          Period: Always
-          Amount: 2
-          Delay: 0
-        - Name: RaptorHerd
-          Period: Always
-          Amount: 2
           Delay: 0
         - Name: PlantMonsters
-          Period: Always
+          Period: Day
           Amount: 4
-          Delay: 0
-        - Name: TalonGuardians
-          Period: Always
-          Amount: 1
-          Delay: 0
-        - Name: AlienBugs01
-          Period: Always
-          Amount: 3
           Delay: 0
 
     - Biome: TropicalForest
       Entities:
-        - Name: Slimes
-          Period: Always              #  Night / Day / Always
-          Amount: 1
-          Delay: 0
-        - Name: PlantMonsters
-          Period: Always
+        - Name: WoodWalkers
+          Period: Night
           Amount: 2
           Delay: 0
-        - Name: Hexapods
-          Period: Always
-          Amount: 2
-          Delay: 0
+          RestrictYMinMax: [ 0, 40 ]
         - Name: Spiders01
           Period: Night
           Amount: 2
@@ -770,114 +777,59 @@ CreatureSpawning:
           Period: Day
           Amount: 2
           Delay: 0
-        - Name: RaptorsNight
-          Period: Always
+        - Name: AlienBugs02
+          Period: Day
           Amount: 3
           Delay: 0
-        - Name: RaptorsNight
-          Period: Always
-          Amount: 4
-          Delay: 0
-        - Name: PlantMonsters
-          Period: Always
-          Amount: 4
-          Delay: 0
-        - Name: PlantMonsters
-          Period: Always
-          Amount: 4
-          Delay: 0
-        - Name: TalonGuardianHerd
-          Period: Always
+        - Name: Overseers
+          Period: Night
           Amount: 2
           Delay: 0
-        - Name: Raptors
-          Period: Always
-          Amount: 3
-          Delay: 0
-        - Name: LizardMuleHerd
-          Period: Always
-          Amount: 2
-          Delay: 0
-        - Name: RaptorHerd
-          Period: Always
-          Amount: 2
-          Delay: 0
-        - Name: PlantMonsters
-          Period: Always
-          Amount: 4
-          Delay: 0
-        - Name: TalonGuardians
-          Period: Always
+        - Name: Spiders03
+          Period: Day
           Amount: 1
-          Delay: 0
-        - Name: AlienBugs01
-          Period: Always
-          Amount: 3
           Delay: 0
 
     - Biome: OpenPlains
       Entities:
-        - Name: Slimes
-          Period: Always              #  Night / Day / Always
-          Amount: 1
-          Delay: 0
-        - Name: PlantMonsters
-          Period: Always
-          Amount: 2
-          Delay: 0
-        - Name: Hexapods
-          Period: Always
-          Amount: 2
-          Delay: 0
-        - Name: Spiders01
-          Period: Night
-          Amount: 2
-          Delay: 0
-        - Name: Triceratopses
-          Period: Day
-          Amount: 2
-          Delay: 0
-        - Name: RaptorsNight
-          Period: Always
-          Amount: 3
-          Delay: 0
-        - Name: RaptorsNight
-          Period: Always
-          Amount: 4
-          Delay: 0
-        - Name: PlantMonsters
-          Period: Always
-          Amount: 4
-          Delay: 0
-        - Name: PlantMonsters
-          Period: Always
-          Amount: 4
-          Delay: 0
-        - Name: TalonGuardianHerd
-          Period: Always
-          Amount: 2
-          Delay: 0
         - Name: Raptors
-          Period: Always
+          Period: Day
           Amount: 3
           Delay: 0
-        - Name: LizardMuleHerd
-          Period: Always
-          Amount: 2
+        - Name: RaptorsNight
+          Period: Night
+          Amount: 3
           Delay: 0
-        - Name: RaptorHerd
-          Period: Always
-          Amount: 2
+        - Name: RaptorsNight
+          Period: Day
+          Amount: 4
           Delay: 0
         - Name: PlantMonsters
-          Period: Always
+          Period: Night
+          Amount: 4
+          Delay: 0
+        - Name: PlantMonsters
+          Period: Day
           Amount: 4
           Delay: 0
         - Name: TalonGuardians
-          Period: Always
+          Period: Night
+          Amount: 1
+          Delay: 0
+        - Name: AlienBugs02
+          Period: Day
+          Amount: 3
+          Delay: 0
+        - Name: Overseers
+          Period: Night
+          Amount: 2
+          Delay: 0
+        - Name: Spiders03
+          Period: Day
           Amount: 1
           Delay: 0
         - Name: AlienBugs01
-          Period: Always
-          Amount: 3
+          Period: Night
+          Amount: 1
           Delay: 0
+          RestrictYMinMax: [ 0, 40 ]

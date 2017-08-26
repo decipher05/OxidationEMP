@@ -19,7 +19,7 @@ DayLength: 24                       # No functionality yet
 PlanetType: Barren                  # No functionality yet
 Moons: 0                            # No functionality yet
 PvP: True                          # Set to True to allow PvP in this playfield, default is False
-Seed: 34523457                      # If set overwrites main Seed
+Seed: 4356337                       # If set overwrites main Seed
 #UseFixed: False					# If set uses fixed POIs + resources
 
 # Playfield difficulty (has impact on experience gains)
