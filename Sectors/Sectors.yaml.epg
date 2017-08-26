@@ -27,11 +27,11 @@ Sectors:
     - Akua
     - Starter-Planet-Temperate
     - Federation:1
-  - - -4876, -3031, -6017
+  - - -6068, -4750, -4750
     - Akua Moon
     - Starter-Moon-Akua
     - ''
-  - - 2582, 8463, 4571
+  - - 1400, 10001, 11087
     - Dotrerth
     - Starter-POI-Akua
     - ''
@@ -53,11 +53,11 @@ Sectors:
     - Draenor
     - Starter-Planet-Temperate
     - Republic:2
-  - - -887, 4933, -8732
+  - - 4224, 8010, -4660
     - Draenor Moon
     - Starter-Moon-Akua
     - ''
-  - - 4058, -5836, 7648
+  - - 4054, -5836, 9187
     - Tietov
     - Starter-Space-Akua
     - ''
@@ -82,7 +82,7 @@ Sectors:
     - Eonus Moon
     - Starter-Moon-Akua
     - ''
-  - - 6112, -2488, -1854
+  - - 9413, -2488, -2850
     - Rostion
     - Starter-POI-Akua
     - ''
@@ -107,7 +107,7 @@ Sectors:
     - Druna 710
     - Faction-Planet-POI-Aeris
     - ''
-  - - 7938, 0, -2729
+  - - 6947, 0, -949
     - Waskion Moon
     - PFaction-Moon
     - ''
@@ -131,11 +131,11 @@ Sectors:
     - Icarus
     - Faction-Planet-Icarus
     - ''
-  - - -5273, 0, -2447
+  - - -5813, 0, -1311
     - Icarus Moon
     - PFaction-Moon0
     - ''
-  - - 8236, 0, 687
+  - - 10434, 2399, 1947
     - Chiuq 82O0
     - Faction-Planet-POI-Aeris
     - ''
@@ -183,11 +183,11 @@ Sectors:
     - Ioflorth
     - Faction-Planet-Icarus
     - ''
-  - - 4029, 0, -32
+  - - 3799, -4207, -4569
     - loflorth Moon
     - PFaction-Moon2
     - ''
-  - - 4172, 0, 8848
+  - - 3629, 8553, 8848
     - Trarvis 6JF
     - Faction-Planet-POI-Aeris
     - ''
@@ -260,6 +260,7 @@ Sectors:
   Allow: []
   Deny:
   - Akua System
+  - 
 - Coordinates:
   - 200
   - 100
@@ -275,11 +276,11 @@ Sectors:
     - 'Huoxi '
     - Faction-Planet-Desert-02
     - ''
-  - - 9198, -9728, 6381
+  - - 4650, -5112, -4298
     - Huoxi Moon
     - PFaction-Moon5
     - ''
-  - - -16176, 3847, 951
+  - - -15681, 1223, 861
     - Swosie GU82
     - Faction-Planet-POI-Aeris
     - ''
@@ -302,11 +303,11 @@ Sectors:
     - Elendil
     - Faction-Planet-Snow-02
     - ''
-  - - -3039, 8129, 6954
+  - - -4707, 6381, 7286
     - Elendil Moon
     - PFaction-Moon6
     - ''
-  - - 5557, 164, -4145
+  - - 10264, -9094, 9006
     - Spurn 34A
     - Faction-Planet-POI-Aeris
     - ''
@@ -316,7 +317,7 @@ Sectors:
   - -15
   - 0
   - 172
-  Color: 0, 0.5, 1.0
+  Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -327,11 +328,11 @@ Sectors:
     - Amy
     - Faction-Planet-Amy
     - ''
-  - - 3252, -5255, 4800
+  - - 4565, -5255, -4931
     - Amy Moon
     - PFaction-Moon7
     - ''
-  - - 611, 8521, 4996
+  - - -9301, 10996, 11268
     - Spippe 50F
     - Faction-Planet-POI-Aeris
     - ''
@@ -341,7 +342,7 @@ Sectors:
   - -44
   - 0
   - 466
-  Color: 0, 0.5, 1.0
+  Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -352,11 +353,11 @@ Sectors:
     - 'Eclite '
     - Faction-Planet-Lava
     - ''
-  - - 232, -9637, -2839
+  - - -114, -6741, -4750
     - Eclite Moon
     - PFaction-Moon8
     - ''
-  - - -13038, 5648, 137
+  - - -12618, 1132, 137
     - Swion B1F
     - Faction-Planet-POI-Aeris
     - ''
@@ -368,7 +369,7 @@ Sectors:
   - 251
   - 0
   - 322
-  Color: 0, 0.5, 1.0
+  Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -379,11 +380,11 @@ Sectors:
     - Duatune
     - Faction-Planet-Barren
     - ''
-  - - 5701, 7803, 5453
+  - - 5075, 4571, 5453
     - Duatune Moon
     - PFaction-Moon
     - ''
-  - - -10290, -6560, 5387
+  - - -11002, 7377, 5387
     - Shagua E95
     - Faction-Planet-POI-Aeris
     - ''
