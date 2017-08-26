@@ -412,56 +412,56 @@ Biome:
 ### Resource Deposits
 RandomResources:
     - Name: IronResource
-      CountMinMax: [ 0, 9 ]
+      CountMinMax: [ 0, 10 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: CobaltResource
-      CountMinMax: [ 0, 9 ]
+      CountMinMax: [ 0, 10 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: CopperResource
-      CountMinMax: [ 0, 9 ]
+      CountMinMax: [ 0, 10 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: SiliconResource
-      CountMinMax: [ 0, 9 ]
+      CountMinMax: [ 0, 10 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: PromethiumResource
-      CountMinMax: [ 0, 9 ]
+      CountMinMax: [ 0, 10 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.2
       MaxDroneCount: 1
 
     - Name: MagnesiumResource
-      CountMinMax: [ 0, 9 ]
+      CountMinMax: [ 0, 10 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: NeodymiumResource
-      CountMinMax: [ 0, 9 ]
+      CountMinMax: [ 0, 10 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1
 
     - Name: SathiumResource
-      CountMinMax: [ 0, 9 ]
+      CountMinMax: [ 0, 10 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
@@ -503,6 +503,7 @@ AsteroidResources:
       Amount: 0.5
 
 
+
 ### POIs
 POIs:
     Random:
@@ -518,7 +519,7 @@ POIs:
             - Key: Music
               Value: moonstone
             - Key: RegenAfter
-              Value: 720
+              Value: 1440
 
         - GroupName: PlanetVesselBase
           PlanetVesselBaseSetup: PlanetVesselBaseSetup
@@ -528,7 +529,7 @@ POIs:
             - Key: Music
               Value: moonstone
             - Key: RegenAfter
-              Value: 720
+              Value: 1440
 
         - GroupName: TS_Masperon
           CountMinMax: [ 1, 1 ]
@@ -556,7 +557,7 @@ POIs:
             - Key: Music
               Value: moonstone
             - Key: RegenAfter
-              Value: 720
+              Value: 1440
 
         - GroupName: CrashedShip      # Do not use regeneration with burried POIs
           CountMinMax: [ 1, 1 ]
@@ -575,7 +576,7 @@ POIs:
           POIDistance: 800
           Properties:
             - Key: RegenAfter
-              Value: 720
+              Value: 1440
 
         - GroupName: CivilSettlement
           CountMinMax: [ 3, 6 ]
@@ -585,7 +586,7 @@ POIs:
           TroopTransport: True
           Properties:
             - Key: RegenAfter
-              Value: 720
+              Value: 1440
 
         - GroupName: XenuWeaponBunker
           CountMinMax: [ 1, 1 ]
@@ -599,7 +600,7 @@ POIs:
             - Key: Music
               Value: moonstone
             - Key: RegenAfter
-              Value: 720
+              Value: 1440
 
         - GroupName: GhostTierII
           CountMinMax: [ 3, 4 ]
@@ -611,7 +612,7 @@ POIs:
           POIDistance: 800
           Properties:
             - Key: RegenAfter
-              Value: 720
+              Value: 1440
 
     FixedPlayerStart:
         - Mode: Survival
