@@ -101,7 +101,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Waskion
-    - Faction-Planet-Ocean
+    - Faction-Feds-Planet-Ocean
     - ''
   - - -11529, 0, -1230
     - Druna 710
@@ -129,7 +129,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Icarus
-    - Faction-Planet-Icarus
+    - Faction-Feds-Planet-Icarus
     - ''
   - - -5813, 0, -1311
     - Icarus Moon
@@ -143,71 +143,6 @@ Sectors:
   Deny:
   - Vinci System
 - Coordinates:
-  - 640
-  - 74
-  - 345
-  Color: 0.7, 0.11, 0.11
-  Icon: Hexagon
-  Playfields:
-  - - 0, 0, 0
-    - Vulca System
-    - Faction-Space-Omicron
-    - ''
-  - - 0, 0, 0
-    - Vulca
-    - Faction-Planet-Vulca
-    - ''
-  - - -5084, 0, 3167
-    - Vulca Moon
-    - PFaction-Moon1
-    - ''
-  - - -8977, 0, -358
-    - Snapus 38BZ
-    - Faction-Planet-POI-Aeris
-    - ''
-  Allow: []
-  Deny:
-  - Eonus  System
-- Coordinates:
-  - 55
-  - -100
-  - -554
-  Color: 0.97, 0.96, 1
-  Icon: Hexagon
-  Playfields:
-  - - 0, 0, 0
-    - Ioflorth System
-    - Faction-Space-Ningues
-    - ''
-  - - 0, 0, 0
-    - Ioflorth
-    - Faction-Planet-Icarus
-    - ''
-  - - 3799, -4207, -4569
-    - loflorth Moon
-    - PFaction-Moon2
-    - ''
-  - - 3629, 8553, 8848
-    - Trarvis 6JF
-    - Faction-Planet-POI-Aeris
-    - ''
-  Allow: []
-  Deny:
-  - Draenor System
-- Coordinates:
-  - 200
-  - 0
-  - 87
-  Color: 0.4, 1, 0
-  Icon: Pentagon
-  Playfields:
-  - - 0, 0, 0
-    - FFA System
-    - Core-Space-AsteroidField
-    - ''
-  Allow: []
-  Deny: []
-- Coordinates:
   - 112
   - 187
   - 520
@@ -220,7 +155,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - loslao
-    - Faction-Planet-Alien2
+    - Faction-Feds-Planet-Alien2
     - ''
   - - 10364, 6743, -5022
     - loslao Moon
@@ -242,15 +177,15 @@ Sectors:
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
-    - Dalos System
+    - Aeris System
     - Faction-Space-SpaceAsteroidFieldRingAitis
     - ''
   - - 0, 0, 0
-    - Dalos
-    - Faction-Planet-Dalos
+    - Aeris
+    - Faction-Feds-Planet-Aeris
     - ''
   - - 10274, 8191, 2580
-    - Dalos Moon
+    - Aeris Moon
     - PFaction-Moon4
     - ''
   - - -11244, -9275, -2940
@@ -274,7 +209,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - 'Huoxi '
-    - Faction-Planet-Desert-02
+    - Faction-Feds-Planet-Desert-02
     - ''
   - - 4650, -5112, -4298
     - Huoxi Moon
@@ -301,7 +236,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Elendil
-    - Faction-Planet-Snow-02
+    - Faction-Feds-Planet-Snow-02
     - ''
   - - -4707, 6381, 7286
     - Elendil Moon
@@ -321,15 +256,15 @@ Sectors:
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
-    - Amy System
+    - Vulca System
     - Faction-Space-SpaceAsteroidsOscutune
     - ''
   - - 0, 0, 0
-    - Amy
-    - Faction-Planet-Amy
+    - Vulca
+    - Faction-Feds-Planet-Vulca
     - ''
   - - 4565, -5255, -4931
-    - Amy Moon
+    - Vulca Moon
     - PFaction-Moon7
     - ''
   - - -9301, 10996, 11268
@@ -351,7 +286,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - 'Eclite '
-    - Faction-Planet-Lava
+    - Faction-Feds-Planet-Lava
     - ''
   - - -114, -6741, -4750
     - Eclite Moon
@@ -378,7 +313,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Duatune
-    - Faction-Planet-Barren
+    - Faction-Feds-Planet-Barren
     - ''
   - - 5075, 4571, 5453
     - Duatune Moon
