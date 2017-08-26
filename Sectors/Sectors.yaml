@@ -351,9 +351,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
+  - 599
   - 0
-  - 0
-  - 0
+  - 525
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -361,26 +361,117 @@ Sectors:
     - Puscaoter System
     - Faction-Space-SpaceAsteroidsFewZeyhines
     - ''
-  - - -41, -30, -32
+  - - 0, 0, 0
     - Puscaoter
     - Faction-Emp-Planet-Biela
     - ''
-  - - -5300, -5565, -4150
-    - Prolla 52
-    - Faction-POI-Planet-Desert
-    - ''
-  - - 2070, 0, -2382
+  - - 2582, 0, 2449
     - Puscaoter Moon
     - PFaction-Moon4
+    - ''
+  - - -4382, 0, -5973
+    - Prolla 52
+    - Faction-POI-Planet-Desert
     - ''
   Allow: []
   Deny: []
 - Coordinates:
+  - 547
+  - 144
+  - 438
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Nouvis System
+    - Faction-Space-SpaceAsteroidField
+    - ''
+  - - 0, 0, 0
+    - Nouvis
+    - Faction-Emp-Planet-Desert2
+    - ''
+  - - -1995, -1729, -2186
+    - Nouvis Moon
+    - PFaction-Moon3
+    - ''
+  - - -5453, 4082, 5322
+    - Brinda XC1
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 556
   - 0
+  - 330
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Beymia System
+    - Faction-Space-SpaceAsteroidsFewSkillon
+    - ''
+  - - 0, 0, 0
+    - Beymia
+    - Faction-Emp-Planet-Lava2
+    - ''
+  - - 0, 0, 0
+    - Beymia Moon
+    - PFaction-Moon2
+    - ''
+  - - 0, 0, 0
+    - Spuna 5UC7
+    - Faction-POI-Planet-Desert
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 611
   - 0
+  - 318
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Lumia System
+    - Faction-Space-SpaceAsteroidFieldRingAitis
+    - ''
+  - - 0, 0, 0
+    - Lumia
+    - Faction-Emp-Planet-Lumia
+    - ''
+  - - 0, 0, 0
+    - Lumia Moon
+    - PFaction-Moon6
+    - ''
+  - - 0, 0, 0
+    - Grarth E8Z2
+    - Faction-POI-Planet-Desert
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 715
   - 0
-  Color: 0, 0, 0
-  Icon: No
-  Playfields: []
+  - 328
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Mordica System
+    - Faction-Space-SpaceAsteroidsOscutune
+    - ''
+  - - 0, 0, 0
+    - Mordica
+    - Faction-Emp-Planet-Mordica
+    - ''
+  - - 2180, 0, 3167
+    - Mordica Moon
+    - PFaction-Moon7
+    - ''
+  - - 3096, 0, -7017
+    - Fryke 757
+    - Faction-POI-Planet-Dalos
+    - ''
   Allow: []
   Deny: []
