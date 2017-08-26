@@ -844,7 +844,7 @@ CreatureSpawning:
           Amount: 2
           Delay: 0
           RestrictYMinMax: [ 0, 40 ]
-        - Name: TalonGuardians
+        - Name: TalonGuardianHerd
           Period: Always
           Amount: 1
           Delay: 0
@@ -852,7 +852,7 @@ CreatureSpawning:
 
     - Biome: OpenPlains
       Entities:
-        - Name: Raptors
+        - Name: RaptorHerd
           Period: Day
           Amount: 3
           Delay: 0
@@ -862,7 +862,7 @@ CreatureSpawning:
           Amount: 2
           Delay: 0
           RestrictYMinMax: [ 0, 40 ]
-        - Name: TalonGuardians
+        - Name: TalonGuardianHerd
           Period: Night
           Amount: 1
           Delay: 0
@@ -880,7 +880,7 @@ CreatureSpawning:
 
     - Biome: Coral Plains
       Entities:
-        - Name: Raptors
+        - Name: RaptorHerd
           Period: Day
           Amount: 3
           Delay: 0
@@ -890,7 +890,7 @@ CreatureSpawning:
           Amount: 2
           Delay: 0
           RestrictYMinMax: [ 0, 40 ]
-        - Name: TalonGuardians
+        - Name: TalonGuardianHerd
           Period: Night
           Amount: 1
           Delay: 0
@@ -908,7 +908,7 @@ CreatureSpawning:
 
     - Biome: Oasis
       Entities:
-        - Name: Raptors
+        - Name: RaptorHerd
           Period: Day
           Amount: 3
           Delay: 0
@@ -925,7 +925,7 @@ CreatureSpawning:
           Period: Day
           Amount: 1
           Delay: 0
-        - Name: TalonGuardians
+        - Name: TalonGuardianHerd
           Period: Night
           Amount: 1
           Delay: 0
