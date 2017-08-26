@@ -360,18 +360,6 @@ POIs:
             - Key: RegenAfter
               Value: 1440
 
-        - GroupName: PlanetVesselBase
-          PlanetVesselBaseSetup: PlanetVesselBaseSetup
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 3
-          SpawnPOINear: [DroneBaseAestus]
-          POIDistance: 800
-          ResourceDistance: 200
-          Properties:
-            - Key: RegenAfter
-              Value: 1440
 
 
         - GroupName: CivilSettlement
@@ -469,19 +457,6 @@ DroneBaseSetup:
                 Amount: 250
                 Extra: 3
 
-          PlanetVesselBase:
-              Name: PlanetVesselBaseSetup
-              Position3D: [ 0, 102, 0]
-              BaseType: PlanetVesselBase
-              KeyId: 0                  # Unique Key Id
-              PlanetVessel:
-                - Name: Patrol-XS-Hard           # GroupName
-                  Mission: PlanetPatrol
-                  FixedMaxSpeed: 10          # Max speed of a freighter in m/sec
-                  RangePatrolCenter: [ -1500, 0 ]
-                  RangePatrolRadius: 800
-                  RangePatrolAltitude: 80
-                  RespawnDelay: 12
 
 DroneSpawning:
     Random:

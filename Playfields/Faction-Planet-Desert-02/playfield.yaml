@@ -571,19 +571,7 @@ POIs:
             - Key: RegenAfter
               Value: 1440
 
-        - GroupName: PlanetVesselBase
-          PlanetVesselBaseSetup: PlanetVesselBaseSetup
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 3
-          SpawnPOINear: [DroneBaseOmicron]
-          POIDistance: 500
-          Properties:
-            - Key: Music
-              Value: barren
-            - Key: RegenAfter
-              Value: 1440
+
 
 
         - GroupName: AbandonedFactory
@@ -708,21 +696,7 @@ DroneBaseSetup:
                 Amount: 150
                 Extra: 3
 
-          PlanetVesselBase:
-              #Name should be setup name
-              Name: PlanetVesselBaseSetup
-              Position3D: [ 0, 102, 0]
-              BaseType: PlanetVesselBase
-              KeyId: 0
-              PlanetVessel:
-                - Name: Patrol-XS-Hard
-                  Mission: PlanetPatrol
-                  FixedMaxSpeed: 5
-                  RangePatrolCenter: [ -1000, 0 ]
-                  RangePatrolRadius: 800
-                  RangePatrolAltitude: 80
-                  RespawnDelay: 12
-                  InitialDelay: 72
+
 
 # Drones that patrol on whole planet
 # Type determined by stock of drone base (default drone - type = 0)
