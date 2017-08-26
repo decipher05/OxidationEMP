@@ -36,7 +36,8 @@ Sectors:
     - Starter-POI-Akua
     - ''
   Allow: []
-  Deny: []
+  Deny:
+  - Eclite System
 - Coordinates:
   - -8
   - -164
@@ -113,6 +114,8 @@ Sectors:
   Allow: []
   Deny:
   - Akua System
+  - Eclite System
+  - Huoxi System
 - Coordinates:
   - 733
   - -94
@@ -219,11 +222,11 @@ Sectors:
     - loslao
     - Faction-Planet-Alien2
     - ''
-  - - 4273, 0, -3753
+  - - 10364, 6743, -5022
     - loslao Moon
     - PFaction-Moon3
     - ''
-  - - -3503, 0, -3884
+  - - -12410, -768, -3884
     - Brides U98
     - Faction-Planet-POI-Aeris
     - ''
@@ -246,11 +249,11 @@ Sectors:
     - Dalos
     - Faction-Planet-Dalos
     - ''
-  - - 5461, 556, 5061
+  - - 10274, 8191, 2580
     - Dalos Moon
     - PFaction-Moon4
     - ''
-  - - 179, -2643, -5451
+  - - -11244, -9275, -2940
     - Aeris 08P
     - Faction-Planet-POI-Aeris
     - ''
@@ -272,17 +275,18 @@ Sectors:
     - 'Huoxi '
     - Faction-Planet-Desert-02
     - ''
-  - - -1078, -5385, 5844
+  - - 9198, -9728, 6381
     - Huoxi Moon
     - PFaction-Moon5
     - ''
-  - - -8225, 0, 295
+  - - -16176, 3847, 951
     - Swosie GU82
     - Faction-Planet-POI-Aeris
     - ''
   Allow: []
   Deny:
   - Ioslao System
+  - Waskion System
 - Coordinates:
   - 137
   - 29
@@ -348,17 +352,18 @@ Sectors:
     - 'Eclite '
     - Faction-Planet-Lava
     - ''
-  - - -1310, -4798, -2839
+  - - 232, -9637, -2839
     - Eclite Moon
     - PFaction-Moon8
     - ''
-  - - -8369, 5648, -2643
+  - - -13038, 5648, 137
     - Swion B1F
     - Faction-Planet-POI-Aeris
     - ''
   Allow: []
   Deny:
   - Waskion System
+  - Akua System
 - Coordinates:
   - 251
   - 0
