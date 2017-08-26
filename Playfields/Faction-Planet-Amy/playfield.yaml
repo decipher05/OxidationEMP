@@ -354,7 +354,6 @@ Biome:
                - [ RealRock1, 0]
 
 ### Resource Deposits
-if you need me pretty much message here and ill turn my music down
 RandomResources:
     - Name: IronResource
       CountMinMax: [ 0, 7 ]
