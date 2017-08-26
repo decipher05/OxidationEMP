@@ -19,7 +19,7 @@ DayLength: 24
 PlanetType: Desert
 Moons: 1
 PvP: True
-#Seed: 123456
+Seed: 789076
 #UseFixed: False
 
 # Playfield difficulty (has impact on experience gains)

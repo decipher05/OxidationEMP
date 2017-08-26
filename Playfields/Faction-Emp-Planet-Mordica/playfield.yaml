@@ -21,7 +21,7 @@ Water: WaterGreen
 SeaLevel: 30
 Moons: 2
 PvP: True
-#Seed: 123456                       # If set overwrites main Seed
+Seed: 13461354                      # If set overwrites main Seed
 #UseFixed: False					# If set uses fixed POIs + resources
 
 # Playfield difficulty (has impact on experience gains)

@@ -19,7 +19,7 @@ Moons: 1                           # No functionality yet
 Water: WaterBlue              # WaterBlue, WaterGreen, WaterBrown
 SeaLevel: 110                      # Sea level of planet
 PvP: True                         # Set to True to allow PvP in this playfield, default is False
-Seed: 321475                      # If set overwrites main Seed
+Seed: 425613                      # If set overwrites main Seed
 #UseFixed: False					# If set uses fixed POIs + resources
 
 # Playfield difficulty (has impact on experience gains)

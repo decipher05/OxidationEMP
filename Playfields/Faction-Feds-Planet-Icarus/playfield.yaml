@@ -20,7 +20,7 @@ PlanetType: Desert
 Moons: 0
 PvP: True
 #AllowCV: False
-#Seed: 123456                       # If set overwrites main Seed
+Seed: 23521                       # If set overwrites main Seed
 #UseFixed: False
 
 # Playfield difficulty (has impact on experience gains)

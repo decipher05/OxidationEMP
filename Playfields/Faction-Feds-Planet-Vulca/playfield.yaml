@@ -23,7 +23,7 @@ Moons: 1
 Water: WaterBrown
 SeaLevel: 42
 PvP: True
-#Seed: 123456
+Seed: 3247
 #UseFixed: False
 
 # Playfield Difficulty (has impact on experience gains)
