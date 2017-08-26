@@ -325,3 +325,62 @@ Sectors:
     - ''
   Allow: []
   Deny: []
+- Coordinates:
+  - 654
+  - 17
+  - 356
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Zestoaria System
+    - Faction-Space-SpaceAsteroidsOscutune
+    - ''
+  - - 0, 0, 0
+    - Zestoaria
+    - Faction-Emp-Planet-Alien
+    - ''
+  - - -3587, 0, -3212
+    - Zestoaria Moon
+    - PFaction-Moon
+    - ''
+  - - 7723, 0, -5746
+    - Prapus 845
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 0
+  - 0
+  - 0
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Puscaoter System
+    - Faction-Space-SpaceAsteroidsFewZeyhines
+    - ''
+  - - -41, -30, -32
+    - Puscaoter
+    - Faction-Emp-Planet-Biela
+    - ''
+  - - -5300, -5565, -4150
+    - Prolla 52
+    - Faction-POI-Planet-Desert
+    - ''
+  - - 2070, 0, -2382
+    - Puscaoter Moon
+    - PFaction-Moon4
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 0
+  - 0
+  - 0
+  Color: 0, 0, 0
+  Icon: No
+  Playfields: []
+  Allow: []
+  Deny: []
