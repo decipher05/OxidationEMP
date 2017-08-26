@@ -394,6 +394,7 @@ POIs:
           TroopTransport: True
           SpawnPOIAvoid: [TS_Aestus]
           POIDistance: 1000
+          Properties:
             - Key: RegenAfter
               Value: 1440
 
