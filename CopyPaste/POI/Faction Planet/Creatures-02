@@ -1,0 +1,47 @@
+        - Name: Slimes
+          Period: Always              #  Night / Day / Always
+          Amount: 1
+          Delay: 0
+        - Name: Slimes
+          Period: Always              #  Night / Day / Always
+          Amount: 1
+          Delay: 0
+        - Name: PlantMonsters
+          Period: Always
+          Amount: 2
+          Delay: 0
+        - Name: Hexapods
+          Period: Always
+          Amount: 2
+          Delay: 0
+        - Name: Triceratopses
+          Period: Day
+          Amount: 2
+          Delay: 0
+        - Name: RaptorsNight
+          Period: Always
+          Amount: 3
+          Delay: 0
+
+        - Name: TalonGuardians
+          Period: Always
+          Amount: 1
+          Delay: 0
+        - Name: AlienBugs01
+          Period: Always
+          Amount: 3
+          Delay: 0
+        - Name: LizardMuleHerd
+          Period: Always
+          Amount: 2
+          Delay: 0
+
+        - Name: RaptorHerd
+          Period: Day
+          Amount: 3
+          Delay: 0
+
+        - Name: GolemsDesert
+          Period: Always
+          Amount: 3
+          Delay: 0
