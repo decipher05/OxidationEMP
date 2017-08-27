@@ -440,7 +440,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Lumia
-    - Faction-Emp-Planet-Lumia
+    - AlienPLACEHOLDER
     - ''
   - - -3200, 5126, 4930
     - Lumia Moon
@@ -967,7 +967,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Dochars
-    - Faction-Syn-Planet-Lumia-r
+    - AlienPLACEHOLDER
     - ''
   - - -7597, 3886, -2970
     - Dochars Moon
