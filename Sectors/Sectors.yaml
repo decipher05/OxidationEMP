@@ -571,7 +571,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Vyrdis
-    - Faction-Emp-Planet-Vyrdis
+    - AlienPLACEHOLDER
     - ''
   - - 6129, 6040, 5126
     - Vyrdis Moon
@@ -832,7 +832,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Veblillon
-    - Faction-Rep-Planet-Vyrdis-r
+    - AlienPLACEHOLDER
     - ''
   - - -3273, -5777, -5777
     - Veblillon Moon
