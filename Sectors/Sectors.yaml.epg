@@ -39,9 +39,9 @@ Sectors:
   Deny:
   - Eclite System
 - Coordinates:
-  - -8
+  - -662
   - -164
-  - -601
+  - -448
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -572,6 +572,256 @@ Sectors:
   - - -8014, 0, -4471
     - Juflora 805
     - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -597
+  - 0
+  - -355
+  Color: 0.97, 0.96, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Nagleystea System
+    - Faction-Space-SpaceAsteroidField
+    - ''
+  - - 0, 0, 0
+    - Nagleystea
+    - Faction-Rep-Planet-Alien
+    - ''
+  - - 1326, 0, 4930
+    - Nagleystea Moon
+    - PFaction-Moon
+    - ''
+  - - -8012, 0, -5385
+    - Snorix 49Q
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -448
+  - 0
+  - -347
+  Color: 0.97, 0.96, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Retreron System
+    - Faction-Space-SpaceAsteroidsFewSkillon
+    - ''
+  - - 0, 0, 0
+    - Retreron
+    - Faction-Rep-Planet-Barren
+    - ''
+  - - 2185, 0, 3951
+    - Retreron Moon
+    - PFaction-Moon0
+    - ''
+  - - -8864, 0, 6758
+    - Whillon 25
+    - Faction-Rep-Planet-Desert-02
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -573
+  - 0
+  - -590
+  Color: 0.97, 0.96, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Pauvis System
+    - Faction-Space-SpaceAsteroidsFewSkillon
+    - ''
+  - - 0, 0, 0
+    - Pauvis
+    - Faction-Rep-Planet-Biela-r
+    - ''
+  - - -2604, 0, -2643
+    - Pauvis Moon
+    - PFaction-Moon1
+    - ''
+  - - 5662, 0, -6430
+    - Stora YWG7
+    - Faction-POI-Planet-Desert
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -499
+  - 0
+  - -459
+  Color: 0.97, 0.96, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Cepreron System
+    - Faction-Space-SpaceAsteroidsOscutune
+    - ''
+  - - 0, 0, 0
+    - Cepreron
+    - Faction-Rep-Planet-Desert-02
+    - ''
+  - - -3651, 0, -6822
+    - Cepreron Moon
+    - PFaction-Moon2
+    - ''
+  - - 4656, 0, 5518
+    - Ornet XV7
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -597
+  - 0
+  - -150
+  Color: 0.97, 0.96, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Haria System
+    - Faction-Space-SpaceAsteroidsFewZeyhines
+    - ''
+  - - 0, 0, 0
+    - Haria
+    - Faction-Rep-Planet-Icarus-r
+    - ''
+  - - 6484, 0, -1664
+    - Haria Moon
+    - PFaction-Moon3
+    - ''
+  - - -5731, 0, 7477
+    - Clyke 0VD5
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -466
+  - 0
+  - -172
+  Color: 0.97, 0.96, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Doarilia System
+    - Faction-Space-SpaceAsteroidField
+    - ''
+  - - 0, 0, 0
+    - Doarilia
+    - Faction-Rep-Planet-Lava
+    - ''
+  - - 6492, 4865, 4604
+    - Doarilia Moon
+    - PFaction-Moon4
+    - ''
+  - - -4464, -3557, -7017
+    - Brone EK78
+    - Faction-POI-Planet-Desert
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -736
+  - 0
+  - -153
+  Color: 0.97, 0.96, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Hagrone System
+    - Faction-Space-SpaceAsteroidsFewSkillon
+    - ''
+  - - 0, 0, 0
+    - Hagrone
+    - Faction-Rep-Planet-Mios-r
+    - ''
+  - - -3753, 0, -2513
+    - Hagrone Moon
+    - PFaction-Moon5
+    - ''
+  - - 7837, 0, -3361
+    - Flurn I9
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -743
+  - 0
+  - -340
+  Color: 0.97, 0.96, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Ovus System
+    - Faction-Space-SpaceAsteroidsOscutune
+    - ''
+  - - 0, 0, 0
+    - Ovus
+    - Faction-Rep-Planet-Ovus
+    - ''
+  - - -62, 0, -4080
+    - Ovus Moon
+    - PFaction-Moon6
+    - ''
+  - - -4847, 0, 8521
+    - Tanak J64
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -733
+  - 0
+  - -576
+  Color: 0.97, 0.96, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Korus System
+    - Faction-Space-SpaceAsteroidField
+    - ''
+  - - 0, 0, 0
+    - Korus
+    - Faction-Rep-Planet-Snow-02
+    - ''
+  - - -2508, 0, 4147
+    - Korus Moon
+    - PFaction-Moon7
+    - ''
+  - - 4087, 0, -6430
+    - Torrin UV85
+    - Faction-POI-Planet-Desert
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -414
+  - 0
+  - -576
+  Color: 0.97, 0.96, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Veblillon System
+    - Faction-Space-SpaceAsteroidsFewSkillon
+    - ''
+  - - 0, 0, 0
+    - Veblillon
+    - Faction-Rep-Planet-Vyrdis-r
+    - ''
+  - - -1615, 0, -3492
+    - Veblillon Moon
+    - PFaction-Moon8
+    - ''
+  - - -3724, 0, 6954
+    - Drion 30X
+    - Faction-POI-Planet-Desert
     - ''
   Allow: []
   Deny: []
