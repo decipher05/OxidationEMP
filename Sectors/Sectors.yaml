@@ -121,7 +121,7 @@ Sectors:
   - -107
   - -94
   - 176
-  Color: 0, 0.5, 1.0
+  Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -984,7 +984,7 @@ Sectors:
   - 366
   - 0
   - -247
-  Color: 0.8, 1.0, 0
+  Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -1010,7 +1010,7 @@ Sectors:
   - 523
   - 0
   - -614
-  Color: 0.8, 1.0, 0
+  Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -1035,7 +1035,7 @@ Sectors:
   - 678
   - 0
   - -118
-  Color: 0.8, 1.0, 0
+  Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -1060,7 +1060,7 @@ Sectors:
   - 816
   - 0
   - -268
-  Color: 0.8, 1.0, 0
+  Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -1087,7 +1087,7 @@ Sectors:
   - 576
   - 0
   - -466
-  Color: 0.8, 1.0, 0
+  Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -1113,16 +1113,12 @@ Sectors:
   - 230
   - 0
   - -43
-  Color: 1.0, 0.49, 0
-  Icon: Square
+  Color: 1, 0.49, 0
+  Icon: Circle
   Playfields:
   - - 0, 0, 0
     - FFA Sector 1
-    - Core-Space-AsteroidField
-    - ''
-  - - 0, 0, 0
-    - ''
-    - ''
+    - Faction-Space-Omicron
     - ''
   Allow:
   - Alphine System
@@ -1133,8 +1129,8 @@ Sectors:
   - 400
   - 0
   - 119
-  Color: 1.0, 0.49, 0
-  Icon: Square
+  Color: 1, 0.49, 0
+  Icon: Circle
   Playfields:
   - - 0, 0, 0
     - FFA Sector 2
@@ -1150,7 +1146,7 @@ Sectors:
   - 0
   - 308
   Color: 0, 0.5, 1
-  Icon: Hexagon
+  Icon: Circle
   Playfields:
   - - 0, 0, 0
     - Mios System
@@ -1174,7 +1170,7 @@ Sectors:
   - 234
   - 0
   - 554
-  Color: 0, 0.5, 1.0
+  Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -1224,12 +1220,12 @@ Sectors:
   - -459
   - 0
   - 172
-  Color: 1.0, 0.49, 0
-  Icon: Square
+  Color: 1, 0.49, 0
+  Icon: Circle
   Playfields:
   - - 0, 0, 0
     - Paerus System
-    - Core-Space-AsteroidField
+    - Core-Space-AsteroidRing
     - ''
   - - 14465, 9370, 9305
     - Paerus 1
@@ -1256,8 +1252,8 @@ Sectors:
   - 380
   - 0
   - 764
-  Color: 1.0, 0.49, 0
-  Icon: Square
+  Color: 1, 0.49, 0
+  Icon: Circle
   Playfields:
   - - 0, 0, 0
     - Fuflov System
@@ -1287,8 +1283,8 @@ Sectors:
   - 208
   - 0
   - -637
-  Color: 1.0, 0.49, 0
-  Icon: Square
+  Color: 1, 0.49, 0
+  Icon: Circle
   Playfields:
   - - 0, 0, 0
     - Alphine System
