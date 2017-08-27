@@ -533,11 +533,11 @@ Sectors:
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
-    - Ronstain
+    - Ronstain System
     - Faction-Space-SpaceAsteroidFieldRingAitis
     - ''
   - - 0, 0, 0
-    - Ronstain System
+    - Ronstain
     - Faction-Emp-Planet-Temperate2
     - ''
   - - 4380, 0, -5385
