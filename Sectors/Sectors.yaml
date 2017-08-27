@@ -1261,7 +1261,7 @@ Sectors:
     - ''
   - - -14330, 15703, -13546
     - Fuflov 1
-    - Core-G-Planet-Alphine-r
+    - AlienPLACEHOLDER
     - ''
   - - 13660, -15244, 6236
     - Fuflov 2
@@ -1288,11 +1288,11 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Alphine System
-    - Core-Space-AsteroidField
+    - Faction-Space-Omicron
     - ''
   - - 9019, 16617, 0
     - Alphine 1
-    - Core-Z-Planet-Alphine
+    - AlienPLACEHOLDER
     - ''
   - - 7943, -17202, 0
     - Alphine 2
