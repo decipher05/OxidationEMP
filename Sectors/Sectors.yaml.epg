@@ -363,7 +363,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Puscaoter
-    - Faction-Emp-Planet-Biela
+    - AlienPLACEHOLDER
     - ''
   - - 5514, 34, 3951
     - Puscaoter Moon
@@ -649,7 +649,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Pauvis
-    - Faction-Rep-Planet-Biela-r
+    - AlienPLACEHOLDER
     - ''
   - - -6385, -5189, -5908
     - Pauvis Moon
@@ -915,7 +915,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Postioruta
-    - Faction-Syn-Planet-Biela-r
+    - AlienPLACEHOLDER
     - ''
   - - 5043, 4996, 4473
     - Postioruta Moon
