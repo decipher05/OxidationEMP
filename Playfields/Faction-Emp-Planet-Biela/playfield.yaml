@@ -20,8 +20,8 @@ Moons: 1
 Water: WaterRed
 SeaLevel: 95
 PvP: True
-Seed: 0123994
-#UseFixed: False
+Seed: 5123994
+
 
 # Playfield difficulty (has impact on experience gains)
 Difficulty: 5
