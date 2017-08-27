@@ -1225,7 +1225,7 @@ Sectors:
   - 0
   - 172
   Color: 1.0, 0.49, 0
-  Icon: Triangle
+  Icon: Square
   Playfields:
   - - 0, 0, 0
     - Paerus System
@@ -1253,11 +1253,11 @@ Sectors:
   Deny:
   - 
 - Coordinates:
-  - 324
+  - 380
   - 0
-  - 802
+  - 764
   Color: 1.0, 0.49, 0
-  Icon: Triangle
+  Icon: Square
   Playfields:
   - - 0, 0, 0
     - Fuflov System
@@ -1288,7 +1288,7 @@ Sectors:
   - 0
   - -637
   Color: 1.0, 0.49, 0
-  Icon: Triangle
+  Icon: Square
   Playfields:
   - - 0, 0, 0
     - Alphine System
