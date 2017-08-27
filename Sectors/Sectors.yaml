@@ -1217,9 +1217,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - -459
+  - 260
   - 0
-  - 172
+  - 28
   Color: 1, 0.49, 0
   Icon: Circle
   Playfields:
@@ -1249,9 +1249,9 @@ Sectors:
   Deny:
   - 
 - Coordinates:
-  - 380
+  - 325
   - 0
-  - 764
+  - 139
   Color: 1, 0.49, 0
   Icon: Circle
   Playfields:
@@ -1280,9 +1280,9 @@ Sectors:
   - FFA Sector 1
   Deny: []
 - Coordinates:
-  - 208
+  - 350
   - 0
-  - -637
+  - 24
   Color: 1, 0.49, 0
   Icon: Circle
   Playfields:

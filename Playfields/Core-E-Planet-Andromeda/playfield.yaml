@@ -669,7 +669,7 @@ CreatureSpawning:
           Period: Day
           Amount: 4
           Delay: 0
-        - Name: CaveWormsGreen
+        - Name: CaveWormGreen
           Period: Day
           Amount: 1
           Delay: 0
