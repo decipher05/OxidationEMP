@@ -1229,11 +1229,11 @@ Sectors:
     - ''
   - - 14465, 9370, 9305
     - Paerus 1
-    - Core-E-Planet-Andromeda
+    - AlienPLACEHOLDER
     - ''
   - - -18014, 7281, 10284
     - Paerus 2
-    - Core-E-Planet-Piercia
+    - AlienPLACEHOLDER
     - ''
   - - 12518, 14919, 15050
     - Paerus 1 Moon
@@ -1259,19 +1259,19 @@ Sectors:
     - Fuflov System
     - Faction-Space-SpaceAsteroidsOscutune
     - ''
-  - - -14136, 15703, 0
+  - - -14330, 15703, -13546
     - Fuflov 1
+    - Core-G-Planet-Alphine-r
+    - ''
+  - - 13660, -15244, 6236
+    - Fuflov 2
     - AlienPLACEHOLDER
     - ''
-  - - 13923, -15244, 0
-    - Fuflov 2
-    - Core-G-Planet-Andromeda-r
-    - ''
-  - - -8631, 17857, 0
+  - - -8173, 17857, -8389
     - Fuflov 1 Moon
     - PFaction-Moon0
     - ''
-  - - 18454, -9760, 0
+  - - 19682, -9760, 11002
     - Fuflov 2 Moon
     - PFaction-Moon6
     - ''
