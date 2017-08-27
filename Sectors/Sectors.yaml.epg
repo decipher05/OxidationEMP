@@ -754,7 +754,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Hagrone
-    - Faction-Rep-Planet-Mios-r
+    - AlienPLACEHOLDER
     - ''
   - - -5067, -5646, -3492
     - Hagrone Moon
@@ -1154,7 +1154,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Mios
-    - Faction-Feds-Planet-Mios
+    - AlienPLACEHOLDER
     - ''
   - - -7411, 5126, 7934
     - Mios Moon
