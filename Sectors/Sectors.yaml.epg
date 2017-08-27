@@ -781,7 +781,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Ovus
-    - Faction-Rep-Planet-Ovus
+    - AlienPLACEHOLDER
     - ''
   - - -378, 0, -6430
     - Ovus Moon
@@ -1179,7 +1179,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Zuacarro
-    - Faction-Syn-Planet-Ovus-r
+    - AlienPLACEHOLDER
     - ''
   - - 4213, 6105, -6691
     - Zuacarro Moon
