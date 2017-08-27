@@ -13,7 +13,7 @@ AtmosphereO2: 0.2
 AtmosphereBreathable: True 
 TemperatureDay: 35  
 TemperatureNight: 10           
-# Music: desert
+# Music: temperate
 Music: Hyperion
 Radiation: 0
 DayLength: 24   
@@ -21,7 +21,7 @@ PlanetType: Temperate
 Moons: 1       
 Water: WaterBlue 
 SeaLevel: 23 
-PvP: False 
+PvP: True 
 #Seed: 123456 
 #UseFixed: False 
 
@@ -51,7 +51,7 @@ SkyHorizonColor: "1, 0.5, 0"
 DayLightIntensity: 1.4   
 NightLightIntensity: 0.65  
 DayShadowStrength: 0.95  
-NightLightColor: "0.78, 0.78, 1"     # Color of moon light, default is blueish "0.67,0.65,0.99"  
+NightLightColor: "0.78, 0.78, 1"   
 
 # Fog
 AtmosphereFog: 0.5  
@@ -524,36 +524,52 @@ AsteroidResources:
       Threshold: 0.4
       Amount: 0.4
 
-    - Name: CopperResource
-      Threshold: 0.3
-      Amount: 0.3
+    # - Name: CopperResource
+      # Threshold: 0.3
+      # Amount: 0.3
 
-    - Name: SiliconResource
-      Threshold: 0.3
-      Amount: 0.2
+    # - Name: SiliconResource
+      # Threshold: 0.3
+      # Amount: 0.2
 
-    - Name: PromethiumResource
-      Threshold: 0.3
-      Amount: 0.2
+    # - Name: PromethiumResource
+      # Threshold: 0.3
+      # Amount: 0.2
 
-    - Name: MagnesiumResource
-      Threshold: 0.2
-      Amount: 0.3
+    # - Name: MagnesiumResource
+      # Threshold: 0.2
+      # Amount: 0.3
 
 ### POIs
 POIs:
-    Random:          
+    Random:
+        - GroupName: Wreckage
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False    
+          PlayerStart: True   
+          SpawnResource: ["IronResource:1","CopperResource:1","CobaltResource:1","SiliconResource:1"]
+          ResourceDistance: 400
+          Properties: 
+            - Key: PersonalContainer
+              Value: "AutoMinerCore:5, Core, WaterBottle:2, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills, EVABoost"  
+            - Key: MapDistance
+              Value: 700         
+        
+        # Spawn DroneBase far away from wreckage      
         - GroupName: DroneBaseAkua
           DroneBaseSetup: DroneBaseSetup
           CountMinMax: [ 1, 1 ]
           DroneProb: 1  
           DronesMinMax: [ 2, 3 ]  
           ReserveCount: 3    
+          SpawnPOIAvoid: [Wreckage]  
+          POIDistance: 1300   
           Properties: 
             - Key: Music
-              Value: DarkSoundscape    
-            - Key: RegenAfter
-              Value: 720       
+              Value: DarkSoundscape  
 
         # Spawn TS Akua and close to it some weakly defended civil settlements
         - GroupName: TS_Akua
@@ -562,7 +578,7 @@ POIs:
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
           TroopTransport: False      
-          SpawnPOIAvoid: [DroneBaseAkua]  
+          SpawnPOIAvoid: [DroneBaseAkua, Wreckage]  
           POIDistance: 1000   
           SpawnResource: ["PromethiumResource:0-2"]
           ResourceDistance: 300  
@@ -583,9 +599,7 @@ POIs:
           ResourceDistance: 300 
           Properties: 
             - Key: Music
-              Value: DarkSoundscape     
-            - Key: RegenAfter
-              Value: 720              
+              Value: DarkSoundscape    
 
         # Weakly defended Civil Settlements close to TS Akua
         - GroupName: CivilSettlementO2
@@ -597,9 +611,9 @@ POIs:
           SpawnPOINear: [TS_Akua]
           POIDistance: 500
           Properties: 
-            - Key: RegenAfter
-              Value: 720            
-
+            - Key: MapMarker 
+              Value: Neutral   
+              
         # Spawn strong defended civil settlements randomly
         - GroupName: CivilSettlement
           CountMinMax: [ 2, 3 ]
@@ -607,9 +621,11 @@ POIs:
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 2
           TroopTransport: True  
+          SpawnPOIAvoid: [Wreckage]  
+          POIDistance: 1000   
           Properties: 
-            - Key: RegenAfter
-              Value: 720             
+            - Key: MapMarker 
+              Value: Neutral                
 
         # Tribal villages close to Abandoned Mine
         - GroupName: TribalVillage
@@ -621,8 +637,8 @@ POIs:
           SpawnPOINear: [AbandonedMine]
           POIDistance: 500 
           Properties: 
-            - Key: RegenAfter
-              Value: 720        
+            - Key: MapMarker 
+              Value: Neutral                 
 
         # Spawn crashed Talos 
         - GroupName: CrashedTalosMid      # Do not use regeneration with burried POIs
@@ -630,7 +646,12 @@ POIs:
           DroneProb: 0.8
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
+          SpawnPOINear: [Wreckage]
+          POIDistance: 1500
           TroopTransport: True
+          Properties: 
+            - Key: MapMarker 
+              Value: Neutral        
 
         - GroupName: CrashedTalosFront      # Do not use regeneration with burried POIs
           CountMinMax: [ 1, 1 ]
@@ -640,6 +661,9 @@ POIs:
           TroopTransport: False
           SpawnPOINear: [CrashedTalosMid]
           POIDistance: 1000
+          Properties: 
+            - Key: MapMarker 
+              Value: Neutral       
 
         - GroupName: CrashedTalosBack      # Do not use regeneration with burried POIs
           CountMinMax: [ 1, 1 ]
@@ -649,6 +673,9 @@ POIs:
           TroopTransport: False
           SpawnPOINear: [CrashedTalosFront]
           POIDistance: 1000 
+          Properties: 
+            - Key: MapMarker 
+              Value: Neutral       
 
         # Spawn military POIs close to Drone Base 
         - GroupName: EpsilonTierI
@@ -658,13 +685,10 @@ POIs:
           ReserveCount: 3
           TroopTransport: True 
           SpawnPOINear: [DroneBaseAkua]
-          SpawnPOIAvoid: [TS_Akua]
+          SpawnPOIAvoid: [TS_Akua, Wreckage]
           POIDistance: 600 
           SpawnResource: ["PromethiumResource:0-1"]
           ResourceDistance: 300
-          Properties: 
-            - Key: RegenAfter
-              Value: 720             
 
         # Spawn military POIs randomly
         - GroupName: EpsilonTierI
@@ -673,17 +697,58 @@ POIs:
           DronesMinMax: [ 1, 2 ]        
           ReserveCount: 3
           TroopTransport: True 
-          SpawnPOIAvoid: [TS_Akua]
+          SpawnPOIAvoid: [TS_Akua, Wreckage]
           POIDistance: 1000 
-          Properties: 
-            - Key: RegenAfter
-              Value: 720             
+
+    Fixed:
+        - Type: BA_Player
+          Prefab: BA_Outpost-AkuaV2    
+          Mode: Creative              
+          SubMode: Normal             
+          Name: Outpost Akua          
+          Pos: [ -522.5, 27, -356.4 ] 
+          Rot: [ 0, -42, 0 ]          
+          InitPower: True
+
+        - Type: SV_Player
+          Prefab: SV_Talon
+          Mode: Creative
+          SubMode: Normal
+          Name: Talon MKI
+          Pos: [ -522.86, 42, -328.1]
+          Rot: [ 0, 91, 0 ]
+
+        - Type: BA_Player
+          Prefab: BA_OutpostAkua
+          Mode: Debug
+          Name: Outpost Akua
+          Pos: [ -472, 11.2, -266.7  ]
+          Rot: [ 0, -33, 0 ]
+          InitPower: True
 
     FixedPlayerStart:
+        - Mode: Creative             
+          SubMode: Empty             
+          Armor: ArmorLight
+          Pos: [ -428, 25.7, -291 ]  
+          RotY: -50                  
+
+        - Mode: Creative             
+          SubMode: Normal            
+          Armor: ArmorLight
+          Pos: [ -520, 43,-323 ]     
+          RotY: 50                   
+
+        - Mode: Debug
+          Pos: [ -482.2,25.2,-252.56 ]  
+          RotY: 100
+
         - Mode: Survival
           Spawn: EscapePod
+          # Spawn: Structure
+          # Structure: "Wreckage"
           Armor: ArmorLight
-          Items: [ "Pistol, 50Caliber:250, Medikit02:3, AntidotePills:3, EmergencyRations:4, WaterBottle:2, EnergyCell:5, Drill, Chainsaw, BioFuel:4, ConstructorSurvival, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, EVABoost", "Pistol, 50Caliber:175, Medikit02:2, AntidotePills:2, EmergencyRations:2, WaterBottle:2, EnergyCell:4, Drill, Chainsaw, BioFuel:3, ConstructorSurvival, AutoMinerCore:4, Core, PumpkinStage1, PearthingStage1, DurianRoot, EVABoost", "Pistol, 50Caliber:150, Medikit02:1, AntidotePills:1, EmergencyRations:1, WaterBottle:1, EnergyCell:3, Drill, Chainsaw, BioFuel:2, ConstructorSurvival, AutoMinerCore:3, DurianRoot, EVABoost", "#FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival" ]
+          Items: [ "Pistol, 50Caliber:250, Medikit02:3, AntidotePills:3, EmergencyRations:4, Drill, Chainsaw, BioFuel:4, ConstructorSurvival, EnergyCell:5", "Pistol, 50Caliber:150, Medikit02:2, AntidotePills:2, EmergencyRations:2, Drill, Chainsaw, BioFuel:3, ConstructorSurvival, EnergyCell:4", "Pistol, 50Caliber:100, Medikit02:1, AntidotePills:1, EmergencyRations:1, Drill, Chainsaw, BioFuel:2, ConstructorSurvival, EnergyCell:3", "#FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival" ]
 
 ### Drones
 DroneBaseSetup:
@@ -708,7 +773,11 @@ DroneBaseSetup:
                 Amount: 200
                 Extra: 0
 
-              - Name: DroneSmallAttackBase   
+              - Name: DroneSmallFast01Minigun    # Base attack drones  
+                Amount: Infinite
+                Extra: 1         
+
+              - Name: DroneSmallAttackBase       # Base attack drones  
                 Amount: Infinite
                 Extra: 1                 
 

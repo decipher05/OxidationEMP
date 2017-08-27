@@ -48,7 +48,7 @@ LightHorizonColor: "0.6,1,0.1"     # Color of light if sun is on horizon, defaul
 # LightZenithColor: "1, 0.85, 0.6" # Color of light if sun is in zenith, default is almost white "1,0.95,0.92"
 # LightHorizonColor: "1,0.6,0"     # Color of light if sun is on horizon, default is orange "1,0.6,0"
 DayShadowStrength: 0.95            # Between 0 and 1: larger values = stronger
-NightLightColor: "0.83, 0.83, 1"     # Color of moon light, default is blueish "0.67,0.65,0.99"     
+NightLightColor: "0.83, 0.83, 1"     # Color of moon light, default is blueish "0.67,0.65,0.99"       
 
 # Fog
 AtmosphereFog: 0                    # Distant fog, between 0 and 1: larger values = stronger
@@ -379,14 +379,14 @@ RandomResources:
       DroneProb: 1
 
 ### Resource Asteroids
-AsteroidResources:
-    - Name: PromethiumResource
-      Threshold: 0.4
-      Amount: 0.2
+# AsteroidResources:
+    # - Name: PromethiumResource
+      # Threshold: 0.4
+      # Amount: 0.2
 
-    - Name: ZascosiumResource
-      Threshold: 0.3
-      Amount: 0.2
+    # - Name: ZascosiumResource
+      # Threshold: 0.3
+      # Amount: 0.2
 
 ### POIs
 POIs:

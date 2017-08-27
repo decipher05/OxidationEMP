@@ -14,6 +14,7 @@ AtmosphereBreathable: False
 Temperature: 38                    
 TemperatureDay: 50                 
 TemperatureNight: -40           
+# Music: alien2       
 Music: Vanguard       
 Radiation: 9.2
 DayLength: 24                      
@@ -26,7 +27,7 @@ PvP: True
 #UseFixed: False					
 
 # Playfield difficulty 
-Difficulty: 4                     
+Difficulty: 5                     
 
 # Planet or Space
 PlayfieldType: Planet        
@@ -52,8 +53,8 @@ SkyColor: "0.77,0.1,0.7"
 # Light
 DayLightIntensity: 0.6             
 NightLightIntensity: 0.85          
-DayShadowStrength: 0.95    
-NightLightColor: "0.83, 0.83, 1"     # Color of moon light, default is blueish "0.67,0.65,0.99"             
+DayShadowStrength: 0.95     
+NightLightColor: "0.83, 0.83, 1"     # Color of moon light, default is blueish "0.67,0.65,0.99"         
 
 # Fog
 AtmosphereFog: 0.25                
@@ -242,7 +243,7 @@ Biome:
            Radiation: 5
            Decorations: 
                - [ AlienPalm, 0.4]  
-               # - [ OmicronWaterleaf, 0.5]               
+               # - [ OmicronWaterleaf, 0.5]                 
                - [ BallFlower01, 0.07]               
                - [ AlienPlantThorn2, 0.1] 
                - [ CrystalsPyramidBlue, 0.1]
@@ -286,7 +287,6 @@ Biome:
                # - [ ElderberryBushBlue, 2] 
                - [ AlienTentacleStage2, 1] 
                - [ AlienPlant20, 1] 
-               - [ CattailWinter, 0.8]    
                - [ AlienPlant11Blue, 1] 
                - [ BallFlower03, 0.1] 
                - [ RealRock1Dark, 0.05]
@@ -323,7 +323,8 @@ Biome:
            NbOfClusters: 0
            Decorations: 
                # - [ ElderberryBushBlue, 0.3] 
-               - [ AlienPlant20, 0.6] 
+               - [ AlienPlant20, 0.6]  
+               # - [ CattailWinter, 0.8]    
                - [ AlienTentacleStage2, 0.4] 
                - [ AlienDeadTree, 0.1] 
                - [ BallTree, 0.1] 
@@ -455,25 +456,25 @@ RandomResources:
 
 ### Resource Asteroids
 AsteroidResources:
-    - Name: IronResource
-      Threshold: 0.6
-      Amount: 0.5
+    # - Name: IronResource
+      # Threshold: 0.6
+      # Amount: 0.5
 
-    - Name: CobaltResource
-      Threshold: 0.4
-      Amount: 0.4
+    # - Name: CobaltResource
+      # Threshold: 0.4
+      # Amount: 0.4
 
-    - Name: CopperResource
-      Threshold: 0.3
-      Amount: 0.3
+    # - Name: CopperResource
+      # Threshold: 0.3
+      # Amount: 0.3
 
-    - Name: SiliconResource
-      Threshold: 0.3
-      Amount: 0.2
+    # - Name: SiliconResource
+      # Threshold: 0.3
+      # Amount: 0.2
 
-    - Name: PromethiumResource
-      Threshold: 0.3
-      Amount: 0.2
+    # - Name: PromethiumResource
+      # Threshold: 0.3
+      # Amount: 0.2
 
     - Name: MagnesiumResource
       Threshold: 0.2
@@ -482,29 +483,46 @@ AsteroidResources:
 ### POIs
 POIs:
     Random:
+        - GroupName: Wreckage
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False    
+          PlayerStart: True    
+          SpawnResource: ["IronResource:1","CopperResource:1","CobaltResource:1","SiliconResource:1"]
+          ResourceDistance: 700
+          Properties: 
+            - Key: PersonalContainer
+              Value: "OxygenStation, OxygenBottleLarge:5, AutoMinerCore:5, Core, WaterBottle:2, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills, EVABoost, PlayerBikeKit"
+            - Key: MapDistance
+              Value: 700    
+              
         - GroupName: DroneBaseAkua
           DroneBaseSetup: DroneBaseSetup
           CountMinMax: [ 1, 1 ]
           DroneProb: 1  
           DronesMinMax: [ 4, 5 ]  
-          ReserveCount: 6     
+          ReserveCount: 6         
+          SpawnPOIAvoid: [Wreckage]  
+          POIDistance: 1300   
           SpawnResource: ["PromethiumResource:1-2","CobaltResource:1-2"]
           ResourceDistance: 400     
           Properties: 
             - Key: Music
-              Value: moonstone    
-            - Key: RegenAfter
-              Value: 720     
+              Value: moonstone   
           
         - GroupName: PlanetVesselBase
           PlanetVesselBaseSetup: PlanetVesselBaseSetup
           CountMinMax: [ 1, 1 ]
-          DronesMinMax: [ 2, 3 ] 
+          DroneProb: 1           
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 3            
+          SpawnPOIAvoid: [Wreckage]  
+          POIDistance: 1300       
           Properties: 
             - Key: Music
               Value: moonstone  
-            - Key: RegenAfter
-              Value: 720      
         
         - GroupName: TS_Masperon
           CountMinMax: [ 1, 1 ]
@@ -512,7 +530,7 @@ POIs:
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
           TroopTransport: False    
-          SpawnPOIAvoid: [DroneBaseAkua, PlanetVesselBase]  
+          SpawnPOIAvoid: [DroneBaseAkua, PlanetVesselBase, Wreckage]  
           POIDistance: 1000          
           Properties: 
             - Key: Music
@@ -524,15 +542,13 @@ POIs:
           DronesMinMax: [ 2, 3 ]
           ReserveCount: 4
           TroopTransport: True
-          SpawnPOIAvoid: [TS_Masperon]  
+          SpawnPOIAvoid: [Wreckage, TS_Masperon]  
           POIDistance: 1300          
           SpawnResource: ["IronResource:1-2","SiliconResource:1-2"]
           ResourceDistance: 400      
           Properties: 
             - Key: Music
               Value: moonstone    
-            - Key: RegenAfter
-              Value: 720     
 
         - GroupName: CrashedShip      # Do not use regeneration with burried POIs
           CountMinMax: [ 1, 1 ]
@@ -540,6 +556,11 @@ POIs:
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 4
           TroopTransport: False
+          SpawnPOIAvoid: [Wreckage]
+          POIDistance: 800    
+          Properties: 
+            - Key: MapMarker 
+              Value: Neutral    
 
         - GroupName: CivilSettlement
           CountMinMax: [ 1, 2 ]
@@ -548,10 +569,11 @@ POIs:
           ReserveCount: 3
           TroopTransport: True  
           SpawnPOINear: [GhostRiderBiolab]
+          SpawnPOIAvoid: [Wreckage]  
           POIDistance: 800 
           Properties: 
-            - Key: RegenAfter
-              Value: 720     
+            - Key: MapMarker 
+              Value: Neutral    
 
         - GroupName: CivilSettlement
           CountMinMax: [ 3, 6 ]
@@ -559,9 +581,11 @@ POIs:
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: True  
+          SpawnPOIAvoid: [Wreckage]  
+          POIDistance: 800     
           Properties: 
-            - Key: RegenAfter
-              Value: 720     
+            - Key: MapMarker 
+              Value: Neutral    
 
         - GroupName: XenuWeaponBunker
           CountMinMax: [ 1, 1 ]
@@ -573,9 +597,7 @@ POIs:
           POIDistance: 500         
           Properties: 
             - Key: Music
-              Value: moonstone    
-            - Key: RegenAfter
-              Value: 720        
+              Value: moonstone  
 
         - GroupName: GhostTierII
           CountMinMax: [ 3, 4 ]        
@@ -583,17 +605,20 @@ POIs:
           DronesMinMax: [ 1, 2 ]        
           ReserveCount: 3
           TroopTransport: True   
-          SpawnPOIAvoid: [TS_Masperon]  
+          SpawnPOIAvoid: [Wreckage, TS_Masperon]  
           POIDistance: 800  
-          Properties: 
-            - Key: RegenAfter
-              Value: 720       
 
     FixedPlayerStart:
+        - Mode: Debug
+          Pos: [ -420, 90, -15 ]
+          RotY: -180
+
         - Mode: Survival
-          Spawn: EscapePod
+          # Spawn: EscapePod  
+          Spawn: Structure
+          Structure: "Wreckage"		
           Armor: ArmorHeavy
-          Items: [ "Pistol, 50Caliber:250, Medikit02:3, AntidotePills:3, EmergencyRations:4, WaterBottle:2, OxygenBottleSmall:5, EnergyCell:5, OxygenGenerator, OxygenBottleLarge:5, Drill, Chainsaw, BioFuel:4, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills, EVABoost", "Pistol, 50Caliber:150, Medikit02:2, AntidotePills:2, EmergencyRations:2, WaterBottle:2, OxygenBottleSmall:3, EnergyCell:4, OxygenGenerator, OxygenBottleLarge:3, Drill, Chainsaw, BioFuel:3, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:4, Core, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills, EVABoost", "Pistol, 50Caliber:100, Medikit02:1, AntidotePills:1, EmergencyRations:1, WaterBottle:1, OxygenBottleSmall:1, EnergyCell:3, OxygenBottleLarge:1, Drill, Chainsaw, BioFuel:2, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:3, Core, DurianRoot, RadiationPills, EVABoost", "#FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival, OxygenGeneratorSmall" ]
+          Items: [ "Pistol, 50Caliber:250, Medikit02:3, AntidotePills:3, EmergencyRations:4, Drill, Chainsaw, BioFuel:4, ConstructorSurvival, OxygenGeneratorSmall, OxygenBottleSmall:5, EnergyCell:5", "Pistol, 50Caliber:150, Medikit02:2, AntidotePills:2, EmergencyRations:2, Drill, Chainsaw, BioFuel:3, ConstructorSurvival, OxygenGeneratorSmall, OxygenBottleSmall:3, EnergyCell:4", "Pistol, 50Caliber:100, Medikit02:1, AntidotePills:1, EmergencyRations:1, Drill, Chainsaw, BioFuel:2, ConstructorSurvival, OxygenGeneratorSmall, OxygenBottleSmall:1, EnergyCell:3", "#FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival, OxygenGeneratorSmall" ]
 
 ### Drones
 DroneBaseSetup:
@@ -618,7 +643,7 @@ DroneBaseSetup:
                 Amount: 400
                 Extra: 0
 
-              - Name: DroneSmallFast01Plasma   # Base attack drones
+              - Name: DroneLargeAttackBase   # Base attack drones
                 Amount: Infinite
                 Extra: 1  
 

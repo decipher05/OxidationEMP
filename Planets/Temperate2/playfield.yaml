@@ -44,8 +44,8 @@ SkyHorizonColor: "1, 0.3, 0"
 # Light
 DayLightIntensity: 1.2               
 NightLightIntensity: 0.65             
-DayShadowStrength: 0.95    
-NightLightColor: "0.78, 0.78, 1"            
+DayShadowStrength: 0.95      
+NightLightColor: "0.78, 0.78, 1"           
 
 # Fog
 AtmosphereFog: 0.5                  
@@ -409,13 +409,13 @@ RandomResources:
 
 ### Resource Asteroids
 AsteroidResources:
-    - Name: IronResource              
-      Threshold: 0.5
-      Amount: 0.5
+    # - Name: IronResource              
+      # Threshold: 0.5
+      # Amount: 0.5
 
-    - Name: CobaltResource
-      Threshold: 0.4
-      Amount: 0.2
+    # - Name: CobaltResource
+      # Threshold: 0.4
+      # Amount: 0.2
 
     - Name: CopperResource
       Threshold: 0.5
@@ -425,13 +425,13 @@ AsteroidResources:
       Threshold: 0.5
       Amount: 0.2
 
-    - Name: PromethiumResource
-      Threshold: 0.5
-      Amount: 0.2
+    # - Name: PromethiumResource
+      # Threshold: 0.5
+      # Amount: 0.2
 
-    - Name: MagnesiumResource
-      Threshold: 0.5
-      Amount: 0.2
+    # - Name: MagnesiumResource
+      # Threshold: 0.5
+      # Amount: 0.2
 
 ### POIs
 POIs:

@@ -21,7 +21,7 @@ PlanetType: Desert
 Moons: 1                            
 Water: WaterGreen                   
 SeaLevel: 29                        
-PvP: False                          
+PvP: True                          
 #Seed: 123456                       
 #UseFixed: False
 
@@ -29,7 +29,7 @@ PvP: False
 Difficulty: 3              
 
 # Planet or Space
-PlayfieldType: Planet  
+PlayfieldType: Planet    
 Description: "Difficulty:[c][FFFFFF] Medium[-][/c]    Origin:[c][FFFFFF] %Origin%[-][/c]
 
 
@@ -52,9 +52,9 @@ SkyHorizonColor: "1, 0.5, 0"
 
 # Light
 DayLightIntensity: 1.4              
-NightLightIntensity: 0.7             
-DayShadowStrength: 0.95 
-NightLightColor: "0.7, 0.7, 1"                    
+NightLightIntensity: 0.7            
+DayShadowStrength: 0.95       
+NightLightColor: "0.7, 0.7, 1"     # Color of moon light, default is blueish "0.67,0.65,0.99"        
 
 # Fog
 AtmosphereFog: 0                    
@@ -152,7 +152,7 @@ SpecialEffectsGlobal:
 # Terrain and Local Decoration
 Terrain:
     # Name: DesertNewTEST              
-    Name: DesertNew                    
+    Name: Desert                   
     PoleLevel: 38                      
     NoiseStrength: 0.55                
     ColorChange:                       
@@ -522,36 +522,51 @@ AsteroidResources:
       Threshold: 0.4
       Amount: 0.4
 
-    - Name: CopperResource
-      Threshold: 0.3
-      Amount: 0.3
+    # - Name: CopperResource
+      # Threshold: 0.3
+      # Amount: 0.3
 
-    - Name: SiliconResource
-      Threshold: 0.3
-      Amount: 0.2
+    # - Name: SiliconResource
+      # Threshold: 0.3
+      # Amount: 0.2
 
-    - Name: PromethiumResource
-      Threshold: 0.2
-      Amount: 0.2
+    # - Name: PromethiumResource
+      # Threshold: 0.2
+      # Amount: 0.2
 
-    - Name: MagnesiumResource
-      Threshold: 0.2
-      Amount: 0.3
+    # - Name: MagnesiumResource
+      # Threshold: 0.2
+      # Amount: 0.3
 
 ### POIs
 POIs:
-    Random:              
+    Random:
+        - GroupName: Wreckage
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False    
+          PlayerStart: True   
+          SpawnResource: ["IronResource:1","CopperResource:1","CobaltResource:1","SiliconResource:1"]
+          ResourceDistance: 500
+          Properties: 
+            - Key: PersonalContainer
+              Value: "OxygenStation, OxygenBottleLarge:5, AutoMinerCore:5, Core, WaterBottle:2, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills, EVABoost"
+            - Key: MapDistance
+              Value: 700      
+              
         - GroupName: DroneBaseOmicron
           DroneBaseSetup: DroneBaseSetup
           CountMinMax: [ 1, 1 ]          
           DroneProb: 1           
           DronesMinMax: [ 2, 3 ]           
-          ReserveCount: 3          
+          ReserveCount: 3              
+          SpawnPOIAvoid: [Wreckage]  
+          POIDistance: 1300   
           Properties: 
             - Key: Music
               Value: DarkSoundscape     
-            - Key: RegenAfter
-              Value: 720     
           
         - GroupName: PlanetVesselBase
           PlanetVesselBaseSetup: PlanetVesselBaseSetup         
@@ -564,8 +579,6 @@ POIs:
           Properties: 
             - Key: Music
               Value: barren     
-            - Key: RegenAfter
-              Value: 720     
           
         - GroupName: TS_Omicron            
           CountMinMax: [ 1, 1 ]            
@@ -573,7 +586,7 @@ POIs:
           DronesMinMax: [ 1, 1 ]           
           ReserveCount: 1                  
           TroopTransport: False  
-          SpawnPOIAvoid: [DroneBaseOmicron]  
+          SpawnPOIAvoid: [DroneBaseOmicron, Wreckage]  
           POIDistance: 1000   
           Properties: 
             - Key: Music
@@ -585,15 +598,13 @@ POIs:
           DronesMinMax: [ 2, 3 ]
           ReserveCount: 3
           TroopTransport: True
-          SpawnPOIAvoid: [TS_Omicron]  
+          SpawnPOIAvoid: [TS_Omicron, Wreckage]  
           POIDistance: 1000  
           SpawnResource: ["IronResource:0-1","SiliconResource:0-1","MagnesiumResource:0-1"]
           ResourceDistance: 400     
           Properties: 
             - Key: Music
               Value: lava     
-            - Key: RegenAfter
-              Value: 720         
 
         - GroupName: Portal       
           CountMinMax: [ 1, 1 ]
@@ -611,6 +622,11 @@ POIs:
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 4
           TroopTransport: False
+          SpawnPOIAvoid: [Wreckage]
+          POIDistance: 800  
+          Properties: 
+            - Key: MapMarker 
+              Value: Neutral       
 
         - GroupName: CivilSettlement       
           CountMinMax: [ 3, 4 ]
@@ -618,11 +634,11 @@ POIs:
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3  
           TroopTransport: True  
-          SpawnPOIAvoid: [DroneBaseOmicron]
+          SpawnPOIAvoid: [Wreckage, DroneBaseOmicron]
           POIDistance: 1000  
           Properties: 
-            - Key: RegenAfter
-              Value: 720         
+            - Key: MapMarker 
+              Value: Neutral        
           
         - GroupName: XenuTierI
           CountMinMax: [ 1, 2 ]
@@ -631,13 +647,11 @@ POIs:
           ReserveCount: 3          
           TroopTransport: True   
           SpawnPOINear: [DroneBaseOmicron]
-          SpawnPOIAvoid: [TS_Omicron]
-          POIDistance: 600   
+          SpawnPOINearDistance: 500
+          SpawnPOIAvoid: [TS_Omicron, Wreckage]
+          SpawnPOIAvoidDistance: 600
           SpawnResource: ["PromethiumResource:0-1"]
-          ResourceDistance: 300     
-          Properties: 
-            - Key: RegenAfter
-              Value: 720          
+          ResourceDistance: 300    
 
         - GroupName: XenuTierI
           CountMinMax: [ 2, 3 ]
@@ -645,17 +659,112 @@ POIs:
           DronesMinMax: [ 1, 2 ]     
           ReserveCount: 4          
           TroopTransport: True   
-          SpawnPOIAvoid: [DroneBaseOmicron]
+          SpawnPOIAvoid: [Wreckage, DroneBaseOmicron]
           POIDistance: 1000   
+
+    Fixed:
+        - Type: BA_Player               
+          Prefab: BA_Outpost-OmicronV2  
+          Mode: Creative                
+          SubMode: Normal               
+          Name: Outpost Omicron         
+          Pos: [ -363, 70, -149 ]       
+          Rot: [ 0, -25, 0 ]            
+          InitPower: True         
+ 
+        - Type: HV_Player
+          Prefab: HV_SpeederBike    
+          Mode: Creative                
+          SubMode: Normal                
+          Name: Speeder MKI            
+          Pos: [ -382.5, 73.3, -170.5 ]    
+          Rot: [ 0, -128, 0 ]    
+
+        - Type: SV_Player
+          Prefab: SV_StormMKI
+          Mode: Creative                
+          SubMode: Normal           
+          Name: Storm MKI
+          Pos: [ -352.6, 76.68, -140.52]
+          Rot: [ 0, -90, 0 ]       
+
+        - Type: BA_Player
+          Prefab: BA_TestBaseO2
+          Mode: Debug
+          Name: Test Base O2
+          Pos: [-532, 69, -397 ]
+          Rot: [ 0, 154, 0 ]
+
+        - Type: BA_Player
+          Prefab: BA_TestBase
+          Mode: Debug
+          Name: Test Base
+          Pos: [-349, 70, -273 ]
+          Rot: [ 0, 270, 0 ]
           Properties: 
-            - Key: RegenAfter
-              Value: 720         
+            - Key: PersonalContainer
+              Value: "Pistol, 50Caliber:250, Chainsaw"
+            - Key: Music
+              Value: snow
+
+        - Type: CV_Player
+          Prefab: CV_O2_TestOmicron
+          Mode: Debug
+          Name: CV O2 Test
+          # Pos: [ -453.8, 70.3, -347.4]
+          Pos: [ -448, 70, -345]
+          Rot: [ 0, 30, 0 ]
+          InitPower: False
+
+        - Type: SV_Player
+          Prefab: SV_Prefab_Tier2a
+          Mode: Debug
+          Name: SV Test
+          Pos: [ -357, 71.5, -317]
+          Rot: [ 0, 0, 0 ]
+
+        - Type: BA_Alien
+          Prefab: BA_MiningComplex
+          Mode: Debug
+          Name: Enemy Base
+          Pos: [ -773, 21, -156 ]
+          Rot: [ 0, 0, 0 ]
+          InitPower: True
+          Properties: 
+            - Key: Music
+              Value: DarkSoundscape2
+
+        # - Type: BA_Alien
+          # Prefab: BA_LootTest
+          # Mode: Survival
+          # Name: Enemy Base
+          # Pos: [ -415, 67.5, -38.6 ]
+          # Rot: [ 0, 40, 0 ]
+          # InitPower: True
 
     FixedPlayerStart:
+        - Mode: Creative                 
+          SubMode: Normal               
+          Pos: [ -388, 74.25, -200 ]    
+          RotY: 14                       
+          Armor: ArmorMedium
+
+        - Mode: Creative                   
+          SubMode: Empty     
+          Pos: [ -841, 56, 142 ]         
+          RotY: -18          
+          Armor: ArmorMedium    
+
+        - Mode: Debug  
+          Pos: [ -353, 72, -306 ]
+          RotY: 0
+          #Spawn: Structure
+          #Structure: "Test Base"
+
         - Mode: Survival
           Spawn: EscapePod        
           Armor: ArmorMedium
-          Items: [ "Pistol, 50Caliber:250, Medikit02:3, AntidotePills:3, EmergencyRations:4, WaterBottle:3, OxygenBottleSmall:5, EnergyCell:5, OxygenGenerator, OxygenBottleLarge:5, Drill, Chainsaw, BioFuel:4, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:5, Core, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills, EVABoost", "Pistol, 50Caliber:175, Medikit02:2, AntidotePills:2, EmergencyRations:2, WaterBottle:2, OxygenBottleSmall:3, EnergyCell:4, OxygenGenerator, OxygenBottleLarge:3,Drill, Chainsaw, BioFuel:3, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:4, Core, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills, EVABoost", "Pistol, 50Caliber:150, Medikit02:1, AntidotePills:1, EmergencyRations:1, WaterBottle:1, OxygenBottleSmall:1, EnergyCell:3, OxygenBottleLarge:1, Drill, Chainsaw, BioFuel:2, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:3, Core, DurianRoot, RadiationPills, EVABoost", "#FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival, OxygenGeneratorSmall" ]
+          Items: [ "Pistol, 50Caliber:250, Medikit02:3, AntidotePills:3, EmergencyRations:4, Drill, Chainsaw, BioFuel:4, ConstructorSurvival, OxygenGeneratorSmall, OxygenBottleSmall:5, EnergyCell:5", "Pistol, 50Caliber:150, Medikit02:2, AntidotePills:2, EmergencyRations:2, Drill, Chainsaw, BioFuel:3, ConstructorSurvival, OxygenGeneratorSmall, OxygenBottleSmall:3, EnergyCell:4", "Pistol, 50Caliber:100, Medikit02:1, AntidotePills:1, EmergencyRations:1, Drill, Chainsaw, BioFuel:2, ConstructorSurvival, OxygenGeneratorSmall, OxygenBottleSmall:1, EnergyCell:3", "#FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival, OxygenGeneratorSmall" ]
           
 ### Drones# that's not random , it's a list of setups
 DroneBaseSetup:
@@ -686,6 +795,10 @@ DroneBaseSetup:
                 Extra: 0
 
               - Name: DroneSmallFast01Minigun   # Base attack drones
+                Amount: Infinite
+                Extra: 1              
+
+              - Name: DroneSmallAttackBase      # Base attack drones
                 Amount: Infinite
                 Extra: 1                 
 
@@ -722,7 +835,7 @@ DroneBaseSetup:
                   RangePatrolCenter: [ -1000, 0 ]
                   RangePatrolRadius: 800
                   RangePatrolAltitude: 80
-                  RespawnDelay: 12
+                  RespawnDelay: 24
                   InitialDelay: 72
 
 # Drones that patrol on whole planet 
@@ -742,7 +855,7 @@ CreatureSpawning:
         - Name: CaveWormsGreen       
           Period: Night              
           Amount: 2                  
-          Delay: 0             
+          Delay: 0                   
           RestrictYMinMax: [ 30, 100 ]   
 
     - Biome: DesertLowPlains

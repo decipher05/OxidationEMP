@@ -41,7 +41,7 @@ SkyHorizonColor: "1, 0, 0"         # Color of skybox if sun is on horizon, defau
 
 # Light
 DayLightIntensity: 1.4               # Between 0 and 1.2: larger values = brighter, default is 0.6
-NightLightIntensity: 0.6            # Between 0 and 1: larger values = brighter, default is 0.6
+NightLightIntensity: 0.6           # Between 0 and 1: larger values = brighter, default is 0.6
 LightZenithColor: "1, 0.5, 0.5"      # Color of light if sun is in zenith, default is almost white "1,0.95,0.92"
 LightHorizonColor: "1, 0.5, 0.5"     # Color of light if sun is on horizon, default is orange "1,0.6,0"
 NightLightColor: "0.7, 0.2, 0.2"     # Color of moon light, default is blueish "0.67,0.65,0.99"
@@ -366,17 +366,17 @@ RandomResources:
 
 ### Resource Asteroids
 AsteroidResources:
-    - Name: IronResource
-      Threshold: 0.4
-      Amount: 0.2
+    # - Name: IronResource
+      # Threshold: 0.4
+      # Amount: 0.2
 
     - Name: MagnesiumResource
       Threshold: 0.5
       Amount: 0.2
 
-    - Name: PromethiumResource
-      Threshold: 0.2
-      Amount: 0.2
+    # - Name: PromethiumResource
+      # Threshold: 0.2
+      # Amount: 0.2
 
 ### POIs
 POIs:

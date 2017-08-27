@@ -8,7 +8,7 @@ AtmosphereEnabled: False            # Please don't change
 PvP: True                           # Set to True to allow PvP in this playfield, default is False
 UseFixed: True                      # If set uses fixed drones
 Radiation: 15.2
-TemperatureDay: -200     
+TemperatureDay: -200  
 Music: DistantWorlds      
 
 # Playfield difficulty (has impact on experience gains)
@@ -55,9 +55,6 @@ POIs:
           Pos: [ 0, 100, 700 ]    
           Rot: [ 0, 75, 0 ]             
           InitPower: True  
-          Properties: 
-            - Key: RegenAfter
-              Value: 720      
  
         - Type: BA_Alien
           Prefab: BAO_SpireSatellite          
@@ -65,86 +62,50 @@ POIs:
           Name: Alien Satellite            
           Pos: [ 0, 200, 300 ]    
           Rot: [ 0, 75, 0 ]             
-          InitPower: True   
-          Properties: 
-            - Key: RegenAfter
-              Value: 720      
+          InitPower: True  
  
         - Type: BA_Alien
           Prefab: BAO_SpireSatellite          
           Mode: Survival 
           Name: Alien Satellite            
           Pos: [ 200, 200, 300 ]    
-          Rot: [ 0, 75, 0 ]             
-          InitPower: True   
-          Properties: 
-            - Key: RegenAfter
-              Value: 720      
- 
-        # - Type: BA_Alien
-          # Prefab: BAO_XenuSupplyStation          
-          # Mode: Survival 
-          # Name: Supply Station            
-          # Pos: [ 2000, 0, 2000 ]    
-          # Rot: [ 0, 75, 0 ]             
-          # InitPower: True   
-          # Properties: 
-            # - Key: RegenAfter
-              # Value: 720      
+          Rot: [ 0, 75, 0 ]   
  
         - Type: AsteroidVoxel01Promethium
           Prefab: AsteroidVoxel01Promethium 
           Name: Promethium Asteroid        
           Pos: [ -1216, 138, -518 ]    
-          Rot: [ 0, 0, 0 ]            
-          Properties:     
-            - Key: RegenAfter
-              Value: 180    
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel02Sathium
           Prefab: AsteroidVoxel02Sathium     
           Name: Sathium Asteroid            
           Pos: [ -568, -264, -1273 ]    
-          Rot: [ 0, 0, 0 ]          
-          Properties:     
-            - Key: RegenAfter
-              Value: 180      
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel03Zascosium
           Prefab: AsteroidVoxel03Zascosium   
           Name: Zascosium Asteroid            
           Pos: [ 846, -335, 627 ]    
-          Rot: [ 0, 0, 0 ]        
-          Properties:     
-            - Key: RegenAfter
-              Value: 180        
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel01Pentaxid
           Prefab: AsteroidVoxel01Pentaxid
           Name: Pentaxid Asteroid               
           Pos: [ -634, -44, 459 ]     
-          Rot: [ 0, 0, 0 ]        
-          Properties:     
-            - Key: RegenAfter
-              Value: 180        
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel03Zascosium
           Prefab: AsteroidVoxel03Zascosium   
           Name: Zascosium Asteroid            
           Pos: [ -1650, -104, 2872 ]    
-          Rot: [ 0, 0, 0 ]         
-          Properties:     
-            - Key: RegenAfter
-              Value: 180       
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel01Magnesium
           Prefab: AsteroidVoxel01Magnesium   
           Name: Magnesium Asteroid            
           Pos: [ 2110, -240, 4514 ]    
-          Rot: [ 0, 0, 0 ]         
-          Properties:     
-            - Key: RegenAfter
-              Value: 180         
+          Rot: [ 0, 0, 0 ]        
  
         - Type: AsteroidFieldRectangle2 
           Name: Asteroid Field            
@@ -208,7 +169,4 @@ DroneBaseSetup:
               Stock:
                 - Name: SpaceDronePlasma          
                   Amount: 20                          
-                  Extra: 0       
-              Properties: 
-                - Key: RegenAfter
-                  Value: 720                              
+                  Extra: 0                        

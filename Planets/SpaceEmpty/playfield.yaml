@@ -1,0 +1,39 @@
+---
+# Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+
+# Playfield Characteristics
+Gravity: 0                          # Please don't change
+AtmosphereEnabled: False            # Please don't change
+PvP: True                          # Set to True to allow PvP in this playfield, default is False
+UseFixed: True                      # If set uses fixed drones
+Radiation: 6.3
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 2                       # Between 2 and 5: larger values indicate higher difficulty
+
+# Planet or Space
+PlayfieldType: Space               # Please don't change
+
+PlanetType: Space                  # No functionality yet
+
+# Drones
+DroneBaseSetup:
+    Fixed:
+    Fixed:
+        - Name: MainDroneBase
+          Pos: [ 5000, 200, 5000 ]      # position coordinates
+          DroneOnDuty:
+            - Name: SpaceDronePlasma
+              Pos: [ 5000, 200, 5000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -5000, -200, 5000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ 5000, 200, -5000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -5000, -200, -5000 ]
+              Radius: 350
+

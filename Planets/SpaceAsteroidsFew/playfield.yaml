@@ -1,0 +1,175 @@
+---
+# Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+
+# Playfield Characteristics
+Gravity: 0                          # Please don't change
+AtmosphereEnabled: False            # Please don't change
+PvP: True                          # Set to True to allow PvP in this playfield, default is False
+UseFixed: True                      # If set uses fixed drones
+Radiation: 9.1
+TemperatureDay: -200  
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 2                       # Between 2 and 5: larger values indicate higher difficulty
+
+# Planet or Space
+PlayfieldType: Space               # Please don't change
+
+PlanetType: Space                  # No functionality yet
+
+# Sun                               
+SunFlare: EnvironmentalEffects/SunFlareWhite3Space
+
+# Stars
+Stars: SkyboxStarsBlack  
+
+# Nebula
+Nebula: PrefabNebulaBlueOrange
+
+### POIs
+POIs:
+    Fixed:
+        # - Type: BA_Alien
+          # Prefab: BAO_Dion-III                # filename of blueprint
+          # Mode: Survival                      # Creative or Survival          
+          # Name: Dion-III                      # name of blueprint as displayed to player
+          # Pos: [ 4500, 500, -1000 ]               # position coordinates
+          # Rot: [ 0, -50, 0 ]                  # rotation angles
+          # InitPower: True                     # set if POI should be initially powered, default: False  
+
+        - Type: BA_Admin
+          Prefab: TSO_SkillonOrbit    
+          Mode: Survival                     
+          Name: TSO Skillon            
+          Pos: [ -2500, 500, -2100 ]      
+          Rot: [ 0, 0, 0 ]           
+          InitPower: True              
+          Properties: 
+            - Key: Music
+              Value: temperate2         
+
+        - Type: AsteroidVoxel01Copper
+          Prefab: AsteroidVoxel01Copper    
+          Name: Copper Asteroid            
+          Pos: [ 6302, -2073, 7486 ]    
+          Rot: [ 0, 0, 0 ]      
+
+        - Type: AsteroidVoxel01Cobalt
+          Prefab: AsteroidVoxel01Cobalt    
+          Name: Cobalt Asteroid            
+          Pos: [ -6302, -473, -2486 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel02Neodymium
+          Prefab: AsteroidVoxel02Neodymium     
+          Name: Neodymium Asteroid             
+          Pos: [ -6038, 1225, 2595 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel03Sathium
+          Prefab: AsteroidVoxel03Sathium    
+          Name: Sathium Asteroid             
+          Pos: [ 4270, 921, 2671 ]    
+          Rot: [ 0, 0, 0 ]      
+ 
+        - Type: AsteroidVoxel01Promethium
+          Prefab: AsteroidVoxel01Promethium    
+          Name: Promethium Asteroid             
+          Pos: [ 318, -1251, 6607 ]    
+          Rot: [ 0, 0, 0 ]       
+ 
+        - Type: AsteroidVoxel03Neodymium
+          Prefab: AsteroidVoxel03Neodymium    
+          Name: Neodymium Asteroid             
+          Pos: [ -3718, 2011, 4086 ]    
+          Rot: [ 0, 0, 0 ]        
+ 
+        - Type: AsteroidVoxel03Promethium
+          Prefab: AsteroidVoxel03Promethium    
+          Name: Promethium Asteroid             
+          Pos: [ 3718, -1011, 4086 ]    
+          Rot: [ 0, 0, 0 ]        
+ 
+        - Type: AsteroidFieldFewBoxExclude 
+          Name: Asteroid Field            
+          Pos: [ 0, 0, 0 ]  
+          Rot: [ 0, 0, 0 ]      
+
+    FixedPlayerStart:
+        - Mode: Debug                # Creative or Survival  
+          Pos: [ -5000, 0, 5000 ]    # position coordinates
+          RotY: 0                    # rotation angle around Y axis
+
+
+# Drones
+DroneBaseSetup:
+    Fixed:
+    Fixed:
+        - Name: MainDroneBase
+          Pos: [ 5000, 200, 5000 ]      # position coordinates
+          DroneOnDuty:
+            - Name: SpaceDroneLaser
+              Pos: [ 4000, 200, 2000 ]
+              Radius: 350
+            - Name: SpaceDroneLaser
+              Pos: [ -4000, -200, 2000 ]
+              Radius: 350
+            - Name: SpaceDroneLaser
+              Pos: [ 4000, 200, -2000 ]
+              Radius: 350
+            - Name: SpaceDroneLaser
+              Pos: [ -4000, -200, -2000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ 6000, 200, 6000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -6000, -200, 6000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ 6000, 200, -6000 ]
+              Radius: 350
+            - Name: SpaceDronePlasma
+              Pos: [ -6000, -200, -6000 ]
+              Radius: 350
+          SpaceVessel:
+            - Name: Freighter              # Name of the prefab group or name of the prefab
+              FixedMaxSpeed: 20
+              Mission: Freighter                # Mission among : {SpacePatrol}
+              Freighter:
+                DelayBetweenRespawn: 1000  
+                PathWayPoint:
+                - [ -7500, 500, -4000 ]
+                - [ 4000, 500, -2000 ]
+                - [ 7500, 500, 3000 ]
+                - [ 7500, 500, 7500 ]
+              Stock:
+                - Name: SpaceDronePlasma          # Name of drone   
+                  Amount: 5                      # Amount of drones in stock          
+                  Extra: 0                        # Type of drone 0..3 -> see comment above     
+            - Name: Freighter              # Name of the prefab group or name of the prefab
+              FixedMaxSpeed: 20
+              Mission: Freighter                # Mission among : {SpacePatrol}
+              Freighter:
+                DelayBetweenRespawn: 600  
+                PathWayPoint:
+                - [ -7500, 550, 7500 ]
+                - [ -7000, 550, 0 ]
+                - [ -3000, 550, -7500 ]
+              Stock:
+                - Name: SpaceDronePlasma          # Name of drone   
+                  Amount: 5                      # Amount of drones in stock          
+                  Extra: 0                        # Type of drone 0..3 -> see comment above          
+            - Name: BAO_Dion-III            
+              FixedMaxSpeed: 20
+              Mission: Immobile                  
+              Immobile:
+                  Position3D: [ 4500, 500, -1000 ]   
+              Stock:
+                - Name: SpaceDronePlasma          
+                  Amount: 20                          
+                  Extra: 0             
+              Properties: 
+                - Key: RegenAfter
+                  Value: 2                            

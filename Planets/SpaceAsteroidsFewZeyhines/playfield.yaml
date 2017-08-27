@@ -8,8 +8,8 @@ AtmosphereEnabled: False            # Please don't change
 PvP: True                          # Set to True to allow PvP in this playfield, default is False
 UseFixed: True                      # If set uses fixed drones
 Radiation: 12.4
-TemperatureDay: -200     
-Music: Migration      
+TemperatureDay: -200  
+Music: DistantWorlds      
 
 # Playfield difficulty (has impact on experience gains)
 Difficulty: 2                       # Between 2 and 5: larger values indicate higher difficulty
@@ -63,64 +63,43 @@ POIs:
           Prefab: AsteroidVoxel01Neodymium     
           Name: Neodymium Asteroid            
           Pos: [ 2757, -180, 3414 ]    
-          Rot: [ 0, 0, 0 ]            
-          Properties:     
-            - Key: RegenAfter
-              Value: 180    
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel02Silicon
           Prefab: AsteroidVoxel02Silicon  
           Name: Silicon Asteroid             
           Pos: [ -2374, 544, 4000 ]    
-          Rot: [ 0, 0, 0 ]           
-          Properties:     
-            - Key: RegenAfter
-              Value: 180     
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel03Sathium
           Prefab: AsteroidVoxel03Sathium  
           Name: Sathium Asteroid             
           Pos: [ 6387, 1271, -3875 ]    
-          Rot: [ 0, 0, 0 ]           
-          Properties:     
-            - Key: RegenAfter
-              Value: 180     
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel01Magnesium
           Prefab: AsteroidVoxel01Magnesium 
           Name: Magnesium Asteroid             
           Pos: [ -5893, -375, 5953 ]    
-          Rot: [ 0, 0, 0 ]         
-          Properties:     
-            - Key: RegenAfter
-              Value: 180         
+          Rot: [ 0, 0, 0 ]        
  
         - Type: AsteroidVoxel03Promethium
           Prefab: AsteroidVoxel03Promethium  
           Name: Promethium Asteroid             
           Pos: [ -6893, 475, 1953 ]    
-          Rot: [ 0, 0, 0 ]           
-          Properties:     
-            - Key: RegenAfter
-              Value: 180       
+          Rot: [ 0, 0, 0 ]        
  
         - Type: AsteroidVoxel01Promethium
           Prefab: AsteroidVoxel01Promethium  
           Name: Promethium Asteroid             
           Pos: [ 5893, 175, -1953 ]    
-          Rot: [ 0, 0, 0 ]           
-          Properties:     
-            - Key: RegenAfter
-              Value: 180       
+          Rot: [ 0, 0, 0 ]        
  
         - Type: AsteroidVoxel02Sathium
           Prefab: AsteroidVoxel02Sathium  
           Name: Sathium Asteroid             
           Pos: [ 7493, -575, 1953 ]    
-          Rot: [ 0, 0, 0 ]           
-          Properties:     
-            - Key: RegenAfter
-              Value: 180       
+          Rot: [ 0, 0, 0 ]        
  
         - Type: AsteroidFieldFewBoxExclude 
           Name: Asteroid Field            
@@ -198,7 +177,4 @@ DroneBaseSetup:
               Stock:
                 - Name: SpaceDronePlasma          
                   Amount: 20                          
-                  Extra: 0                       
-              Properties: 
-                - Key: RegenAfter
-                  Value: 720                    
+                  Extra: 0                   

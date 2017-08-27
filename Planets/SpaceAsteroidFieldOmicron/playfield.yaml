@@ -5,10 +5,10 @@
 # Playfield Characteristics
 Gravity: 0                          # Please don't change
 AtmosphereEnabled: False            # Please don't change
-PvP: False                          # Set to True to allow PvP in this playfield, default is False
+PvP: True                           # Set to True to allow PvP in this playfield, default is False
 UseFixed: True                      # If set uses fixed drones
 Radiation: 3.7
-TemperatureDay: -130       
+TemperatureDay: -130   
 Music: space           
 
 # Playfield difficulty (has impact on experience gains)
@@ -108,37 +108,25 @@ POIs:
           Prefab: AsteroidVoxel01     
           Name: Sathium Asteroid            
           Pos: [ -5757, 180, 4586 ]    
-          Rot: [ 0, 0, 0 ]           
-          Properties:     
-            - Key: RegenAfter
-              Value: 180                
+          Rot: [ 0, 0, 0 ]                 
  
         - Type: AsteroidVoxel02Sathium
           Prefab: AsteroidVoxel02      
           Name: Sathium Asteroid             
           Pos: [ -5374, -100, 4967 ]    
-          Rot: [ 0, 0, 0 ]        
-          Properties:     
-            - Key: RegenAfter
-              Value: 180        
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel03Sathium
           Prefab: AsteroidVoxel03      
           Name: Sathium Asteroid             
           Pos: [ -3613, -271, 4125 ]    
-          Rot: [ 0, 0, 0 ]          
-          Properties:     
-            - Key: RegenAfter
-              Value: 180      
+          Rot: [ 0, 0, 0 ]      
  
         - Type: AsteroidVoxel01Neodymium
           Prefab: AsteroidVoxel01Neodymium      
           Name: Neodymium Asteroid             
           Pos: [ -5893, 175, 3047 ]    
-          Rot: [ 0, 0, 0 ]          
-          Properties:     
-            - Key: RegenAfter
-              Value: 180         
+          Rot: [ 0, 0, 0 ]         
  
         - Type: AsteroidField 
           Name: Asteroid Field            
@@ -178,10 +166,10 @@ DroneBaseSetup:
                 - [ 5000, 1500, -2000 ]
                 - [ -5000, 1500, -8000 ]
               Stock:
-                - Name: SpaceDronePlasma          # Name of drone   
-                  Amount: 5                      # Amount of drones in stock          
-                  Extra: 0                        # Type of drone 0..3 -> see comment above     
-            - Name: Freighter              # Name of the prefab group or name of the prefab
+                - Name: SpaceDronePlasma        # Name of drone   
+                  Amount: 5                     # Amount of drones in stock          
+                  Extra: 0                      # Type of drone 0..3 -> see comment above     
+            - Name: Freighter                   # Name of the prefab group or name of the prefab
               FixedMaxSpeed: 20
               Mission: Freighter                # Mission among : {SpacePatrol,Freighter}
               Freighter:
@@ -213,7 +201,4 @@ DroneBaseSetup:
                 - Name: SpaceDronePlasma          # Name of drone   
                   Amount: 20                      # Amount of drones in stock          
                   Extra: 0                        # Type of drone 0..3 -> see comment above  
-              Properties: 
-                - Key: RegenAfter
-                  Value: 720           
 
