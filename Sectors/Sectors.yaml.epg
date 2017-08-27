@@ -64,9 +64,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 709
+  - 728
   - 159
-  - 413
+  - 404
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -326,9 +326,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 654
+  - 604
   - 17
-  - 356
+  - 392
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -376,9 +376,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 547
+  - 491
   - 144
-  - 438
+  - 534
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -401,9 +401,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 556
+  - 498
   - 0
-  - 330
+  - 404
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -415,20 +415,20 @@ Sectors:
     - Beymia
     - Faction-Emp-Planet-Lava2
     - ''
-  - - 0, 0, 0
+  - - 2494, 2906, 3559
     - Beymia Moon
     - PFaction-Moon2
     - ''
-  - - 0, 0, 0
+  - - -3731, -7540, -4994
     - Spuna 5UC7
     - Faction-POI-Planet-Desert
     - ''
   Allow: []
   Deny: []
 - Coordinates:
-  - 611
+  - 504
   - 0
-  - 318
+  - 299
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -440,20 +440,20 @@ Sectors:
     - Lumia
     - Faction-Emp-Planet-Lumia
     - ''
-  - - 0, 0, 0
+  - - -3200, 5126, 4930
     - Lumia Moon
     - PFaction-Moon6
     - ''
-  - - 0, 0, 0
+  - - -3538, -2121, -8258
     - Grarth E8Z2
     - Faction-POI-Planet-Desert
     - ''
   Allow: []
   Deny: []
 - Coordinates:
-  - 715
+  - 711
   - 0
-  - 328
+  - 297
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -471,6 +471,106 @@ Sectors:
     - ''
   - - 3096, 0, -7017
     - Fryke 757
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 743
+  - 0
+  - 172
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Mostrion System
+    - Faction-Space-SpaceAsteroidField
+    - ''
+  - - 0, 0, 0
+    - Mostrion
+    - Faction-Emp-Planet-Ocean
+    - ''
+  - - -1463, -2513, 2841
+    - Mostrion Moon
+    - PFaction-Moon8
+    - ''
+  - - -5565, -358, -6299
+    - Stov EM28
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 508
+  - 0
+  - 175
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Piuruta System
+    - Faction-Space-SpaceAsteroidField
+    - ''
+  - - 0, 0, 0
+    - Piuruta
+    - Faction-Emp-Planet-Snow-
+    - ''
+  - - -2284, 0, 2776
+    - Piuruta Moon
+    - PFaction-Moon5
+    - ''
+  - - -4222, 0, -6169
+    - Whypso 385
+    - Faction-POI-Planet-Desert
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 723
+  - 0
+  - 544
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Ronstain
+    - Faction-Space-SpaceAsteroidFieldRingAitis
+    - ''
+  - - 0, 0, 0
+    - Ronstain System
+    - Faction-Emp-Planet-Temperate2
+    - ''
+  - - 4380, 0, -5385
+    - Ronstain Moon
+    - PFaction-Moon0
+    - ''
+  - - -5379, 0, -7083
+    - Stain 30
+    - Faction-POI-Planet-Desert
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 617
+  - 0
+  - 183
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Vyrdis System
+    - Faction-Space-SpaceAsteroidFieldRingAitis
+    - ''
+  - - 0, 0, 0
+    - Vyrdis
+    - Faction-Emp-Planet-Vyrdis
+    - ''
+  - - 3844, 0, 5126
+    - Vyrdis Moon
+    - PFaction-Moon1
+    - ''
+  - - -8014, 0, -4471
+    - Juflora 805
     - Faction-POI-Planet-Dalos
     - ''
   Allow: []
