@@ -26,7 +26,7 @@ Sectors:
   - - 0, 0, 0
     - Akua
     - Starter-Planet-Temperate
-    - Federation:0
+    - Federation:1
   - - -6068, -4750, -4750
     - Akua Moon
     - Starter-Moon-Akua
@@ -52,7 +52,7 @@ Sectors:
   - - 0, 0, 0
     - Draenor
     - Starter-Planet-Temperate
-    - Republic:1
+    - Republic:2
   - - 4224, 8010, -4660
     - Draenor Moon
     - Starter-Moon-Akua
@@ -78,7 +78,7 @@ Sectors:
   - - 0, 0, 0
     - Eonus
     - Starter-Planet-Temperate
-    - Empire:2
+    - Empire:3
   - - -4158, -7284, 6472
     - Eonus Moon
     - Starter-Moon-Akua
@@ -1205,7 +1205,7 @@ Sectors:
   - - 0, 0, 0
     - Markab
     - Starter-Planet-Temperate
-    - Syndicate:3
+    - Syndicate:4
   - - -3211, 5714, -6756
     - Markab Moon
     - Starter-Moon-Akua
