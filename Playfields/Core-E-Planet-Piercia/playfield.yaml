@@ -123,14 +123,6 @@ AsteroidResources:
       Threshold: 0.4
       Amount: 0.5
 
-    - Name: ZascosiumResource
-      Threshold: 0.4
-      Amount: 0.5
-
-    - Name: GoldResource
-      Threshold: 0.4
-      Amount: 0.5
-
     - Name: PentaxidResource
       Threshold: 0.4
       Amount: 0.5
