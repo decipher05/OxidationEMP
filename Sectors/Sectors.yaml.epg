@@ -1217,9 +1217,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 260
+  - -532
   - 0
-  - 28
+  - 185
   Color: 1, 0.49, 0
   Icon: Circle
   Playfields:
@@ -1249,9 +1249,9 @@ Sectors:
   Deny:
   - 
 - Coordinates:
-  - 325
+  - 333
   - 0
-  - 139
+  - 831
   Color: 1, 0.49, 0
   Icon: Circle
   Playfields:
@@ -1261,7 +1261,7 @@ Sectors:
     - ''
   - - -14136, 15703, 0
     - Fuflov 1
-    - Core-G-Planet-Alphine-r
+    - AlienPLACEHOLDER
     - ''
   - - 13923, -15244, 0
     - Fuflov 2
@@ -1280,9 +1280,9 @@ Sectors:
   - FFA Sector 1
   Deny: []
 - Coordinates:
-  - 350
+  - 182
   - 0
-  - 24
+  - -653
   Color: 1, 0.49, 0
   Icon: Circle
   Playfields:
@@ -1296,7 +1296,7 @@ Sectors:
     - ''
   - - 7943, -17202, 0
     - Alphine 2
-    - Core-Z-Planet-Piercia-r
+    - AlienPLACEHOLDER
     - ''
   - - 13127, 13614, 0
     - Alphine 1 Moon
