@@ -13,61 +13,61 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - -10
-  - 237
-  - 450
+  - 72
+  - 2
+  - 672
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
   - - 0, 0, 0
-    - Akua System
+    - Eros System
     - Starter-Space-Akua
     - ''
   - - 0, 0, 0
-    - Akua
+    - Eros
     - Starter-Planet-Temperate
-    - Federation:1
+    - The Vanguard:1
   - - -6068, -4750, -4750
-    - Akua Moon
+    - Eros Moon
     - Starter-Moon-Akua
     - ''
   - - 1400, 10001, 11087
-    - Dotrerth
+    - Dotrerth-p531
     - Starter-POI-Akua
     - ''
   Allow: []
   Deny:
   - Eclite System
 - Coordinates:
-  - -448
-  - -164
-  - -231
+  - 836
+  - -17
+  - -686
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
   - - 0, 0, 0
-    - Draenor System
+    - Gaspra System
     - Starter-Space-Akua
     - ''
   - - 0, 0, 0
-    - Draenor
+    - Gaspra
     - Starter-Planet-Temperate
-    - Republic:2
+    - The Barbarians:2
   - - 4224, 8010, -4660
-    - Draenor Moon
+    - Gaspra Moon
     - Starter-Moon-Akua
     - ''
   - - 4054, -5836, 9187
-    - Tietov
-    - Starter-Space-Akua
+    - Tietov-5dfu
+    - Starter-POI-Akua
     - ''
   Allow: []
   Deny:
   - Hagrone System
 - Coordinates:
-  - 809
-  - 159
-  - 523
+  - 822
+  - -2
+  - 585
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -78,7 +78,89 @@ Sectors:
   - - 0, 0, 0
     - Eonus
     - Starter-Planet-Temperate
-    - Empire:3
-  - - -4158, -7284, 6472
+    - The Mystics:3
+  - - -7612, -6430, 6301
     - Eonus Moon
-    -
+    - Starter-Moon-Akua
+    - ''
+  - - 3395, -8780, -13612
+    - Snagua 7Y0V
+    - Starter-POI-Akua
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 117
+  - 6
+  - -673
+  Color: 0.6, 0.4, 0.8
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Dactyl System
+    - Starter-Space-Akua
+    - ''
+  - - 0, 0, 0
+    - Dactyl
+    - Starter-Planet-Temperate
+    - The Eternal:4
+  - - -3691, 3363, 2841
+    - Dactyl Moon
+    - Starter-Moon-Akua
+    - ''
+  - - 4343, -10478, -9172
+    - Brillon RG4F
+    - Starter-POI-Akua
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 162
+  - 0
+  - 503
+  Color: 0, 0.5, 1.0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Mathilde System
+    - Space-Faction-AsteroidFieldOmicron
+    - ''
+  - - 0, 0, 0
+    - Mathilde
+    - ''
+    - ''
+  - - 3508, 0, -5059
+    - Mathilde Moon
+    - PFaction-Moon
+    - ''
+  - - 0, 0, 0
+    - Brillon 126
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 0
+  - 0
+  - 0
+  Color: 0, 0.5, 1.0
+  Icon: No
+  Playfields:
+  - - 0, 0, 0
+    - Kalliope System
+    - Space-Faction-AsteroidFieldRingAestus
+    - ''
+  - - 0, 0, 0
+    - Kalliope
+    - Faction-Vanguard-Kalliope-Temperate
+    - ''
+  - - 0, 0, 0
+    - Kalliope Moon
+    - PFaction-Moon0
+    - ''
+  - - 0, 0, 0
+    - Breon 0DG
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
