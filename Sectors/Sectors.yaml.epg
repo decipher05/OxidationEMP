@@ -13,9 +13,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 72
+  - -46
   - 2
-  - 672
+  - 675
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -104,7 +104,7 @@ Sectors:
     - Dactyl
     - Starter-Planet-Temperate
     - The Eternal:4
-  - - -3691, 3363, 2841
+  - - -4475, 3363, 3559
     - Dactyl Moon
     - Starter-Moon-Akua
     - ''
@@ -115,10 +115,10 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 162
+  - 179
   - 0
-  - 503
-  Color: 0, 0.5, 1.0
+  - 684
+  Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -127,24 +127,24 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Mathilde
-    - Faction-Vanguard-Mathilde-Temperate2
+    - Vanguard-Mathilde-Temperate2
     - ''
-  - - 3508, 0, -5059
+  - - 5570, 7150, -1664
     - Mathilde Moon
     - PFaction-Moon
     - ''
-  - - 0, 0, 0
+  - - 6065, -10674, -11327
     - Brillon 126
     - Faction-POI-Planet-Dalos
     - ''
   Allow: []
   Deny: []
 - Coordinates:
+  - 40
   - 0
-  - 0
-  - 0
-  Color: 0, 0.5, 1.0
-  Icon: No
+  - 514
+  Color: 0, 0.5, 1
+  Icon: Hexagon
   Playfields:
   - - 0, 0, 0
     - Kalliope System
@@ -152,14 +152,39 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Kalliope
-    - Faction-Vanguard-Kalliope-Temperate
+    - Vanguard-Kalliope-Temperate
     - ''
-  - - 0, 0, 0
+  - - 194, 0, -6495
     - Kalliope Moon
     - PFaction-Moon0
     - ''
-  - - 0, 0, 0
+  - - -89, 0, 15115
     - Breon 0DG
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -200
+  - 0
+  - 494
+  Color: 0, 0.5, 1.0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Seranis System
+    - Space-Faction-AsteroidFieldRingAitis
+    - ''
+  - - 0, 0, 0
+    - Seranis
+    - Vanguard-Eugenia-Seranis
+    - ''
+  - - -7919, 951, 318
+    - Seranis Moon
+    - PFaction-Moon1
+    - ''
+  - - -1347, 11087, 12625
+    - Smoetis 0KD5
     - Faction-POI-Planet-Dalos
     - ''
   Allow: []
