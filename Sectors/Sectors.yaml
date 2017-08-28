@@ -13,9 +13,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - -46
+  - -61
   - 2
-  - 675
+  - 692
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -115,9 +115,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 179
+  - 118
   - 0
-  - 684
+  - 760
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -140,9 +140,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 40
+  - 48
   - 0
-  - 514
+  - 527
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -165,10 +165,10 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - -200
+  - -164
   - 0
-  - 494
-  Color: 0, 0.5, 1.0
+  - 430
+  Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -185,6 +185,31 @@ Sectors:
     - ''
   - - -1347, 11087, 12625
     - Smoetis 0KD5
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 264
+  - 0
+  - 631
+  Color: 0, 0.5, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Europa System
+    - Space-Faction-AsteroidFieldRingAkua
+    - ''
+  - - 0, 0, 0
+    - Europa
+    - Vanguard-Europa-Desert
+    - ''
+  - - 3738, -6169, -7475
+    - Europa Moon
+    - PFaction-Moon2
+    - ''
+  - - 10440, 3625, 7803
+    - Flora SN89
     - Faction-POI-Planet-Dalos
     - ''
   Allow: []
