@@ -65,9 +65,9 @@ Sectors:
   Deny:
   - Hagrone System
 - Coordinates:
-  - 822
+  - 892
   - -2
-  - 585
+  - 716
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -115,9 +115,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 118
+  - 96
   - 0
-  - 760
+  - 733
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -165,9 +165,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - -164
+  - -122
   - 0
-  - 430
+  - 520
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -190,9 +190,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 264
+  - 193
   - 0
-  - 631
+  - 638
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -210,6 +210,31 @@ Sectors:
     - ''
   - - 10440, 3625, 7803
     - Flora SN89
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 698
+  - 0
+  - 703
+  Color: 0, 0.5, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Ganymede System
+    - Space-Faction-AsteroidsFewSkillon
+    - ''
+  - - 0, 0, 0
+    - Ganymede
+    - Barbarians-Ganymede-Aeris
+    - ''
+  - - -4413, 7150, 6889
+    - Ganymede Moon
+    - PFaction-Moon3
+    - ''
+  - - 7515, -9107, 10480
+    - Crilles 98
     - Faction-POI-Planet-Dalos
     - ''
   Allow: []
