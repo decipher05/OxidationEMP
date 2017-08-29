@@ -39,9 +39,9 @@ Sectors:
   Deny:
   - Eclite System
 - Coordinates:
-  - 836
+  - 829
   - -17
-  - -686
+  - -712
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -140,9 +140,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 48
+  - 27
   - 0
-  - 527
+  - 631
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -218,7 +218,7 @@ Sectors:
   - 731
   - 0
   - -494
-  Color: 0, 0.5, 1
+  Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -235,6 +235,56 @@ Sectors:
     - ''
   - - 7515, -9107, 10480
     - Crilles 98
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 836
+  - 0
+  - -571
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Vulca System
+    - Space-Faction-AsteroidsFewZeyhines
+    - ''
+  - - 0, 0, 0
+    - Vulca
+    - Barbarians-Vulca
+    - ''
+  - - 5880, -7148, -7279
+    - Vulca Moon
+    - PFaction-Moon4
+    - ''
+  - - -9710, 8717, -8127
+    - Spillon S5
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 0
+  - 0
+  - 0
+  Color: 0, 0, 0
+  Icon: No
+  Playfields:
+  - - 0, 0, 0
+    - Seranis System
+    - Space-Faction-AsteroidsMasperon
+    - ''
+  - - 0, 0, 0
+    - Seranis
+    - Barbarians-Seranis
+    - ''
+  - - -6078, 8195, 6171
+    - Seranis Moon
+    - PFaction-Moon5
+    - ''
+  - - 1929, -12893, 9892
+    - Strosie DX36
     - Faction-POI-Planet-Dalos
     - ''
   Allow: []
