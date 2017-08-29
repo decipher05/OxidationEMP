@@ -522,12 +522,6 @@ Biome:
 ### POIs
 POIs:
     Random:
-        - GroupName: XenuTierI          # Group name of POI
-          CountMinMax: [ 4, 6 ]         # Range of number of POIs of this group to distribute on planet
-          DroneProb: 1.0                # Probability that a POI is defended by drones
-          DronesMinMax: [ 1, 2 ]        # Range of number of drones that defend POI
-          ReserveCount: 3               # Number of drones that will be replaced when destroyed
-          TroopTransport: True          # If troop transport will be sent
 
         - GroupName: DroneBaseAestus
           DroneBaseSetup: DroneBaseSetup
