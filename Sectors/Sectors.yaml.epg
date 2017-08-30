@@ -558,11 +558,11 @@ Sectors:
     - Carme System
     - Core-Space-AsteroidField
     - ''
-  - - 8018, 5518, -4406
+  - - 5349, 6105, -4406
     - Carme
     - Core-E-Carme-Rupes
     - ''
-  - - -7442, -7279, 6040
+  - - -7066, -5712, 6040
     - Lysithea
     - Core-E-Lysithea-Pluto
     - ''
@@ -588,19 +588,19 @@ Sectors:
     - Ananke System
     - Core-Space-AsteroidField
     - ''
-  - - -11556, 36525, 13222
+  - - -6251, 5903, 7900
     - 'Ananke '
     - Core-G-Ananke-Jungle2
     - ''
-  - - 9541, 38259, 8782
+  - - 6819, 7888, 8782
     - Leda
     - Core-G-Leda-Uranus
     - ''
-  - - -14342, 17233, 7346
+  - - -12103, 13111, 7346
     - Ananke Moon
     - PFaction-Moon8
     - ''
-  - - 5659, 23302, 15181
+  - - 8849, 17603, 15181
     - Leda Moon
     - PFaction-Moon4
     - ''
@@ -618,19 +618,19 @@ Sectors:
     - Adrastea System
     - Core-Space-AsteroidField
     - ''
-  - - 5236, -11327, -8323
+  - - 2494, -6495, -6038
     - Adrastea
     - Core-Z-Adrastea-Wookie
     - ''
-  - - 3981, 15768, 6628
+  - - 1543, 8391, 6693
     - Thebe
     - Core-Z-Thebe-Venus
     - ''
-  - - 8808, -18117, -13350
+  - - 5757, -8650, -11392
     - Adrastea Moon
     - PFaction-Moon
     - ''
-  - - 8519, 19816, 10023
+  - - 4851, 11786, 8978
     - Thebe Moon
     - PFaction-Moon0
     - ''

@@ -26,7 +26,7 @@ Seed: 436824
 #UseFixed: False
 
 # Playfield Difficulty
-Difficulty: 3
+Difficulty: 5
 
 # Planet or Space
 PlayfieldType: Planet
