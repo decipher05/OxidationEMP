@@ -130,4 +130,6 @@ POIs:
           POIDistance: 1000
           Properties:
             - Key: Music
-              Value: JungleDepths  
+              Value: JungleDepths
+            - Key: RegenAfter
+              Value: 360

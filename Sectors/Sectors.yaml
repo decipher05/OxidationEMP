@@ -555,23 +555,23 @@ Sectors:
   Icon: Star
   Playfields:
   - - 0, 0, 0
-    - Andromeda System
+    - Carme System
     - Core-Space-AsteroidField
     - ''
-  - - 10594, 5518, -3884
-    - Andromeda
-    - Core-E-Planet-Andromeda
+  - - 8018, 5518, -4406
+    - Carme
+    - Core-E-Carme-Rupes
     - ''
-  - - -9293, -7279, 7607
-    - 'Piercia '
-    - Core-E-Planet-Piercia
+  - - -7442, -7279, 6040
+    - Lysithea
+    - Core-E-Lysithea-Pluto
     - ''
-  - - 9146, 12373, 556
-    - Andromeda Moon
+  - - 6969, 12373, 2645
+    - Carme Moon
     - PFaction-Moon3
     - ''
-  - - -12527, 360, 3037
-    - Piercia Moon
+  - - -10406, 360, 1535
+    - Lysithea Moon
     - PFaction-Moon5
     - ''
   Allow:
@@ -585,23 +585,23 @@ Sectors:
   Icon: Star
   Playfields:
   - - 0, 0, 0
-    - Elara System
+    - Ananke System
     - Core-Space-AsteroidField
     - ''
-  - - -24378, 36525, 19914
-    - Elara
-    - Core-G-Planet-Alphine-r
+  - - -11556, 36525, 13222
+    - 'Ananke '
+    - Core-G-Ananke-Saturn
     - ''
-  - - 16813, 38259, 12079
-    - Pasiphae
-    - Core-G-Planet-Andromeda-r
+  - - 9541, 38259, 8782
+    - Leda
+    - Core-G-Leda-Uranus
     - ''
-  - - -19390, 17233, 8380
-    - Elara Moon
+  - - -14342, 17233, 7346
+    - Ananke Moon
     - PFaction-Moon8
     - ''
-  - - 8929, 23302, 27096
-    - Pasiphae Moon
+  - - 5659, 23302, 15181
+    - Leda Moon
     - PFaction-Moon4
     - ''
   Allow:
@@ -615,23 +615,23 @@ Sectors:
   Icon: Star
   Playfields:
   - - 0, 0, 0
-    - Alphine System
+    - Adrastea System
     - Core-Space-AsteroidField
     - ''
   - - 5236, -11327, -8323
-    - Alphine
-    - Core-Z-Planet-Alphine
+    - Adrastea
+    - Core-Z-Adrastea-Wookie
     - ''
   - - 3981, 15768, 6628
-    - Sinope
-    - Core-Z-Planet-Piercia-r
+    - Thebe
+    - Core-Z-Thebe-Venus
     - ''
   - - 8808, -18117, -13350
-    - Alphine Moon
+    - Adrastea Moon
     - PFaction-Moon
     - ''
   - - 8519, 19816, 10023
-    - Sinope Moon
+    - Thebe Moon
     - PFaction-Moon0
     - ''
   Allow:
