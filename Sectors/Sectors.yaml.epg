@@ -265,9 +265,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 647
+  - 641
   - 0
-  - -666
+  - -641
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -290,9 +290,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 545
+  - 571
   - 0
-  - -551
+  - -424
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -485,6 +485,31 @@ Sectors:
     - ''
   - - 12127, 5583, -9564
     - Drosie 0DIQ
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 222
+  - 0
+  - -210
+  Color: 0.8, 1, 0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Comba System
+    - Space-Faction-AsteroidsOscutune
+    - ''
+  - - 0, 0, 0
+    - Comba
+    - Eternal-Comba
+    - ''
+  - - -6662, 6432, -8780
+    - Comba Moon
+    - PFaction-Moon4
+    - ''
+  - - 13378, -7344, -7736
+    - Drapus 15
     - Faction-POI-Planet-Dalos
     - ''
   Allow: []
