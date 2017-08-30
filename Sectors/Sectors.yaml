@@ -240,9 +240,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 836
+  - 888
   - 0
-  - -571
+  - -527
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -252,7 +252,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Vulca
-    - Barbarians-Vulca
+    - Barbarians-Seranis
     - ''
   - - 5880, -7148, -7279
     - Vulca Moon
@@ -265,11 +265,11 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
+  - 647
   - 0
-  - 0
-  - 0
+  - -666
   Color: 0, 0, 0
-  Icon: No
+  Icon: Hexagon
   Playfields:
   - - 0, 0, 0
     - Seranis System
