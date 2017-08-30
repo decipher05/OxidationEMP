@@ -189,9 +189,9 @@ Sectors:
     - Smoetis 0KD5
     - Faction-POI-Planet-Dalos
     - ''
-  Allow: []
-  Deny:
+  Allow:
   - FFA Zone
+  Deny: []
 - Coordinates:
   - 193
   - 0
@@ -317,9 +317,9 @@ Sectors:
     - Skapus 26GR
     - Faction-POI-Planet-Dalos
     - ''
-  Allow: []
-  Deny:
+  Allow:
   - FFA Zone
+  Deny: []
 - Coordinates:
   - 713
   - 0
@@ -421,9 +421,9 @@ Sectors:
     - Sposie 6K72
     - Faction-POI-Planet-Dalos
     - ''
-  Allow: []
-  Deny:
+  Allow:
   - FFA Zone
+  Deny: []
 - Coordinates:
   - -69
   - 0
@@ -524,22 +524,21 @@ Sectors:
     - Drapus 15
     - Faction-POI-Planet-Dalos
     - ''
-  Allow: []
-  Deny:
+  Allow:
   - FFA Zone
+  Deny: []
 - Coordinates:
   - 439
   - 0
   - 26
-  Color: 1.0, 0.49, 0
+  Color: 1, 0.49, 0
   Icon: Star
   Playfields:
   - - 0, 0, 0
     - FFA Zone
     - SpaceEmpty
     - ''
-  Allow: []
-  Deny:
+  Allow:
   - Andromeda System
   - Alphine System
   - Elara System
@@ -547,11 +546,12 @@ Sectors:
   - Eugenia System
   - Ziraxus System
   - Callisto System
+  Deny: []
 - Coordinates:
   - 440
   - 0
   - 820
-  Color: 1.0, 0.49, 0
+  Color: 1, 0.49, 0
   Icon: Star
   Playfields:
   - - 0, 0, 0
@@ -574,14 +574,14 @@ Sectors:
     - Piercia Moon
     - PFaction-Moon5
     - ''
-  Allow: []
-  Deny:
+  Allow:
   - FFA Zone
+  Deny: []
 - Coordinates:
   - 441
   - 0
   - -725
-  Color: 1.0, 0.49, 0
+  Color: 1, 0.49, 0
   Icon: Star
   Playfields:
   - - 0, 0, 0
@@ -604,14 +604,14 @@ Sectors:
     - Pasiphae Moon
     - PFaction-Moon4
     - ''
-  Allow: []
-  Deny:
+  Allow:
   - FFA Zone
+  Deny: []
 - Coordinates:
   - 949
   - 0
   - 33
-  Color: 1.0, 0.49, 0
+  Color: 1, 0.49, 0
   Icon: Star
   Playfields:
   - - 0, 0, 0
@@ -634,6 +634,6 @@ Sectors:
     - Sinope Moon
     - PFaction-Moon0
     - ''
-  Allow: []
-  Deny:
+  Allow:
   - FFA Zone
+  Deny: []
