@@ -13,9 +13,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - -61
+  - -536
   - 2
-  - 692
+  - 572
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -39,9 +39,9 @@ Sectors:
   Deny:
   - Eclite System
 - Coordinates:
-  - 829
+  - 359
   - -17
-  - -712
+  - -655
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -65,9 +65,9 @@ Sectors:
   Deny:
   - Hagrone System
 - Coordinates:
-  - 892
+  - 410
   - -2
-  - 716
+  - 666
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -90,9 +90,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 10
+  - -490
   - 6
-  - -625
+  - -646
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -115,9 +115,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 96
+  - -375
   - 0
-  - 733
+  - 618
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -141,9 +141,9 @@ Sectors:
   Deny:
   - Eros System
 - Coordinates:
-  - 27
+  - -466
   - 0
-  - 631
+  - 433
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -167,9 +167,9 @@ Sectors:
   Deny:
   - Eros System
 - Coordinates:
-  - 156
+  - -315
   - 0
-  - 477
+  - 272
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -193,9 +193,9 @@ Sectors:
   - FFA Zone
   Deny: []
 - Coordinates:
-  - 193
+  - -299
   - 0
-  - 638
+  - 468
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -218,9 +218,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 731
+  - 176
   - 0
-  - -494
+  - -525
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -244,9 +244,9 @@ Sectors:
   Deny:
   - Gaspra System
 - Coordinates:
-  - 888
+  - 336
   - 0
-  - -527
+  - -448
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -270,9 +270,9 @@ Sectors:
   Deny:
   - Gaspra System
 - Coordinates:
-  - 766
+  - 429
   - 0
-  - -328
+  - -383
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -295,9 +295,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 571
+  - 219
   - 0
-  - -424
+  - -331
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -321,9 +321,9 @@ Sectors:
   - FFA Zone
   Deny: []
 - Coordinates:
-  - 713
+  - 198
   - 0
-  - 749
+  - 618
   Color: 0.97, 0.96, 1
   Icon: Hexagon
   Playfields:
@@ -347,9 +347,9 @@ Sectors:
   Deny:
   - Eonus  System
 - Coordinates:
-  - 777
+  - 335
   - 0
-  - 607
+  - 503
   Color: 0.97, 0.96, 1
   Icon: Hexagon
   Playfields:
@@ -373,9 +373,9 @@ Sectors:
   Deny:
   - Eonus  System
 - Coordinates:
-  - 914
+  - 362
   - 0
-  - 483
+  - 379
   Color: 0.97, 0.96, 1
   Icon: Hexagon
   Playfields:
@@ -399,9 +399,9 @@ Sectors:
   Deny:
   - Eonus  System
 - Coordinates:
-  - 702
+  - 132
   - 0
-  - 411
+  - 385
   Color: 0.97, 0.96, 1
   Icon: Hexagon
   Playfields:
@@ -425,9 +425,9 @@ Sectors:
   - FFA Zone
   Deny: []
 - Coordinates:
-  - -69
+  - -493
   - 0
-  - -407
+  - -444
   Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
@@ -451,9 +451,9 @@ Sectors:
   Deny:
   - Dactyl System
 - Coordinates:
-  - 164
+  - -304
   - 0
-  - -443
+  - -549
   Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
@@ -477,9 +477,9 @@ Sectors:
   Deny:
   - Dactyl System
 - Coordinates:
-  - 67
+  - -375
   - 0
-  - -246
+  - -324
   Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
@@ -502,9 +502,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 222
+  - -188
   - 0
-  - -210
+  - -333
   Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
@@ -528,9 +528,9 @@ Sectors:
   - FFA Zone
   Deny: []
 - Coordinates:
-  - 439
+  - -4
   - 0
-  - 26
+  - -78
   Color: 1, 0.49, 0
   Icon: Star
   Playfields:
@@ -539,18 +539,18 @@ Sectors:
     - Core-Space-AsteroidField
     - ''
   Allow:
-  - Andromeda System
-  - Alphine System
-  - Elara System
   - Comba System
   - Eugenia System
   - Ziraxus System
   - Callisto System
+  - Ananke System
+  - Carme System
+  - Adrastea System
   Deny: []
 - Coordinates:
-  - 440
+  - -58
   - 0
-  - 820
+  - 668
   Color: 1, 0.49, 0
   Icon: Star
   Playfields:
@@ -578,9 +578,9 @@ Sectors:
   - FFA Zone
   Deny: []
 - Coordinates:
-  - 441
+  - -148
   - 0
-  - -725
+  - -784
   Color: 1, 0.49, 0
   Icon: Star
   Playfields:
@@ -590,7 +590,7 @@ Sectors:
     - ''
   - - -11556, 36525, 13222
     - 'Ananke '
-    - Core-G-Ananke-Saturn
+    - Core-G-Ananke-Jungle2
     - ''
   - - 9541, 38259, 8782
     - Leda
@@ -608,9 +608,9 @@ Sectors:
   - FFA Zone
   Deny: []
 - Coordinates:
-  - 949
+  - 532
   - 0
-  - 33
+  - -76
   Color: 1, 0.49, 0
   Icon: Star
   Playfields:
