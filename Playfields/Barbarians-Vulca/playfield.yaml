@@ -564,46 +564,43 @@ POIs:
               Value: 2880
 
 
-        - GroupName: GhostRiderBiolab
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 4
+        # Weakly defended Civil Settlements close to TS Akua
+        - GroupName: CivilSettlementO2
+          CountMinMax: [ 1, 3 ]
+          DroneProb: 0.5
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 2
+          TroopTransport: True
+          SpawnPOINear: [TS_Akua]
+          POIDistance: 500
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
+
+        # Spawn strong defended civil settlements randomly
+        - GroupName: CivilSettlement
+          CountMinMax: [ 1, 3 ]
+          DroneProb: 0.9
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 2
           TroopTransport: True
           Properties:
             - Key: RegenAfter
               Value: 2880
 
-        - GroupName: CivilSettlement
-          CountMinMax: [ 2, 3 ]
+        # Tribal villages close to Abandoned Mine
+        - GroupName: TribalVillage
+          CountMinMax: [ 1, 4 ]
           DroneProb: 0.8
           DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
+          ReserveCount: 0
           TroopTransport: False
-          Properties:
-            - Key: RegenAfter
-              Value: 1440
-
-
-        - GroupName: XenuWeaponBunker
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 4
-          TroopTransport: True
+          SpawnPOINear: [AbandonedMine]
+          POIDistance: 500
           Properties:
             - Key: RegenAfter
               Value: 2880
 
-        - GroupName: GhostTierII
-          CountMinMax: [ 4, 5 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 2880
 
 
 
