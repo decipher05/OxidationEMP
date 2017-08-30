@@ -315,9 +315,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
+  - 713
   - 0
-  - 0
-  - 0
+  - 749
   Color: 0.97, 0.96, 1.0
   Icon: Hexagon
   Playfields:
