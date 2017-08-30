@@ -319,6 +319,21 @@ POIs:
             - Key: RegenAfter
               Value: 1440
 
+        - GroupName: TS_Akua
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          SpawnPOIAvoid: [DroneBaseAkua, Wreckage]
+          POIDistance: 1000
+          ResourceDistance: 300
+          Properties:
+            - Key: Music
+              Value: SunnySkies
+            - Key: RegenAfter
+              Value: 360
+
         - GroupName: RadosDefence
           CountMinMax: [ 1, 2 ]         # range of number of POIs of this group to distribute on planet
           DroneProb: 0.3                # probability that a POI is defended by drones

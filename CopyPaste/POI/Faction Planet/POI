@@ -88,3 +88,34 @@ POIs:
               BaseType: PlanetVesselBase
               KeyId: 0                  # Unique Key Id
               PlanetVessel:
+
+
+        - GroupName: TS_Akua
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          SpawnPOIAvoid: [DroneBaseAkua, Wreckage]
+          POIDistance: 1000
+          SpawnResource: ["PromethiumResource:0-2"]
+          ResourceDistance: 300
+          Properties:
+            - Key: Music
+              Value: SunnySkies
+            - Key: RegenAfter
+              Value: 360
+
+        - GroupName: TS_Omicron
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          SpawnPOIAvoid: [DroneBaseOmicron, Wreckage]
+          POIDistance: 1000
+          Properties:
+            - Key: Music
+              Value: temperate
+            - Key: RegenAfter
+              Value: 360

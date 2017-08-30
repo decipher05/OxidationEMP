@@ -90,9 +90,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 117
+  - 10
   - 6
-  - -673
+  - -625
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -290,9 +290,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 514
+  - 545
   - 0
-  - -564
+  - -551
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -335,6 +335,56 @@ Sectors:
     - ''
   - - -15532, -3492, -5320
     - Plolla 330
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 777
+  - 0
+  - 607
+  Color: 0.97, 0.96, 1.0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Himalia System
+    - Space-Faction-AsteroidFieldRingAestus
+    - ''
+  - - 0, 0, 0
+    - Himalia
+    - Mystic-Himalia-Enos
+    - ''
+  - - 6870, 6562, -4341
+    - Himalia Moon
+    - PFaction-Moon8
+    - ''
+  - - -8037, -8389, -11327
+    - Trov BI5
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 906
+  - 0
+  - 446
+  Color: 0.97, 0.96, 1.0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Paterae System
+    - Space-Faction-AsteroidFieldRingAitis
+    - ''
+  - - 0, 0, 0
+    - Paterae
+    - Mystic-Paterae
+    - ''
+  - - 3671, 6432, 7934
+    - Paterae Moon
+    - PFaction-Moon
+    - ''
+  - - -13453, -3949, 6824
+    - Shars Q0N
     - Faction-POI-Planet-Dalos
     - ''
   Allow: []

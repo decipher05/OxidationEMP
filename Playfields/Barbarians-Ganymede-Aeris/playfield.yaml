@@ -20,7 +20,7 @@ Moons: 1                           # No functionality yet
 Water: WaterGreen                   # WaterBlue, WaterGreen, WaterBrown
 SeaLevel: 32                       # Sea level of planet
 PvP: True
-#Seed: 123456                       # If set overwrites main Seed
+Seed: 324247                       # If set overwrites main Seed
 #UseFixed: False					# If set uses fixed POIs + resources
 
 # Playfield difficulty (has impact on experience gains)
@@ -28,7 +28,7 @@ Difficulty: 5                      # Between 2 and 5: larger values indicate hig
 
 # Planet or Space
 PlayfieldType: Planet              # Please don't change
-Description: A steamy marsh planet filled with swamps,low radiation, tall grass and lots of forest. PVE Planet and Breathable.
+Description: A steamy marsh planet filled with swamps,low radiation, tall grass and lots of forest.
 
 # Sun                              # SunFlareBlue, SunFlareWhite, SunFlareWhite2, SunFlareWhite3, SunFlareYellow, SunFlarePurple
 SunFlare: EnvironmentalEffects/SunFlareBlue
