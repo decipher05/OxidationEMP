@@ -318,7 +318,7 @@ Sectors:
   - 713
   - 0
   - 749
-  Color: 0.97, 0.96, 1.0
+  Color: 0.97, 0.96, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -343,7 +343,7 @@ Sectors:
   - 777
   - 0
   - 607
-  Color: 0.97, 0.96, 1.0
+  Color: 0.97, 0.96, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -368,7 +368,7 @@ Sectors:
   - 914
   - 0
   - 483
-  Color: 0.97, 0.96, 1.0
+  Color: 0.97, 0.96, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -393,7 +393,7 @@ Sectors:
   - 702
   - 0
   - 411
-  Color: 0.97, 0.96, 1.0
+  Color: 0.97, 0.96, 1
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -418,7 +418,7 @@ Sectors:
   - -69
   - 0
   - -407
-  Color: 0.8, 1.0, 0
+  Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -435,6 +435,56 @@ Sectors:
     - ''
   - - 13584, 6954, 16258
     - Bruna LB3
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 164
+  - 0
+  - -443
+  Color: 0.8, 1, 0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Kazo System
+    - Space-Faction-AsteroidsFewZeyhines
+    - ''
+  - - 0, 0, 0
+    - Kazo
+    - Eternal-Kazo
+    - ''
+  - - -4813, -8389, -6169
+    - Kazo Moon
+    - PFaction-Moon2
+    - ''
+  - - -11350, 8848, 9435
+    - Streon T26
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 67
+  - 0
+  - -246
+  Color: 0.8, 1, 0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Icarus System
+    - Space-Faction-AsteroidsMasperon
+    - ''
+  - - 0, 0, 0
+    - Icarus
+    - Eternal-Icarus
+    - ''
+  - - 5388, -7605, 6954
+    - Icarus Moon
+    - PFaction-Moon3
+    - ''
+  - - 12127, 5583, -9564
+    - Drosie 0DIQ
     - Faction-POI-Planet-Dalos
     - ''
   Allow: []

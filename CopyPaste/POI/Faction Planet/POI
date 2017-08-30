@@ -119,3 +119,15 @@ POIs:
               Value: temperate
             - Key: RegenAfter
               Value: 360
+
+        - GroupName: TS_Masperon
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          SpawnPOIAvoid: [DroneBaseAkua, PlanetVesselBase, Wreckage]
+          POIDistance: 1000
+          Properties:
+            - Key: Music
+              Value: JungleDepths  
