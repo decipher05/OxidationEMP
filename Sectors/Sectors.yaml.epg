@@ -268,7 +268,7 @@ Sectors:
   - 647
   - 0
   - -666
-  Color: 0, 0, 0
+  Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
@@ -285,6 +285,56 @@ Sectors:
     - ''
   - - 1929, -12893, 9892
     - Strosie DX36
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 514
+  - 0
+  - -564
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Callisto System
+    - Space-Faction-AsteroidsOscutune
+    - ''
+  - - 0, 0, 0
+    - Callisto
+    - Barbarians-Callisto-Hubble635
+    - ''
+  - - 10013, 6954, 1666
+    - Callisto Moon
+    - PFaction-Moon6
+    - ''
+  - - -13193, -11000, 13157
+    - Skapus 26GR
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 0
+  - 0
+  - 0
+  Color: 0.97, 0.96, 1.0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Amalthea System
+    - Space-Faction-AsteroidFieldOmicron
+    - ''
+  - - 0, 0, 0
+    - Amalthea
+    - Mystic-Amalthea-Kepler412
+    - ''
+  - - 3467, 99, 9109
+    - Amalthea Moon
+    - PFaction-Moon7
+    - ''
+  - - -15532, -3492, -5320
+    - Plolla 330
     - Faction-POI-Planet-Dalos
     - ''
   Allow: []

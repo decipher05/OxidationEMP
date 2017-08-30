@@ -12,7 +12,7 @@ AtmosphereO2: 0.08
 AtmosphereBreathable: False
 Temperature: -38
 TemperatureDay: 0
-TemperatureNight: -25
+TemperatureNight: -25       
 Music: snow
 Radiation: 5.1
 DayLength: 24
@@ -44,7 +44,7 @@ SpecialEffectsLocal:
   - Name: FireFliesGreenFew
     Biome: [ AlienForest, AlienSavanna ]
     Time: Day
-    MaxHeight: 120
+    MaxHeight: 120    
 
 SpecialEffectsGlobal:
 # Weather
@@ -55,46 +55,46 @@ SpecialEffectsGlobal:
     Lifetime: 120     # in realtime seconds
   - Name: Clear
     Type: Weather
-    InitialDelay: 0
+    InitialDelay: 0   
     Delay: 2
     Lifetime: 120
   - Name: Clouds
     Type: Weather
-    InitialDelay: 0
+    InitialDelay: 0   
     Delay: 3
     Lifetime: 120
   - Name: CloudsLight
     Type: Weather
-    InitialDelay: 0
+    InitialDelay: 0   
     Delay: 2
     Lifetime: 150
   - Name: Wind
     Type: Weather
-    InitialDelay: 5
+    InitialDelay: 5   
     Delay: 2
     Lifetime: 240
   - Name: RainMedium
     Type: Weather
-    InitialDelay: 5
-    Delay: 5
-    Lifetime: 4000
+    InitialDelay: 5   
+    Delay: 5          
+    Lifetime: 4000      
   - Name: RainHeavy
     Type: Weather
-    InitialDelay: 5
-    Delay: 5
-    Lifetime: 9900
+    InitialDelay: 5   
+    Delay: 5          
+    Lifetime: 9900      
   - Name: Storm
     Type: Weather
-    InitialDelay: 5
-    Delay: 10
-    Lifetime: 9900
+    InitialDelay: 5   
+    Delay: 10          
+    Lifetime: 9900   
 # Global Effect
   - Name: ThunderAndLightningRed
     Biome: [ Any ]
     Time: Always
-    InitialDelay: 0.5
+    InitialDelay: 0.5   
     Delay: 60
-    Lifetime: 300
+    Lifetime: 300			
     PlyDist: 100
     SpawnY: 500
     Struct: Avoid
@@ -342,21 +342,21 @@ Biome:
            Decorations:
                - [ WhiteOak, 1]
                - [ RiverBirch, 1]
-               - [ AlienTreeBlue, 1]
+               - [ AlienTreeBlue, 1]               
                - [ UmbrellaTree, 0.8]
                - [ AkuaPalm, 0.8]
                - [ AkuaPlant, 0.2]
                - [ AkuaPlant2, 0.3]
                - [ Rainforest, 0.1]
                - [ BigFlower, 0.3]
-               - [ AlienTreeBlue, 0.9]
+               - [ AlienTreeBlue, 0.9]               
                - [ ElderberryBush, 0.7]
                - [ MushroomBellBrown01, 0.4]
                - [ CattailWinter, 0.8]
                - [ PixieStalks, 0.4]
                - [ InsanityPepper, 0.15]
                - [ AkuaFern, 1]
-               - [ AlienPalmTree, 0.8]
+               - [ AlienPalmTree, 0.8]               
                - [ AlienPlant07, 0.3]
                - [ AlienPlant14, 0.2]
                - [ DeadTree01, 0.4]
@@ -367,7 +367,7 @@ Biome:
                - [ DimpleDome, 0.2]
                - [ AlienPlantWorm1, 0.2]
                - [ AlienPlant11, 0.7]
-               - [ Snakeweed, 5]
+               - [ Snakeweed, 5]               
                - [ SkeletonWhaleFull, 0.05]
            Grass:
                - Name: "GrassGreen04"
@@ -412,7 +412,7 @@ Biome:
                - [ ElderberryBush, 0.15]
                - [ AmericanElm, 0.1]
                - [ AkuaBush1, 0.1]
-               - [ CornDogBush, 0.3]
+               - [ CornDogBush, 0.3]               
                - [ Snakeweed, 0.5]
                - [ DesertPlant20, 0.25]
                - [ CattailWinter, 0.5]
@@ -454,7 +454,7 @@ Biome:
                  Density: 250
                  YScale: 1.5
                  Preset: "GrassPatches3a"
-   - Altitude: [ 24, 55 ]   # 24 and not 28 to make sure water sound is not played on dry land
+   - Altitude: [ 24, 55 ]   # 24 and not 28 to make sure water sound is not played on dry land 
      Slope: [ 0, 180 ]
      BiomeClusterData:
          - Name: "OpenPlains"
@@ -472,14 +472,14 @@ Biome:
            ClusterSize: 0
            NbOfClusters: 0
            Decorations:
-               - [ "BlueSpruceWinter", 0.25]
-               - [ "AlaskaCedarBare", 0.25]
-               - [ "RealRock8Snow", 0.15]
-               - [ "RealRock6Snow", 0.15]
-               - [ "RealRock10Snow", 0.15]
-               - [ "BushWinter01", 0.2]
-               - [ "BushWinter02", 0.2]
-               - [ "BushWinter03", 0.1]
+               - [ "BlueSpruceWinter", 0.25] 
+               - [ "AlaskaCedarBare", 0.25] 
+               - [ "RealRock8Snow", 0.15] 
+               - [ "RealRock6Snow", 0.15] 
+               - [ "RealRock10Snow", 0.15] 
+               - [ "BushWinter01", 0.2] 
+               - [ "BushWinter02", 0.2] 
+               - [ "BushWinter03", 0.1] 
                - [ "CornDogBushSnow", 0.2]
            Grass:
                - Name: "GrassGreen06"
@@ -489,7 +489,7 @@ Biome:
                - Name: "GrassGreen06Snow"
                  Density: 3500
                  YScale: 1
-                 Preset: "GrassPatches8"
+                 Preset: "GrassPatches8"                 
                - Name: "Plant01"
                  Density: 250
                  YScale: 1.5
@@ -551,96 +551,96 @@ POIs:
           DroneProb: 0
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
-          TroopTransport: False
+          TroopTransport: False    
           PlayerStart: False   # use with first POI if player should be spawned here, use a Count of 1 for such POIs
-          Properties:
+          Properties: 
             - Key: PersonalContainer
               Value: "Drill, Chainsaw, CopperIngot:400, IronIngot:400, CobaltIngot:400, SiliconIngot:400, BioFuel:4, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills, EVABoost"
-            - Key: MapMarker
+            - Key: MapMarker 
               Value: Neutral
-
+              
         - GroupName: DroneBaseAestus
           DroneBaseSetup: DroneBaseSetup
-          CountMinMax: [ 1, 1 ]
+          CountMinMax: [ 1, 1 ]     
           DroneProb: 1.0
-          DronesMinMax: [ 4, 5 ]
+          DronesMinMax: [ 4, 5 ] 
           ReserveCount: 6
-          POIDistance: 1200
-          Properties:
+          POIDistance: 1200          
+          Properties: 
             - Key: RegenAfter
-              Value: 1440
-
+              Value: 1440          
+          
         - GroupName: PlanetVesselBase
           PlanetVesselBaseSetup: PlanetVesselBaseSetup
-          CountMinMax: [ 1, 1 ]
+          CountMinMax: [ 1, 1 ] 
           DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
+          DronesMinMax: [ 2, 3 ]    
           ReserveCount: 3
-          POIDistance: 1200
-          Properties:
+          POIDistance: 1200          
+          Properties: 
             - Key: RegenAfter
-              Value: 1440
-
+              Value: 1440          
+              
         - GroupName: tshubble635
           CountMinMax: [ 1, 1 ]
           DroneProb: 0
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
           TroopTransport: False
-          Properties:
+          Properties: 
             - Key: Music
               Value: SunnySkies
-            - Key: MapMarker
-              Value: Neutral
+            - Key: MapMarker 
+              Value: Neutral              
 
         - GroupName: gatezenx
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 0
-          DronesMinMax: [ 0, 1 ]
+          CountMinMax: [ 1, 1 ]         
+          DroneProb: 0                
+          DronesMinMax: [ 0, 1 ]       
           ReserveCount: 0
           TroopTransport: False
-          POIDistance: 1200
-          Properties:
+          POIDistance: 1200          
+          Properties: 
             - Key: Music
               Value: SunnySkies
-            - Key: MapMarker
+            - Key: MapMarker 
               Value: Neutral
 
         - GroupName: bankgate
           CountMinMax: [ 1, 1 ]
-          DroneProb: 0.8
+          DroneProb: 0.8 
           DronesMinMax: [ 0, 1 ]
           ReserveCount: 3
           TroopTransport: False
-          Properties:
+          Properties:          
             - Key: RegenAfter
               Value: 440
-            - Key: MapMarker
-              Value: Neutral
-
+            - Key: MapMarker 
+              Value: Neutral              
+          
         - GroupName: AbandonedMine
           CountMinMax: [ 1, 1 ]
           DroneProb: 0.1
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
           TroopTransport: False
-          Properties:
+          Properties: 
             - Key: Music
               Value: DarkSoundscape2
-            - Key: MapMarker
-              Value: Neutral
+            - Key: MapMarker 
+              Value: Neutral              
 
         - GroupName: CivilSettlement
           CountMinMax: [ 4, 5 ]
-          DroneProb: 0.8
+          DroneProb: 0.8 
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 2
           TroopTransport: False
-          Properties:
+          Properties:          
             - Key: RegenAfter
               Value: 1440
-            - Key: MapMarker
-              Value: Neutral
+            - Key: MapMarker 
+              Value: Neutral          
 
         - GroupName: TribalVillage
           CountMinMax: [ 2, 3 ]
@@ -648,21 +648,21 @@ POIs:
           DronesMinMax: [ 0, 0 ]
           ReserveCount: 0
           TroopTransport: False
-          Properties:
+          Properties: 
             - Key: Music
               Value: JungleDepths
-            - Key: MapMarker
-              Value: Neutral
+            - Key: MapMarker 
+              Value: Neutral              
 
         - GroupName: GhostTierII
-          CountMinMax: [ 4, 5 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
+          CountMinMax: [ 4, 5 ]        
+          DroneProb: 1.0               
+          DronesMinMax: [ 1, 2 ]        
           ReserveCount: 3
           TroopTransport: True
-          Properties:
+          Properties: 
             - Key: RegenAfter
-              Value: 1440
+              Value: 1440          
 
         - GroupName: CrashedTalosBack
           CountMinMax: [ 1, 1 ]
@@ -670,11 +670,11 @@ POIs:
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: False
-          Properties:
+          Properties:          
             - Key: RegenAfter
               Value: 1440
-            - Key: MapMarker
-              Value: Neutral
+            - Key: MapMarker 
+              Value: Neutral          
 
         - GroupName: CrashedTalosMid
           CountMinMax: [ 1, 1 ]
@@ -682,11 +682,11 @@ POIs:
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: True
-          Properties:
+          Properties:          
             - Key: RegenAfter
               Value: 1440
-            - Key: MapMarker
-              Value: Neutral
+            - Key: MapMarker 
+              Value: Neutral          
 
         - GroupName: CrashedTalosFront
           CountMinMax: [ 1, 1 ]
@@ -694,11 +694,11 @@ POIs:
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 3
           TroopTransport: False
-          Properties:
+          Properties:          
             - Key: RegenAfter
               Value: 1440
-            - Key: MapMarker
-              Value: Neutral
+            - Key: MapMarker 
+              Value: Neutral          
 
     Fixed:
         - Type: BA_Player
@@ -728,25 +728,25 @@ POIs:
 
     FixedPlayerStart:
         - Mode: Creative                # Creative or Survival
-          SubMode: Empty                # Empty / Normal (only evaluated in Creative mode) [default: Normal]
+          SubMode: Empty                # Empty / Normal (only evaluated in Creative mode) [default: Normal]  
           Armor: ArmorLight
           Pos: [ -428, 25.7, -291 ]       # position coordinates
           RotY: -50                     # rotation angle around Y axis
 
         - Mode: Creative                # Creative or Survival
-          SubMode: Normal               # Empty / Normal (only evaluated in Creative mode) [default: Normal]
+          SubMode: Normal               # Empty / Normal (only evaluated in Creative mode) [default: Normal]  
           Armor: ArmorLight
           Pos: [ -520, 43,-323 ]        # position coordinates
           RotY: 50                      # rotation angle around Y axis
 
         - Mode: Debug
-          Pos: [ -482.2,25.2,-252.56 ]
+          Pos: [ -482.2,25.2,-252.56 ]  
           RotY: 100
 
         - Mode: Survival
-          # Spawn: EscapePod
+          # Spawn: EscapePod	
           Spawn: Structure
-          Structure: "wreckage2"
+          Structure: "wreckage2"		
           Armor: ArmorMedium
           Items: [ "Pistol, 50Caliber:250, Drill, CopperIngot:100, IronIngot:100, CobaltIngot:100, SiliconIngot:100, Chainsaw, BioFuel:4, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills:7, EVABoost, PlayerBikeKit, Medikit02:2, AntidotePills:2, EmergencyRations:2, WaterBottle:2, EnergyCell:25", "Pistol, 50Caliber:150, Drill, CopperIngot:250, IronIngot:250, CobaltIngot:250, SiliconIngot:250, Chainsaw, BioFuel:6, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills:9, EVABoost, PlayerBikeKit, Medikit02:3, AntidotePills:3, EmergencyRations:3, WaterBottle:3, EnergyCell:34", "Pistol, 50Caliber:250, Drill, CopperIngot:300, IronIngot:300, CobaltIngot:300, SiliconIngot:300, Chainsaw, BioFuel:8, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills:11, EVABoost, PlayerBikeKit, Medikit02:3, AntidotePills:3, EmergencyRations:3, WaterBottle:1, EnergyCell:43", "#FreshStart: Drill, Pistol, 50Caliber:250, CopperIngot:40, IronIngot:40, CobaltIngot:40, SiliconIngot:40, Chainsaw, BioFuel:2, ConstructorSurvival, OxygenGeneratorSmall, Core, DurianRoot, RadiationPills:2, EVABoost, Medikit02:1, AntidotePills:1, WaterBottle:2, EnergyCell:15" ]
 
@@ -763,7 +763,7 @@ DroneBaseSetup:
           Stock:
               - Name: DroneSmallFast01Plasma
                 Amount: 200
-                Extra: 0
+                Extra: 0    
 
               - Name: DroneLargeSlow01Plasma
                 Amount: 200
@@ -779,11 +779,11 @@ DroneBaseSetup:
 
               - Name: DroneLargeSlow01Plasma   # Base attack drones
                 Amount: Infinite
-                Extra: 1
+                Extra: 1     
 
               - Name: EnemyDroneV2Plasma       # Base attack drones
                 Amount: Infinite
-                Extra: 1
+                Extra: 1                         
 
               - Name: DroneTroopsTransport01
                 Amount: Infinite

@@ -20,9 +20,8 @@ PlanetType: Snow
 Moons: 1
 Water: WaterBlue
 SeaLevel: 36
-PvP: False
-AllowCV: False
-#Seed: 123456                       # If set overwrites main Seed
+PvP: True
+Seed: 235326                       # If set overwrites main Seed
 #UseFixed: False					# If set uses fixed POIs + resources
 
 # Playfield difficulty (has impact on experience gains)
@@ -30,7 +29,7 @@ Difficulty: 5                      # Between 2 and 5: larger values indicate hig
 
 # Planet or Space
 PlayfieldType: Planet              # Please don't change
-Description: "[c][e0e020]Origin: %Origin%[-][/c]\n[c][d29818]Difficulty: YouGunnaDie Tricky Hard[-][/c]\nHubble635 is a Tropical planet with vast oceans, it has dense Jungles and is raining planet wide almost all the time, very low visibility, its a lumberjacks dream though! PvE. You start in a pod drop here so plan everything carefully.[c][e0e020]Be warned, constant rain and fog may effect some PCs under the recommended spec, very hard . [c][e02020]Be warned, choosing this planet as the survival start is recommended for VERY experienced players only.[-][/c]"
+#Description: "[c][e0e020]Origin: %Origin%[-][/c]\n[c][d29818]Difficulty: YouGunnaDie Tricky Hard[-][/c]\nHubble635 is a Tropical planet with vast oceans, it has dense Jungles and is raining planet wide almost all the time, very low visibility, its a lumberjacks dream though! PvE. You start in a pod drop here so plan everything carefully.[c][e0e020]Be warned, constant rain and fog may effect some PCs under the recommended spec, very hard . [c][e02020]Be warned, choosing this planet as the survival start is recommended for VERY experienced players only.[-][/c]"
 
 # Sun                              # SunFlareBlue, SunFlareWhite, SunFlareWhite2, SunFlareWhite3, SunFlareYellow, SunFlarePurple
 SunFlare: EnvironmentalEffects/SunFlareYellow
@@ -134,72 +133,96 @@ WindSpeed: 4                        # Between 0 and 10: larger values = faster m
 ### Randomly distributed resources
 RandomResources:
     - Name: IronResource
-      CountMinMax: [ 6, 7 ]   # range of number of resources to distribute on planet
-      SizeMinMax: [ 8, 14 ]   # range of sizes of resource depots
-      DepthMinMax: [ 0, 1 ]   # Range of how deep to bury depots below terrain surface (e.g. 0 = partly visible, 3 = top of depot starts 3m below surface)
-      DroneProb: 0.2          # probability that the resource is defended by drones
-      MaxDroneCount: 1        # if at all, 1..n drones will defend the resource [default = 1] - Name: IronResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
 
     - Name: CobaltResource
-      CountMinMax: [ 5, 6 ]
-      SizeMinMax: [ 6, 14 ]
-      DepthMinMax: [ 0, 1 ]
-      DroneProb: 0.2
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
 
     - Name: CopperResource
-      CountMinMax: [ 5, 6 ]
-      SizeMinMax: [ 6, 13 ]
-      DepthMinMax: [ 0, 1 ]
-      DroneProb: 0.3
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
 
     - Name: SiliconResource
-      CountMinMax: [ 4, 5 ]
-      SizeMinMax: [ 6, 13 ]
-      DepthMinMax: [ 0, 2 ]
-      DroneProb: 0.3
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
 
     - Name: PromethiumResource
-      CountMinMax: [ 5, 6 ]
-      SizeMinMax: [ 8, 12 ]
-      DepthMinMax: [ 0, 2 ]
-      DroneProb: 0.4
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.2
+      MaxDroneCount: 1
 
     - Name: MagnesiumResource
-      CountMinMax: [ 6, 7 ]
-      SizeMinMax: [ 7, 9 ]
-      DepthMinMax: [ 0, 3 ]
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: NeodymiumResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
+      MaxDroneCount: 1
+
+    - Name: SathiumResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
 
 ### Resource Asteroids
 AsteroidResources:
     - Name: IronResource
-      Threshold: 0.6
+      Threshold: 0.4
       Amount: 0.5
-
-    # - Name: IronResource      # Possibility to spawn resource asteroids independent of the remaining amount of ore on a planet
-      # Amount: 5000            # Amount of ore that is spawned per event
-      # InitialDelay: 1         # Initial delay in game hours
-      # Delay: 24               # Subsequent delay in game hours
 
     - Name: CobaltResource
       Threshold: 0.4
-      Amount: 0.4
+      Amount: 0.5
 
     - Name: CopperResource
-      Threshold: 0.3
-      Amount: 0.3
+      Threshold: 0.4
+      Amount: 0.5
 
     - Name: SiliconResource
-      Threshold: 0.3
-      Amount: 0.2
+      Threshold: 0.4
+      Amount: 0.5
 
     - Name: PromethiumResource
-      Threshold: 0.3
-      Amount: 0.2
+      Threshold: 0.4
+      Amount: 0.5
 
     - Name: MagnesiumResource
-      Threshold: 0.2
-      Amount: 0.3
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: NeodymiumResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: SathiumResource
+      Threshold: 0.4
+      Amount: 0.5
+
 
 ### Terrain and Decorations
 # Terrain and Local Decoration
@@ -546,18 +569,6 @@ Biome:
 ### POIs
 POIs:
     Random:
-        - GroupName: wreckage2
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 0
-          DronesMinMax: [ 1, 1 ]
-          ReserveCount: 1
-          TroopTransport: False
-          PlayerStart: False   # use with first POI if player should be spawned here, use a Count of 1 for such POIs
-          Properties:
-            - Key: PersonalContainer
-              Value: "Drill, Chainsaw, CopperIngot:400, IronIngot:400, CobaltIngot:400, SiliconIngot:400, BioFuel:4, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills, EVABoost"
-            - Key: MapMarker
-              Value: Neutral
 
         - GroupName: DroneBaseAestus
           DroneBaseSetup: DroneBaseSetup
@@ -579,44 +590,22 @@ POIs:
           POIDistance: 1200
           Properties:
             - Key: RegenAfter
-              Value: 1440
+              Value: 2880
 
-        - GroupName: tshubble635
+        - GroupName: TS_Omicron
           CountMinMax: [ 1, 1 ]
           DroneProb: 0
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
           TroopTransport: False
+          SpawnPOIAvoid: [DroneBaseOmicron, Wreckage]
+          POIDistance: 1000
           Properties:
             - Key: Music
-              Value: SunnySkies
-            - Key: MapMarker
-              Value: Neutral
-
-        - GroupName: gatezenx
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 0
-          DronesMinMax: [ 0, 1 ]
-          ReserveCount: 0
-          TroopTransport: False
-          POIDistance: 1200
-          Properties:
-            - Key: Music
-              Value: SunnySkies
-            - Key: MapMarker
-              Value: Neutral
-
-        - GroupName: bankgate
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 0.8
-          DronesMinMax: [ 0, 1 ]
-          ReserveCount: 3
-          TroopTransport: False
-          Properties:
+              Value: temperate
             - Key: RegenAfter
-              Value: 440
-            - Key: MapMarker
-              Value: Neutral
+              Value: 2880
+
 
         - GroupName: AbandonedMine
           CountMinMax: [ 1, 1 ]
@@ -627,8 +616,9 @@ POIs:
           Properties:
             - Key: Music
               Value: DarkSoundscape2
-            - Key: MapMarker
-              Value: Neutral
+            - Key: RegenAfter
+              Value: 2880
+
 
         - GroupName: CivilSettlement
           CountMinMax: [ 4, 5 ]
@@ -638,9 +628,8 @@ POIs:
           TroopTransport: False
           Properties:
             - Key: RegenAfter
-              Value: 1440
-            - Key: MapMarker
-              Value: Neutral
+              Value: 2880
+
 
         - GroupName: TribalVillage
           CountMinMax: [ 2, 3 ]
@@ -651,8 +640,9 @@ POIs:
           Properties:
             - Key: Music
               Value: JungleDepths
-            - Key: MapMarker
-              Value: Neutral
+            - Key: RegenAfter
+              Value: 2880
+
 
         - GroupName: GhostTierII
           CountMinMax: [ 4, 5 ]
@@ -662,7 +652,7 @@ POIs:
           TroopTransport: True
           Properties:
             - Key: RegenAfter
-              Value: 1440
+              Value: 2880
 
         - GroupName: CrashedTalosBack
           CountMinMax: [ 1, 1 ]
@@ -848,17 +838,17 @@ CreatureSpawning:
       Entities:
         - Name: Hexapods
           Period: Night
-          Amount: 2
+          Amount: 4
           Delay: 0
           RestrictYMinMax: [ 0, 70 ]
         - Name: Spiders01
           Period: Night
-          Amount: 2
+          Amount: 4
           Delay: 0
           RestrictYMinMax: [ 0, 70 ]
         - Name: TalonGuardianHerd
           Period: Always
-          Amount: 2
+          Amount: 4
           Delay: 0
           RestrictYMinMax: [ 0, 60 ]
 
@@ -866,26 +856,26 @@ CreatureSpawning:
       Entities:
         - Name: LizardMuleHerd
           Period: Day
-          Amount: 2
+          Amount: 4
           Delay: 0
         - Name: AlienAssassinReds
           Period: Day
-          Amount: 2
+          Amount: 4
           Delay: 0
         - Name: PlantMonsters
           Period: Night
-          Amount: 4
+          Amount: 5
           Delay: 0
         - Name: PlantMonsters
           Period: Day
-          Amount: 4
+          Amount: 5
           Delay: 0
         - Name: TalonGuardianHerd
           Period: Night
-          Amount: 2
+          Amount: 4
           Delay: 0
           RestrictYMinMax: [ 0, 70 ]
         - Name: AlienBugs01
           Period: Night
-          Amount: 1
+          Amount: 4
           Delay: 0

@@ -23,7 +23,7 @@ Water: WaterGreen
 SeaLevel: 27
 PvP: True
 
-#Seed: 123456
+Seed: 357896
 #UseFixed: False
 
 # Playfield Difficulty (has impact on experience gains)
@@ -31,7 +31,7 @@ Difficulty: 5
 
 # Planet or Space
 PlayfieldType: Planet               # Please don't change
-Description: "[c][e0e020]Origin: %Origin%[-][/c]\n[c][d29818]Difficulty: Easy[-][/c]\nKepler 412 is a desert, its PvE, its believed by the Human consortium that the Zirax are trying to terraform this planet for themselves."
+#Description: "[c][e0e020]Origin: %Origin%[-][/c]\n[c][d29818]Difficulty: Easy[-][/c]\nKepler 412 is a desert, its PvE, its believed by the Human consortium that the Zirax are trying to terraform this planet for themselves."
 
 # Sun                               # SunFlareBlue, SunFlareWhite, SunFlareWhite2, SunFlareWhite3, SunFlareYellow, SunFlarePurple
 SunFlare: EnvironmentalEffects/SunFlareWhite2
@@ -137,81 +137,96 @@ WindSpeed: 3
 
 ### Resources
 RandomResources:
-    - Name: IronResource      # Name of resource
-      CountMinMax: [ 4, 5 ]   # Range of number of resources to distribute on planet
-      SizeMinMax: [ 10, 16 ]  # Range of sizes of resource depots
-      DepthMinMax: [ 0, 1 ]   # Range of how deep to bury depots below terrain surface (e.g. 0 = partly visible, 3 = top of depot starts 3m below surface)
-      DroneProb: 0.2          # Probability that resource is defended by drones
-      MaxDroneCount: 1        # If at all, 1..n drones will defend resource [default = 1]
+    - Name: IronResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
 
     - Name: CobaltResource
-      CountMinMax: [ 3, 4 ]
-      SizeMinMax: [ 9, 15 ]
-      DepthMinMax: [ 0, 1 ]
-      DroneProb: 0.3
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
 
     - Name: CopperResource
-      CountMinMax: [ 3, 5 ]
-      SizeMinMax: [ 9, 14 ]
-      DepthMinMax: [ 0, 1 ]
-      DroneProb: 0.4
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
 
     - Name: SiliconResource
-      CountMinMax: [ 2, 3 ]
-      SizeMinMax: [ 10, 15 ]
-      DepthMinMax: [ 0, 1 ]
-      DroneProb: 0.5
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
 
     - Name: PromethiumResource
-      CountMinMax: [ 5, 6 ]
-      SizeMinMax: [ 8, 13 ]
-      DepthMinMax: [ 0, 2 ]
-      DroneProb: 0.5
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.2
+      MaxDroneCount: 1
 
     - Name: MagnesiumResource
-      CountMinMax: [ 6, 7 ]
-      SizeMinMax: [ 7, 9 ]
-      DepthMinMax: [ 0, 3 ]
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: NeodymiumResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
+      MaxDroneCount: 1
 
-FixedResources:
-    - Name: SiliconResource     # Name of resource
-      Pos: [ 646, 33, -607 ]    # Position coordinates
-      Radius: 7                 # Size
-
-    - Name: SiliconResource
-      Pos: [ 646, 40, -705 ]
-      Radius: 7
-
-    - Name: IronResource
-      Pos: [ -856, 45, 20 ]
-      Radius: 7
+    - Name: SathiumResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
 
 ### Resource Asteroids
 AsteroidResources:
     - Name: IronResource
-      Threshold: 0.6
+      Threshold: 0.4
       Amount: 0.5
 
     - Name: CobaltResource
       Threshold: 0.4
-      Amount: 0.4
+      Amount: 0.5
 
     - Name: CopperResource
-      Threshold: 0.3
-      Amount: 0.3
+      Threshold: 0.4
+      Amount: 0.5
 
     - Name: SiliconResource
-      Threshold: 0.3
-      Amount: 0.2
+      Threshold: 0.4
+      Amount: 0.5
 
     - Name: PromethiumResource
-      Threshold: 0.2
-      Amount: 0.2
+      Threshold: 0.4
+      Amount: 0.5
 
     - Name: MagnesiumResource
-      Threshold: 0.2
-      Amount: 0.3
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: NeodymiumResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: SathiumResource
+      Threshold: 0.4
+      Amount: 0.5
+
 
 ### Terrain and Decorations
 # Terrain and Local Decoration
@@ -541,6 +556,20 @@ POIs:
             - Key: RegenAfter
               Value: 1440
 
+        - GroupName: TS_Omicron
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          SpawnPOIAvoid: [DroneBaseOmicron, Wreckage]
+          POIDistance: 1000
+          Properties:
+            - Key: Music
+              Value: temperate
+            - Key: RegenAfter
+              Value: 2880
+
         - GroupName: PlanetVesselBase
           PlanetVesselBaseSetup: PlanetVesselBaseSetup
           CountMinMax: [ 1, 1 ]
@@ -550,50 +579,65 @@ POIs:
           POIDistance: 500
           Properties:
             - Key: RegenAfter
-              Value: 1440
+              Value: 2880
 
-        - GroupName: xeno
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 0.8
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: False
-          Properties:
-            - Key: RegenAfter
-              Value: 1440
-
-        - GroupName: stargatemissions
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 0.8
-          DronesMinMax: [ 1, 4 ]
-          ReserveCount: 4
-          TroopTransport: False
-          Properties:
-            - Key: MapMarker
-              Value: Neutral
 
         - GroupName: AbandonedFactory
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 1440
-            - Key: MapMarker
-              Value: Neutral
-
-        - GroupName: XenuTierI
-          CountMinMax: [ 3, 5 ]
-          DroneProb: 1.0
+          CountMinMax: [ 0, 3 ]
+          DroneProb: 0.8
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: True
           Properties:
             - Key: RegenAfter
-              Value: 140
+              Value: 2880
 
+        - GroupName: AbandonedMine
+          CountMinMax: [ 0, 3 ]
+          DroneProb: 0.1
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
+
+        # Weakly defended Civil Settlements close to TS Akua
+        - GroupName: CivilSettlementO2
+          CountMinMax: [ 1, 3 ]
+          DroneProb: 0.5
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 2
+          TroopTransport: True
+          SpawnPOINear: [TS_Akua]
+          POIDistance: 500
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
+
+        # Spawn strong defended civil settlements randomly
+        - GroupName: CivilSettlement
+          CountMinMax: [ 1, 3 ]
+          DroneProb: 0.9
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 2
+          TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
+
+        # Tribal villages close to Abandoned Mine
+        - GroupName: TribalVillage
+          CountMinMax: [ 1, 4 ]
+          DroneProb: 0.8
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 0
+          TroopTransport: False
+          SpawnPOINear: [AbandonedMine]
+          POIDistance: 500
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
     Fixed:
         # - Type: BA_Player               # Type of blueprint (BA, SV, HV, CV)
           # Prefab: BA_CivilSettlement-A     # Filename of blueprint
@@ -766,7 +810,7 @@ CreatureSpawning:
       Entities:
         - Name: CaveWormsGreen       # Name of creature
           Period: Night              # Night / Day / Always
-          Amount: 2                  # Amount of creatures that will spawn at a given time
+          Amount: 4                  # Amount of creatures that will spawn at a given time
           Delay: 0                   # Time in game hours during which no creatures will spawn
           # RestrictYMinMax: [ 70, 120 ]   # Creature will spawn only in between these altitudes
 
@@ -774,32 +818,32 @@ CreatureSpawning:
       Entities:
         - Name: CaveWormGreyHerd
           Period: Day
-          Amount: 1
+          Amount: 3
           Delay: 0
         - Name: Spiders02
           Period: Night
-          Amount: 2
+          Amount: 4
           Delay: 0
         - Name: Otyughs
           Period: Night
-          Amount: 1
+          Amount: 3
           Delay: 0
 
     - Biome: DesertHighPlains
       Entities:
         - Name: AlienAssassinGreys
           Period: Night
-          Amount: 2
+          Amount: 4
           Delay: 0
         - Name: GolemsDesert
           Period: Night
-          Amount: 1
+          Amount: 4
           Delay: 0
         - Name: WormDesertHerd
           Period: Day
-          Amount: 2
+          Amount: 4
           Delay: 0
         - Name: Spiders02
           Period: Day
-          Amount: 2
+          Amount: 4
           Delay: 0
