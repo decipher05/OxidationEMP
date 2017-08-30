@@ -365,9 +365,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 906
+  - 914
   - 0
-  - 446
+  - 483
   Color: 0.97, 0.96, 1.0
   Icon: Hexagon
   Playfields:
@@ -385,6 +385,56 @@ Sectors:
     - ''
   - - -13453, -3949, 6824
     - Shars Q0N
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 702
+  - 0
+  - 411
+  Color: 0.97, 0.96, 1.0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Ziraxus System
+    - Space-Faction-AsteroidFieldRingAkua
+    - ''
+  - - 0, 0, 0
+    - Ziraxus
+    - Mystic-Ziraxus
+    - ''
+  - - -5215, -6169, -8116
+    - Ziraxus Moon
+    - PFaction-Moon0
+    - ''
+  - - 11144, 8260, 13445
+    - Sposie 6K72
+    - Faction-POI-Planet-Dalos
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -69
+  - 0
+  - -407
+  Color: 0.8, 1.0, 0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Vyrdis System
+    - Space-Faction-AsteroidsFewSkillon
+    - ''
+  - - 0, 0, 0
+    - Vyrdis
+    - Eternal-Vyrdis
+    - ''
+  - - -4100, -5255, -9727
+    - Vyrdis Moon
+    - PFaction-Moon1
+    - ''
+  - - 13584, 6954, 16258
+    - Bruna LB3
     - Faction-POI-Planet-Dalos
     - ''
   Allow: []
