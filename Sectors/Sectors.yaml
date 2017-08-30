@@ -172,15 +172,15 @@ Sectors:
   Icon: Hexagon
   Playfields:
   - - 0, 0, 0
-    - Seranis System
+    - Eugenia System
     - Space-Faction-AsteroidFieldRingAitis
     - ''
   - - 0, 0, 0
-    - Seranis
+    - Eugenia
     - Vanguard-Eugenia-Seranis
     - ''
   - - -7919, 951, 318
-    - Seranis Moon
+    - Eugenia Moon
     - PFaction-Moon1
     - ''
   - - -1347, 11087, 12625
@@ -252,7 +252,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Vulca
-    - Barbarians-Seranis
+    - Barbarians-Vulca
     - ''
   - - 5880, -7148, -7279
     - Vulca Moon
