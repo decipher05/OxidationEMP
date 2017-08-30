@@ -556,3 +556,61 @@ Sectors:
     - ''
   Allow: []
   Deny: []
+- Coordinates:
+  - 0
+  - 0
+  - 0
+  Color: 1.0, 0.49, 0
+  Icon: Star
+  Playfields:
+  - - 0, 0, 0
+    - Elara System
+    - Core-Space-AsteroidField
+    - ''
+  - - -58661, 36525, 30239
+    - Elara
+    - Core-G-Planet-Alphine-r
+    - ''
+  - - 46797, 38259, 32189
+    - Pasiphae
+    - Core-G-Planet-Andromeda-r
+    - ''
+  - - -47926, 17233, 13115
+    - Elara Moon
+    - PFaction-Moon8
+    - ''
+  - - 32584, 23302, 48446
+    - Pasiphae Moon
+    - PFaction-Moon4
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 0
+  - 0
+  - 0
+  Color: 1.0, 0.49, 0
+  Icon: Star
+  Playfields:
+  - - 0, 0, 0
+    - Alphine System
+    - Core-Space-AsteroidField
+    - ''
+  - - 15025, -11327, -14069
+    - Alphine
+    - Core-Z-Planet-Alphine
+    - ''
+  - - 13005, 15768, 11263
+    - Sinope
+    - Core-Z-Planet-Piercia-r
+    - ''
+  - - 19619, -18117, -15374
+    - Alphine Moon
+    - PFaction-Moon
+    - ''
+  - - 16548, 19816, 15442
+    - Sinope Moon
+    - PFaction-Moon0
+    - ''
+  Allow: []
+  Deny: []
