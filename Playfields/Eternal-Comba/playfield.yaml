@@ -399,17 +399,7 @@ Biome:
 ### POIs
 POIs:
     Random:
-        - GroupName: Wreckage
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 0
-          DronesMinMax: [ 1, 1 ]
-          ReserveCount: 1
-          TroopTransport: False
-          PlayerStart: True   # use with first POI if player should be spawned here, use a Count of 1 for such POIs
-          Properties:
-            - Key: PersonalContainer
-              Value: "Drill, Chainsaw, BioFuel:4, 50Caliber: 200, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills, EVABoost"
-
+          
         - GroupName: DroneBaseAestus
           DroneBaseSetup: DroneBaseSetup
           CountMinMax: [ 1, 1 ]

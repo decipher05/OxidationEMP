@@ -1,0 +1,432 @@
+---
+# Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+# For more detailed explanations of the different parameters, see examples in Empyrion\Content\Playfields\ExamplePlanet and ExampleSpace
+
+# Playfield Characteristics
+RealRadius: 1303.797294             # Please don't change
+ScaledRadius: 1300                  # Please don't change
+Gravity: -3.31                     # Gravity on planet
+AtmosphereDensity: 1.425            # Please don't change
+AtmosphereO2: 0.05                  # Oxygen level of atmosphere
+AtmosphereBreathable: False         # If player can breathe without helmet
+Temperature: 53                     # No functionality yet
+TemperatureDay: 62                  # No functionality yet
+TemperatureNight: 44                # No functionality yet
+DayLength: 24                       # No functionality yet
+PlanetType: Temperate                    # No functionality yet
+Water: WaterBlue                   # Water / Lava
+SeaLevel: 27                        # Sea level of planet
+Emissive: True                      # True if planet has emissive texture (e.g. Lava)
+PvP: True                           # Set to True to allow PvP in this playfield, default is False
+Seed: 432568                       # If set overwrites main Seed
+#UseFixed: False					# If set uses fixed POIs + resources
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 5                       # Between 2 and 5: larger values indicate higher difficulty
+
+# Planet or Space
+PlayfieldType: Planet               # Please don't change
+
+# Sun                               # SunFlareBlue, SunFlareWhite, SunFlareWhite2, SunFlareWhite3, SunFlareYellow, SunFlarePurple
+SunFlare: EnvironmentalEffects/SunFlareYellow
+
+# Special Effects                   # Please don't change
+LocalEffect:
+    Name: EnvironmentalEffects/Sparks
+    MaxHeight: 100
+
+# Atmosphere and Sky
+AtmosphereEnabled: True              # Atmosphere True or False
+AtmosphereColor: "0.3,0.3,0.3"       # Color of atmosphere seen in space, default is white "1,1,1"
+SkyColor: "1, 1, 0.4"           # Color of skybox, default is white "1,1,1"
+# LightZenithColor: "0.98, 0.98, 0.82"  # Color of light if sun is in zenith, default is almost white "1,0.95,0.92"
+# LightHorizonColor: "0.87, 0.87, 0.33"     # Color of light if sun is on horizon, default is orange "1,0.6,0"
+
+# Light
+DayLightIntensity: 0.55             # Between 0 and 1: larger values = brighter, default is 0.6
+NightLightIntensity: 1.4            # Between 0 and 1: larger values = brighter, default is 0.6
+DayShadowStrength: 0.7              # Between 0 and 1: larger values = stronger
+NightShadowStrength: 0.5            # Between 0 and 1: larger values = stronger
+
+# Fog
+AtmosphereFog: 0.5                  # Distant fog, between 0 and 1: larger values = stronger
+FogCloudIntensity: 0.7              # Waft of mist in air, between 0 and 1: larger values = stronger
+FogIntensity: 0.25                  # Near Fog/Atmospheric Scattering Intensity, between 0 and 1: larger values = stronger
+FogStartDistance: 400               # Near Fog/Atmospheric Scattering Start Distance, in m
+GroundFogIntensity: 0.5               # Ground Layer Fog, between 0 and 1: larger values = stronger
+GroundFogHeight: 10                  # Ground Layer Fog Height
+
+# Clouds
+CloudsDensity: 0.5                       # Between 0 and 1: larger values = more clouds (coverage)
+CloudsSharpness: 0.8                   # Between 0 and 1: larger values = less dense clouds
+CloudsBrightness: 0.7                  # Between 0 and 2: larger values = brighter clouds
+# CloudsOpacity: 0.9				   # Between 0 and 1: larger values = more opaque, default is 0.9
+# CloudsZenithColor: "0.87, 0.92, 1"   # Color of clouds if sun is in zenith, default is light blue "0.87,0.92,1"
+# CloudsHorizonColor: "1, 0.76, 0.56"  # Color of clouds if sun is on horizon, default is light orange "1,0.76,0.56"
+
+# Wind Speed
+WindSpeed: 3                        # Between 0 and 10: larger values = faster moving clouds
+
+
+### Fixed Resources for Seed=0      # No functionality in Seed>0 games
+# pos, radius, name
+
+### Randomly distributed resources
+RandomResources:
+
+    - Name: PromethiumResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.2
+      MaxDroneCount: 1
+
+    - Name: MagnesiumResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+
+    - Name: ErestrumResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
+
+    - Name: PentaxidResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
+
+
+### Resource Asteroids
+AsteroidResources:
+
+    - Name: PromethiumResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: MagnesiumResource
+      Threshold: 0.4
+      Amount: 0.5
+
+
+    - Name: ErestrumResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: PentaxidResource
+      Threshold: 0.4
+      Amount: 0.5
+
+
+### Terrain and Decorations
+# Terrain and Local Decoration
+
+Terrain:
+    Name: Lava
+    PoleLevel: 28                       # Pole level of planet
+    NoiseStrength: 0.3
+    ColorChange:
+        YFadeCenter: 80
+        YFadeRange: 40
+        YFadeMin: -0.15
+        YFadeMax: 0.2
+
+MainBiome:
+    Textures:
+        - [ RockBlack, 3 ]
+        - [ RockLava05, 4 ]
+        - [ RockLava04, 0 ]
+        - [ BedrockLava, 2 ]
+
+    Decorations:
+        - [ RocksmallA02, 0.3 ]
+        - [ RocksmallC01, 0.3 ]
+        - [ Rocks05, 0.1 ]
+
+SubBiomes:
+    - Altitude: 40
+      Textures:
+        - [ Stone, 13 ]
+      Decorations:
+        - [ RocksmallA02, 0.2 ]
+        - [ RocksmallC01, 0.2 ]
+
+# Biome Definition and Main Decoration
+Biome:
+# Plains
+   - Altitude: [ 40, 95 ]
+     Slope: [ 0, 20 ]
+     BiomeClusterData:
+         - Name: "Plains"
+           Id: 1
+           ClusterSize: 80
+           NbOfClusters: 30
+           Decorations:
+               - [ "AlienPlant11", 0.2]
+               - [ "AlienPlantThorn2", 0.5]
+               # - [ "AridRock02", 0.2]
+               # - [ "AridRock03", 0.2]
+               # - [ "GasEmitter1", 0.02]
+               - [ "RealRock2", 0.02]
+               - [ "RealRock4", 0.02]
+               - [ "RealRock10", 0.01]
+               - [ "WeepingPalm1", 1]
+               - [ "ScalyPods", 0.3]
+         - ClusterSize: 0
+           NbOfClusters: 0
+           Decorations:
+               - [ "AlienPlantSpike1", 0.3]
+               - [ "AlienPlantMushroom2", 0.3]
+               - [ "ConfettiMoss", 0.2]
+               - [ "AlienPlantThorn2", 0.5]
+               - [ "AridRock01", 0.015]
+               - [ "AridRock02", 0.01]
+               - [ "AridRock03", 0.015]
+               - [ "GasEmitter1", 0.01]
+               - [ "RealRock2", 0.02]
+               - [ "RealRock4", 0.02]
+   - Altitude: [ 40, 95 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:
+         - Name: "Plains"
+           Id: 1
+           ClusterSize: 40
+           NbOfClusters: 150
+           Decorations:
+               - [ "AridRock01", 0]
+               - [ "WeepingPalm1", 1]
+               - [ ChineseBanyan, 10]
+               - [ "AlienPlantPod2", 3]
+               - [ "AlienPlantThorn1", 1]
+               - [ Snakeweed, 3]
+               - [ BaldCypresFall, 1.5]
+           Grass:
+               - Name: "GrassGreen01"
+                 Density: 800
+                 YScale: 0.8
+                 Preset: "GrassDense"
+# Mountains
+   - Altitude: [ 95, 150 ]
+     Slope: [ 0, 20 ]
+     BiomeClusterData:
+         - Name: "Mountains"
+           Id: 3
+           ClusterSize: 100
+           NbOfClusters: 40
+           Decorations:
+               - [ "AlienPlantThorn2", 0.7]
+               - [ "GasEmitter2", 0.1]
+               - [ "CrystalsPyramidBlue", 0.2]
+               - [ "MushroomTallBlue02", 0.1]
+               - [ "MushroomBellGreen01", 0.1]
+               - [ "MushroomBellBrown01", 0.1]
+               - [ "Mushroom2", 0.1]
+               - [ "FingerSponge03-01", 0.1]
+           Grass:
+               - Name: "GrassGreen01"
+                 Density: 1000
+                 YScale: 0.8
+                 Preset: "GrassDense"
+
+# Lava Area
+   - Altitude: [ 95, 250 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:
+         - Name: "Mountains"
+           Id: 3
+           ClusterSize: 50
+           NbOfClusters: 20
+           Decorations:
+               - [ "RealRock1", 0]
+               - [ "MushroomTallBlue02", 0.1]
+               - [ "MushroomBellGreen01", 0.1]
+               - [ "MushroomBellBrown01", 0.1]
+               - [ "Mushroom2", 0.1]
+               - [ "FingerSponge03-01", 0.1]
+# Lava Area
+   - Altitude: [ 27, 50 ]
+     Slope: [ 0, 35 ]
+     BiomeClusterData:
+         - Name: "Marsh"
+           Id: 3
+           ClusterSize: 50
+           NbOfClusters: 200
+           Decorations:
+               - [ "RealRock1", 0]
+               - [ "MushroomTallBlue02", 2]
+               - [ "MushroomBellGreen01", 2]
+               - [ "MushroomBellBrown01", 3]
+               - [ "Mushroom2", 5]
+               - [ "FingerSponge03-01", 2]
+               - [ "AlienPlantMushroom1", 1]
+               - [ "AlienPlantMushroom2", 1]
+           Grass:
+               - Name: "GrassGreen06"
+                 Density: 800
+                 YScale: 0.7
+                 Preset: "GrassPatches4b"
+               - Name: "GrassGreen04"
+                 Density: 100
+                 YScale: 1
+                 Preset: "GrassPatches4b"
+               - Name: "Plant01"
+                 Density: 100
+                 YScale: 0.9
+                 Preset: "GrassPatches3a"
+               - Name: "GrassGreen01"
+                 Density: 100
+                 YScale: 0.9
+                 Preset: "GrassPatches"
+# Lava Area
+   - Altitude: [ 0, 40 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:
+         - Name: "Marsh"
+           Id: 2
+           ClusterSize: 40
+           NbOfClusters: 20
+           Decorations:
+               - [ "AridRock01", 0.1]
+               - [ "RealRock8Water", .5]
+               - [ "MushroomTallBlue02", 0.1]
+               - [ "MushroomBellGreen01", 0.1]
+               - [ "MushroomBellBrown01", 0.1]
+# Lava Area
+   - Altitude: [ 24, 35 ]
+     Slope: [ 0, 160 ]
+     BiomeClusterData:
+         - Name: "Marsh"
+           Id: 2
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations:
+               - [ ChineseBanyan, 4]
+               - [ "AlienPlantPod2", 3]
+               - [ "AlienPlantThorn1", 1]
+               - [ Snakeweed, 1]
+               - [ BaldCypresFall, 1.5]
+           Grass:
+               - Name: "GrassGreen01"
+                 Density: 200
+                 YScale: 1
+                 Preset: "GrassDense"
+### POIs
+POIs:
+    Random:
+        - GroupName: GhostTierI
+          CountMinMax: [ 4, 6 ]         # range of number of POIs of this group to distribute on planet
+          DroneProb: 1.0                # probability that a POI is defended by drones
+          DronesMinMax: [ 1, 2 ]        # range of number of drones that defend POI
+          ReserveCount: 3
+          TroopTransport: True          # if troop transport will be sent
+
+        - GroupName: CrashedTitan
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 4
+          TroopTransport: False
+
+### Drones
+DroneBaseSetup:
+# PresetStyle:
+# -> 0 = no drone attack base,
+#    1 = day + 2 triggers,
+#    2 = night + 2 triggers,
+#    3 = at once + 2 triggers,
+#    4 = night + turret trigger
+    Random:
+        - GroupName: DroneBaseAestus
+          DronesMinMax: [ 4, 5 ]        # range of number of drones that defend drone base
+          ReserveCount: 6               # number of drones that will be replaced when defending drones got killed
+          DroneProb: 1.0                # probability that drones will defend drone base
+          Difficulty: 6                 # 0..4 -> 0 = no drone attack base ... 4 = max difficulty level (5, 6, 7 = low, medium, high difficulty but with infinite drone waves)
+          PresetStyle: 3                # 0..4 -> see comment above
+          # BaseAttack: DroneSmallAttackBase
+          Stock:
+              - Name: DroneSmallFast01Plasma
+                Amount: 20
+                Extra: 0
+
+              - Name: DroneLargeSlow01Plasma
+                Amount: 20
+                Extra: 0
+
+              - Name: EnemyDroneV2Minigun
+                Amount: 30
+                Extra: 0
+
+              - Name: DroneLargeSlow02Cannon
+                Amount: 20
+                Extra: 0
+
+              - Name: DroneLargeSlow01Plasma   # Base attack drones
+                Amount: 60
+                Extra: 1
+
+              - Name: EnemyDroneV2Plasma       # Base attack drones
+                Amount: 20
+                Extra: 1
+
+              - Name: DroneTroopsTransport
+                Amount: 1
+                Extra: 2
+
+              - Name: ZiraxMale
+                Amount: 100
+                Extra: 3
+
+              - Name: Crawler
+                Amount: 50
+                Extra: 3
+
+              - Name: TotalHorror
+                Amount: 50
+                Extra: 3
+
+DroneSpawning:
+    Random:
+        - DronesMinMax: [ 5, 10 ]
+          CenterX: -2500
+          Radius: 1500
+
+        - DronesMinMax: [ 5, 10 ]
+          CenterX: 2500
+          Radius: 1500
+
+### Creatures
+CreatureSpawning:
+    - Biome: Plains
+      Entities:
+        - Name: Overseers
+          Period: Day              #  Night / Day / Always
+          Amount: 2
+          Delay: 0
+        - Name: TotalHorrors
+          Period: Night
+          Amount: 2
+          Delay: 0
+
+    - Biome: Mountains
+      Entities:
+        - Name: AlienBugs02
+          Period: Always
+          Amount: 1
+          Delay: 0
+
+    - Biome: Marsh
+      Entities:
+        - Name: TotalHorrors
+          Period: Always
+          Amount: 3
+          Delay: 0
