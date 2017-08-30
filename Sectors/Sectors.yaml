@@ -27,11 +27,11 @@ Sectors:
     - Eros
     - Starter-Planet-Temperate
     - The Vanguard:1
-  - - -6068, -4750, -4750
+  - - -5016, -4750, -2904
     - Eros Moon
     - Starter-Moon-Akua
     - ''
-  - - 1400, 10001, 11087
+  - - 1315, 10001, 7150
     - Dotrerth-p531
     - Starter-POI-Akua
     - ''
@@ -79,11 +79,11 @@ Sectors:
     - Eonus
     - Starter-Planet-Temperate
     - The Mystics:3
-  - - -7612, -6430, 6301
+  - - -6185, -4863, 5126
     - Eonus Moon
     - Starter-Moon-Akua
     - ''
-  - - 3395, -8780, -13612
+  - - 3993, -7213, -11522
     - Snagua 7Y0V
     - Starter-POI-Akua
     - ''
@@ -108,7 +108,7 @@ Sectors:
     - Dactyl Moon
     - Starter-Moon-Akua
     - ''
-  - - 4343, -10478, -9172
+  - - 2971, -8650, -9172
     - Brillon RG4F
     - Starter-POI-Akua
     - ''
@@ -129,11 +129,11 @@ Sectors:
     - Mathilde
     - Vanguard-Mathilde-Temperate2
     - ''
-  - - 5570, 7150, -1664
+  - - 4140, 6432, -1076
     - Mathilde Moon
     - PFaction-Moon
     - ''
-  - - 6065, -10674, -11327
+  - - 3312, -9368, -8258
     - Brillon 126
     - Faction-POI-Planet-Dalos
     - ''
@@ -155,11 +155,11 @@ Sectors:
     - Kalliope
     - Vanguard-Kalliope-Temperate
     - ''
-  - - 194, 0, -6495
+  - - -4578, -5124, -5581
     - Kalliope Moon
     - PFaction-Moon0
     - ''
-  - - -89, 0, 15115
+  - - 146, 5779, 10480
     - Breon 0DG
     - Faction-POI-Planet-Dalos
     - ''
@@ -181,11 +181,11 @@ Sectors:
     - Eugenia
     - Vanguard-Eugenia-Seranis
     - ''
-  - - -7919, 951, 318
+  - - -6818, 2058, 2188
     - Eugenia Moon
     - PFaction-Moon1
     - ''
-  - - -1347, 11087, 12625
+  - - -730, 10545, 10219
     - Smoetis 0KD5
     - Faction-POI-Planet-Dalos
     - ''
@@ -207,11 +207,11 @@ Sectors:
     - Europa
     - Vanguard-Europa-Desert
     - ''
-  - - 3738, -6169, -7475
+  - - 3068, -5385, -7475
     - Europa Moon
     - PFaction-Moon2
     - ''
-  - - 10440, 3625, 7803
+  - - 7792, 7346, 6105
     - Flora SN89
     - Faction-POI-Planet-Dalos
     - ''
@@ -232,11 +232,11 @@ Sectors:
     - Ganymede
     - Barbarians-Ganymede-Aeris
     - ''
-  - - -4413, 7150, 6889
+  - - -4286, 7150, 6693
     - Ganymede Moon
     - PFaction-Moon3
     - ''
-  - - 7515, -9107, 10480
+  - - 4967, -7475, 9043
     - Crilles 98
     - Faction-POI-Planet-Dalos
     - ''
@@ -258,11 +258,11 @@ Sectors:
     - Vulca
     - Barbarians-Vulca
     - ''
-  - - 5880, -7148, -7279
+  - - 5260, -6169, -6822
     - Vulca Moon
     - PFaction-Moon4
     - ''
-  - - -9710, 8717, -8127
+  - - -8571, 7999, -8127
     - Spillon S5
     - Faction-POI-Planet-Dalos
     - ''
@@ -284,11 +284,11 @@ Sectors:
     - Seranis
     - Barbarians-Seranis
     - ''
-  - - -6078, 8195, 6171
+  - - -4188, 6367, 5518
     - Seranis Moon
     - PFaction-Moon5
     - ''
-  - - 1929, -12893, 9892
+  - - 4383, -8454, 8391
     - Strosie DX36
     - Faction-POI-Planet-Dalos
     - ''
@@ -309,11 +309,11 @@ Sectors:
     - Callisto
     - Barbarians-Callisto-Hubble635
     - ''
-  - - 10013, 6954, 1666
+  - - 4578, 5191, 3167
     - Callisto Moon
     - PFaction-Moon6
     - ''
-  - - -13193, -11000, 13157
+  - - -7597, -6626, 8848
     - Skapus 26GR
     - Faction-POI-Planet-Dalos
     - ''
@@ -335,11 +335,11 @@ Sectors:
     - Amalthea
     - Mystic-Amalthea-Kepler412
     - ''
-  - - 3467, 99, 9109
+  - - 4724, 360, 6758
     - Amalthea Moon
     - PFaction-Moon7
     - ''
-  - - -15532, -3492, -5320
+  - - -8133, -3492, -4928
     - Plolla 330
     - Faction-POI-Planet-Dalos
     - ''
@@ -361,11 +361,11 @@ Sectors:
     - Himalia
     - Mystic-Himalia-Enos
     - ''
-  - - 6870, 6562, -4341
+  - - 4675, 5648, -4014
     - Himalia Moon
     - PFaction-Moon8
     - ''
-  - - -8037, -8389, -11327
+  - - -7694, -8715, -8911
     - Trov BI5
     - Faction-POI-Planet-Dalos
     - ''
@@ -387,11 +387,11 @@ Sectors:
     - Paterae
     - Mystic-Paterae
     - ''
-  - - 3671, 6432, 7934
+  - - 3057, 5714, 6758
     - Paterae Moon
     - PFaction-Moon
     - ''
-  - - -13453, -3949, 6824
+  - - -9930, -3296, 7803
     - Shars Q0N
     - Faction-POI-Planet-Dalos
     - ''
@@ -413,11 +413,11 @@ Sectors:
     - Ziraxus
     - Mystic-Ziraxus
     - ''
-  - - -5215, -6169, -8116
+  - - -3727, -4994, -6952
     - Ziraxus Moon
     - PFaction-Moon0
     - ''
-  - - 11144, 8260, 13445
+  - - 5140, 6758, 8652
     - Sposie 6K72
     - Faction-POI-Planet-Dalos
     - ''
@@ -439,11 +439,11 @@ Sectors:
     - Vyrdis
     - Eternal-Vyrdis
     - ''
-  - - -4100, -5255, -9727
+  - - -2564, -5255, -5842
     - Vyrdis Moon
     - PFaction-Moon1
     - ''
-  - - 13584, 6954, 16258
+  - - 6109, 6954, 9631
     - Bruna LB3
     - Faction-POI-Planet-Dalos
     - ''
@@ -465,11 +465,11 @@ Sectors:
     - Kazo
     - Eternal-Kazo
     - ''
-  - - -4813, -8389, -6169
+  - - -3340, -6822, -5908
     - Kazo Moon
     - PFaction-Moon2
     - ''
-  - - -11350, 8848, 9435
+  - - -6586, 6367, 7150
     - Streon T26
     - Faction-POI-Planet-Dalos
     - ''
@@ -491,11 +491,11 @@ Sectors:
     - Icarus
     - Eternal-Icarus
     - ''
-  - - 5388, -7605, 6954
+  - - 2572, -5908, 4734
     - Icarus Moon
     - PFaction-Moon3
     - ''
-  - - 12127, 5583, -9564
+  - - 4026, 5061, -8193
     - Drosie 0DIQ
     - Faction-POI-Planet-Dalos
     - ''
@@ -516,11 +516,11 @@ Sectors:
     - Comba
     - Eternal-Comba
     - ''
-  - - -6662, 6432, -8780
+  - - -1955, 4516, -3015
     - Comba Moon
     - PFaction-Moon4
     - ''
-  - - 13378, -7344, -7736
+  - - 3214, -6525, 4626
     - Drapus 15
     - Faction-POI-Planet-Dalos
     - ''
@@ -536,7 +536,7 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - FFA Zone
-    - SpaceEmpty
+    - Core-Space-AsteroidField
     - ''
   Allow:
   - Andromeda System
@@ -558,19 +558,19 @@ Sectors:
     - Andromeda System
     - Core-Space-AsteroidField
     - ''
-  - - 14462, 5518, -5581
+  - - 10594, 5518, -3884
     - Andromeda
     - Core-E-Planet-Andromeda
     - ''
-  - - -13959, -7279, 9827
+  - - -9293, -7279, 7607
     - 'Piercia '
     - Core-E-Planet-Piercia
     - ''
-  - - 12457, 12373, 34
+  - - 9146, 12373, 556
     - Andromeda Moon
     - PFaction-Moon3
     - ''
-  - - -15262, 360, 3690
+  - - -12527, 360, 3037
     - Piercia Moon
     - PFaction-Moon5
     - ''
@@ -588,19 +588,19 @@ Sectors:
     - Elara System
     - Core-Space-AsteroidField
     - ''
-  - - -58661, 36525, 30239
+  - - -24378, 36525, 19914
     - Elara
     - Core-G-Planet-Alphine-r
     - ''
-  - - 46797, 38259, 32189
+  - - 16813, 38259, 12079
     - Pasiphae
     - Core-G-Planet-Andromeda-r
     - ''
-  - - -47926, 17233, 13115
+  - - -19390, 17233, 8380
     - Elara Moon
     - PFaction-Moon8
     - ''
-  - - 32584, 23302, 48446
+  - - 8929, 23302, 27096
     - Pasiphae Moon
     - PFaction-Moon4
     - ''
@@ -618,19 +618,19 @@ Sectors:
     - Alphine System
     - Core-Space-AsteroidField
     - ''
-  - - 15025, -11327, -14069
+  - - 5236, -11327, -8323
     - Alphine
     - Core-Z-Planet-Alphine
     - ''
-  - - 13005, 15768, 11263
+  - - 3981, 15768, 6628
     - Sinope
     - Core-Z-Planet-Piercia-r
     - ''
-  - - 19619, -18117, -15374
+  - - 8808, -18117, -13350
     - Alphine Moon
     - PFaction-Moon
     - ''
-  - - 16548, 19816, 15442
+  - - 8519, 19816, 10023
     - Sinope Moon
     - PFaction-Moon0
     - ''
