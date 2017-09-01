@@ -110,8 +110,8 @@ LightZenithColor: "77, 0.95, 0.97"
 LightHorizonColor: "0, 0.90, 0.90"
 
 # Light
-DayLightIntensity: 0.90
-NightLightIntensity: 0.50
+DayLightIntensity: 0.7
+NightLightIntensity: 0.3
 
 # Fog
 AtmosphereFog: 0.3
@@ -399,7 +399,7 @@ Biome:
 ### POIs
 POIs:
     Random:
-          
+
         - GroupName: DroneBaseAestus
           DroneBaseSetup: DroneBaseSetup
           CountMinMax: [ 1, 1 ]

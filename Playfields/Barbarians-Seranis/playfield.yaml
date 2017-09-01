@@ -14,7 +14,7 @@ Temperature: 37                     # No functionality yet
 TemperatureDay: 58                  # No functionality yet
 TemperatureNight: 16                # No functionality yet
 DayLength: 24                       # No functionality yet
-PlanetType: Jungle                  # No functionality yet
+PlanetType: Snow                  # No functionality yet
 Water: WaterBlue                   # WaterBlue, WaterGreen, WaterBrown
 SeaLevel: 34                        # Sea level of planet
 Moons: 1                            # No functionality yet
@@ -93,37 +93,95 @@ WindSpeed: 4                        # Between 0 and 10: larger values = faster m
 ### Randomly distributed resources
 RandomResources:
     - Name: IronResource
-      CountMinMax: [ 7, 9 ]   # range of number of resources to distribute on planet
-      SizeMinMax: [ 12, 19 ]  # range of sizes of resource depots
-      DepthMinMax: [ 0, 1 ]   # Range of how deep to bury depots below terrain surface (e.g. 0 = partly visible, 3 = top of depot starts 3m below surface)
-      DroneProb: 0.5          # probability that the resource is defended by drones
-      MaxDroneCount: 1        # if at all, 1..n drones will defend the resource [default = 1]
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
 
-    - Name: MagnesiumResource
-      CountMinMax: [ 5, 8 ]
-      SizeMinMax: [ 8, 16 ]
-      DepthMinMax: [ 0, 1 ]
-      DroneProb: 0.5
+    - Name: CobaltResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: CopperResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: SiliconResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
 
     - Name: PromethiumResource
-      CountMinMax: [ 2, 3 ]
-      SizeMinMax: [ 8, 13 ]
-      DepthMinMax: [ 0, 2 ]
-      DroneProb: 0.7
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.2
+      MaxDroneCount: 1
+
+    - Name: MagnesiumResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: NeodymiumResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
+    - Name: SathiumResource
+      CountMinMax: [ 0, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
 
 ### Resource Asteroids
 AsteroidResources:
     - Name: IronResource
       Threshold: 0.4
-      Amount: 0.2
+      Amount: 0.5
 
-    - Name: MagnesiumResource
-      Threshold: 0.5
-      Amount: 0.2
+    - Name: CobaltResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: CopperResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: SiliconResource
+      Threshold: 0.4
+      Amount: 0.5
 
     - Name: PromethiumResource
-      Threshold: 0.2
-      Amount: 0.2
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: MagnesiumResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: NeodymiumResource
+      Threshold: 0.4
+      Amount: 0.5
+
+    - Name: SathiumResource
+      Threshold: 0.4
+      Amount: 0.5
 
 ### Terrain and Decorations
 # Terrain and Local Decoration
@@ -309,9 +367,7 @@ POIs:
           DroneProb: 1
           DronesMinMax: [ 4, 5 ]
           ReserveCount: 6
-          SpawnPOIAvoid: [Wreckage]
           POIDistance: 1300
-          SpawnResource: ["PromethiumResource:1-2","CobaltResource:1-2"]
           ResourceDistance: 400
           Properties:
             - Key: Music
@@ -325,7 +381,6 @@ POIs:
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
           TroopTransport: False
-          SpawnPOIAvoid: [DroneBaseAkua, Wreckage]
           POIDistance: 1000
           ResourceDistance: 300
           Properties:
@@ -334,15 +389,6 @@ POIs:
             - Key: RegenAfter
               Value: 360
 
-        - GroupName: RadosDefence
-          CountMinMax: [ 1, 2 ]         # range of number of POIs of this group to distribute on planet
-          DroneProb: 0.3                # probability that a POI is defended by drones
-          DronesMinMax: [ 1, 2 ]        # range of number of drones that defend POI
-          ReserveCount: 2
-          TroopTransport: False          # if troop transport will be sent
-          Properties:
-            - Key: RegenAfter
-              Value: 2880
 
         - GroupName: RadosRefinery
           CountMinMax: [ 1, 2 ]
@@ -365,16 +411,6 @@ POIs:
             - Key: RegenAfter
               Value: 2880
 
-
-        - GroupName: RadosPowerStation
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 2
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 2880
 
         - GroupName: RadosMissileSilo
           CountMinMax: [ 1, 1 ]
