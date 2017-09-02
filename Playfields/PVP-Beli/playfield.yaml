@@ -1,0 +1,815 @@
+RealRadius: 1303.797294
+ScaledRadius: 1300
+Gravity: -14.71976137935357
+AtmosphereDensity: 1.2531694013135226
+AtmosphereO2: 0.2
+AtmosphereBreathable: True
+Temperature: 33
+TemperatureDay: 45
+TemperatureNight: -17
+Music: desert2
+Radiation: 1.7140571675518765
+DayLength: 24
+PlanetType: Desert
+Moons: 4
+Water: WaterGreen
+SeaLevel: 44
+PvP: True
+Difficulty: 5
+PlayfieldType: Planet
+Description: >-
+  GX Beli: Desert / Gravity 1.50g / Non-Breathable / Radiation 1.71 / Difficulty
+  4 / Moons 4 / Sea Level 44
+SunFlare: EnvironmentalEffects/SunFlareWhite
+AtmosphereEnabled: True
+AtmosphereColor: '0.6051129880702485,0.5417308063998811,0.9762073169236481'
+SkyColor: '0.9712002867029287,0.3078500232788738,0.8619913905359334'
+SkyHorizonColor: '0.8622788228533871,0.311080019712015,0.5505920242958139'
+DayLightIntensity: 1.1818617272892635
+NightLightIntensity: 0.5038321255581957
+DayShadowStrength: 0.95
+AtmosphereFog: 0.2624565124942234
+FogCloudIntensity: 0.3947187663463827
+FogIntensity: 0.7821959339294543
+FogStartDistance: 401
+GroundFogIntensity: 0.07434856837247579
+GroundFogHeight: 0
+CloudsDensity: 0.4366982568868353
+CloudsSharpness: 0.8877924655789623
+CloudsBrightness: 0.5148278448296875
+CloudsOpacity: 0.9920770507982131
+CloudsZenithColor: '0.16134394621221715,0.609630772504213,0.6100769574858343'
+CloudsHorizonColor: '0.6948958502992938,0.5748348165498013,0.8672231045638494'
+WindSpeed: 8
+RandomResources:
+    - Name: IronResource
+      CountMinMax: [ 3, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: CobaltResource
+      CountMinMax: [2, 5 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: CopperResource
+      CountMinMax: [ 2, 5 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: SiliconResource
+      CountMinMax: [ 2, 5 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: PromethiumResource
+      CountMinMax: [ 3, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.2
+      MaxDroneCount: 1
+
+    - Name: MagnesiumResource
+      CountMinMax: [ 2, 5 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: NeodymiumResource
+      CountMinMax: [ 2, 5 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
+    - Name: SathiumResource
+      CountMinMax: [ 3, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
+
+AsteroidResources:
+    - Name: IronResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: CobaltResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: CopperResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: SiliconResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: PromethiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: MagnesiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: NeodymiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: SathiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+Terrain:
+  Name: Desert2
+  PoleLevel: 51
+  NoiseStrength: 0.5159381406413751
+  ColorChange:
+    YFadeCenter: 42
+    YFadeRange: 31
+    YFadeMin: -0.13170326670640722
+    YFadeMax: 0.75
+MainBiome:
+  Textures:
+    - - SandYellow03Clay
+      - 1
+    - - Clay
+      - 6
+    - - RockBrown01
+      - 0
+    - - Bedrock
+      - 2
+  Decorations:
+    - - RocksmallA02
+      - 0.2
+    - - RocksmallC01
+      - 0.2
+SubBiomes:
+  - Altitude: 75
+    Textures:
+      - - RockBrown01
+        - 73
+      - - SandYellow03Clay
+        - 1
+    Decorations:
+      - - RocksmallA02
+        - 0.17154105844914733
+      - - RocksmallC01
+        - 0.3206794222901055
+Biome:
+  - Altitude:
+      - 3
+      - 34
+    Slope:
+      - 0
+      - 5
+    BiomeClusterData:
+      - Name: Water
+        Id: 1
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - SeaWeed02-04
+            - 3
+          - - PromethiumStone
+            - 1
+          - - SkeletonMammothTorso
+            - 1
+          - - RealRock1Water
+            - 1
+          - - SeaWeed02-04
+            - 3
+          - - RealRock1
+            - 1
+          - - Boulder1
+            - 1
+          - - CrystalStraight
+            - 1
+          - - RealRock7
+            - 1
+          - - CoralBig08
+            - 1
+          - - Snakeweed
+            - 2
+        Grass:
+          - Name: Plant01Brown
+            Density: 1200
+            YScale: 1.1544242107136395
+            Preset: GrassDense
+          - Name: GrassBlue03
+            Density: 500
+            YScale: 0.7649940379017572
+            Preset: GrassPatches
+      - Name: Water
+        Id: 1
+        ClusterSize: 10
+        NbOfClusters: 10
+        Decorations:
+          - - SeaWeed02-04
+            - 20
+          - - AlienPlantReef2
+            - 14
+          - - SkeletonMammothTorso
+            - 11
+          - - SeaWeed02-04
+            - 14
+          - - CoralBig08
+            - 11
+        Grass:
+          - Name: Plant01Red
+            Density: 1200
+            YScale: 0.68550042264274
+            Preset: GrassDense
+          - Name: GrassType01Brown
+            Density: 500
+            YScale: 0.8900624084754662
+            Preset: GrassPatches
+  - Altitude:
+      - 3
+      - 72
+    Slope:
+      - 0
+      - 15
+    BiomeClusterData:
+      - Name: DesertLargeRocks
+        Id: 2
+        ClusterSize: 100
+        NbOfClusters: 4
+        Decorations:
+          - - AridRockBrown03
+            - 0.056469468842738624
+          - - AridRockBrown01
+            - 0.1688959734539256
+          - - CornDogBush
+            - 0.1514953779916991
+          - - UmbrellaTree
+            - 0.10621012794999915
+          - - AlienDesertPlant
+            - 0.2621063962488237
+        Grass:
+          - Name: Flower01
+            Density: 800
+            YScale: 0.6989859699401485
+            Preset: GrassPatches4b
+      - Name: CactusOasis
+        Id: 3
+        ClusterSize: 100
+        NbOfClusters: 4
+        Decorations:
+          - - DimpleDome
+            - 0.19255289554157767
+          - - Rainforest
+            - 0.13868557306399207
+          - - FantasyPlant2
+            - 0.03246081030171509
+          - - Pillar1
+            - 0.2874583419566108
+          - - DesertRockLarge
+            - 0.18835505700762828
+        Grass:
+          - Name: GrassBrown02b
+            Density: 800
+            YScale: 0.9259675500720519
+            Preset: GrassPatches4b
+      - Name: DesertLowPlains
+        Id: 4
+        ClusterSize: 100
+        NbOfClusters: 4
+        Decorations:
+          - - EggPlant
+            - 0.2376914432060397
+          - - AridRock01
+            - 0.22002092877016888
+          - - CrystalStraight
+            - 0.11400451696372556
+          - - AkuaBush1
+            - 0.04703082099530022
+          - - DesertPlant20
+            - 0.1713111608736425
+          - - Snakeweed
+            - 0.04652797519167858
+        Grass:
+          - Name: GrassGreen03b
+            Density: 800
+            YScale: 0.6754278045460083
+            Preset: GrassPatches4b
+  - Altitude:
+      - 3
+      - 72
+    Slope:
+      - 0
+      - 25
+    BiomeClusterData:
+      - Name: DesertSolitude
+        Id: 5
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - RealRock4
+            - 0
+        Grass:
+          - Name: GrassBrown02a
+            Density: 800
+            YScale: 0.8
+            Preset: GrassPatches2b
+  - Altitude:
+      - 3
+      - 72
+    Slope:
+      - 0
+      - 180
+    BiomeClusterData:
+      - Name: DesertSolitude
+        Id: 5
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - RealRock1
+            - 0
+  - Altitude:
+      - 72
+      - 90
+    Slope:
+      - 0
+      - 15
+    BiomeClusterData:
+      - Name: DesertLowMountains
+        Id: 6
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - RealRock1
+            - 0.1547504350466817
+          - - RealRock1
+            - 0.055769385690114796
+          - - CrystalsPyramidBlue
+            - 0.26448702589912587
+        Grass:
+          - Name: GrassBrown02a
+            Density: 800
+            YScale: 0.8
+            Preset: GrassDense4
+  - Altitude:
+      - 72
+      - 90
+    Slope:
+      - 0
+      - 25
+    BiomeClusterData:
+      - Name: DesertLowMountains
+        Id: 6
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - RealRock4
+            - 0
+        Grass:
+          - Name: GrassBrown02a
+            Density: 800
+            YScale: 0.8
+            Preset: GrassPatches2b
+  - Altitude:
+      - 72
+      - 90
+    Slope:
+      - 0
+      - 180
+    BiomeClusterData:
+      - Name: DesertLowMountains
+        Id: 6
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - RealRock2
+            - 0
+  - Altitude:
+      - 90
+      - 250
+    Slope:
+      - 0
+      - 15
+    BiomeClusterData:
+      - Name: DesertLowMountains
+        Id: 6
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - Boulder4
+            - 0.27839419715381336
+          - - RealRock10
+            - 0.1068025640794081
+          - - Boulder1
+            - 0.07831442931227792
+          - - Boulder1
+            - 0.17427826295411883
+          - - Boulder3
+            - 0.02977151642198088
+        Grass:
+          - Name: GrassBrown02a
+            Density: 800
+            YScale: 0.8
+            Preset: GrassPatches4b
+  - Altitude:
+      - 90
+      - 250
+    Slope:
+      - 0
+      - 25
+    BiomeClusterData:
+      - Name: Mountains
+        Id: 6
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - RealRock2
+            - 0
+        Grass:
+          - Name: GrassBrown02a
+            Density: 800
+            YScale: 0.8
+            Preset: GrassPatches2b
+  - Altitude:
+      - 90
+      - 250
+    Slope:
+      - 0
+      - 180
+    BiomeClusterData:
+      - Name: Mountains
+        Id: 6
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - RealRock4
+            - 0
+BiomeTextureReplacements:
+  - Biome: 2
+    From: Grass02Cliff
+    To: Grass05Cliff
+  - Biome: 5
+    From: Grass02Cliff
+    To: RockGrassCliff
+SpecialEffectsLocal:
+  - Name: Grime
+    Biome:
+      - Water
+      - CactusOasis
+      - DesertLowMountains
+    Time: Always
+    MaxHeight: 197
+SpecialEffectsGlobal:
+  - Name: Clear
+    Type: Weather
+    InitialDelay: 0
+    Delay: 2
+    Lifetime: 1200
+  - Name: CloudsLight
+    Type: Weather
+    InitialDelay: 0
+    Delay: 2
+    Lifetime: 1200
+  - Name: CloudsMedium
+    Type: Weather
+    InitialDelay: 0
+    Delay: 3
+    Lifetime: 1200
+  - Name: Clouds
+    Type: Weather
+    InitialDelay: 12
+    Delay: 10
+    Lifetime: 1000
+  - Name: Wind
+    Type: Weather
+    InitialDelay: 24
+    Delay: 10
+    Lifetime: 600
+  - Name: Fog
+    Type: Weather
+    InitialDelay: 48
+    Delay: 24
+    Lifetime: 1000
+  - Name: HeatWave
+    Type: Weather
+    InitialDelay: 48
+    Delay: 24
+    Lifetime: 1200
+  - Name: FogRadiationGreen
+    Type: Weather
+    InitialDelay: 48
+    Delay: 24
+    Lifetime: 600
+  - Name: BirdFlocksVultures
+    Biome:
+      - DesertLowPlains
+    Time: Day
+    InitialDelay: 2
+    Delay: 4
+    Lifetime: 600
+    PlyDist: 50
+    SpawnY: 40
+    Struct: True
+  - Name: MeteorShower
+    Biome:
+      - DesertHighPlains
+    Time: Always
+    InitialDelay: 3.5
+    Delay: 5
+    Lifetime: 60
+    PlyDist: 200
+    SpawnY: 100
+    Struct: Avoid
+POIs:
+    Random:
+        - GroupName: DroneBaseOmicron
+          DroneBaseSetup: DroneBaseSetup
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 1
+          DronesMinMax: [ 5, 8 ]
+          ReserveCount: 3
+          Properties:
+            - Key: RegenAfter
+              Value: 1440
+
+        - GroupName: TS_Omicron
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          SpawnPOIAvoid: [DroneBaseOmicron, Wreckage]
+          POIDistance: 1000
+          Properties:
+            - Key: Music
+              Value: temperate
+            - Key: RegenAfter
+              Value: 2880
+
+        - GroupName: PlanetVesselBase
+          PlanetVesselBaseSetup: PlanetVesselBaseSetup
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 1
+          DronesMinMax: [ 5, 8 ]
+          ReserveCount: 3
+          POIDistance: 500
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
+
+
+        - GroupName: AbandonedFactory
+          CountMinMax: [ 0, 3 ]
+          DroneProb: 0.8
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
+
+        - GroupName: AbandonedMine
+          CountMinMax: [ 0, 3 ]
+          DroneProb: 0.1
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
+
+        # Weakly defended Civil Settlements close to TS Akua
+        - GroupName: CivilSettlementO2
+          CountMinMax: [ 1, 3 ]
+          DroneProb: 0.5
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 2
+          TroopTransport: True
+          SpawnPOINear: [TS_Akua]
+          POIDistance: 500
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
+
+        # Spawn strong defended civil settlements randomly
+        - GroupName: CivilSettlement
+          CountMinMax: [ 1, 3 ]
+          DroneProb: 0.9
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 2
+          TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
+
+        # Tribal villages close to Abandoned Mine
+        - GroupName: TribalVillage
+          CountMinMax: [ 1, 4 ]
+          DroneProb: 0.8
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 0
+          TroopTransport: False
+          SpawnPOINear: [AbandonedMine]
+          POIDistance: 500
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
+  FixedPlayerStart:
+    - Mode: Survival
+      Spawn: EscapePod
+      Armor: ArmorMedium
+      Items:
+        - >-
+          Pistol, 50Caliber:250, Medikit02:3, AntidotePills:3,
+          EmergencyRations:4, Drill, Chainsaw, BioFuel:4, ConstructorSurvival,
+          OxygenGeneratorSmall, OxygenBottleSmall:5, EnergyCell:5
+        - >-
+          Pistol, 50Caliber:150, Medikit02:2, AntidotePills:2,
+          EmergencyRations:2, Drill, Chainsaw, BioFuel:3, ConstructorSurvival,
+          OxygenGeneratorSmall, OxygenBottleSmall:3, EnergyCell:4
+        - >-
+          Pistol, 50Caliber:100, Medikit02:1, AntidotePills:1,
+          EmergencyRations:1, Drill, Chainsaw, BioFuel:2, ConstructorSurvival,
+          OxygenGeneratorSmall, OxygenBottleSmall:1, EnergyCell:3
+        - >-
+          #FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival,
+          OxygenGeneratorSmall
+DroneBaseSetup:
+  Random:
+    - GroupName: XenuFortressP1
+      DronesMinMax:
+        - 4
+        - 5
+      ReserveCount: 6
+      DroneProb: 1
+      Difficulty: 7
+      PresetStyle: 3
+      Stock:
+        - Name: DroneSmallFast01Plasma
+          Amount: 200
+          Extra: 0
+        - Name: EnemyDroneV2Minigun
+          Amount: 400
+          Extra: 0
+        - Name: EnemyDroneV2Plasma
+          Amount: 400
+          Extra: 0
+        - Name: DroneSmallFast01Plasma
+          Amount: 500
+          Extra: 1
+        - Name: EnemyDroneV2Plasma
+          Amount: 300
+          Extra: 1
+        - Name: DroneTroopsTransport
+          Amount: 1
+          Extra: 2
+        - Name: ZiraxMale
+          Amount: 500
+          Extra: 3
+        - Name: Crawler
+          Amount: 250
+          Extra: 3
+        - Name: Overseer
+          Amount: 250
+          Extra: 3
+        - Name: ZiraxRocket
+          Amount: 500
+          Extra: 3
+        - Name: AlienAssassinGrey
+          Amount: 300
+          Extra: 3
+      PlanetVesselBase:
+        Name: PlanetVesselBaseSetup
+        Position3D:
+          - 0
+          - 102
+          - 0
+        BaseType: PlanetVesselBase
+        KeyId: 0
+        PlanetVessel:
+          - Name: Patrol-S-Medium
+            Mission: PlanetPatrol
+            FixedMaxSpeed: 6
+            RangePatrolCenter:
+              - 363
+              - 0
+            RangePatrolRadius: 509
+            RangePatrolAltitude: 60
+            InitialDelay: 72
+DroneSpawning:
+  Random:
+    - DronesMinMax:
+        - 5
+        - 10
+      CenterX: -2500
+    - DronesMinMax:
+        - 5
+        - 10
+      CenterX: 2500
+CreatureSpawning:
+  - Biome: Water
+    Entities:
+      - Name: CaveWormsWhite
+        Period: Day
+        Amount: 3
+        Delay: 0
+      - Name: RaptorHerd
+        Period: Night
+        Amount: 1
+        Delay: 0
+  - Biome: DesertLargeRocks
+    Entities:
+      - Name: WormsDesert
+        Period: Day
+        Amount: 2
+        Delay: 0
+      - Name: CaveWormGreyHerd
+        Period: Always
+        Amount: 1
+        Delay: 0
+      - Name: GolemsSwamp
+        Period: Always
+        Amount: 3
+        Delay: 0
+  - Biome: CactusOasis
+    Entities:
+      - Name: Overseers
+        Period: Always
+        Amount: 1
+        Delay: 0
+      - Name: RaptorsNight
+        Period: Night
+        Amount: 3
+        Delay: 0
+      - Name: Otyughs
+        Period: Night
+        Amount: 3
+        Delay: 0
+      - Name: AlienAssassinReds
+        Period: Day
+        Amount: 1
+        Delay: 0
+      - Name: WormDesertLargeHerd
+        Period: Always
+        Amount: 1
+        Delay: 0
+      - Name: AlienAssassinGreys
+        Period: Always
+        Amount: 2
+        Delay: 0
+  - Biome: DesertLowPlains
+    Entities:
+      - Name: WormDesertHerd
+        Period: Night
+        Amount: 1
+        Delay: 0
+      - Name: GolemsIce
+        Period: Night
+        Amount: 1
+        Delay: 0
+      - Name: Crawlers
+        Period: Day
+        Amount: 1
+        Delay: 0
+      - Name: AlienBugs01
+        Period: Day
+        Amount: 1
+        Delay: 0
+  - Biome: DesertSolitude
+    Entities:
+      - Name: CaveWormsGreen
+        Period: Always
+        Amount: 2
+        Delay: 0
+  - Biome: DesertLowMountains
+    Entities:
+      - Name: Hexapods
+        Period: Day
+        Amount: 2
+        Delay: 0
+      - Name: ParasaurHerd
+        Period: Day
+        Amount: 3
+        Delay: 0
+      - Name: AlienBugs02
+        Period: Night
+        Amount: 1
+        Delay: 0
+      - Name: CaveWormsGrey
+        Period: Day
+        Amount: 2
+        Delay: 0
+      - Name: TotalHorrors
+        Period: Day
+        Amount: 3
+        Delay: 0
