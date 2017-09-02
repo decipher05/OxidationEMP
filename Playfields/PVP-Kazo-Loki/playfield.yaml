@@ -630,13 +630,7 @@ POIs:
           Properties:
             - Key: RegenAfter
               Value: 2880
-  FixedPlayerStart:
-        - Mode: Survival
-          Spawn: EscapePod
-          # Spawn: Structure
-          # Structure: "Wreckage"
-          Armor: ArmorHeavy
-          Items: [ "AssaultRifle, MultiToolT2, DrillT2, DrillCharge:10, OxygenGeneratorSmall, InsulationBoost, RadiationBoost, EVABoost, EVABoost, Core:1, MultiCharge:10, PlayerBikeKit, ConstructorSurvival, AutoMinerCore:3, GrowingPot:5, 5.8mmBullet:500, Medikit03:3, AntidotePills:3, EmergencyRations:10, WaterBottle:2, EnergyCell:20", "AssaultRifle, MultiToolT2, DrillT2, DrillCharge:10, OxygenGeneratorSmall, InsulationBoost, RadiationBoost, EVABoost, EVABoost, Core:1, MultiCharge:10, PlayerBikeKit, ConstructorSurvival, AutoMinerCore:3, GrowingPot:5, 5.8mmBullet:500, Medikit03:3, AntidotePills:3, EmergencyRations:10, WaterBottle:2, EnergyCell:20", "AssaultRifle, MultiToolT2, DrillT2, DrillCharge:10, OxygenGeneratorSmall, InsulationBoost, RadiationBoost, EVABoost, EVABoost, Core:1, MultiCharge:10, PlayerBikeKit, ConstructorSurvival, AutoMinerCore:3, GrowingPot:5, 5.8mmBullet:500, Medikit03:3, AntidotePills:3, EmergencyRations:10, WaterBottle:2, EnergyCell:20", "#FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival, OxygenGeneratorSmall" ]
+
 DroneBaseSetup:
   Random:
     - GroupName: XenuFortressP1
