@@ -137,6 +137,10 @@ Sectors:
     - Brillon 126
     - Faction-POI-Planet-Dalos
     - ''
+  - - -3480, -15113, -11588
+    - R-126
+    - Resource-Snow
+    - ''
   Allow: []
   Deny:
   - Eros System
@@ -162,6 +166,10 @@ Sectors:
   - - 146, 5779, 10480
     - Breon 0DG
     - Faction-POI-Planet-Dalos
+    - ''
+  - - -10725, -6691, -9172
+    - R-125
+    - Resource-Desert
     - ''
   Allow: []
   Deny:
@@ -189,6 +197,10 @@ Sectors:
     - Smoetis 0KD5
     - Faction-POI-Planet-Dalos
     - ''
+  - - 8683, 11524, -8323
+    - R-124
+    - Resource-Alien2
+    - ''
   Allow:
   - FFA Zone
   Deny: []
@@ -215,6 +227,10 @@ Sectors:
     - Flora SN89
     - Faction-POI-Planet-Dalos
     - ''
+  - - -72, 0, 16356
+    - R-123
+    - Resource-Alien
+    - ''
   Allow: []
   Deny: []
 - Coordinates:
@@ -236,9 +252,13 @@ Sectors:
     - Ganymede Moon
     - PFaction-Moon3
     - ''
-  - - 4967, -7475, 9043
+  - - 4733, -7475, 8978
     - Crilles 98
     - Faction-POI-Planet-Dalos
+    - ''
+  - - 12917, 230, 425
+    - R-122
+    - Resource-Temperate2
     - ''
   Allow: []
   Deny:
@@ -266,6 +286,10 @@ Sectors:
     - Spillon S5
     - Faction-POI-Planet-Dalos
     - ''
+  - - 3147, 10088, 8325
+    - R-121
+    - Resource-Temperate
+    - ''
   Allow: []
   Deny:
   - Gaspra System
@@ -292,6 +316,10 @@ Sectors:
     - Strosie DX36
     - Faction-POI-Planet-Dalos
     - ''
+  - - -679, -11065, -7736
+    - R-120
+    - Resource-Snow
+    - ''
   Allow: []
   Deny: []
 - Coordinates:
@@ -316,6 +344,10 @@ Sectors:
   - - -7597, -6626, 8848
     - Skapus 26GR
     - Faction-POI-Planet-Dalos
+    - ''
+  - - -5486, 9566, -3361
+    - R-119
+    - Resource-Desert
     - ''
   Allow:
   - FFA Zone
@@ -343,6 +375,10 @@ Sectors:
     - Plolla 330
     - Faction-POI-Planet-Dalos
     - ''
+  - - 3211, 8325, 11329
+    - R-118
+    - Resource-Alien2
+    - ''
   Allow: []
   Deny:
   - Eonus  System
@@ -368,6 +404,10 @@ Sectors:
   - - -7694, -8715, -8911
     - Trov BI5
     - Faction-POI-Planet-Dalos
+    - ''
+  - - 744, -12698, -11392
+    - R-117
+    - Resource-Alien
     - ''
   Allow: []
   Deny:
@@ -421,6 +461,10 @@ Sectors:
     - Sposie 6K72
     - Faction-POI-Planet-Dalos
     - ''
+  - - 10663, 0, 3559
+    - R-116
+    - Resource-Temperate2
+    - ''
   Allow:
   - FFA Zone
   Deny: []
@@ -446,6 +490,10 @@ Sectors:
   - - 6109, 6954, 9631
     - Bruna LB3
     - Faction-POI-Planet-Dalos
+    - ''
+  - - -12068, 5518, 2253
+    - R-115
+    - Resource-Temperate
     - ''
   Allow: []
   Deny:
@@ -473,6 +521,10 @@ Sectors:
     - Streon T26
     - Faction-POI-Planet-Dalos
     - ''
+  - - -12398, -7148, 3886
+    - R-114
+    - Resource-Snow
+    - ''
   Allow: []
   Deny:
   - Dactyl System
@@ -498,6 +550,10 @@ Sectors:
   - - 4026, 5061, -8193
     - Drosie 0DIQ
     - Faction-POI-Planet-Dalos
+    - ''
+  - - -11172, -7148, 5453
+    - R-113
+    - Resource-Desert
     - ''
   Allow: []
   Deny: []
@@ -526,7 +582,7 @@ Sectors:
     - ''
   - - -12461, -6626, 8325
     - R-112
-    - Resource-Lava
+    - Resource-Alien2
     - ''
   Allow:
   - FFA Zone
