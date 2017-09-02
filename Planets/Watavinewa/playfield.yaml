@@ -14,7 +14,7 @@ PlanetType: Snow
 Moons: 1
 Water: WaterBlue
 SeaLevel: 28
-PvP: False
+PvP: True
 Difficulty: 5
 PlayfieldType: Planet
 Description: >-
@@ -43,157 +43,96 @@ CloudsZenithColor: '0.9571632102089839,0.6550845742931137,0.37872004617497856'
 CloudsHorizonColor: '0.2110716799591998,0.742437981366733,0.5880396701608667'
 WindSpeed: 8
 RandomResources:
-  - Name: CopperResource
-    CountMinMax:
-      - 2
-      - 3
-    SizeMinMax:
-      - 7
-      - 14
-    DepthMinMax:
-      - 0
-      - 15
-    DroneProb: 0.6842546634861291
-    MaxDroneCount: 2
-  - Name: SiliconResource
-    CountMinMax:
-      - 2
-      - 3
-    SizeMinMax:
-      - 7
-      - 14
-    DepthMinMax:
-      - 0
-      - 15
-    DroneProb: 0.20712249503853042
-    MaxDroneCount: 3
-  - Name: IronResource
-    CountMinMax:
-      - 2
-      - 3
-    SizeMinMax:
-      - 7
-      - 14
-    DepthMinMax:
-      - 0
-      - 15
-    DroneProb: 0.7692617419055803
-    MaxDroneCount: 3
-  - Name: PromethiumResource
-    CountMinMax:
-      - 2
-      - 4
-    SizeMinMax:
-      - 7
-      - 14
-    DepthMinMax:
-      - 0
-      - 15
-    DroneProb: 0.9208145751686707
-    MaxDroneCount: 1
-  - Name: MagnesiumResource
-    CountMinMax:
-      - 2
-      - 4
-    SizeMinMax:
-      - 7
-      - 14
-    DepthMinMax:
-      - 0
-      - 15
-    DroneProb: 0.24637336424721185
-    MaxDroneCount: 3
-  - Name: CobaltResource
-    CountMinMax:
-      - 2
-      - 4
-    SizeMinMax:
-      - 7
-      - 14
-    DepthMinMax:
-      - 0
-      - 15
-    DroneProb: 0.9029787669510863
-    MaxDroneCount: 4
-  - Name: GoldResource
-    CountMinMax:
-      - 1
-      - 2
-    SizeMinMax:
-      - 2
-      - 10
-    DepthMinMax:
-      - 7
-      - 15
-    DroneProb: 0.6909627906953326
-    MaxDroneCount: 8
-  - Name: ZascosiumResource
-    CountMinMax:
-      - 1
-      - 2
-    SizeMinMax:
-      - 2
-      - 10
-    DepthMinMax:
-      - 7
-      - 15
-    DroneProb: 0.2821039871719094
-    MaxDroneCount: 4
-  - Name: NeodymiumResource
-    CountMinMax:
-      - 1
-      - 2
-    SizeMinMax:
-      - 2
-      - 10
-    DepthMinMax:
-      - 7
-      - 15
-    DroneProb: 0.9349823791710106
-    MaxDroneCount: 4
-  - Name: SathiumResource
-    CountMinMax:
-      - 1
-      - 2
-    SizeMinMax:
-      - 2
-      - 10
-    DepthMinMax:
-      - 7
-      - 15
-    DroneProb: 0.5549786703189843
-    MaxDroneCount: 6
+    - Name: IronResource
+      CountMinMax: [ 3, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: CobaltResource
+      CountMinMax: [2, 5 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: CopperResource
+      CountMinMax: [ 2, 5 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: SiliconResource
+      CountMinMax: [ 2, 5 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: PromethiumResource
+      CountMinMax: [ 3, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.2
+      MaxDroneCount: 1
+
+    - Name: MagnesiumResource
+      CountMinMax: [ 2, 5 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: NeodymiumResource
+      CountMinMax: [ 2, 5 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
+    - Name: SathiumResource
+      CountMinMax: [ 3, 7 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
+
 AsteroidResources:
-  - Name: CopperResource
-    Threshold: 0.1217117062417043
-    Amount: 0.6917693730755077
-  - Name: SiliconResource
-    Threshold: 0.10308031164810957
-    Amount: 0.7084353959184451
-  - Name: IronResource
-    Threshold: 0.3570317522648906
-    Amount: 0.49182510406082103
-  - Name: PromethiumResource
-    Threshold: 0.1879419370153494
-    Amount: 0.3975904166026646
-  - Name: MagnesiumResource
-    Threshold: 0.5542553576610088
-    Amount: 0.299847710906091
-  - Name: CobaltResource
-    Threshold: 0.5643271220975987
-    Amount: 0.9810456050834484
-  - Name: GoldResource
-    Threshold: 0.2341389705515461
-    Amount: 0.960480006459659
-  - Name: ZascosiumResource
-    Threshold: 0.29943432135613673
-    Amount: 0.2589523220958328
-  - Name: NeodymiumResource
-    Threshold: 0.21814092445738076
-    Amount: 0.9104595684492545
-  - Name: SathiumResource
-    Threshold: 0.1378953127765309
-    Amount: 0.3406708290123507
+    - Name: IronResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: CobaltResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: CopperResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: SiliconResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: PromethiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: MagnesiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: NeodymiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: SathiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
 Terrain:
   Name: Snow
   PoleLevel: 35
@@ -594,270 +533,99 @@ SpecialEffectsGlobal:
     Delay: 24
     Lifetime: 600
 POIs:
-  Random:
-    - GroupName: Wreckage
-      CountMinMax:
-        - 1
-        - 1
-      DroneProb: 0
-      DronesMinMax:
-        - 1
-        - 1
-      ReserveCount: 1
-      TroopTransport: False
-      PlayerStart: True
-      SpawnResource:
-        - 'IronResource:1'
-        - 'CopperResource:1'
-        - 'CobaltResource:1'
-        - 'SiliconResource:1'
-      Properties:
-        - Key: PersonalContainer
-          Value: >-
-            OxygenStation, OxygenBottleLarge:5,
-            WaterBottle:2, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1,
-            PearthingStage1, DurianRoot, RadiationPills, EVABoost
-        - Key: MapDistance
-          Value: 700
-    - GroupName: customPOI
-      CountMinMax:
-        - 1
-        - 2
-      DroneProb: 0
-      DronesMinMax:
-        - 1
-        - 1
-      ReserveCount: 1
-      TroopTransport: False
-      SpawnPOIAvoid:
-        - Wreckage
-      POIDistance: 1500
-      Properties:
-        - Key: Music
-          Value: DarkSoundscape
-      SpawnResource:
-        - 'PromethiumResource:0-2'
-      ResourceDistance: 300
-    - GroupName: DroneBaseOmicron
-      DroneBaseSetup: DroneBaseSetup
-      CountMinMax:
-        - 1
-        - 1
-      DroneProb: 1
-      DronesMinMax:
-        - 2
-        - 3
-      ReserveCount: 3
-      SpawnPOIAvoid:
-        - Wreckage
-      POIDistance: 1300
-      Properties:
-        - Key: Music
-          Value: DarkSoundscape
-    - GroupName: PlanetVesselBase
-      PlanetVesselBaseSetup: PlanetVesselBaseSetup
-      CountMinMax:
-        - 1
-        - 1
-      DroneProb: 1
-      DronesMinMax:
-        - 2
-        - 3
-      ReserveCount: 3
-      SpawnPOIAvoid:
-        - Wreckage
-      POIDistance: 500
-      Properties:
-        - Key: Music
-          Value: barren
-    - GroupName: DroneBaseAestus
-      CountMinMax:
-        - 1
-        - 5
-      DroneProb: 0.823706601812793
-      DronesMinMax:
-        - 4
-        - 7
-      ReserveCount: 4
-      TroopTransport: False
-      SpawnPOIAvoid:
-        - Wreckage
-      POIDistance: 500
-      Properties:
-        - Key: Music
-          Value: SunnySkies
-      SpawnResource:
-        - 'IronResource:0-2'
-        - 'CobaltResource:0-2'
-        - 'MagnesiumResource:0-1'
-      ResourceDistance: 300
-    - GroupName: EpsilonFactory
-      CountMinMax:
-        - 1
-        - 5
-      DroneProb: 0.7763220128623588
-      DronesMinMax:
-        - 4
-        - 8
-      ReserveCount: 2
-      TroopTransport: True
-      SpawnPOIAvoid:
-        - Wreckage
-      POIDistance: 500
-      Properties:
-        - Key: Music
-          Value: JungleDepths
-      SpawnResource:
-        - 'IronResource:0-2'
-        - 'CobaltResource:0-2'
-        - 'MagnesiumResource:0-1'
-      ResourceDistance: 300
-    - GroupName: XenuFortressP1
-      CountMinMax:
-        - 1
-        - 5
-      DroneProb: 0.5747733050283114
-      DronesMinMax:
-        - 0
-        - 7
-      ReserveCount: 0
-      TroopTransport: False
-      SpawnPOIAvoid:
-        - Wreckage
-      POIDistance: 500
-      Properties:
-        - Key: Music
-          Value: DarkSoundscape
-      SpawnResource:
-        - 'IronResource:0-2'
-        - 'CobaltResource:0-2'
-        - 'MagnesiumResource:0-1'
-      ResourceDistance: 300
-    - GroupName: MiningComplex
-      CountMinMax:
-        - 1
-        - 5
-      DroneProb: 0.4575136873565412
-      DronesMinMax:
-        - 0
-        - 8
-      ReserveCount: 0
-      TroopTransport: True
-      SpawnPOIAvoid:
-        - Wreckage
-      POIDistance: 500
-      Properties:
-        - Key: Music
-          Value: NebularClouds
-      SpawnResource:
-        - 'IronResource:0-2'
-        - 'CobaltResource:0-2'
-        - 'MagnesiumResource:0-1'
-      ResourceDistance: 300
-    - GroupName: GhostTierII
-      CountMinMax:
-        - 1
-        - 5
-      DroneProb: 0.4542909093919909
-      DronesMinMax:
-        - 1
-        - 7
-      ReserveCount: 3
-      TroopTransport: True
-      SpawnPOIAvoid:
-        - Wreckage
-      POIDistance: 500
-      Properties:
-        - Key: Music
-          Value: NebularClouds
-      SpawnResource:
-        - 'IronResource:0-2'
-        - 'CobaltResource:0-2'
-        - 'MagnesiumResource:0-1'
-      ResourceDistance: 300
-    - GroupName: EpsilonPowerStation
-      CountMinMax:
-        - 1
-        - 5
-      DroneProb: 0.5496908555273675
-      DronesMinMax:
-        - 0
-        - 6
-      ReserveCount: 3
-      TroopTransport: False
-      SpawnPOIAvoid:
-        - Wreckage
-      POIDistance: 500
-      Properties:
-        - Key: Music
-          Value: JungleDepths
-      SpawnResource:
-        - 'IronResource:0-2'
-        - 'CobaltResource:0-2'
-        - 'MagnesiumResource:0-1'
-      ResourceDistance: 300
-    - GroupName: Artifact
-      CountMinMax:
-        - 1
-        - 5
-      DroneProb: 0.972107911227521
-      DronesMinMax:
-        - 0
-        - 8
-      ReserveCount: 4
-      TroopTransport: False
-      SpawnPOIAvoid:
-        - Wreckage
-      POIDistance: 500
-      Properties:
-        - Key: Music
-          Value: NebularClouds
-      SpawnResource:
-        - 'IronResource:0-2'
-        - 'CobaltResource:0-2'
-        - 'MagnesiumResource:0-1'
-      ResourceDistance: 300
-    - GroupName: XenuDefence
-      CountMinMax:
-        - 1
-        - 5
-      DroneProb: 0.7259038163758914
-      DronesMinMax:
-        - 1
-        - 7
-      ReserveCount: 4
-      TroopTransport: True
-      SpawnPOIAvoid:
-        - Wreckage
-      POIDistance: 500
-      Properties:
-        - Key: Music
-          Value: DarkSoundscape2
-      SpawnResource:
-        - 'IronResource:0-2'
-        - 'CobaltResource:0-2'
-        - 'MagnesiumResource:0-1'
-      ResourceDistance: 300
-  FixedPlayerStart:
-    - Mode: Survival
-      Spawn: EscapePod
-      Armor: ArmorMedium
-      Items:
-        - >-
-          Pistol, 50Caliber:250, Medikit02:3, AntidotePills:3,
-          EmergencyRations:4, Drill, Chainsaw, BioFuel:4, ConstructorSurvival,
-          OxygenGeneratorSmall, OxygenBottleSmall:5, EnergyCell:5
-        - >-
-          Pistol, 50Caliber:150, Medikit02:2, AntidotePills:2,
-          EmergencyRations:2, Drill, Chainsaw, BioFuel:3, ConstructorSurvival,
-          OxygenGeneratorSmall, OxygenBottleSmall:3, EnergyCell:4
-        - >-
-          Pistol, 50Caliber:100, Medikit02:1, AntidotePills:1,
-          EmergencyRations:1, Drill, Chainsaw, BioFuel:2, ConstructorSurvival,
-          OxygenGeneratorSmall, OxygenBottleSmall:1, EnergyCell:3
-        - >-
-          #FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival,
-          OxygenGeneratorSmall
+    Random:
+        - GroupName: DroneBaseOmicron
+          DroneBaseSetup: DroneBaseSetup
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 1
+          DronesMinMax: [ 5, 8 ]
+          ReserveCount: 3
+          Properties:
+            - Key: RegenAfter
+              Value: 1440
+
+        - GroupName: TS_Omicron
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          SpawnPOIAvoid: [DroneBaseOmicron, Wreckage]
+          POIDistance: 1000
+          Properties:
+            - Key: Music
+              Value: temperate
+            - Key: RegenAfter
+              Value: 2880
+
+        - GroupName: PlanetVesselBase
+          PlanetVesselBaseSetup: PlanetVesselBaseSetup
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 1
+          DronesMinMax: [ 5, 8 ]
+          ReserveCount: 3
+          POIDistance: 500
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
+
+
+        - GroupName: AbandonedFactory
+          CountMinMax: [ 0, 3 ]
+          DroneProb: 0.8
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
+
+        - GroupName: AbandonedMine
+          CountMinMax: [ 0, 3 ]
+          DroneProb: 0.1
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
+
+        # Weakly defended Civil Settlements close to TS Akua
+        - GroupName: CivilSettlementO2
+          CountMinMax: [ 1, 3 ]
+          DroneProb: 0.5
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 2
+          TroopTransport: True
+          SpawnPOINear: [TS_Akua]
+          POIDistance: 500
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
+
+        # Spawn strong defended civil settlements randomly
+        - GroupName: CivilSettlement
+          CountMinMax: [ 1, 3 ]
+          DroneProb: 0.9
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 2
+          TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
+
+        # Tribal villages close to Abandoned Mine
+        - GroupName: TribalVillage
+          CountMinMax: [ 1, 4 ]
+          DroneProb: 0.8
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 0
+          TroopTransport: False
+          SpawnPOINear: [AbandonedMine]
+          POIDistance: 500
+          Properties:
+            - Key: RegenAfter
+              Value: 2880
 DroneBaseSetup:
   Random:
     - GroupName: XenuFortressP1
@@ -911,15 +679,17 @@ DroneBaseSetup:
         BaseType: PlanetVesselBase
         KeyId: 0
         PlanetVessel:
-          - Name: Patrol-M-Easy
+          - Name: Patrol-S-Hard
             Mission: PlanetPatrol
-            FixedMaxSpeed: 7
+            FixedMaxSpeed: 8
             RangePatrolCenter:
-              - -707
+              - 1025
               - 0
-            RangePatrolRadius: 579
+            RangePatrolRadius: 684
             RangePatrolAltitude: 60
             InitialDelay: 72
+
+
 DroneSpawning:
   Random:
     - DronesMinMax:
