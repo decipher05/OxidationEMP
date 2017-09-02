@@ -524,6 +524,10 @@ Sectors:
     - Drapus 15
     - Faction-POI-Planet-Dalos
     - ''
+  - - -12461, -6626, 8325
+    - R-112
+    - Resource-Lava
+    - ''
   Allow:
   - FFA Zone
   Deny: []
@@ -627,7 +631,7 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - -12140, 9370, 12700
-    - R-1
+    - R-111
     - Resource-Alien
     - ''
   Allow: []
