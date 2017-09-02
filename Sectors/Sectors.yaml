@@ -218,9 +218,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 354
+  - 365
   - 0
-  - 239
+  - 250
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -321,9 +321,9 @@ Sectors:
   - FFA Zone
   Deny: []
 - Coordinates:
-  - 155
+  - 153
   - 0
-  - 338
+  - 324
   Color: 0.97, 0.96, 1
   Icon: Hexagon
   Playfields:
@@ -425,9 +425,9 @@ Sectors:
   - FFA Zone
   Deny: []
 - Coordinates:
-  - -302
+  - -316
   - 0
-  - -26
+  - 11
   Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
@@ -604,9 +604,9 @@ Sectors:
   - Core System
   Deny: []
 - Coordinates:
+  - -330
   - 0
-  - 0
-  - 0
+  - 248
   Color: 0.56, 0.74, 0.56
   Icon: Hexagon
   Playfields:
