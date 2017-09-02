@@ -624,26 +624,7 @@ POIs:
           Properties:
             - Key: RegenAfter
               Value: 2880
-  FixedPlayerStart:
-    - Mode: Survival
-      Spawn: EscapePod
-      Armor: ArmorMedium
-      Items:
-        - >-
-          Pistol, 50Caliber:250, Medikit02:3, AntidotePills:3,
-          EmergencyRations:4, Drill, Chainsaw, BioFuel:4, ConstructorSurvival,
-          OxygenGeneratorSmall, OxygenBottleSmall:5, EnergyCell:5
-        - >-
-          Pistol, 50Caliber:150, Medikit02:2, AntidotePills:2,
-          EmergencyRations:2, Drill, Chainsaw, BioFuel:3, ConstructorSurvival,
-          OxygenGeneratorSmall, OxygenBottleSmall:3, EnergyCell:4
-        - >-
-          Pistol, 50Caliber:100, Medikit02:1, AntidotePills:1,
-          EmergencyRations:1, Drill, Chainsaw, BioFuel:2, ConstructorSurvival,
-          OxygenGeneratorSmall, OxygenBottleSmall:1, EnergyCell:3
-        - >-
-          #FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival,
-          OxygenGeneratorSmall
+
 DroneBaseSetup:
   Random:
     - GroupName: XenuFortressP1
