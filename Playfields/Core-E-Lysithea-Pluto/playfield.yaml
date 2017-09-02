@@ -169,21 +169,32 @@ RandomResources:
       DroneProb: 0.3
       MaxDroneCount: 1
 
+    - Name: GoldResource
+      CountMinMax: [ 7, 10 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
 ### Resource Asteroids
 AsteroidResources:
 
     - Name: PromethiumResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.9
 
     - Name: MagnesiumResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.9
 
 
     - Name: ErestrumResource
-      Threshold: 0.4
+      Threshold: 0.9
       Amount: 0.5
+
+    - Name: GoldResource
+      Threshold: 0.9
+      Amount: 0.9
 ### Terrain and Decorations
 # Terrain and Local Decoration
 
@@ -221,166 +232,3 @@ Biome:
                - [ EggPlant, 2]
 
 ### POIs
-POIs:
-    Random:
-        - GroupName: DroneBaseAkua
-          DroneBaseSetup: DroneBaseSetup
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 5
-          POIDistance: 1200
-          Properties:
-            - Key: RegenAfter
-              Value: 1440
-
-        - GroupName: PlanetVesselBase
-          PlanetVesselBaseSetup: PlanetVesselBaseSetup
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 3
-          POIDistance: 1200
-
-        - GroupName: CrashedShip
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 4
-          TroopTransport: False
-          Properties:
-            - Key: RegenAfter
-              Value: 140
-
-        - GroupName: CivilSettlement
-          CountMinMax: [ 2, 3 ]
-          DroneProb: 1
-          DronesMinMax: [ 3, 4 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 140
-            - Key: MapMarker
-              Value: Neutral
-
-        - GroupName: CrashedShip
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 4
-          TroopTransport: False
-          Properties:
-            - Key: RegenAfter
-              Value: 140
-
-        - GroupName: GhostRiderBase
-          CountMinMax: [ 4, 6 ]
-          DroneProb: 0.7
-          DronesMinMax: [ 1, 1 ]
-          ReserveCount: 2
-          TroopTransport: False
-          Properties:
-            - Key: RegenAfter
-              Value: 1440
-
-        - GroupName: GhostRiderDefence
-          CountMinMax: [ 1, 2 ]
-          DroneProb: 0.7
-          DronesMinMax: [ 1, 1 ]
-          ReserveCount: 2
-          TroopTransport: False
-          Properties:
-            - Key: RegenAfter
-              Value: 140
-
-    FixedPlayerStart:
-        - Mode: Debug
-          Pos: [ -420, 90, -15 ]
-          RotY: -180
-
-        - Mode: Survival
-          Spawn: EscapePod
-          # Spawn: Structure
-          # Structure: "Wreckage"
-          Armor: ArmorLight
-          Items: [ "Pistol, 50Caliber:250, Drill, CopperIngot:100, IronIngot:100, CobaltIngot:100, SiliconIngot:100, Chainsaw, BioFuel:4, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills:7, EVABoost, PlayerBikeKit, Medikit02:2, AntidotePills:2, EmergencyRations:2, WaterBottle:2, EnergyCell:25", "Pistol, 50Caliber:150, Drill, CopperIngot:250, IronIngot:250, CobaltIngot:250, SiliconIngot:250, Chainsaw, BioFuel:6, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills:9, EVABoost, PlayerBikeKit, Medikit02:3, AntidotePills:3, EmergencyRations:3, WaterBottle:3, EnergyCell:34", "Pistol, 50Caliber:250, Drill, CopperIngot:300, IronIngot:300, CobaltIngot:300, SiliconIngot:300, Chainsaw, BioFuel:8, ConstructorSurvival, OxygenGeneratorSmall, AutoMinerCore:5, Core, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, RadiationPills:11, EVABoost, PlayerBikeKit, Medikit02:3, AntidotePills:3, EmergencyRations:3, WaterBottle:1, EnergyCell:43", "#FreshStart: Drill, Pistol, 50Caliber:250, CopperIngot:40, IronIngot:40, CobaltIngot:40, SiliconIngot:40, Chainsaw, BioFuel:2, ConstructorSurvival, OxygenGeneratorSmall, Core, DurianRoot, RadiationPills:2, EVABoost, Medikit02:1, AntidotePills:1, WaterBottle:2, EnergyCell:15" ]
-
-### Drones
-DroneBaseSetup:
-    Random:
-        - GroupName: DroneBaseSetup
-          DronesMinMax: [ 4, 5 ]        # range of number of drones that defend drone base
-          ReserveCount: 6               # number of drones that will be replaced when defending drones got killed
-          DroneProb: 1.0                # probability that drones will defend drone base
-          Difficulty: 6                 # 0..4 -> 0 = no drone attack base ... 4 = max difficulty level (5, 6, 7 = low, medium, high difficulty but with infinite drone waves)
-          PresetStyle: 3                # 0..4 -> see comment above
-          # BaseAttack: DroneSmallAttackBase
-          Stock:
-              - Name: DroneSmallFast01Plasma
-                Amount: 200
-                Extra: 0
-
-              - Name: DroneLargeSlow01Plasma
-                Amount: 200
-                Extra: 0
-
-              - Name: EnemyDroneV2Minigun
-                Amount: 300
-                Extra: 0
-
-              - Name: DroneLargeSlow02Cannon
-                Amount: 200
-                Extra: 0
-
-              - Name: DroneLargeSlow01Plasma   # Base attack drones
-                Amount: Infinite
-                Extra: 1
-
-              - Name: EnemyDroneV2Plasma       # Base attack drones
-                Amount: Infinite
-                Extra: 1
-
-              - Name: DroneTroopsTransport01
-                Amount: Infinite
-                Extra: 2
-
-              - Name: ZiraxLaser
-                Amount: 500
-                Extra: 3
-
-              - Name: ZiraxRocket
-                Amount: 500
-                Extra: 3
-
-              - Name: Crawler
-                Amount: 250
-                Extra: 3
-
-              - Name: TotalHorror
-                Amount: 250
-                Extra: 3
-
-          PlanetVesselBase:
-              Name: PlanetVesselBaseSetup
-              Position3D: [ 0, 102, 0]
-              BaseType: PlanetVesselBase
-              KeyId: 0                  # Unique Key Id
-              PlanetVessel:
-                - Name: Patrol-XS-Hard           # GroupName
-                  Mission: PlanetPatrol
-                  FixedMaxSpeed: 10          # Max speed of a freighter in m/sec
-                  RangePatrolCenter: [ -1500, 0 ]
-                  RangePatrolRadius: 800
-                  RangePatrolAltitude: 60
-                  RangePatrolAltitude: 24
-
-DroneSpawning:
-    Random:
-        - DronesMinMax: [ 5, 10 ]
-          CenterX: -2500
-          Radius: 1500
-
-        - DronesMinMax: [ 5, 10 ]
-          CenterX: 2500
-          Radius: 1500

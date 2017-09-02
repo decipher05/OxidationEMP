@@ -13,9 +13,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - -330
+  - -550
   - 2
-  - 559
+  - 430
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -35,13 +35,14 @@ Sectors:
     - Dotrerth-p531
     - Starter-POI-Akua
     - ''
-  Allow: []
+  Allow:
+  - Beli System
   Deny:
   - Eclite System
 - Coordinates:
-  - 626
+  - 569
   - -17
-  - -512
+  - -376
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -61,13 +62,14 @@ Sectors:
     - Tietov-5dfu
     - Starter-POI-Akua
     - ''
-  Allow: []
+  Allow:
+  - Kalliope System
   Deny:
   - Hagrone System
 - Coordinates:
-  - 453
+  - 573
   - -2
-  - 553
+  - 384
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -87,12 +89,13 @@ Sectors:
     - Snagua 7Y0V
     - Starter-POI-Akua
     - ''
-  Allow: []
+  Allow:
+  - Ganymede System
   Deny: []
 - Coordinates:
-  - -500
+  - -538
   - 6
-  - -451
+  - -387
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -112,7 +115,8 @@ Sectors:
     - Brillon RG4F
     - Starter-POI-Akua
     - ''
-  Allow: []
+  Allow:
+  - Mathilde System
   Deny: []
 - Coordinates:
   - -356
@@ -134,7 +138,7 @@ Sectors:
     - PFaction-Moon
     - ''
   - - 3312, -9368, -8258
-    - Brillon 126
+    - P-211
     - Faction-POI-Planet-Dalos
     - ''
   - - -3480, -15113, -11588
@@ -143,7 +147,7 @@ Sectors:
     - ''
   Allow: []
   Deny:
-  - Eros System
+  - Kazo System
 - Coordinates:
   - 351
   - 0
@@ -164,7 +168,7 @@ Sectors:
     - PFaction-Moon0
     - ''
   - - 146, 5779, 10480
-    - Breon 0DG
+    - P-212
     - Faction-POI-Planet-Dalos
     - ''
   - - -10725, -6691, -9172
@@ -173,11 +177,11 @@ Sectors:
     - ''
   Allow: []
   Deny:
-  - Eros System
+  - Icarus System
 - Coordinates:
-  - 189
+  - 157
   - 0
-  - 121
+  - 115
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -194,7 +198,7 @@ Sectors:
     - PFaction-Moon1
     - ''
   - - -730, 10545, 10219
-    - Smoetis 0KD5
+    - P-213
     - Faction-POI-Planet-Dalos
     - ''
   - - 8683, 11524, -8323
@@ -205,9 +209,9 @@ Sectors:
   - FFA Zone
   Deny: []
 - Coordinates:
-  - 7
+  - -176
   - 0
-  - 42
+  - -122
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -224,7 +228,7 @@ Sectors:
     - PFaction-Moon2
     - ''
   - - 7792, 7346, 6105
-    - Flora SN89
+    - P-214
     - Faction-POI-Planet-Dalos
     - ''
   - - -72, 0, 16356
@@ -234,9 +238,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 365
+  - 345
   - 0
-  - 250
+  - 244
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -253,7 +257,7 @@ Sectors:
     - PFaction-Moon3
     - ''
   - - 4733, -7475, 8978
-    - Crilles 98
+    - P-215
     - Faction-POI-Planet-Dalos
     - ''
   - - 12917, 230, 425
@@ -262,9 +266,9 @@ Sectors:
     - ''
   Allow: []
   Deny:
-  - Gaspra System
+  - Amalthea System
 - Coordinates:
-  - 289
+  - 317
   - 0
   - 17
   Color: 0.7, 0.11, 0.11
@@ -283,7 +287,7 @@ Sectors:
     - PFaction-Moon4
     - ''
   - - -8571, 7999, -8127
-    - Spillon S5
+    - P-216
     - Faction-POI-Planet-Dalos
     - ''
   - - 3147, 10088, 8325
@@ -296,7 +300,7 @@ Sectors:
 - Coordinates:
   - -4
   - 0
-  - -247
+  - -256
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -313,7 +317,7 @@ Sectors:
     - PFaction-Moon5
     - ''
   - - 4383, -8454, 8391
-    - Strosie DX36
+    - P-217
     - Faction-POI-Planet-Dalos
     - ''
   - - -679, -11065, -7736
@@ -323,9 +327,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 140
+  - 128
   - 0
-  - -100
+  - -98
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -342,7 +346,7 @@ Sectors:
     - PFaction-Moon6
     - ''
   - - -7597, -6626, 8848
-    - Skapus 26GR
+    - P-218
     - Faction-POI-Planet-Dalos
     - ''
   - - -5486, 9566, -3361
@@ -372,7 +376,7 @@ Sectors:
     - PFaction-Moon7
     - ''
   - - -8133, -3492, -4928
-    - Plolla 330
+    - P-219
     - Faction-POI-Planet-Dalos
     - ''
   - - 3211, 8325, 11329
@@ -381,11 +385,11 @@ Sectors:
     - ''
   Allow: []
   Deny:
-  - Eonus  System
+  - Ganymede System
 - Coordinates:
-  - 7
+  - -1
   - 0
-  - 248
+  - 262
   Color: 0.97, 0.96, 1
   Icon: Hexagon
   Playfields:
@@ -402,7 +406,7 @@ Sectors:
     - PFaction-Moon8
     - ''
   - - -7694, -8715, -8911
-    - Trov BI5
+    - P-220
     - Faction-POI-Planet-Dalos
     - ''
   - - 744, -12698, -11392
@@ -413,9 +417,9 @@ Sectors:
   Deny:
   - Eonus  System
 - Coordinates:
-  - -147
+  - -133
   - 0
-  - -89
+  - 21
   Color: 0.97, 0.96, 1
   Icon: Hexagon
   Playfields:
@@ -432,8 +436,12 @@ Sectors:
     - PFaction-Moon
     - ''
   - - -9930, -3296, 7803
-    - Shars Q0N
+    - P-221
     - Faction-POI-Planet-Dalos
+    - ''
+  - - 8438, -6560, -10804
+    - R-127
+    - Resource-Temperate
     - ''
   Allow: []
   Deny:
@@ -458,7 +466,7 @@ Sectors:
     - PFaction-Moon0
     - ''
   - - 5140, 6758, 8652
-    - Sposie 6K72
+    - P-222
     - Faction-POI-Planet-Dalos
     - ''
   - - 10663, 0, 3559
@@ -467,7 +475,8 @@ Sectors:
     - ''
   Allow:
   - FFA Zone
-  Deny: []
+  Deny:
+  - Beli System
 - Coordinates:
   - -316
   - 0
@@ -488,7 +497,7 @@ Sectors:
     - PFaction-Moon1
     - ''
   - - 6109, 6954, 9631
-    - Bruna LB3
+    - P-223
     - Faction-POI-Planet-Dalos
     - ''
   - - -12068, 5518, 2253
@@ -518,7 +527,7 @@ Sectors:
     - PFaction-Moon2
     - ''
   - - -6586, 6367, 7150
-    - Streon T26
+    - P-224
     - Faction-POI-Planet-Dalos
     - ''
   - - -12398, -7148, 3886
@@ -527,11 +536,11 @@ Sectors:
     - ''
   Allow: []
   Deny:
-  - Dactyl System
+  - Mathilde System
 - Coordinates:
-  - 194
+  - 182
   - 0
-  - -321
+  - -298
   Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
@@ -548,7 +557,7 @@ Sectors:
     - PFaction-Moon3
     - ''
   - - 4026, 5061, -8193
-    - Drosie 0DIQ
+    - P-225
     - Faction-POI-Planet-Dalos
     - ''
   - - -11172, -7148, 5453
@@ -556,11 +565,12 @@ Sectors:
     - Resource-Desert
     - ''
   Allow: []
-  Deny: []
+  Deny:
+  - Kalliope System
 - Coordinates:
-  - -170
+  - -136
   - 0
-  - 142
+  - 171
   Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
@@ -577,7 +587,7 @@ Sectors:
     - PFaction-Moon4
     - ''
   - - 4194, -6525, 5129
-    - Drapus 15
+    - P-226
     - Faction-POI-Planet-Dalos
     - ''
   - - -12461, -6626, 8325
@@ -588,25 +598,9 @@ Sectors:
   - FFA Zone
   Deny: []
 - Coordinates:
-  - 3
+  - 442
   - 0
-  - -96
-  Color: 1, 0.49, 0
-  Icon: Star
-  Playfields:
-  - - 0, 0, 0
-    - Core System
-    - Core-Space-AsteroidField
-    - ''
-  Allow:
-  - Ananke System
-  - Adrastea System
-  - Carme System
-  Deny: []
-- Coordinates:
-  - -77
-  - 0
-  - -910
+  - 24
   Color: 1, 0.49, 0
   Icon: Star
   Playfields:
@@ -614,7 +608,7 @@ Sectors:
     - Carme System
     - Core-Space-AsteroidField
     - ''
-  - - 5349, 6105, -4406
+  - - 6467, 6105, -1272
     - Carme
     - Core-E-Carme-Rupes
     - ''
@@ -622,7 +616,7 @@ Sectors:
     - Lysithea
     - Core-E-Lysithea-Pluto
     - ''
-  - - 6969, 12373, 2645
+  - - 8370, 12373, 4865
     - Carme Moon
     - PFaction-Moon3
     - ''
@@ -630,13 +624,21 @@ Sectors:
     - Lysithea Moon
     - PFaction-Moon5
     - ''
+  - - -2537, 7868, -7213
+    - Aestus
+    - Core-E-Aestus-Lava
+    - ''
+  - - -7503, 10284, -8976
+    - Aestus Moon
+    - PFaction-Moon7
+    - ''
   Allow:
   - Core System
   Deny: []
 - Coordinates:
-  - -267
+  - -438
   - 0
-  - -929
+  - 30
   Color: 1, 0.49, 0
   Icon: Star
   Playfields:
@@ -660,13 +662,21 @@ Sectors:
     - Thebe Moon
     - PFaction-Moon0
     - ''
+  - - -8524, 5714, 4082
+    - Leda
+    - Core-Z-Leda-Uranus
+    - ''
+  - - -9592, -1272, -1599
+    - Leda Moon
+    - PFaction-Moon4
+    - ''
   Allow:
   - Core System
   Deny: []
 - Coordinates:
-  - -330
+  - -357
   - 0
-  - 248
+  - 249
   Color: 0.56, 0.74, 0.56
   Icon: Hexagon
   Playfields:
@@ -683,7 +693,7 @@ Sectors:
     - PFaction-Moon2
     - ''
   - - -8513, -5385, -9498
-    - Snade ZJ44
+    - P-227
     - Faction-POI-Planet-Dalos
     - ''
   - - -12140, 9370, 12700
@@ -691,4 +701,5 @@ Sectors:
     - Resource-Alien
     - ''
   Allow: []
-  Deny: []
+  Deny:
+  - Ziraxus System
