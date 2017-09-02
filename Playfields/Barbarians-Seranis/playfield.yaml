@@ -92,7 +92,7 @@ WindSpeed: 4                        # Between 0 and 10: larger values = faster m
 
 ### Randomly distributed resources
 RandomResources:
-    - Name: IronResourceRandomResources:
+    - Name: IronResource
         - Name: IronResource
           CountMinMax: [ 3, 5 ]
           SizeMinMax: [ 15, 20 ]
