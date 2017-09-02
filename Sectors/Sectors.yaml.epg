@@ -13,9 +13,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - -640
+  - -330
   - 2
-  - 759
+  - 559
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -39,9 +39,9 @@ Sectors:
   Deny:
   - Eclite System
 - Coordinates:
-  - 780
+  - 626
   - -17
-  - -522
+  - -512
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -65,9 +65,9 @@ Sectors:
   Deny:
   - Hagrone System
 - Coordinates:
-  - 410
+  - 453
   - -2
-  - 722
+  - 553
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -90,9 +90,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - -613
+  - -500
   - 6
-  - -586
+  - -451
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -544,9 +544,9 @@ Sectors:
   - Carme System
   Deny: []
 - Coordinates:
-  - -160
+  - -77
   - 0
-  - -932
+  - -910
   Color: 1, 0.49, 0
   Icon: Star
   Playfields:
@@ -625,6 +625,10 @@ Sectors:
   - - -8513, -5385, -9498
     - Snade ZJ44
     - Faction-POI-Planet-Dalos
+    - ''
+  - - -12140, 9370, 12700
+    - R-1
+    - Resource-Alien
     - ''
   Allow: []
   Deny: []
