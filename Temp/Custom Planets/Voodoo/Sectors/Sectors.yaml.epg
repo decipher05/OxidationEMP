@@ -1,0 +1,1141 @@
+Sectors:
+- Coordinates:
+  - 0
+  - 0
+  - 0
+  Color: 0.1, 0.1, 0.1
+  Icon: No
+  Playfields:
+  - - 0, 0, 0
+    - Sun
+    - Sun
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 406
+  - 62
+  - 36
+  Color: 0.3, 0.06, 0.04
+  Icon: Circle
+  OrbitLine: true
+  Playfields:
+  - - 0, 0, 0
+    - Aestus Orbit
+    - pveSpaceAsteroidFieldRing1
+    - ''
+  - - 0, 0, 0
+    - Aestus
+    - Lava
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -2
+  - -61
+  - 880
+  Color: 1, 0, 0
+  Icon: Kite
+  Playfields:
+  - - 0, 0, 0
+    - Alien Outpost
+    - SpaceAlienStation
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 10
+  - 85
+  - -426
+  Color: 0.37, 0.33, 0.04
+  Icon: Circle
+  OrbitLine: true
+  Playfields:
+  - - 0, 0, 0
+    - Skillon Orbit
+    - pveSpaceAsteroidsFew1
+    - ''
+  - - 0, 0, 0
+    - Skillon
+    - Barren
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -350
+  - 109
+  - -586
+  Color: 1, 0.5, 0
+  Icon: Star
+  Playfields:
+  - - 0, 0, 0
+    - Trading
+    - Trading
+    - ''
+  Allow: []
+  Deny:
+  - Asteroid Field
+  - Masperon Orbit
+- Coordinates:
+  - -251
+  - 5
+  - 683
+  Color: 0.07, 0.37, 1
+  Icon: Circle
+  OrbitLine: true
+  Playfields:
+  - - 0, 0, 0
+    - Akua Orbit
+    - pveSpaceAsteroidFieldRing2
+    - ''
+  - - 0, 0, 0
+    - Akua
+    - Temperate
+    - Human:1
+  - - -6500, 5000, 6500
+    - Akua Moon
+    - moon1
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -518
+  - -10
+  - 410
+  Color: 0.84, 0.62, 0.06
+  Icon: Circle
+  OrbitLine: true
+  Playfields:
+  - - 0, 0, 0
+    - Omicron Orbit
+    - pveSpaceAsteroidsFew1
+    - ''
+  - - 0, 0, 0
+    - Omicron
+    - Desert
+    - Explorer:2
+  - - 2000, 5000, -7000
+    - Omicron Moon
+    - moon2
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -107
+  - 30
+  - -462
+  Color: 0.56, 0.84, 0.93
+  Icon: Circle
+  OrbitLine: true
+  Playfields:
+  - - 0, 0, 0
+    - Ningues Orbit
+    - pveSpaceEmpty1
+    - ''
+  - - 0, 0, 0
+    - Ningues
+    - Snow
+    - Explorer:2
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -441
+  - 123
+  - 123
+  Color: 0.3, 0.06, 0.04
+  Icon: Circle
+  OrbitLine: true
+  Playfields:
+  - - 0, 0, 0
+    - Aitis Orbit
+    - pveSpaceAsteroidFieldRing4
+    - ''
+  - - 0, 0, 0
+    - Aitis
+    - Lava2
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -376
+  - 39
+  - 630
+  Color: 0.5, 0.5, 0.5
+  Icon: Rhombus
+  OrbitLine: true
+  Playfields:
+  - - 0, 0, 0
+    - Asteroid Field
+    - SpaceAsteroidField
+    - ''
+  Allow: []
+  Deny:
+  - Trading Outpost
+- Coordinates:
+  - -467
+  - -43
+  - 555
+  Color: 0.84, 0.62, 0.06
+  Icon: Circle
+  OrbitLine: true
+  Playfields:
+  - - 0, 0, 0
+    - Zeyhines Orbit
+    - pveSpaceAsteroidsFew2
+    - ''
+  - - 0, 0, 0
+    - Zeyhines
+    - Desert2
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -527
+  - 38
+  - 229
+  Color: 0.24, 0.05, 0.41
+  Icon: Circle
+  OrbitLine: true
+  Playfields:
+  - - 0, 0, 0
+    - Masperon Orbit
+    - pveSpaceAsteroids2
+    - ''
+  - - 0, 0, 0
+    - Masperon
+    - Alien2
+    - Humanoid:3
+  - - 6000, -4000, 7000
+    - Masperon Moon
+    - Alien
+    - ''
+  Allow:
+  - Trading Outpost
+  Deny: []
+- Coordinates:
+  - 509
+  - 31
+  - -191
+  Color: 0.07, 0.37, 1
+  Icon: Circle
+  OrbitLine: true
+  Playfields:
+  - - 0, 0, 0
+    - Oscutune Orbit
+    - pveSpaceAsteroids1
+    - ''
+  - - 0, 0, 0
+    - Oscutune
+    - Temperate2
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -161
+  - 20
+  - 772
+  Color: 0.5, 0.5, 0.5
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Lunaris Orbit
+    - pveSpaceAsteroidFieldRing4
+    - ''
+  - - 0, 0, 0
+    - Lunaris
+    - Oceanland
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -4
+  - 0
+  - 748
+  Color: 0.56, 0.84, 0.93
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Mios Orbit
+    - pveSpaceEmpty1
+    - ''
+  - - 0, 0, 0
+    - Mios
+    - Coldlands
+    - ''
+  - - -4047, -1925, -5712
+    - Mios Moon
+    - moon1
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -483
+  - 0
+  - -537
+  Color: 0.3, 0.06, 0.04
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Orthos Orbit
+    - pveSpaceAsteroidsFew2
+    - ''
+  - - 0, 0, 0
+    - Orthos
+    - LavaPlains
+    - ''
+  - - -5000, 5000, -7000
+    - Orthos Moon
+    - moon2
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 430
+  - 20
+  - -82
+  Color: 0.84, 0.62, 0.06
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Vyrdis Orbit
+    - pveSpaceAlienStation
+    - ''
+  - - 0, 0, 0
+    - Vyrdis
+    - Plateau
+    - ''
+  - - 3599, 8000, -3231
+    - Vyrdis Moon
+    - moon3
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 152
+  - 100
+  - 808
+  Color: 0.07, 0.37, 1
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Dalos Orbit
+    - pveSpaceAsteroidsFew3
+    - ''
+  - - 0, 0, 0
+    - Dalos
+    - Desolate
+    - ''
+  - - -3877, 5000, 4571
+    - Dalos Moon
+    - moon4
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 446
+  - 40
+  - 564
+  Color: 0.5, 0.5, 0.5
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Twin Niles
+    - pveSpaceEmpty2
+    - ''
+  - - 0, 0, 0
+    - Nile Ovos
+    - moon5
+    - ''
+  - - -3600, 4082, 2449
+    - Nile Alphine
+    - moon6
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 497
+  - 110
+  - 422
+  Color: 0.37, 0.33, 0.04
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Aeris Orbit
+    - pveSpaceAsteroids1
+    - ''
+  - - 0, 0, 0
+    - Aeris
+    - Marsh
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 248
+  - 100
+  - 45
+  Color: 1, 0.5, 0
+  Icon: Star
+  Playfields:
+  - - 0, 0, 0
+    - Trading Zone
+    - TradingZone
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 409
+  - 100
+  - 316
+  Color: 0.07, 0.37, 1
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Aeris 2 Orbit
+    - pveSpaceAlienStation
+    - ''
+  - - 0, 0, 0
+    - Aeris 2
+    - Aeris
+    - ''
+  - - -4513, 5000, 3757
+    - Aeris 2 Moon
+    - moon7
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 488
+  - 93
+  - -486
+  Color: 0.84, 0.62, 0.06
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Vulca Orbit
+    - pveSpaceEmpty1
+    - ''
+  - - 0, 0, 0
+    - Vulca
+    - Vulca
+    - Explorer:2
+  - - 5161, 5000, 2761
+    - Placeholder2
+    - moon8
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -217
+  - 93
+  - -405
+  Color: 0.07, 0.37, 1
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Andromeda Orbit
+    - pveSpaceEmpty2
+    - ''
+  - - 0, 0, 0
+    - Andromida
+    - Andromeda
+    - ''
+  - - -3256, 5000, 4209
+    - Andromida Moon
+    - moon9
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 224
+  - 95
+  - 687
+  Color: 0.3, 0.06, 0.04
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Mios 2 Orbit
+    - pveSpaceEmpty1
+    - ''
+  - - 0, 0, 0
+    - Mios 2
+    - Mios
+    - ''
+  - - 3405, 5000, 4571
+    - Mios 2 Moon
+    - moon10
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 110
+  - 93
+  - 654
+  Color: 0.07, 0.37, 1
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Dalos 2 Orbit
+    - pveSpaceEmpty2
+    - ''
+  - - 0, 0, 0
+    - Dalos 2
+    - Dalos
+    - ''
+  - - -4084, 5000, 4752
+    - Dalos 2 Moon
+    - moon11
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 115
+  - 95
+  - -474
+  Color: 0.56, 0.84, 0.93
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Mordica Orbit
+    - pveSpaceEmpty1
+    - ''
+  - - 0, 0, 0
+    - Mordica
+    - Mordica
+    - ''
+  - - -4222, 5000, 4209
+    - Mordica Moon
+    - moon12
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -539
+  - 106
+  - -393
+  Color: 0.84, 0.62, 0.06
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Vyrdis 2 Orbit
+    - pveSpaceEmpty2
+    - ''
+  - - 0, 0, 0
+    - Vyrdis 2
+    - Vyrdis
+    - ''
+  - - 4678, 5000, 2852
+    - Vyrdis Comet
+    - moon13
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 220
+  - 107
+  - -411
+  Color: 0.07, 0.37, 1
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Adapa Orbit
+    - pveSpaceAsteroidFieldRing4
+    - ''
+  - - 0, 0, 0
+    - Adapa
+    - Adapa
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -425
+  - 110
+  - 268
+  Color: 0.07, 0.37, 1
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Areia Orbit
+    - pveSpaceEmpty1
+    - ''
+  - - 0, 0, 0
+    - Areia
+    - Areia
+    - Human:1
+  - - -4592, -3427, -1673
+    - Areia Moon
+    - moon14
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -439
+  - 110
+  - -136
+  Color: 0.84, 0.62, 0.06
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Beli Orbit
+    - pveSpaceAsteroidFieldRing3
+    - ''
+  - - 0, 0, 0
+    - Beli
+    - Beli
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 430
+  - 110
+  - -242
+  Color: 0.84, 0.62, 0.06
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Child Orbit
+    - pveSpaceEmpty1
+    - ''
+  - - 0, 0, 0
+    - Child
+    - Child
+    - ''
+  - - -5774, -228, -3393
+    - Child Moon
+    - moon15
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -408
+  - 100
+  - -13
+  Color: 0.56, 0.84, 0.93
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Copil Orbit
+    - pveSpaceAsteroidFieldRing1
+    - ''
+  - - 0, 0, 0
+    - Copil
+    - Copil
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 441
+  - 100
+  - 168
+  Color: 0.24, 0.05, 0.41
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Ewah Orbit
+    - pveSpaceAsteroidsFew2
+    - ''
+  - - 0, 0, 0
+    - Ewah
+    - Ewah
+    - ''
+  - - 3437, -2447, 3494
+    - Ewah Moon
+    - moon1
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -189
+  - 100
+  - -580
+  Color: 0.07, 0.37, 1
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Fukur Orbit
+    - pveSpaceAlienStation
+    - ''
+  - - 0, 0, 0
+    - Fukur
+    - Fukur
+    - ''
+  - - -6010, 3847, 2128
+    - Fukur Moon
+    - moon2
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 521
+  - 100
+  - -344
+  Color: 0.24, 0.05, 0.41
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Hagnos Orbit
+    - pveSpaceEmpty1
+    - ''
+  - - 0, 0, 0
+    - Hagnos
+    - Hagnos
+    - ''
+  - - 4045, -423, -3165
+    - Hagnos Moon
+    - moon3
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -555
+  - 100
+  - -230
+  Color: 0.56, 0.84, 0.93
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Loki Orbit
+    - pveSpaceAsteroids2
+    - ''
+  - - 0, 0, 0
+    - Loki
+    - Loki
+    - Explorer:2
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 0
+  - 100
+  - 597
+  Color: 0.24, 0.05, 0.41
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Nike Orbit
+    - pveSpaceAsteroidFieldRing4
+    - ''
+  - - 0, 0, 0
+    - Nike
+    - Nike
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -434
+  - 100
+  - -278
+  Color: 0.84, 0.62, 0.06
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Ockabewis Orbit
+    - pveSpaceAsteroidsFew1
+    - ''
+  - - 0, 0, 0
+    - Ockabewis
+    - Ockabewis
+    - ''
+  - - -3930, 34, -3100
+    - Ockabewis Moon
+    - moon4
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 206
+  - 100
+  - -574
+  Color: 0.84, 0.62, 0.06
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Parjanya Orbit
+    - pveSpaceAsteroidsFew3
+    - ''
+  - - 0, 0, 0
+    - Parjanya
+    - Parjanya
+    - ''
+  - - -4449, 3625, -2708
+    - Parjanya Moon
+    - moon5
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -102
+  - 100
+  - 636
+  Color: 0.56, 0.84, 0.93
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Tepeu Orbit
+    - pveSpaceAsteroidsFew1
+    - ''
+  - - 0, 0, 0
+    - Tepeu
+    - Tepeu
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 504
+  - 100
+  - 277
+  Color: 0.56, 0.84, 0.93
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Watavinewa Orbit
+    - pveSpaceAsteroidsFew3
+    - ''
+  - - 0, 0, 0
+    - Watavinewa
+    - Watavinewa
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 364
+  - 100
+  - -583
+  Color: 0.5, 0.5, 0.5
+  Icon: Rhombus
+  Playfields:
+  - - 0, 0, 0
+    - Asteroid Cluster
+    - AsteroidCluster
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -259
+  - 100
+  - 27
+  Color: 1, 0.5, 0
+  Icon: Star
+  Playfields:
+  - - 0, 0, 0
+    - Trading Point
+    - TradingPoint
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 355
+  - 100
+  - 654
+  Color: 1, 0.5, 0
+  Icon: Star
+  Playfields:
+  - - 0, 0, 0
+    - TradingPost
+    - TradingPost
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 10
+  - 100
+  - -583
+  Color: 1, 0, 0
+  Icon: Kite
+  Playfields:
+  - - 0, 0, 0
+    - Alien Force
+    - AlienForce
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -102
+  - 100
+  - 102
+  Color: 0.24, 0.05, 0.41
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Teleios Orbit
+    - pvpSpaceAsteroidsFew1
+    - ''
+  - - 0, 0, 0
+    - Teleios
+    - Teleios
+    - ''
+  - - -6719, 0, -6289
+    - Teleios Moon
+    - moon1PVP
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 105
+  - 0
+  - 96
+  Color: 0.24, 0.05, 0.41
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Laka Orbit
+    - pvpSpaceEmpty1
+    - ''
+  - - 0, 0, 0
+    - Laka
+    - Laka
+    - ''
+  - - -5244, 1585, -4388
+    - Laka Moon
+    - moon2PVP
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 122
+  - 10
+  - -28
+  Color: 0.84, 0.62, 0.06
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Fudo Orbit
+    - pvpSpaceAsteroidFieldRing3
+    - ''
+  - - 0, 0, 0
+    - Fudo
+    - Fudo
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 91
+  - 10
+  - 250
+  Color: 0.84, 0.62, 0.06
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Moombi Orbit
+    - pvpSpaceEmpty2
+    - ''
+  - - 0, 0, 0
+    - Moombi
+    - Moombi
+    - Explorer:2
+  - - -5982, -4388, -4479
+    - Moombi Moon
+    - moon3PVP
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -93
+  - 20
+  - -191
+  Color: 0.84, 0.62, 0.06
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Turi Orbit
+    - pvpSpaceAsteroidsFew3
+    - ''
+  - - 0, 0, 0
+    - Turi
+    - Turi
+    - ''
+  - - -4231, -4841, -4388
+    - Turi Moon
+    - moon4PVP
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 199
+  - 20
+  - 177
+  Color: 0.3, 0.06, 0.04
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Meldo Orbit
+    - pvpSpaceEmpty1
+    - ''
+  - - 0, 0, 0
+    - Meldo
+    - Meldo
+    - ''
+  - - -5184, 0, 3033
+    - Meldo Moon
+    - moon5PVP
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -123
+  - 20
+  - -28
+  Color: 0.3, 0.06, 0.04
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Merr Orbit
+    - pvpSpaceAsteroidsFew2
+    - ''
+  - - 0, 0, 0
+    - Merr
+    - Merr
+    - ''
+  - - -5264, 0, -4569
+    - Merr Moon
+    - moon6PVP
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -98
+  - 20
+  - 247
+  Color: 0.56, 0.84, 0.93
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Afekan Orbit
+    - pvpSpaceAsteroidFieldRing1
+    - ''
+  - - 0, 0, 0
+    - Afekan
+    - Afekan
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 61
+  - 20
+  - 366
+  Color: 0.56, 0.84, 0.93
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Anna Orbit
+    - pvpSpaceAlienStation
+    - ''
+  - - 0, 0, 0
+    - Anna
+    - Annapurna
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -71
+  - 20
+  - 368
+  Color: 0.56, 0.84, 0.93
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Donn Orbit
+    - pvpSpaceAsteroids2
+    - ''
+  - - 0, 0, 0
+    - Donn
+    - Donn
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 5
+  - 20
+  - -130
+  Color: 0.07, 0.37, 1
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Nemhain Orbit
+    - pvpSpaceEmpty2
+    - ''
+  - - 0, 0, 0
+    - Nemhain
+    - Nemhain
+    - Human:1
+  - - -5199, 2942, -1040
+    - Nemhain Moon
+    - moon7PVP
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 108
+  - 20
+  - -197
+  Color: 0.07, 0.37, 1
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Perun Orbit
+    - pvpSpaceAsteroidsFew1
+    - ''
+  - - 0, 0, 0
+    - Perun
+    - Perun
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -205
+  - 20
+  - 165
+  Color: 0.07, 0.37, 1
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Sraddha Orbit
+    - pvpSpaceEmpty1
+    - ''
+  - - 0, 0, 0
+    - Sraddha
+    - Sraddha
+    - ''
+  - - -5607, -1040, -2488
+    - Sraddha Moon
+    - moon8PVP
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 3
+  - 20
+  - -293
+  Color: 1, 0.5, 0
+  Icon: Star
+  Playfields:
+  - - 0, 0, 0
+    - Trading Stop
+    - TradingStop
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -2
+  - 20
+  - 443
+  Color: 1, 0.5, 0
+  Icon: Star
+  Playfields:
+  - - 0, 0, 0
+    - Trading Gap
+    - TradingGap
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -4
+  - 20
+  - 177
+  Color: 1, 0, 0
+  Icon: Kite
+  Playfields:
+  - - 0, 0, 0
+    - Alien Post
+    - AlienPost
+    - ''
+  Allow: []
+  Deny: []

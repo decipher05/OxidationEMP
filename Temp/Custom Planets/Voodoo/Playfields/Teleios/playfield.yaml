@@ -1,0 +1,703 @@
+RealRadius: 1303.797294
+ScaledRadius: 1300
+Gravity: -4.1012543972965485
+AtmosphereDensity: 0.8669416776354217
+AtmosphereO2: 0.18388785211085207
+AtmosphereBreathable: True
+Temperature: 17
+TemperatureDay: 22
+TemperatureNight: -5
+Music: alien2
+DayLength: 24
+PlanetType: Alien
+Moons: 0
+Water: WaterBrown
+SeaLevel: 50
+PvP: True
+Difficulty: 4
+PlayfieldType: Planet
+SunFlare: EnvironmentalEffects/SunFlarePurple
+SpecialEffectsLocal:
+  - Name: ButterfliesBlue
+    Biome:
+      - AlienForest
+    Time: Day
+    MaxHeight: 100
+  - Name: FireFliesGreenFew
+    Biome:
+      - AlienForest
+      - AlienSavanna
+    Time: Day
+    MaxHeight: 120
+  - Name: FireFliesGreen
+    Biome:
+      - AlienForest
+      - AlienSavanna
+    Time: Night
+    MaxHeight: 120
+SpecialEffectsGlobal:
+  - Name: Fog
+    Type: Weather
+    InitialDelay: 0
+    Delay: 5
+    Lifetime: 1200
+  - Name: CloudsDark
+    Type: Weather
+    InitialDelay: 0
+    Delay: 2
+    Lifetime: 1200
+  - Name: CloudsMedium
+    Type: Weather
+    InitialDelay: 0
+    Delay: 2
+    Lifetime: 1200
+  - Name: Wind
+    Type: Weather
+    InitialDelay: 0
+    Delay: 2
+    Lifetime: 600
+  - Name: RainMedium
+    Type: Weather
+    InitialDelay: 12
+    Delay: 5
+    Lifetime: 600
+  - Name: RainHeavy
+    Type: Weather
+    InitialDelay: 12
+    Delay: 10
+    Lifetime: 600
+  - Name: AcidRainHeavy
+    Type: Weather
+    InitialDelay: 48
+    Delay: 24
+    Lifetime: 600
+  - Name: FogRadiationPurple
+    Type: Weather
+    InitialDelay: 48
+    Delay: 24
+    Lifetime: 600
+  - Name: BirdFlockBats
+    Biome:
+      - AlienForest
+      - AlienSavanna
+    Time: Day
+    InitialDelay: 0.5
+    Delay: 4
+    Lifetime: 600
+    PlyDist: 50
+    SpawnY: 20
+    Struct: True
+  - Name: ThunderAndLightning
+    Biome:
+      - Any
+    Time: Always
+    InitialDelay: 0.5
+    Delay: 6
+    Lifetime: 300
+    PlyDist: 100
+    SpawnY: 500
+    Struct: Avoid
+AtmosphereEnabled: True
+AtmosphereColor: '0.5679787288929964,0.41260405804601463,0.9821471421603025'
+SkyColor: '0.37276770252731917,0.3310506812738143,0.6371494217561556'
+DayLightIntensity: 1.0767545180803513
+NightLightIntensity: 0.347776081057342
+LightZenithColor: '0.8624505522835715,0.5805372859292629,0.526372000627572'
+LightHorizonColor: '0.2473693018769029,0.5452445765822564,0.32337761723575004'
+DayShadowStrength: 0.95
+AtmosphereFog: 0.5347077612180866
+FogCloudIntensity: 0.709217912805991
+FogIntensity: 0.5766708813053726
+FogStartDistance: 473
+GroundFogIntensity: 0.27888363153738766
+GroundFogHeight: 54
+CloudsDensity: 0.20813619664807997
+CloudsSharpness: 0.5581131372748497
+CloudsBrightness: 1.2894476728193414
+CloudsOpacity: 0.32434744885176725
+CloudsZenithColor: '0.13903074122750203,0.14001173471324993,0.42803991651470064'
+CloudsHorizonColor: '0.4371883131249843,0.6882284660864917,0.41097331868373943'
+WindSpeed: 3
+RandomResources:
+  - Name: IronResource
+    CountMinMax:
+      - 1
+      - 2
+    SizeMinMax:
+      - 3
+      - 14
+    DepthMinMax:
+      - 0
+      - 15
+    DroneProb: 0.4481128722697099
+    MaxDroneCount: 3
+  - Name: PromethiumResource
+    CountMinMax:
+      - 1
+      - 2
+    SizeMinMax:
+      - 3
+      - 14
+    DepthMinMax:
+      - 0
+      - 15
+    DroneProb: 0.5989811740447404
+    MaxDroneCount: 3
+  - Name: CobaltResource
+    CountMinMax:
+      - 1
+      - 2
+    SizeMinMax:
+      - 3
+      - 14
+    DepthMinMax:
+      - 0
+      - 15
+    DroneProb: 0.229350897359284
+    MaxDroneCount: 1
+  - Name: SiliconResource
+    CountMinMax:
+      - 1
+      - 2
+    SizeMinMax:
+      - 3
+      - 14
+    DepthMinMax:
+      - 0
+      - 15
+    DroneProb: 0.4728314063571055
+    MaxDroneCount: 4
+  - Name: CopperResource
+    CountMinMax:
+      - 1
+      - 2
+    SizeMinMax:
+      - 3
+      - 14
+    DepthMinMax:
+      - 0
+      - 15
+    DroneProb: 0.30936890824221386
+    MaxDroneCount: 1
+  - Name: GoldResource
+    CountMinMax:
+      - 1
+      - 2
+    SizeMinMax:
+      - 5
+      - 15
+    DepthMinMax:
+      - 7
+      - 15
+    DroneProb: 0.6406441359056494
+    MaxDroneCount: 6
+  - Name: ErestrumResource
+    CountMinMax:
+      - 1
+      - 2
+    SizeMinMax:
+      - 5
+      - 15
+    DepthMinMax:
+      - 7
+      - 15
+    DroneProb: 0.8225554493828876
+    MaxDroneCount: 8
+  - Name: ZascosiumResource
+    CountMinMax:
+      - 1
+      - 2
+    SizeMinMax:
+      - 5
+      - 15
+    DepthMinMax:
+      - 7
+      - 15
+    DroneProb: 0.7836788697130106
+    MaxDroneCount: 7
+AsteroidResources:
+  - Name: IronResource
+    Threshold: 0.43814591623822263
+    Amount: 0.35501823189048265
+  - Name: PromethiumResource
+    Threshold: 0.5564628524388939
+    Amount: 0.6794317614510075
+  - Name: CobaltResource
+    Threshold: 0.391258252381277
+    Amount: 0.9230720146689924
+  - Name: SiliconResource
+    Threshold: 0.47862532769924504
+    Amount: 0.31953741596902807
+  - Name: CopperResource
+    Threshold: 0.24843515200292332
+    Amount: 0.20315021861325552
+  - Name: GoldResource
+    Threshold: 0.4383168135116152
+    Amount: 0.9650978517845639
+  - Name: ErestrumResource
+    Threshold: 0.10373485459627514
+    Amount: 0.5901433311428348
+  - Name: ZascosiumResource
+    Threshold: 0.4612467945417358
+    Amount: 0.8612315524748013
+Terrain:
+  Name: Alien
+  PoleLevel: 55
+  NoiseStrength: 0.15
+  ColorChange:
+    YFadeCenter: 60
+    YFadeRange: 50
+    YFadeMin: 0
+    YFadeMax: -0.1
+MainBiome:
+  Textures:
+    - - AlienGreen07
+      - 1
+    - - CliffDark
+      - 6
+    - - RockBrown01
+      - 0
+    - - Bedrock
+      - 2
+  Decorations:
+    - - RocksmallA02
+      - 0.3
+    - - RocksmallC01
+      - 0.3
+    - - Rocks05
+      - 0.04
+SubBiomes:
+  - Altitude: 50
+    Textures:
+      - - RockBrown01
+        - 48
+      - - AlienBlack01
+        - 1
+    Decorations:
+      - - RocksmallA02
+        - 0.2
+  - Altitude: 55
+    Textures:
+      - - RockBrown01
+        - 53
+      - - AlienGreen
+        - 1
+    Decorations:
+      - - RocksmallA02
+        - 0.2
+Biome:
+  - Altitude:
+      - 45
+      - 50
+    Slope:
+      - 0
+      - 7
+    BiomeClusterData:
+      - Name: Swamp
+        Id: 1
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - OmicronWaterleaf
+            - 6
+          - - AlienPlant04
+            - 0.4
+          - - CrystalsPyramidBlue
+            - 1
+      - ClusterSize: 40
+        NbOfClusters: 10
+        Decorations:
+          - - AlienPlantThorn2
+            - 10
+  - Altitude:
+      - 0
+      - 75
+    Slope:
+      - 0
+      - 180
+    BiomeClusterData:
+      - Name: Swamp
+        Id: 1
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - RealRock1
+            - 0
+  - Altitude:
+      - 80
+      - 120
+    Slope:
+      - 0
+      - 18
+    BiomeClusterData:
+      - Name: AlienForest
+        Id: 2
+        ClusterSize: 120
+        NbOfClusters: 5
+        Decorations:
+          - - AlienTreeBlue
+            - 5
+          - - AkuaBushRed
+            - 3
+          - - ElderberryBushBlue
+            - 2
+          - - AlienBush01
+            - 1
+          - - AlienPlant20
+            - 1
+          - - AlienPlant11Blue
+            - 1
+          - - RealRock1
+            - 0.05
+          - - RealRock2
+            - 0.05
+          - - RealRock3
+            - 0.05
+        Grass:
+          - Name: GrassBlue01
+            Density: 1500
+            YScale: 0.8
+            Preset: GrassDense3
+          - Name: GrassBlue03
+            Density: 600
+            YScale: 1.3
+            Preset: GrassPatches2a
+          - Name: Plant01Blue
+            Density: 250
+            YScale: 1.3
+            Preset: GrassPatches3
+      - Name: AlienForest
+        Id: 2
+        ClusterSize: 80
+        NbOfClusters: 7
+        Decorations:
+          - - AlienTreeBlue02
+            - 5
+          - - MushroomBellGreen01
+            - 1
+        Grass:
+          - Name: GrassBlue02
+            Density: 1500
+            YScale: 0.8
+            Preset: GrassDense2
+      - Name: AlienSavanna
+        Id: 3
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - ElderberryBushBlue
+            - 0.3
+          - - AlienPlant20
+            - 0.6
+          - - AlienBush01
+            - 0.3
+          - - AlienDeadTree
+            - 0.1
+          - - MushroomTallBlue02
+            - 0.9
+          - - MoundzTree
+            - 0.04
+          - - AlienPlantThorn2
+            - 0.2
+          - - ConfettiMoss
+            - 0.1
+          - - RealRock1
+            - 0.03
+          - - RealRock2
+            - 0.02
+          - - RealRock4
+            - 0.03
+          - - RealRock8
+            - 0.03
+          - - RealRock10
+            - 0.02
+        Grass:
+          - Name: GrassBlue01
+            Density: 900
+            YScale: 0.8
+            Preset: GrassDense4
+          - Name: GrassBlue03
+            Density: 1000
+            YScale: 1
+            Preset: GrassPatches2
+  - Altitude:
+      - 75
+      - 120
+    Slope:
+      - 0
+      - 25
+    BiomeClusterData:
+      - Name: AlienSavanna
+        Id: 3
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - RealRock1
+            - 0
+        Grass:
+          - Name: GrassBlue01
+            Density: 900
+            YScale: 0.8
+            Preset: GrassDense4
+          - Name: GrassBlue03
+            Density: 1000
+            YScale: 1
+            Preset: GrassPatches2
+          - Name: Plant01Blue
+            Density: 250
+            YScale: 1.6
+            Preset: GrassPatches3
+  - Altitude:
+      - 120
+      - 250
+    Slope:
+      - 0
+      - 25
+    BiomeClusterData:
+      - Name: Mountains
+        Id: 4
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - RealRock1
+            - 0
+        Grass:
+          - Name: GrassBlue01
+            Density: 900
+            YScale: 0.8
+            Preset: GrassDense4
+          - Name: GrassBlue03
+            Density: 1000
+            YScale: 1
+            Preset: GrassPatches2
+          - Name: Plant01Blue
+            Density: 250
+            YScale: 1.6
+            Preset: GrassPatches3
+  - Altitude:
+      - 75
+      - 250
+    Slope:
+      - 0
+      - 180
+    BiomeClusterData:
+      - Name: Mountains
+        Id: 4
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - RealRock1
+            - 0
+POIs:
+  Random:
+    - GroupName: DroneBaseAkua
+      DroneBaseSetup: DroneBaseSetup
+      CountMinMax:
+        - 1
+        - 1
+      DroneProb: 1
+      DronesMinMax:
+        - 2
+        - 3
+      ReserveCount: 3
+      SpawnPOIAvoid:
+        - Wreckage
+      POIDistance: 1300
+      Properties:
+        - Key: Music
+          Value: DarkSoundscape
+    - GroupName: PlanetVesselBase
+      PlanetVesselBaseSetup: PlanetVesselBaseSetup
+      CountMinMax:
+        - 1
+        - 1
+      DroneProb: 1
+      DronesMinMax:
+        - 2
+        - 3
+      ReserveCount: 3
+      SpawnPOIAvoid:
+        - Wreckage
+      POIDistance: 500
+      Properties:
+        - Key: Music
+          Value: barren
+    - GroupName: RadosTierI
+      CountMinMax:
+        - 1
+        - 5
+      DroneProb: 0.8408863598151783
+      DronesMinMax:
+        - 2
+        - 6
+      ReserveCount: 0
+      TroopTransport: True
+    - GroupName: XenuTierII
+      CountMinMax:
+        - 1
+        - 5
+      DroneProb: 0.15627296589672415
+      DronesMinMax:
+        - 4
+        - 6
+      ReserveCount: 1
+      TroopTransport: True
+    - GroupName: GhostRiderBase
+      CountMinMax:
+        - 1
+        - 5
+      DroneProb: 0.7152047298714068
+      DronesMinMax:
+        - 3
+        - 5
+      ReserveCount: 1
+      TroopTransport: True
+    - GroupName: AlienTower
+      CountMinMax:
+        - 1
+        - 5
+      DroneProb: 0.8245339228014695
+      DronesMinMax:
+        - 1
+        - 7
+      ReserveCount: 2
+      TroopTransport: True
+    - GroupName: GhostTierII
+      CountMinMax:
+        - 1
+        - 5
+      DroneProb: 0.4472620853715061
+      DronesMinMax:
+        - 3
+        - 5
+      ReserveCount: 5
+      TroopTransport: False
+    - GroupName: GhostTierI
+      CountMinMax:
+        - 1
+        - 5
+      DroneProb: 0.7293188410838344
+      DronesMinMax:
+        - 4
+        - 8
+      ReserveCount: 5
+      TroopTransport: False
+    - GroupName: CrashedShip
+      CountMinMax:
+        - 1
+        - 5
+      DroneProb: 0.8671473556335196
+      DronesMinMax:
+        - 4
+        - 8
+      ReserveCount: 2
+      TroopTransport: True
+DroneBaseSetup:
+  Random:
+    - GroupName: XenuFortressP1
+      DronesMinMax:
+        - 4
+        - 5
+      ReserveCount: 6
+      DroneProb: 1
+      Difficulty: 7
+      PresetStyle: 3
+      Stock:
+        - Name: DroneSmallFast01Plasma
+          Amount: 200
+          Extra: 0
+        - Name: EnemyDroneV2Minigun
+          Amount: 400
+          Extra: 0
+        - Name: EnemyDroneV2Plasma
+          Amount: 400
+          Extra: 0
+        - Name: DroneSmallFast01Plasma
+          Amount: 500
+          Extra: 1
+        - Name: EnemyDroneV2Plasma
+          Amount: 300
+          Extra: 1
+        - Name: DroneTroopsTransport
+          Amount: 1
+          Extra: 2
+        - Name: ZiraxMale
+          Amount: 500
+          Extra: 3
+        - Name: Crawler
+          Amount: 250
+          Extra: 3
+        - Name: Overseer
+          Amount: 250
+          Extra: 3
+      PlanetVesselBase:
+        Name: PlanetVesselBaseSetup
+        Position3D:
+          - 0
+          - 102
+          - 0
+        BaseType: PlanetVesselBase
+        KeyId: 0
+        PlanetVessel:
+          - Name: Patrol-XS-Hard
+            Mission: PlanetPatrol
+            FixedMaxSpeed: 5
+            RangePatrolCenter:
+              - -1267
+              - 0
+            RangePatrolRadius: 624
+            RangePatrolAltitude: 60
+            InitialDelay: 72
+DroneSpawning:
+  Random:
+    - DronesMinMax:
+        - 5
+        - 10
+      CenterX: -2500
+      Radius: 1500
+    - DronesMinMax:
+        - 5
+        - 10
+      CenterX: 2500
+      Radius: 1500
+CreatureSpawning:
+  - Biome: Swamp
+    Entities:
+      - Name: Slimes
+        Period: Always
+        Amount: 2
+        Delay: 0
+      - Name: GolemsSwamp
+        Period: Always
+        Amount: 3
+        Delay: 0
+  - Biome: AlienForest
+    Entities:
+      - Name: AlienBugs03
+        Period: Day
+        Amount: 2
+        Delay: 0
+      - Name: Spiders03
+        Period: Night
+        Amount: 3
+        Delay: 0
+  - Biome: AlienSavanna
+    Entities:
+      - Name: AlienBugs02
+        Period: Day
+        Amount: 3
+        Delay: 0
+      - Name: Overseers
+        Period: Night
+        Amount: 2
+        Delay: 0
+      - Name: Spiders03
+        Period: Day
+        Amount: 1
+        Delay: 0
+  - Biome: Mountains
+    Entities:
+      - Name: Spiders03
+        Period: Always
+        Amount: 2
+        Delay: 0

@@ -92,96 +92,99 @@ WindSpeed: 4                        # Between 0 and 10: larger values = faster m
 
 ### Randomly distributed resources
 RandomResources:
-    - Name: IronResource
-      CountMinMax: [ 0, 7 ]
-      SizeMinMax: [ 15, 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.1
-      MaxDroneCount: 1
+    - Name: IronResourceRandomResources:
+        - Name: IronResource
+          CountMinMax: [ 3, 5 ]
+          SizeMinMax: [ 15, 20 ]
+          DepthMinMax: [ 1, 3 ]
+          DroneProb: 0.1
+          MaxDroneCount: 1
 
-    - Name: CobaltResource
-      CountMinMax: [ 0, 7 ]
-      SizeMinMax: [ 15, 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.1
-      MaxDroneCount: 1
+        - Name: CobaltResource
+          CountMinMax: [2, 5 ]
+          SizeMinMax: [ 15, 20 ]
+          DepthMinMax: [ 1, 3 ]
+          DroneProb: 0.1
+          MaxDroneCount: 1
 
-    - Name: CopperResource
-      CountMinMax: [ 0, 7 ]
-      SizeMinMax: [ 15, 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.1
-      MaxDroneCount: 1
+        - Name: CopperResource
+          CountMinMax: [ 2, 5 ]
+          SizeMinMax: [ 15, 20 ]
+          DepthMinMax: [ 1, 3 ]
+          DroneProb: 0.1
+          MaxDroneCount: 1
 
-    - Name: SiliconResource
-      CountMinMax: [ 0, 7 ]
-      SizeMinMax: [ 15, 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.1
-      MaxDroneCount: 1
+        - Name: SiliconResource
+          CountMinMax: [ 2, 5 ]
+          SizeMinMax: [ 15, 20 ]
+          DepthMinMax: [ 1, 3 ]
+          DroneProb: 0.1
+          MaxDroneCount: 1
 
-    - Name: PromethiumResource
-      CountMinMax: [ 0, 7 ]
-      SizeMinMax: [ 15, 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.2
-      MaxDroneCount: 1
+        - Name: PromethiumResource
+          CountMinMax: [ 2, 5 ]
+          SizeMinMax: [ 15, 20 ]
+          DepthMinMax: [ 1, 3 ]
+          DroneProb: 0.2
+          MaxDroneCount: 1
 
-    - Name: MagnesiumResource
-      CountMinMax: [ 0, 7 ]
-      SizeMinMax: [ 15, 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.1
-      MaxDroneCount: 1
+        - Name: MagnesiumResource
+          CountMinMax: [ 2, 5 ]
+          SizeMinMax: [ 15, 20 ]
+          DepthMinMax: [ 1, 3 ]
+          DroneProb: 0.1
+          MaxDroneCount: 1
 
-    - Name: NeodymiumResource
-      CountMinMax: [ 0, 7 ]
-      SizeMinMax: [ 15, 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.3
-      MaxDroneCount: 1
+        - Name: NeodymiumResource
+          CountMinMax: [ 2, 5 ]
+          SizeMinMax: [ 15, 20 ]
+          DepthMinMax: [ 1, 3 ]
+          DroneProb: 0.3
+          MaxDroneCount: 1
 
-    - Name: SathiumResource
-      CountMinMax: [ 0, 7 ]
-      SizeMinMax: [ 15, 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.3
-      MaxDroneCount: 1
+        - Name: SathiumResource
+          CountMinMax: [ 2, 5 ]
+          SizeMinMax: [ 15, 20 ]
+          DepthMinMax: [ 1, 3 ]
+          DroneProb: 0.3
+          MaxDroneCount: 1
+
 
 
 ### Resource Asteroids
 AsteroidResources:
     - Name: IronResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8
 
     - Name: CobaltResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8
 
     - Name: CopperResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8
 
     - Name: SiliconResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8
 
     - Name: PromethiumResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8
 
     - Name: MagnesiumResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8
 
     - Name: NeodymiumResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8
 
     - Name: SathiumResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8
+
 
 ### Terrain and Decorations
 # Terrain and Local Decoration

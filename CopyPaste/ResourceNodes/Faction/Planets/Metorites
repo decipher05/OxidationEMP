@@ -1,32 +1,32 @@
 AsteroidResources:
     - Name: IronResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8
 
     - Name: CobaltResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8
 
     - Name: CopperResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8
 
     - Name: SiliconResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8
 
     - Name: PromethiumResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8
 
     - Name: MagnesiumResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8
 
     - Name: NeodymiumResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8
 
     - Name: SathiumResource
-      Threshold: 0.4
-      Amount: 0.5
+      Threshold: 0.9
+      Amount: 0.8

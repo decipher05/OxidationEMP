@@ -1,0 +1,305 @@
+# Created by EPD v1.23.1.0, Playfield Version: 6.00
+RealRadius: 1303.797294
+ScaledRadius: 1300
+Gravity: -11.210000000000001
+AtmosphereDensity: 1.425
+AtmosphereO2: 0.050000000000000003
+TemperatureDay: 90
+TemperatureNight: 70
+Radiation: 19.699999999999999
+DayLength: 24
+PlanetType: Lava
+Moons: 1
+Water: WaterGreen
+SeaLevel: 27
+PvP: True
+Difficulty: 5
+PlayfieldType: Planet
+SunFlare: EnvironmentalEffects/SunFlareYellow
+SpecialEffectsLocal:
+- Name: Grime
+  MaxHeight: 200
+SpecialEffectsGlobal:
+- Name: Clouds
+  Type: Weather
+  Delay: 3
+  Lifetime: 1500
+- Name: CloudsMedium
+  Type: Weather
+  Delay: 3
+  Lifetime: 600
+- Name: Wind
+  Type: Weather
+  Delay: 5
+  Lifetime: 600
+- Name: MeteorFireRain
+  Type: Weather
+  InitialDelay: 5
+  Delay: 10
+  Lifetime: 300
+- Name: FireRain
+  Type: Weather
+  InitialDelay: 6
+  Delay: 10
+  Lifetime: 300
+- Name: MeteorShower
+  Biome: [Any]
+  Time: Day
+  InitialDelay: 3.5
+  Delay: 5
+  PlyDist: 200
+  Struct: Avoid
+  Lifetime: 60
+  SpawnY: 100
+- Name: ThunderAndLightningPurple
+  Biome: [Any]
+  Time: Night
+  InitialDelay: 1.5
+  Delay: 4
+  PlyDist: 100
+  Struct: Avoid
+  Lifetime: 300
+  SpawnY: 500
+AtmosphereEnabled: True
+AtmosphereColor: 0.3,0.3,0.3
+SkyColor: 0.39,0.39,0.39
+SkyHorizonColor: 1, 0.3, 0
+LightZenithColor: 1,1,1
+LightHorizonColor: 1, 0.3, 0
+DayLightIntensity: 0.34999999999999998
+NightLightIntensity: 0.75
+DayShadowStrength: 0.94999999999999996
+AtmosphereFog: 0.59999999999999998
+FogCloudIntensity: 1
+FogIntensity: 0.84999999999999998
+FogStartDistance: 400
+CloudsDensity: 1
+CloudsSharpness: 0.80000000000000004
+CloudsBrightness: 0.5
+CloudsOpacity: 0.69999999999999996
+CloudsZenithColor: 1,1,1
+CloudsHorizonColor: 1, 0.3, 0
+WindSpeed: 3
+RandomResources:
+- Name: ErestrumResource
+  CountMinMax: [2, 3]
+  SizeMinMax: [8, 14]
+  DepthMinMax: [0, 1]
+  DroneProb: 0.40000000000000002
+  MaxDroneCount: 1
+- Name: SathiumResource
+  CountMinMax: [3, 4]
+  SizeMinMax: [8, 13]
+  DepthMinMax: [0, 1]
+  DroneProb: 0.40000000000000002
+- Name: PromethiumResource
+  CountMinMax: [2, 3]
+  SizeMinMax: [8, 13]
+  DepthMinMax: [0, 1]
+  DroneProb: 0.40000000000000002
+FixedResources:
+- Name: IronResource
+  Pos: [-333, 72, -552]
+  Radius: 10
+- Name: CobaltResource
+  Pos: [1859, 94, 1042]
+  Radius: 9
+- Name: MagnesiumResource
+  Pos: [86, 32, 638]
+  Radius: 6
+AsteroidResources:
+- Name: ErestrumResource
+  Threshold: 0.5
+  Amount: 0.5
+- Name: SathiumResource
+  Threshold: 0.40000000000000002
+  Amount: 0.20000000000000001
+- Name: PromethiumResource
+  Threshold: 0.5
+  Amount: 0.20000000000000001
+Terrain:
+  Name: Lava
+  PoleLevel: 28
+  NoiseStrength: 0.29999999999999999
+  ColorChange:
+    YFadeCenter: 80
+    YFadeRange: 40
+    YFadeMin: -0.050000000000000003
+    YFadeMax: 0.20000000000000001
+MainBiome:
+  Textures:
+  - [RockGrey08, 1]
+  - [RockLava05, 4]
+  - [RockLava04, 0]
+  - [BedrockLava, 2]
+  Decorations:
+  - [RocksmallA02, 0.3]
+  - [RocksmallC01, 0.3]
+  - [Rocks05, 0.1]
+SubBiomes:
+- Altitude: 36
+  Textures:
+  - [RockGrey08Lava, 34]
+  Decorations:
+  - [RocksmallA02, 0.2]
+  - [RocksmallC01, 0.2]
+BiomeTextureReplacements: []
+Biome:
+- Altitude: [0, 40]
+  Slope: [0, 180]
+  BiomeClusterData:
+  - Name: Lava
+    Id: 1
+    Decorations:
+    - [AridRock01, 0]
+    Grass: []
+- Altitude: [40, 95]
+  Slope: [0, 20]
+  BiomeClusterData:
+  - Name: LavaPlains
+    Id: 2
+    ClusterSize: 80
+    NbOfClusters: 20
+    Decorations:
+    - [AlienPlantThorn2, 1.5]
+    - [RealRock1Dark, 0.2]
+    - [RealRock2Dark, 0.3]
+    - [RealRock3Dark, 0.3]
+    - [RealRock4Dark, 0.3]
+    - [RealRock8Dark, 0.3]
+    - [RealRock10Dark, 0.3]
+    Grass: []
+  - Name: LavaPlains
+    Id: 2
+    Decorations:
+    - [AlienPlantSpike1, 0.3]
+    - [AlienPlantMushroom2, 0.3]
+    - [ConfettiMoss, 0.2]
+    - [AlienPlantThorn2, 0.5]
+    - [AridRock01, 0.02]
+    - [AridRock02, 0.015]
+    - [AridRock03, 0.02]
+    - [GasEmitter1, 0.015]
+    - [RealRock1Dark, 0.03]
+    - [RealRock2Dark, 0.03]
+    - [RealRock3Dark, 0.03]
+    - [RealRock4Dark, 0.03]
+    - [RealRock8Dark, 0.03]
+    - [RealRock10Dark, 0.05]
+    Grass: []
+- Altitude: [40, 95]
+  Slope: [0, 180]
+  BiomeClusterData:
+  - Name: LavaPlains
+    Id: 2
+    Decorations:
+    - [AridRock01, 0]
+    Grass: []
+- Altitude: [95, 150]
+  Slope: [0, 20]
+  BiomeClusterData:
+  - Name: Mountains
+    Id: 3
+    Decorations:
+    - [AlienPlantThorn2, 0.7]
+    - [GasEmitter2, 0.15]
+    - [CrystalsPyramidBlue, 0.2]
+    Grass: []
+- Altitude: [95, 250]
+  Slope: [0, 180]
+  BiomeClusterData:
+  - Name: Mountains
+    Id: 3
+    Decorations:
+    - [RealRock1, 0]
+    Grass: []
+POIs:
+  Random:
+  - GroupName: GhostTierI
+    CountMinMax: [2, 3]
+    DronesMinMax: [1, 1]
+    ReserveCount: 1
+    Properties: []
+  - GroupName: CivilSettlement
+    CountMinMax: [2, 3]
+    DroneProb: 1
+    DronesMinMax: [3, 4]
+    ReserveCount: 3
+    TroopTransport: True
+    Properties: []
+  - GroupName: CrashedShip
+    CountMinMax: [1, 1]
+    DroneProb: 1
+    DronesMinMax: [1, 2]
+    ReserveCount: 4
+    Properties: []
+  - GroupName: GhostTierI
+    CountMinMax: [4, 5]
+    DroneProb: 1
+    DronesMinMax: [1, 2]
+    ReserveCount: 3
+    TroopTransport: True
+    Properties: []
+  Fixed: []
+  FixedPlayerStart: []
+DroneBaseSetup:
+  Random:
+  - GroupName: DroneBaseAestus
+    DronesMinMax: [4, 5]
+    ReserveCount: 6
+    DroneProb: 1
+    Difficulty: 6
+    PresetStyle: 3
+    Stock:
+    - Name: DroneSmallFast01Plasma
+      Amount: 200
+    - Name: DroneLargeSlow01Plasma
+      Amount: 200
+    - Name: EnemyDroneV2Minigun
+      Amount: 300
+    - Name: DroneLargeSlow02Cannon
+      Amount: 200
+    - Name: DroneLargeSlow01Plasma
+      Amount: Infinite
+      Extra: 1
+    - Name: EnemyDroneV2Plasma
+      Amount: Infinite
+      Extra: 1
+    - Name: DroneTroopsTransport
+      Amount: 1
+      Extra: 2
+    - Name: ZiraxMale
+      Amount: 500
+      Extra: 3
+    - Name: Crawler
+      Amount: 250
+      Extra: 3
+    - Name: TotalHorror
+      Amount: 250
+      Extra: 3
+  Fixed: []
+DroneSpawning:
+  Random:
+  - DronesMinMax: [5, 6]
+    CenterX: -2500
+  - DronesMinMax: [5, 6]
+    CenterX: 2500
+CreatureSpawning:
+- Biome: LavaPlains
+  Entities:
+  - Name: Overseers
+    Period: Day
+    Amount: 2
+  - Name: TotalHorrors
+    Period: Night
+    Amount: 2
+- Biome: Mountains
+  Entities:
+  - Name: AlienBugs02
+    Period: Always
+    Amount: 1
+- Biome: Lava
+  Entities:
+  - Name: TotalHorrors
+    Period: Always
+    Amount: 3

@@ -1,0 +1,475 @@
+---
+# Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+# For more detailed explanations of the different parameters, see examples in Empyrion\Content\Playfields\ExamplePlanet and ExampleSpace
+
+# Playfield Characteristics
+RealRadius: 1303.797294             # Please don't change
+ScaledRadius: 1300                  # Please don't change
+Gravity: -8.32                      # Gravity on planet
+AtmosphereDensity: 1.153            # Please don't change
+AtmosphereO2: 0.07                  # Oxygen level of atmosphere
+AtmosphereBreathable: True         # If player can breathe without helmet
+Temperature: 37                     # No functionality yet
+TemperatureDay: 58                  # No functionality yet
+TemperatureNight: 16                # No functionality yet
+DayLength: 24                       # No functionality yet
+PlanetType: Desert                  # No functionality yet
+Moons: 0                            # No functionality yet
+PvP: False                          # Set to True to allow PvP in this playfield, default is False
+#Seed: 123456                       # If set overwrites main Seed
+#UseFixed: False					# If set uses fixed POIs + resources
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 4                       # Between 2 and 5: larger values indicate higher difficulty
+
+# Planet or Space
+PlayfieldType: Planet                # Please don't change
+
+# Sun                               # SunFlareBlue, SunFlareWhite, SunFlareWhite2, SunFlareWhite3, SunFlareYellow, SunFlarePurple
+SunFlare: EnvironmentalEffects/SunFlareWhite2
+
+# Special Effects                   # Please don't change
+LocalEffect:
+    Name: EnvironmentalEffects/Sparks
+    MaxHeight: 200
+
+# Atmosphere and Sky
+AtmosphereEnabled: True             # Atmosphere True or False
+AtmosphereColor: "0.19, 0.26, 0.35" # Color of atmosphere seen in space, default is white "1,1,1"
+SkyColor: "1, 0.41, 0"             # Color of skybox, default is white "1,1,1"
+
+# Light
+DayLightIntensity: 1.2               # Between 0 and 1.2: larger values = brighter, default is 0.6
+NightLightIntensity: 0.7             # Between 0 and 1: larger values = brighter, default is 0.6
+LightZenithColor: "1, 0.5, 0.5"      # Color of light if sun is in zenith, default is almost white "1,0.95,0.92"
+LightHorizonColor: "1, 0.5, 0.5"     # Color of light if sun is on horizon, default is orange "1,0.6,0"
+
+
+# Fog
+AtmosphereFog: 0                    # Distant fog, between 0 and 1: larger values = stronger
+FogCloudIntensity: 0.2              # Waft of mist in air, between 0 and 1: larger values = stronger
+FogIntensity: 0.1                   # Near Fog/Atmospheric Scattering Intensity, between 0 and 1: larger values = stronger
+FogStartDistance: 400               # Near Fog/Atmospheric Scattering Start Distance, in m
+GroundFogIntensity: 0               # Ground Layer Fog, between 0 and 1: larger values = stronger
+GroundFogHeight: 0                  # Ground Layer Fog Height
+
+# Clouds
+CloudsDensity: 0.2                     # Between 0 and 1: larger values = more clouds (coverage)
+CloudsSharpness: 0.2                     # Between 0 and 1: larger values = less dense clouds
+CloudsBrightness: 1.4                  # Between 0 and 2: larger values = brighter clouds
+# CloudsOpacity: 0.9				   # Between 0 and 1: larger values = more opaque, default is 0.9
+# CloudsZenithColor: "0.87, 0.92, 1"   # Color of clouds if sun is in zenith, default is light blue "0.87,0.92,1"
+# CloudsHorizonColor: "1, 0.76, 0.56"  # Color of clouds if sun is on horizon, default is light orange "1,0.76,0.56"
+
+# Wind Speed
+WindSpeed: 4                        # Between 0 and 10: larger values = faster moving clouds
+
+### Randomly distributed resources    # For Seed>0 games     # Please don't change
+RandomResources:
+    - Name: IronResource
+      CountMinMax: [ 4, 5 ]   # range of number of resources to distribute on planet
+      SizeMinMax: [ 12, 19 ]  # range of sizes of resource depots
+      DepthMinMax: [ 0, 1 ]   # Range of how deep to bury depots below terrain surface (e.g. 0 = partly visible, 3 = top of depot starts 3m below surface)
+      DroneProb: 0.5          # probability that the resource is defended by drones
+      MaxDroneCount: 1        # if at all, 1..n drones will defend the resource [default = 1]
+
+    - Name: MagnesiumResource
+      CountMinMax: [ 4, 5 ]
+      SizeMinMax: [ 8, 16 ]
+      DepthMinMax: [ 0, 1 ]
+      DroneProb: 0.5
+
+    - Name: PromethiumResource
+      CountMinMax: [ 2, 3 ]
+      SizeMinMax: [ 8, 13 ]
+      DepthMinMax: [ 0, 2 ]
+      DroneProb: 0.7
+
+    - Name: SiliconResource
+      CountMinMax: [ 3, 4 ]
+      SizeMinMax: [ 8, 13 ]
+      DepthMinMax: [ 0, 2 ]
+      DroneProb: 0.7
+
+    - Name: CobaltResource
+      CountMinMax: [ 4, 5 ]
+      SizeMinMax: [ 8, 13 ]
+      DepthMinMax: [ 0, 2 ]
+      DroneProb: 0.5
+    
+    - Name: GoldResource
+      CountMinMax: [ 1, 2 ]
+      SizeMinMax: [ 8, 13 ]
+      DepthMinMax: [ 0, 2 ]
+      DroneProb: 1.0
+
+
+### Terrain and Decorations
+# Terrain and Local Decoration
+Terrain:
+    Name: Desert2
+    PoleLevel: 34                       # Pole level of planet
+    NoiseStrength: 0.1
+    ColorChange:
+        YFadeCenter: 45
+        YFadeRange: 20
+        YFadeMin: -0.1
+        YFadeMax: -0.15
+
+MainBiome:
+    Textures:
+        - [ Grass02Cliff, 1 ]  
+        - [ Clay, 6 ]   
+        - [ RockBrown01, 0 ]
+        - [ Bedrock, 2 ]
+
+    Decorations:
+        - [ RocksmallA02, 0.2 ]  
+        - [ RocksmallC01, 0.2 ]
+
+SubBiomes:
+    - Altitude: 10
+      Textures:
+        - [ SandYellow03Clay, 8 ]
+      Decorations:
+        - [ RocksmallA02, 0.25 ]
+        - [ RocksmallC01, 0.25 ]
+
+# Biome Definition and Main Decoration
+Biome:
+   - Altitude: [ 0, 50 ]
+     Slope: [ 0, 15 ]
+     BiomeClusterData:   
+         - Name: "DesertLargeRocks"
+           Id: 1
+           ClusterSize: 100
+           NbOfClusters: 5
+           Decorations:           
+               - [ CoralStone04-03, 0.3]  
+               - [ Pillar1, 0.05]           
+               - [ Pillar2, 0.01]           
+               - [ Pillar4, 0.01] 
+               - [ Pillar3, 0.01]
+               - [ "AridRock02", 0.01]
+               - [ BushGreen01, 0.7]      
+               - [ BushGreen02, 0.7]
+               - [ AntlerTree, 2]
+               - [ AlienPlantThorn2, 0.1]
+               - [ CattailWinter, 0.8]
+               - [ OpuntiaCactus, 0.2]
+               - [ PulpitFungus, 0.05]   
+               - [ Snakeweed, 0.2]   
+           Grass:
+               - Name: "GrassGreen03"
+                 Density: 2000
+                 YScale: 0.8
+                 Preset: "GrassDense3"
+               - Name: "GrassGreen04"
+                 Density: 1000
+                 YScale: 1.2
+                 Preset: "GrassPatches2"
+               - Name: "Plant01"
+                 Density: 250
+                 YScale: 1.15
+                 Preset: "GrassPatches3"
+         - Name: "CactusOasis"
+           Id: 1
+           ClusterSize: 70
+           NbOfClusters: 3
+           Decorations:                   
+               - [ Cactus2, 4]            
+               - [ Cactus3, 1]    
+               - [ EggPlant, 0.2]
+               - [ OpuntiaCactus, 0.5]
+               - [ Snakeweed, 0.6] 
+               - [ "AridRock03", 0.01]	
+               - [ RealRock10, 0.003]	
+               - [ RealRock8, 0.003]    # large rock
+               - [ RealRock9, 0.003]    # large rock	
+               - [ DesertRockLarge, 0.01]  
+               - [ Pillar4, 0.003] 	
+               - [ CattailWinter, 0.8]
+               - [ DeadTree01, 0.1]
+               - [ CornDogBush, 0.3] 		
+               - [ AlienPlantWorm2, 0.07]			   
+           Grass:
+               - Name: "GrassGreen03"
+                 Density: 2000
+                 YScale: 0.8
+                 Preset: "GrassDense3"
+               - Name: "Plant01"
+                 Density: 500
+                 YScale: 1.15
+                 Preset: "GrassPatches3"
+         - Name: "DesertSolitude"
+           Id: 2
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations:        
+               - [ AlienPlantThorn2, 0.01] 
+               - [ ClusterShroom, 0.01]  
+               - [ ScalyPods, 0.01]     
+               - [ Cactus2, 0.005]       
+               - [ Cactus3, 0.005]     
+               - [ AlienPlantWorm2, 0.01]     
+               - [ DesertRockLarge, 0.01]           
+               - [ DesertRockMedium1, 0.003]           
+               - [ DesertRockMedium2, 0.005]
+               - [ "AridRock01", 0.01]
+               - [ "AridRock02", 0.01]
+               - [ RealRock3, 0.003]
+               - [ RealRock4, 0.003]
+               - [ RealRock5, 0.003]
+               - [ RealRock8, 0.01]    # large rock
+               - [ RealRock9, 0.01]    # large rock
+           Grass:
+               - Name: "GrassGreen03"
+                 Density: 2000
+                 YScale: 0.8
+                 Preset: "GrassDense3"
+   - Altitude: [ 0, 50 ]
+     Slope: [ 0, 65 ]
+     BiomeClusterData:   
+         - Name: "DesertSolitude"
+           Id: 2
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ RealRock1, 0] 
+           Grass:
+               - Name: "GrassGreen03"
+                 Density: 2000
+                 YScale: 0.8
+                 Preset: "GrassDense3"   
+   - Altitude: [ 0, 50 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:   
+         - Name: "DesertSolitude"
+           Id: 2
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ RealRock1, 0]  
+   - Altitude: [ 50, 90 ]
+     Slope: [ 0, 28 ]
+     BiomeClusterData:   
+         - Name: "DesertLowMountains"
+           Id: 3
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations:         
+               - [ RealRock1, 0.05]
+               - [ RealRock2, 0.05]
+               - [ RealRock3, 0.05]
+               - [ RealRock4, 0.05]   
+               - [ AlienPlantPod2, 0.3]   
+               - [ ScalyPods, 0.3]  
+           Grass:
+               - Name: "GrassGreen03"
+                 Density: 2000
+                 YScale: 0.8
+                 Preset: "GrassDense3"
+   - Altitude: [ 50, 90 ]
+     Slope: [ 0, 65 ]
+     BiomeClusterData:   
+         - Name: "DesertLowMountains"
+           Id: 3
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ RealRock1, 0]   
+           Grass:
+               - Name: "GrassGreen03"
+                 Density: 2000
+                 YScale: 0.8
+                 Preset: "GrassDense3" 
+   - Altitude: [ 50, 90 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:   
+         - Name: "DesertLowMountains"
+           Id: 3
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ RealRock1, 0]  
+   - Altitude: [ 90, 250 ]
+     Slope: [ 0, 28 ]
+     BiomeClusterData:   
+         - Name: "Mountains"
+           Id: 4
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations:         
+               - [ RealRock1, 0.05]
+               - [ RealRock2, 0.05]
+               - [ RealRock3, 0.05]
+               - [ RealRock4, 0.05]  
+               - [ CrystalStraight, 2]
+           Grass:
+               - Name: "GrassGreen03"
+                 Density: 2000
+                 YScale: 0.8
+                 Preset: "GrassDense2"
+   - Altitude: [ 90, 250 ]
+     Slope: [ 0, 65 ]
+     BiomeClusterData:   
+         - Name: "Mountains"
+           Id: 4
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ RealRock1, 0]  
+           Grass:
+               - Name: "GrassGreen03"
+                 Density: 2000
+                 YScale: 0.8
+                 Preset: "GrassDense2"
+   - Altitude: [ 90, 250 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:   
+         - Name: "Mountains"
+           Id: 4
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ RealRock1, 0]  
+
+### POIs
+POIs:
+    Random:
+        - GroupName: RadosDefence
+          CountMinMax: [ 1, 2 ]         # range of number of POIs of this group to distribute on planet
+          DroneProb: 0.3                # probability that a POI is defended by drones
+          DronesMinMax: [ 1, 2 ]        # range of number of drones that defend POI
+          ReserveCount: 2
+          TroopTransport: False          # if troop transport will be sent
+
+        - GroupName: RadosRefinery
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 0.8
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 2
+          TroopTransport: False
+
+        - GroupName: RadosFuelDepot
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 0.9
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 2
+          TroopTransport: False
+
+        - GroupName: RadosPowerStation
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 2
+          TroopTransport: True
+
+        - GroupName: RadosMissileSilo
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 5
+          TroopTransport: True
+
+### Drones
+DroneBaseSetup:
+# PresetStyle:
+# -> 0 = no drone attack base,
+#    1 = day + 2 triggers,
+#    2 = night + 2 triggers,
+#    3 = at once + 2 triggers,
+#    4 = night + turret trigger
+    Random:
+        - GroupName: DroneBaseNingues
+          DronesMinMax: [ 3, 5 ]        # range of number of drones that defend drone base
+          ReserveCount: 5               # number of drones that will be replaced when defending drones got killed
+          DroneProb: 1.0                # probability that drones will defend drone base
+          Difficulty: 6                 # 0..4 -> 0 = no drone attack base ... 4 = max difficulty level (5, 6, 7 = low, medium, high difficulty but with infinite drone waves)
+          PresetStyle: 2                # 0..4 -> see comment above
+          # BaseAttack: DroneSmallAttackBase
+          Stock:
+              - Name: DroneSmallFast01Plasma
+                Amount: 20
+                Extra: 0  
+
+              - Name: EnemyDroneV2Minigun
+                Amount: 30
+                Extra: 0
+
+              - Name: EnemyDroneV2Plasma
+                Amount: 30
+                Extra: 0
+
+              - Name: DroneLargeSlow02Cannon
+                Amount: 20
+                Extra: 0
+
+              - Name: DroneSmallFast01Plasma   # Base attack drones
+                Amount: 100
+                Extra: 1     
+
+              - Name: EnemyDroneV2Plasma       # Base attack drones
+                Amount: 40
+                Extra: 1                        
+
+              - Name: DroneTroopsTransport
+                Amount: 1
+                Extra: 2
+
+              - Name: ZiraxMale
+                Amount: 100
+                Extra: 3
+
+              - Name: Crawler
+                Amount: 80
+                Extra: 3
+
+DroneSpawning:
+    Random:
+        - DronesMinMax: [ 5, 10 ]
+          CenterX: -2500
+          Radius: 1500
+
+        - DronesMinMax: [ 5, 10 ]
+          CenterX: 2500
+          Radius: 1500
+
+### Creatures
+CreatureSpawning:
+    - Biome: DesertLargeRocks
+      Entities:
+        - Name: GolemsDesert
+          Period: Night              #  Night / Day / Always
+          Amount: 2
+          Delay: 0
+        - Name: MegalonopsesBrown
+          Period: Day
+          Amount: 1
+          Delay: 0
+
+    - Biome: DesertSolitude
+      Entities:
+        - Name: WormsDesert
+          Period: Always
+          Amount: 2
+          Delay: 0
+        - Name: Spiders02
+          Period: Night
+          Amount: 2
+          Delay: 0
+
+    - Biome: DesertLowMountains
+      Entities:
+        - Name: CaveWormsGrey
+          Period: Always
+          Amount: 2
+          Delay: 0
+
+    - Biome: Mountains
+      Entities:
+        - Name: GolemsDesert
+          Period: Night
+          Amount: 2
+          Delay: 0

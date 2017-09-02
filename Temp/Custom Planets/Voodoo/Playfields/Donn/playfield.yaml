@@ -1,0 +1,1023 @@
+RealRadius: 1303.797294
+ScaledRadius: 1300
+Gravity: -13.910780701129998
+AtmosphereDensity: 1.2403887677642822
+AtmosphereO2: 0.20638215900963203
+AtmosphereBreathable: False
+Temperature: -17
+TemperatureDay: -8
+TemperatureNight: -46
+Music: snow
+Radiation: 3.0917398823135893
+DayLength: 24
+PlanetType: Snow
+Moons: 3
+Water: WaterBrown
+SeaLevel: 36
+PvP: True
+Difficulty: 3
+PlayfieldType: Planet
+Description: >-
+  GX Donn: Snow / Gravity 1.42g / Non-Breathable / Radiation 3.09 / Difficulty 3
+  / Moons 3 / Sea Level 36
+SunFlare: EnvironmentalEffects/SunFlareWhite2
+AtmosphereEnabled: True
+AtmosphereColor: '0.3124342177496165,0.7192135349004853,0.5001013629784342'
+SkyColor: '0.2086342802823547,0.3372289525820433,0.42170828054651643'
+SkyHorizonColor: '0.23351422755565107,0.3339398749078627,0.8132592076672905'
+DayLightIntensity: 0.6415357280892656
+NightLightIntensity: 0.494462630669196
+DayShadowStrength: 0.95
+NightShadowStrength: 0.5
+AtmosphereFog: 0.4073880018920386
+FogCloudIntensity: 0.892881480398052
+FogIntensity: 0.47881172770808267
+FogStartDistance: 477
+GroundFogIntensity: 0.1068509517625979
+GroundFogHeight: 44
+CloudsDensity: 0.6354149657352057
+CloudsSharpness: 0.6157170749904883
+CloudsBrightness: 0.8852593159576314
+CloudsOpacity: 0.3632026366967315
+CloudsZenithColor: '0.8194088954010277,0.9813160790052956,0.8293424649910203'
+CloudsHorizonColor: '0.4848773710943465,0.5019830795993891,0.21262124285634232'
+WindSpeed: 8
+RandomResources:
+  - Name: IronResource
+    CountMinMax:
+      - 2
+      - 6
+    SizeMinMax:
+      - 7
+      - 14
+    DepthMinMax:
+      - 0
+      - 15
+    DroneProb: 0.9020587979142227
+    MaxDroneCount: 4
+  - Name: CobaltResource
+    CountMinMax:
+      - 2
+      - 6
+    SizeMinMax:
+      - 7
+      - 14
+    DepthMinMax:
+      - 0
+      - 15
+    DroneProb: 0.6505308766623972
+    MaxDroneCount: 2
+  - Name: CopperResource
+    CountMinMax:
+      - 2
+      - 6
+    SizeMinMax:
+      - 7
+      - 14
+    DepthMinMax:
+      - 0
+      - 15
+    DroneProb: 0.21139134156779008
+    MaxDroneCount: 1
+  - Name: SiliconResource
+    CountMinMax:
+      - 2
+      - 6
+    SizeMinMax:
+      - 7
+      - 14
+    DepthMinMax:
+      - 0
+      - 15
+    DroneProb: 0.3189224485481599
+    MaxDroneCount: 4
+  - Name: MagnesiumResource
+    CountMinMax:
+      - 2
+      - 6
+    SizeMinMax:
+      - 7
+      - 14
+    DepthMinMax:
+      - 0
+      - 15
+    DroneProb: 0.5154812221317846
+    MaxDroneCount: 4
+  - Name: PromethiumResource
+    CountMinMax:
+      - 2
+      - 6
+    SizeMinMax:
+      - 7
+      - 14
+    DepthMinMax:
+      - 0
+      - 15
+    DroneProb: 0.4786201287862095
+    MaxDroneCount: 1
+  - Name: NeodymiumResource
+    CountMinMax:
+      - 1
+      - 2
+    SizeMinMax:
+      - 2
+      - 10
+    DepthMinMax:
+      - 7
+      - 15
+    DroneProb: 0.9661726418578833
+    MaxDroneCount: 7
+  - Name: SathiumResource
+    CountMinMax:
+      - 1
+      - 2
+    SizeMinMax:
+      - 2
+      - 10
+    DepthMinMax:
+      - 7
+      - 15
+    DroneProb: 0.7509041593259373
+    MaxDroneCount: 3
+  - Name: ErestrumResource
+    CountMinMax:
+      - 1
+      - 2
+    SizeMinMax:
+      - 2
+      - 10
+    DepthMinMax:
+      - 7
+      - 15
+    DroneProb: 0.5013415116627808
+    MaxDroneCount: 4
+  - Name: GoldResource
+    CountMinMax:
+      - 1
+      - 2
+    SizeMinMax:
+      - 2
+      - 10
+    DepthMinMax:
+      - 7
+      - 15
+    DroneProb: 0.4044060457462933
+    MaxDroneCount: 2
+AsteroidResources:
+  - Name: IronResource
+    Threshold: 0.20861795742919692
+    Amount: 0.9239845324627736
+  - Name: CobaltResource
+    Threshold: 0.4156186799457766
+    Amount: 0.2974650990198387
+  - Name: CopperResource
+    Threshold: 0.30302613213034146
+    Amount: 0.4312028769485573
+  - Name: SiliconResource
+    Threshold: 0.3147716309414576
+    Amount: 0.23766358579812596
+  - Name: MagnesiumResource
+    Threshold: 0.27542625368912826
+    Amount: 0.28005943248967125
+  - Name: PromethiumResource
+    Threshold: 0.428980790399315
+    Amount: 0.7504061593772922
+  - Name: NeodymiumResource
+    Threshold: 0.4753773975440351
+    Amount: 0.944578429642543
+  - Name: SathiumResource
+    Threshold: 0.21725081156938864
+    Amount: 0.9245952617484006
+  - Name: ErestrumResource
+    Threshold: 0.15716921596110153
+    Amount: 0.46617398201063504
+  - Name: GoldResource
+    Threshold: 0.2467368607197389
+    Amount: 0.30287681659618426
+Terrain:
+  Name: Snow
+  PoleLevel: 43
+  NoiseStrength: 0.21893419651746973
+  ColorChange:
+    YFadeCenter: 75
+    YFadeRange: 22
+    YFadeMin: 0.10317366197786956
+    YFadeMax: -0.25
+MainBiome:
+  Textures:
+    - - SnowRock04
+      - 2
+    - - Snow08
+      - 1
+    - - RockBrown01
+      - 0
+    - - Bedrock
+      - 2
+  Decorations:
+    - - RockA01Snow
+      - 0.2107893083483846
+    - - RockB01Snow
+      - 0.2637180013659174
+    - - Rocks02Snow
+      - 0.4474742281598456
+SubBiomes:
+  - Altitude: 35
+    Textures:
+      - - SeaGround
+        - 33
+  - Altitude: 40
+    Textures:
+      - - Stone
+        - 38
+    Decorations:
+      - - Rocks03
+        - 0.34129772826974547
+  - Altitude: 42
+    Textures:
+      - - RockBrown01
+        - 40
+      - - SnowyGrass
+        - 1
+    Decorations:
+      - - Rocks02
+        - 0.2707102201570102
+Biome:
+  - Altitude:
+      - 3
+      - 26
+    Slope:
+      - 0
+      - 5
+    BiomeClusterData:
+      - Name: Water
+        Id: 1
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - SeaWeed02-04
+            - 3
+          - - CoralStone01-05
+            - 3
+          - - CrystalsPyramidBlue
+            - 2
+          - - Boulder4
+            - 2
+          - - RealRock2
+            - 1
+          - - RealRock5
+            - 3
+          - - Boulder3
+            - 2
+        Grass:
+          - Name: GrassGreen03b
+            Density: 1200
+            YScale: 1.1203937588191946
+            Preset: GrassDense
+          - Name: GrassBlue01
+            Density: 500
+            YScale: 1.1212809210949617
+            Preset: GrassPatches
+      - Name: Water
+        Id: 1
+        ClusterSize: 10
+        NbOfClusters: 10
+        Decorations:
+          - - SeaWeed02-04
+            - 20
+          - - CoralBig01
+            - 19
+          - - Boulder2
+            - 10
+          - - AlienPlantThorn2
+            - 16
+          - - CoralStone01-05
+            - 16
+        Grass:
+          - Name: GrassGreen03
+            Density: 1200
+            YScale: 1.2588911608710667
+            Preset: GrassDense
+          - Name: Flower02
+            Density: 500
+            YScale: 0.838918951849425
+            Preset: GrassPatches
+  - Altitude:
+      - 35
+      - 60
+    Slope:
+      - 0
+      - 5
+    BiomeClusterData:
+      - Name: ArcticForest
+        Id: 2
+        ClusterSize: 200
+        NbOfClusters: 10
+        Decorations:
+          - - BushWinter01
+            - 6
+          - - CrystalsPyramidBlue
+            - 1
+          - - BushWinter03
+            - 9
+          - - BrainFungusSnow
+            - 6
+          - - BlueSpruceWinter
+            - 2
+          - - CornDogBushSnow
+            - 2
+          - - BushWinter02
+            - 5
+          - - Mushroom2
+            - 7
+          - - RealRock3Snow
+            - 0.2726582851778597
+          - - RealRock2Snow
+            - 0.2774144294682918
+          - - PromethiumStone
+            - 0.03
+        Grass:
+          - Name: GrassGreen03bSnow
+            Density: 1500
+            YScale: 1.370290731693586
+            Preset: GrassDense6
+          - Name: GrassGreen04aSnow
+            Density: 600
+            YScale: 0.720898526511236
+            Preset: GrassPatches6
+      - Name: ArcticLowPlains
+        Id: 3
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - BlueSpruceWinter
+            - 0.45207785161796754
+          - - DimpleDomeSnow
+            - 0.2670782758557181
+          - - BushWinter01
+            - 0.3893805192164411
+          - - BushWinter02
+            - 0.6713379207891249
+        Grass:
+          - Name: GrassGreen03bSnow
+            Density: 400
+            YScale: 0.8545989387014221
+            Preset: GrassPatches7
+  - Altitude:
+      - 35
+      - 60
+    Slope:
+      - 0
+      - 10
+    BiomeClusterData:
+      - Name: ArcticLowPlains
+        Id: 3
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - BushWinter01
+            - 0.2819650766746755
+          - - CrystalsPyramidBlue
+            - 0.2730391658816017
+          - - CornDogBushSnow
+            - 0.18252752248439089
+          - - RealRock3Snow
+            - 0.17413489309367247
+          - - RealRock6Snow
+            - 0.1832868972596012
+          - - RealRock1
+            - 0.19382424634593115
+  - Altitude:
+      - 0
+      - 60
+    Slope:
+      - 0
+      - 180
+    BiomeClusterData:
+      - Name: ArcticLowPlains
+        Id: 3
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - RealRock3Snow
+            - 0
+  - Altitude:
+      - 60
+      - 75
+    Slope:
+      - 0
+      - 15
+    BiomeClusterData:
+      - Name: ArcticHighForest
+        Id: 4
+        ClusterSize: 70
+        NbOfClusters: 4
+        Decorations:
+          - - BulbShroom
+            - 1
+          - - BrainFungusSnow
+            - 3
+          - - BushWinter02
+            - 4
+          - - RealRock8Snow
+            - 0.15741696324968524
+          - - RealRock6Snow
+            - 0.14714597526206055
+        Grass:
+          - Name: GrassGreen04aSnow
+            Density: 1200
+            YScale: 0.6518978394142219
+            Preset: GrassDense6
+      - Name: ArcticIntermediatePlains
+        Id: 5
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - CrystalsPyramidBlue
+            - 0.06002092788297825
+          - - PixieStalksSnow
+            - 0.09622253195736385
+          - - AlaskaCedarBare
+            - 0.06426875174168806
+          - - RealRock2Snow
+            - 0.024655518046498175
+          - - BulbShroom
+            - 0.02827377789990962
+        Grass:
+          - Name: GrassGreen06Snow
+            Density: 1500
+            YScale: 0.6542905206623213
+            Preset: GrassPatches8
+  - Altitude:
+      - 60
+      - 75
+    Slope:
+      - 0
+      - 180
+    BiomeClusterData:
+      - Name: ArcticIntermediatePlains
+        Id: 5
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - RealRock8Snow
+            - 0
+  - Altitude:
+      - 75
+      - 125
+    Slope:
+      - 0
+      - 20
+    BiomeClusterData:
+      - Name: ArcticHighPlains
+        Id: 6
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - BushWinter03
+            - 0.041187310959408766
+          - - BlueSpruceWinter
+            - 0.17079127264560112
+          - - BrainFungusSnow
+            - 0.1353595507210246
+  - Altitude:
+      - 75
+      - 125
+    Slope:
+      - 0
+      - 180
+    BiomeClusterData:
+      - Name: ArcticHighPlains
+        Id: 5
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - RealRock1
+            - 0
+  - Altitude:
+      - 125
+      - 250
+    Slope:
+      - 0
+      - 25
+    BiomeClusterData:
+      - Name: Mountains
+        Id: 6
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - CrystalsPyramidBlue
+            - 0.5
+  - Altitude:
+      - 125
+      - 250
+    Slope:
+      - 0
+      - 180
+    BiomeClusterData:
+      - Name: Mountains
+        Id: 6
+        ClusterSize: 0
+        NbOfClusters: 0
+        Decorations:
+          - - RealRock8Snow
+            - 0
+BiomeTextureReplacements:
+  - Biome: 2
+    From: Grass02Cliff
+    To: Grass05Cliff
+  - Biome: 5
+    From: Grass02Cliff
+    To: RockGrassCliff
+SpecialEffectsLocal:
+  - Name: FireFliesOrange
+    Biome:
+      - ArcticHighPlains
+      - ArcticForest
+      - ArcticLowPlains
+      - ArcticIntermediatePlains
+    Time: Day
+    MaxHeight: 42
+  - Name: FireFliesGreen
+    Biome:
+      - ArcticHighForest
+      - Water
+    Time: Day
+    MaxHeight: 131
+  - Name: SnowMedium
+    Biome:
+      - ArcticHighPlains
+      - Water
+    Time: Day
+    MaxHeight: 171
+SpecialEffectsGlobal:
+  - Name: Clear
+    Type: Weather
+    InitialDelay: 0
+    Delay: 3
+    Lifetime: 1200
+  - Name: CloudsLight
+    Type: Weather
+    InitialDelay: 0
+    Delay: 2
+    Lifetime: 1200
+  - Name: CloudsMedium
+    Type: Weather
+    InitialDelay: 0
+    Delay: 3
+    Lifetime: 1200
+  - Name: Clouds
+    Type: Weather
+    InitialDelay: 5
+    Delay: 3
+    Lifetime: 1200
+  - Name: Fog
+    Type: Weather
+    InitialDelay: 12
+    Delay: 5
+    Lifetime: 1000
+  - Name: SnowLight
+    Type: Weather
+    InitialDelay: 24
+    Delay: 5
+    Lifetime: 600
+  - Name: SnowMedium
+    Type: Weather
+    InitialDelay: 24
+    Delay: 12
+    Lifetime: 600
+  - Name: SnowHeavy
+    Type: Weather
+    InitialDelay: 24
+    Delay: 12
+    Lifetime: 600
+  - Name: ColdWave
+    Type: Weather
+    InitialDelay: 48
+    Delay: 24
+    Lifetime: 1000
+  - Name: Hail
+    Type: Weather
+    InitialDelay: 48
+    Delay: 24
+    Lifetime: 600
+POIs:
+  Random:
+    - GroupName: Wreckage
+      CountMinMax:
+        - 1
+        - 1
+      DroneProb: 0
+      DronesMinMax:
+        - 1
+        - 1
+      ReserveCount: 1
+      TroopTransport: False
+      PlayerStart: True
+      SpawnResource:
+        - 'IronResource:1'
+        - 'CopperResource:1'
+        - 'CobaltResource:1'
+        - 'SiliconResource:1'
+      Properties:
+        - Key: PersonalContainer
+          Value: >-
+            OxygenStation, OxygenBottleLarge:5,
+            WaterBottle:2, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1,
+            PearthingStage1, DurianRoot, RadiationPills, EVABoost
+        - Key: MapDistance
+          Value: 700
+    - GroupName: customPOI
+      CountMinMax:
+        - 1
+        - 2
+      DroneProb: 0
+      DronesMinMax:
+        - 1
+        - 1
+      ReserveCount: 1
+      TroopTransport: False
+      SpawnPOIAvoid:
+        - Wreckage
+      POIDistance: 1500
+      Properties:
+        - Key: Music
+          Value: DarkSoundscape2
+      SpawnResource:
+        - 'PromethiumResource:0-2'
+      ResourceDistance: 300
+    - GroupName: DroneBaseOmicron
+      DroneBaseSetup: DroneBaseSetup
+      CountMinMax:
+        - 1
+        - 1
+      DroneProb: 1
+      DronesMinMax:
+        - 2
+        - 3
+      ReserveCount: 3
+      SpawnPOIAvoid:
+        - Wreckage
+      POIDistance: 1300
+      Properties:
+        - Key: Music
+          Value: DarkSoundscape
+    - GroupName: PlanetVesselBase
+      PlanetVesselBaseSetup: PlanetVesselBaseSetup
+      CountMinMax:
+        - 1
+        - 1
+      DroneProb: 1
+      DronesMinMax:
+        - 2
+        - 3
+      ReserveCount: 3
+      SpawnPOIAvoid:
+        - Wreckage
+      POIDistance: 500
+      Properties:
+        - Key: Music
+          Value: barren
+    - GroupName: TalonVillage
+      CountMinMax:
+        - 1
+        - 5
+      DroneProb: 0.9963047464724841
+      DronesMinMax:
+        - 4
+        - 5
+      ReserveCount: 3
+      TroopTransport: False
+      SpawnPOIAvoid:
+        - Wreckage
+      POIDistance: 500
+      Properties:
+        - Key: Music
+          Value: DarkSoundscape3
+      SpawnResource:
+        - 'IronResource:0-2'
+        - 'CobaltResource:0-2'
+        - 'MagnesiumResource:0-1'
+      ResourceDistance: 300
+    - GroupName: MiningComplex
+      CountMinMax:
+        - 1
+        - 5
+      DroneProb: 0.8113486636865035
+      DronesMinMax:
+        - 3
+        - 6
+      ReserveCount: 3
+      TroopTransport: True
+      SpawnPOIAvoid:
+        - Wreckage
+      POIDistance: 500
+      Properties:
+        - Key: Music
+          Value: DarkSoundscape
+      SpawnResource:
+        - 'IronResource:0-2'
+        - 'CobaltResource:0-2'
+        - 'MagnesiumResource:0-1'
+      ResourceDistance: 300
+    - GroupName: XenuTierII
+      CountMinMax:
+        - 1
+        - 5
+      DroneProb: 0.11549867699159544
+      DronesMinMax:
+        - 1
+        - 8
+      ReserveCount: 4
+      TroopTransport: True
+      SpawnPOIAvoid:
+        - Wreckage
+      POIDistance: 500
+      Properties:
+        - Key: Music
+          Value: SunnySkies
+      SpawnResource:
+        - 'IronResource:0-2'
+        - 'CobaltResource:0-2'
+        - 'MagnesiumResource:0-1'
+      ResourceDistance: 300
+    - GroupName: CrashedTitan
+      CountMinMax:
+        - 1
+        - 5
+      DroneProb: 0.9993871937302862
+      DronesMinMax:
+        - 1
+        - 6
+      ReserveCount: 0
+      TroopTransport: True
+      SpawnPOIAvoid:
+        - Wreckage
+      POIDistance: 500
+      Properties:
+        - Key: Music
+          Value: JungleDepths
+      SpawnResource:
+        - 'IronResource:0-2'
+        - 'CobaltResource:0-2'
+        - 'MagnesiumResource:0-1'
+      ResourceDistance: 300
+    - GroupName: XenuWeaponBunker
+      CountMinMax:
+        - 1
+        - 5
+      DroneProb: 0.1925332814812209
+      DronesMinMax:
+        - 4
+        - 6
+      ReserveCount: 2
+      TroopTransport: True
+      SpawnPOIAvoid:
+        - Wreckage
+      POIDistance: 500
+      Properties:
+        - Key: Music
+          Value: DarkSoundscape
+      SpawnResource:
+        - 'IronResource:0-2'
+        - 'CobaltResource:0-2'
+        - 'MagnesiumResource:0-1'
+      ResourceDistance: 300
+    - GroupName: DroneBase
+      CountMinMax:
+        - 1
+        - 5
+      DroneProb: 0.7851032241394651
+      DronesMinMax:
+        - 2
+        - 5
+      ReserveCount: 2
+      TroopTransport: True
+      SpawnPOIAvoid:
+        - Wreckage
+      POIDistance: 500
+      Properties:
+        - Key: Music
+          Value: DarkSoundscape2
+      SpawnResource:
+        - 'IronResource:0-2'
+        - 'CobaltResource:0-2'
+        - 'MagnesiumResource:0-1'
+      ResourceDistance: 300
+    - GroupName: RadosTierII
+      CountMinMax:
+        - 1
+        - 5
+      DroneProb: 0.4933167456484197
+      DronesMinMax:
+        - 1
+        - 5
+      ReserveCount: 3
+      TroopTransport: False
+      SpawnPOIAvoid:
+        - Wreckage
+      POIDistance: 500
+      Properties:
+        - Key: Music
+          Value: SunnySkies
+      SpawnResource:
+        - 'IronResource:0-2'
+        - 'CobaltResource:0-2'
+        - 'MagnesiumResource:0-1'
+      ResourceDistance: 300
+  FixedPlayerStart:
+    - Mode: Survival
+      Spawn: EscapePod
+      Armor: ArmorMedium
+      Items:
+        - >-
+          Pistol, 50Caliber:250, Medikit02:3, AntidotePills:3,
+          EmergencyRations:4, Drill, Chainsaw, BioFuel:4, ConstructorSurvival,
+          OxygenGeneratorSmall, OxygenBottleSmall:5, EnergyCell:5
+        - >-
+          Pistol, 50Caliber:150, Medikit02:2, AntidotePills:2,
+          EmergencyRations:2, Drill, Chainsaw, BioFuel:3, ConstructorSurvival,
+          OxygenGeneratorSmall, OxygenBottleSmall:3, EnergyCell:4
+        - >-
+          Pistol, 50Caliber:100, Medikit02:1, AntidotePills:1,
+          EmergencyRations:1, Drill, Chainsaw, BioFuel:2, ConstructorSurvival,
+          OxygenGeneratorSmall, OxygenBottleSmall:1, EnergyCell:3
+        - >-
+          #FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival,
+          OxygenGeneratorSmall
+DroneBaseSetup:
+  Random:
+    - GroupName: XenuFortressP1
+      DronesMinMax:
+        - 4
+        - 5
+      ReserveCount: 6
+      DroneProb: 1
+      Difficulty: 7
+      PresetStyle: 3
+      Stock:
+        - Name: DroneSmallFast01Plasma
+          Amount: 200
+          Extra: 0
+        - Name: EnemyDroneV2Minigun
+          Amount: 400
+          Extra: 0
+        - Name: EnemyDroneV2Plasma
+          Amount: 400
+          Extra: 0
+        - Name: DroneSmallFast01Plasma
+          Amount: 500
+          Extra: 1
+        - Name: EnemyDroneV2Plasma
+          Amount: 300
+          Extra: 1
+        - Name: DroneTroopsTransport
+          Amount: 1
+          Extra: 2
+        - Name: ZiraxMale
+          Amount: 500
+          Extra: 3
+        - Name: Crawler
+          Amount: 250
+          Extra: 3
+        - Name: Overseer
+          Amount: 250
+          Extra: 3
+        - Name: ZiraxRocket
+          Amount: 500
+          Extra: 3
+        - Name: AlienAssassinGrey
+          Amount: 300
+          Extra: 3
+      PlanetVesselBase:
+        Name: PlanetVesselBaseSetup
+        Position3D:
+          - 0
+          - 102
+          - 0
+        BaseType: PlanetVesselBase
+        KeyId: 0
+        PlanetVessel:
+          - Name: Patrol-S-Medium
+            Mission: PlanetPatrol
+            FixedMaxSpeed: 8
+            RangePatrolCenter:
+              - 30
+              - 0
+            RangePatrolRadius: 789
+            RangePatrolAltitude: 60
+            InitialDelay: 72
+DroneSpawning:
+  Random:
+    - DronesMinMax:
+        - 5
+        - 10
+      CenterX: -2500
+    - DronesMinMax:
+        - 5
+        - 10
+      CenterX: 2500
+CreatureSpawning:
+  - Biome: Water
+    Entities:
+      - Name: Spiders01
+        Period: Always
+        Amount: 2
+        Delay: 0
+      - Name: AlienBugs02
+        Period: Day
+        Amount: 3
+        Delay: 0
+      - Name: Slimes
+        Period: Always
+        Amount: 3
+        Delay: 0
+      - Name: Overseers
+        Period: Always
+        Amount: 2
+        Delay: 0
+  - Biome: ArcticForest
+    Entities:
+      - Name: PlantMonsters
+        Period: Night
+        Amount: 3
+        Delay: 0
+      - Name: CaveWormGreyHerd
+        Period: Day
+        Amount: 3
+        Delay: 0
+      - Name: RaptorHerd
+        Period: Always
+        Amount: 3
+        Delay: 0
+      - Name: LizardMuleHerd
+        Period: Day
+        Amount: 3
+        Delay: 0
+  - Biome: ArcticLowPlains
+    Entities:
+      - Name: AlienBugs04
+        Period: Day
+        Amount: 3
+        Delay: 0
+      - Name: CaveWormsGrey
+        Period: Night
+        Amount: 3
+        Delay: 0
+      - Name: Spiders03
+        Period: Night
+        Amount: 1
+        Delay: 0
+  - Biome: ArcticHighForest
+    Entities:
+      - Name: Crawlers
+        Period: Always
+        Amount: 3
+        Delay: 0
+      - Name: TotalHorrors
+        Period: Always
+        Amount: 3
+        Delay: 0
+      - Name: Spiders02
+        Period: Day
+        Amount: 3
+        Delay: 0
+  - Biome: ArcticIntermediatePlains
+    Entities:
+      - Name: CaveWormsWhite
+        Period: Night
+        Amount: 1
+        Delay: 0
+      - Name: WormsDesert
+        Period: Day
+        Amount: 1
+        Delay: 0
+      - Name: AlienAssassinGreys
+        Period: Always
+        Amount: 1
+        Delay: 0
+  - Biome: ArcticHighPlains
+    Entities:
+      - Name: GolemsIce
+        Period: Always
+        Amount: 1
+        Delay: 0
+      - Name: ParasaurHerd
+        Period: Night
+        Amount: 1
+        Delay: 0
+      - Name: GolemsSwamp
+        Period: Day
+        Amount: 2
+        Delay: 0
+      - Name: AlienBugs03
+        Period: Day
+        Amount: 3
+        Delay: 0
+      - Name: CaveWormsGreen
+        Period: Day
+        Amount: 2
+        Delay: 0
+      - Name: WormDesertLargeHerd
+        Period: Night
+        Amount: 2
+        Delay: 0
