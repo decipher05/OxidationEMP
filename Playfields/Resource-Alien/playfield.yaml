@@ -22,6 +22,7 @@ Moons: 0                            # No functionality yet
 Water: WaterBrown                   # WaterBlue, WaterGreen, WaterBrown
 SeaLevel: 50                        # Sea level of planet
 PvP: False                           # Set to True to allow PvP in this playfield, default is False
+AllowCV: False
 #Seed: 123456                       # If set overwrites main Seed
 #UseFixed: False					# If set uses fixed POIs + resources
 

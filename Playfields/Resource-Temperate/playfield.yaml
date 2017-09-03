@@ -24,6 +24,7 @@ SeaLevel: 23
 PvP: False
 #Seed: 123456
 #UseFixed: False
+AllowCV: False
 
 # Playfield difficulty
 Difficulty: 2

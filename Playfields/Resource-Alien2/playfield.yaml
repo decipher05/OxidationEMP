@@ -23,6 +23,7 @@ Moons: 1
 Water: WaterGreen
 SeaLevel: 31
 PvP: False
+AllowCV: False
 #Seed: 123456
 #UseFixed: False
 

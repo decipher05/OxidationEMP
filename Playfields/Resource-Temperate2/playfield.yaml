@@ -24,6 +24,7 @@ SeaLevel: 95
 PvP: False
 #Seed: 123456
 #UseFixed: False
+AllowCV: False
 
 # Playfield difficulty
 Difficulty: 3
@@ -425,4 +426,3 @@ RandomResources:
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1
-    
