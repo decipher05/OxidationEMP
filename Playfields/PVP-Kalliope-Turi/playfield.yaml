@@ -568,7 +568,7 @@ POIs:
           ReserveCount: 3
           Properties:
             - Key: RegenAfter
-              Value: 1440
+              Value: 10080
 
         - GroupName: TS_Omicron
           CountMinMax: [ 1, 1 ]

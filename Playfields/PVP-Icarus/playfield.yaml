@@ -453,7 +453,7 @@ POIs:
           ReserveCount: 3
           Properties:
             - Key: RegenAfter
-              Value: 1440
+              Value: 10080
 
         - GroupName: PlanetVesselBase
           PlanetVesselBaseSetup: PlanetVesselBaseSetup

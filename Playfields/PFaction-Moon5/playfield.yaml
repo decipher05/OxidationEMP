@@ -86,63 +86,63 @@ Biome:
 ### Resource Deposits
 RandomResources:
     - Name: IronResource
-      CountMinMax: [ 0, 7 ]
+      CountMinMax: [ 3, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: CobaltResource
-      CountMinMax: [ 0, 7 ]
+      CountMinMax: [ 2, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: CopperResource
-      CountMinMax: [ 0, 7 ]
+      CountMinMax: [ 2, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: SiliconResource
-      CountMinMax: [ 0, 7 ]
+      CountMinMax: [ 2, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: PromethiumResource
-      CountMinMax: [ 0, 7 ]
+      CountMinMax: [ 1, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.2
       MaxDroneCount: 1
 
     - Name: MagnesiumResource
-      CountMinMax: [ 0, 7 ]
+      CountMinMax: [ 1, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: NeodymiumResource
-      CountMinMax: [ 0, 7 ]
+      CountMinMax: [ 1, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1
 
     - Name: PentaxidResource
-      CountMinMax: [ 0, 7 ]
+      CountMinMax: [ 1, 2 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1
 
     - Name: SathiumResource
-      CountMinMax: [ 0, 7 ]
+      CountMinMax: [ 3, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3

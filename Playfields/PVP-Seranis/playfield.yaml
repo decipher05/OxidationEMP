@@ -374,7 +374,7 @@ POIs:
             - Key: Music
               Value: barren
             - Key: RegenAfter
-              Value: 1440
+              Value: 10080
 
         - GroupName: TS_Akua
           CountMinMax: [ 1, 1 ]
@@ -434,7 +434,7 @@ POIs:
               Value: 2880
 
         - GroupName: AbandonedMine
-          CountMinMax: [ 0, 3 ]
+          CountMinMax: [ 1, 3 ]
           DroneProb: 0.1
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
