@@ -416,6 +416,8 @@ POIs:
           Properties:
             - Key: Music
               Value: lava
+            - Key: RegenAfter
+              Value: 360
 
         - GroupName: GhostRiderBiolab
           CountMinMax: [ 2, 2 ]
@@ -445,17 +447,6 @@ POIs:
             - Key: Music
               Value: DarkSoundscape3
 
-        - GroupName: CrashedShip      # Do not use regeneration with burried POIs
-          CountMinMax: [ 1, 2 ]
-          DroneProb: 0.8
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 4
-          TroopTransport: False
-          SpawnPOIAvoid: [Wreckage]
-          POIDistance: 800
-          Properties:
-            - Key: MapMarker
-              Value: Neutral
 
         - GroupName: XenuAdvArmory
           CountMinMax: [ 2, 2 ]
@@ -481,8 +472,7 @@ POIs:
             - Key: RegenAfter
               Value: 180
 
-
-        - GroupName: AbandonedFactory
+        - GroupName: Dead8Eye-HQ
           CountMinMax: [ 1, 1 ]
           DroneProb: 0.8
           DronesMinMax: [ 1, 2 ]
@@ -492,15 +482,16 @@ POIs:
             - Key: RegenAfter
               Value: 180
 
-        - GroupName: AbandonedMine
+       - GroupName: XenuFortressP1
           CountMinMax: [ 1, 1 ]
-          DroneProb: 0.1
-          DronesMinMax: [ 1, 1 ]
-          ReserveCount: 1
-          TroopTransport: False
+          DroneProb: 0.8
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
           Properties:
             - Key: RegenAfter
               Value: 180
+
 
 
         - GroupName: GhostTierII
@@ -566,15 +557,6 @@ POIs:
             - Key: RegenAfter
               Value: 180
 
-        - GroupName: EpsilonDroneFactory
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
 
         - GroupName: EpsilonFactory
           CountMinMax: [ 1, 1 ]
@@ -655,6 +637,87 @@ POIs:
           Properties:
             - Key: RegenAfter
               Value: 180
+
+        - GroupName: AbandonedFactory
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0.8
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+
+        - GroupName: AbandonedMine
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0.1
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+
+        - GroupName: XenuAdvPowerStation
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0.1
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+        - GroupName: XenuAdvSpaceport
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0.1
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+        - GroupName: RadosAdvSupplyStation
+          CountMinMax: [ 2, 2 ]
+          DroneProb: 0.1
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+
+        - GroupName: GhostRiderBaseII
+          CountMinMax: [ 2, 2 ]
+          DroneProb: 0.1
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+
+        - GroupName: GhostRiderBaseII
+          CountMinMax: [ 2, 2 ]
+          DroneProb: 0.1
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          Properties:
+            - Key: RegenAfter
+              Value: 180
+
+        - GroupName: CrashedShip
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 4
+          TroopTransport: False
+          Properties:
+            - Key: MapMarker
+              Value: Neutral
+
+
+
 
     FixedPlayerStart:
         - Mode: Debug
