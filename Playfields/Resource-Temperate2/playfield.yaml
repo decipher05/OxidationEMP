@@ -426,3 +426,10 @@ RandomResources:
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1
+
+    - Name: PentaxidResource
+      CountMinMax: [ 4, 4 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1

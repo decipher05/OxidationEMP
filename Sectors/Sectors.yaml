@@ -550,7 +550,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Icarus
-    - PVP-Paterae
+    - PVP-Icarus
     - ''
   - - 2572, -5908, 4734
     - Icarus Moon
@@ -562,7 +562,7 @@ Sectors:
     - ''
   - - -11172, -7148, 5453
     - R-113
-    - Resource-Desert
+    - Resource-Temperate
     - ''
   Allow: []
   Deny:
