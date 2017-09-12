@@ -358,6 +358,13 @@ RandomResources:
       DroneProb: 0.3
       MaxDroneCount: 1
 
+    - Name: PentaxidResource
+      CountMinMax: [ 2, 5 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
 
 AsteroidResources:
     - Name: IronResource
@@ -392,10 +399,14 @@ AsteroidResources:
       Threshold: 0.4
       Amount: 0.5
 
+    - Name: PentaxidResource
+      Threshold: 0.9
+      Amount: 0.8
+
 ### POIs
 POIs:
     Random:
-        - GroupName: DroneBaseAkua
+        - GroupName: DroneBaseAestus
           DroneBaseSetup: DroneBaseSetup
           CountMinMax: [ 1, 1 ]
           DroneProb: 1.0
@@ -404,8 +415,6 @@ POIs:
           Properties:
             - Key: Music
               Value: lava2
-            - Key: RegenAfter
-              Value: 360
 
         - GroupName: PlanetVesselBase
           PlanetVesselBaseSetup: PlanetVesselBaseSetup
@@ -416,8 +425,14 @@ POIs:
           Properties:
             - Key: Music
               Value: lava
-            - Key: RegenAfter
-              Value: 360
+
+        - GroupName: XenuWeaponBunker
+          CountMinMax: [ 3, 3 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 4
+          TroopTransport: True
+
 
         - GroupName: GhostRiderBiolab
           CountMinMax: [ 2, 2 ]
@@ -430,281 +445,86 @@ POIs:
           Properties:
             - Key: Music
               Value: DarkSoundscape
-            - Key: RegenAfter
-              Value: 180
-
-
-
-        - GroupName: MiningComplex
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 2 ]
-          ReserveCount: 4
-          TroopTransport: True
-          SpawnPOIAvoid: [TS_Skillon]
-          POIDistance: 1000
-          Properties:
-            - Key: Music
-              Value: DarkSoundscape3
-
-
-        - GroupName: XenuAdvArmory
-          CountMinMax: [ 2, 2 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 4
-          TroopTransport: True
-          SpawnPOINear: [PlanetVesselBase]
-          POIDistance: 600
-          Properties:
-            - Key: Music
-              Value: DarkSoundscape
-            - Key: RegenAfter
-              Value: 180
-
-        - GroupName: XenuWeaponBunker
-          CountMinMax: [ 3, 3 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 2, 3 ]
-          ReserveCount: 4
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
-
-        - GroupName: Dead8Eye-HQ
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 0.8
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
 
        - GroupName: XenuFortressP1
-          CountMinMax: [ 1, 1 ]
+          CountMinMax: [ 2, 2 ]
           DroneProb: 0.8
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
 
 
-
-        - GroupName: GhostTierII
-          CountMinMax: [ 1, 1 ]
+        - GroupName: EpsilonDroneFactory
+          CountMinMax: [ 2, 2 ]
           DroneProb: 1.0
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: True
-          SpawnPOINear: [XenuWeaponBunker]
-          POIDistance: 500
-          Properties:
-            - Key: RegenAfter
-              Value: 180
 
 
-        - GroupName: GhostTierII
-          CountMinMax: [ 1, 1 ]
+
+        - GroupName: GhostRiderBase
+          CountMinMax: [ 2, 2 ]
           DroneProb: 1.0
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
 
-        - GroupName: EpsilonAdvComCenter
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
-
-        - GroupName: EpsilonAdvFortress
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
-
-        - GroupName: EpsilonAdvOutpost
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
-
-        - GroupName: EpsilonSpaceport
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
-
-
-        - GroupName: EpsilonFactory
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
-
-        - GroupName: XenuRareSupplyStation
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
-
-        - GroupName: GhostRiderHQ
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
 
         - GroupName: MiningComplex
-          CountMinMax: [ 1, 1 ]
+          CountMinMax: [ 2, 2 ]
           DroneProb: 1.0
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
-
-        - GroupName: RadosAdvBase
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
-
-        - GroupName: RadosAdvComCenter
-          CountMinMax: [ 1, 2 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
-
-        - GroupName: RadosBase
-          CountMinMax: [ 1, 2 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
-
-        - GroupName: XenuArmory
-          CountMinMax: [ 1, 2 ]
-          DroneProb: 1.0
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
 
         - GroupName: AbandonedFactory
-          CountMinMax: [ 1, 1 ]
+          CountMinMax: [ 2, 2 ]
           DroneProb: 0.8
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
+
 
         - GroupName: AbandonedMine
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 0.1
-          DronesMinMax: [ 1, 1 ]
-          ReserveCount: 1
-          TroopTransport: False
-          Properties:
-            - Key: RegenAfter
-              Value: 180
-
-        - GroupName: XenuAdvPowerStation
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 0.1
-          DronesMinMax: [ 1, 1 ]
-          ReserveCount: 1
-          TroopTransport: False
-          Properties:
-            - Key: RegenAfter
-              Value: 180
-        - GroupName: XenuAdvSpaceport
-          CountMinMax: [ 1, 1 ]
-          DroneProb: 0.1
-          DronesMinMax: [ 1, 1 ]
-          ReserveCount: 1
-          TroopTransport: False
-          Properties:
-            - Key: RegenAfter
-              Value: 180
-        - GroupName: RadosAdvSupplyStation
           CountMinMax: [ 2, 2 ]
           DroneProb: 0.1
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
           TroopTransport: False
-          Properties:
-            - Key: RegenAfter
-              Value: 180
 
-        - GroupName: GhostRiderBaseII
-          CountMinMax: [ 2, 2 ]
+
+        - GroupName: XenuTierII
+          CountMinMax: [ 3, 3 ]
           DroneProb: 0.1
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
           TroopTransport: False
-          Properties:
-            - Key: RegenAfter
-              Value: 180
 
-        - GroupName: GhostRiderBaseII
-          CountMinMax: [ 2, 2 ]
+
+        - GroupName: RadosTierII
+          CountMinMax: [ 3, 3 ]
           DroneProb: 0.1
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
           TroopTransport: False
-          Properties:
-            - Key: RegenAfter
-              Value: 180
+
+
+        - GroupName: EpsilonTierII
+          CountMinMax: [ 3, 3 ]
+          DroneProb: 0.1
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+
+
+        - GroupName: GhostTierII
+          CountMinMax: [ 3, 3 ]
+          DroneProb: 0.1
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+
 
         - GroupName: CrashedShip
           CountMinMax: [ 1, 1 ]
@@ -715,6 +535,24 @@ POIs:
           Properties:
             - Key: MapMarker
               Value: Neutral
+
+        - GroupName: GhostRiderDefence
+          CountMinMax: [ 2, 2 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+
+        - GroupName: RadosMissileSilo
+          CountMinMax: [ 2, 2 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+
+GhostRiderDefence
+
+
 
 
 

@@ -21,17 +21,17 @@ PlanetType: Desert
 Moons: 1
 Water: WaterGreen
 SeaLevel: 29
-PvP: False
+PvP: True
 #Seed: 123456
 #UseFixed: False
-AllowCV: False
+
 
 # Playfield Difficulty
-Difficulty: 3
+Difficulty: 5
 
 # Planet or Space
 PlayfieldType: Planet
-Description: "PvE Resource Planet only! Building prohibited!"
+#Description: "PvE Resource Planet only! Building prohibited!"
 
 # Sun
 SunFlare: EnvironmentalEffects/SunFlareWhite2
@@ -455,64 +455,455 @@ Biome:
 ### Resource Deposits
 RandomResources:
     - Name: IronResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [ 4, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: CobaltResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [2, 5 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: CopperResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [ 2, 5 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: SiliconResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [ 2, 5 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: PromethiumResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [ 3, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.2
       MaxDroneCount: 1
 
     - Name: MagnesiumResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [ 2, 5 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: NeodymiumResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [ 2, 5 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1
 
     - Name: SathiumResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [ 3, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1
 
     - Name: PentaxidResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [ 2, 5 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1
+
+
+AsteroidResources:
+    - Name: IronResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: CobaltResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: CopperResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: SiliconResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: PromethiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: MagnesiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: NeodymiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: SathiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: PentaxidResource
+      Threshold: 0.9
+      Amount: 0.8
+
+POIs:
+    Random:
+        - GroupName: DroneBaseOmicron
+          DroneBaseSetup: DroneBaseSetup
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 1
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 3
+          SpawnPOIAvoid: [Wreckage]
+          POIDistance: 1300
+          Properties:
+            - Key: Music
+              Value: DarkSoundscape
+            - Key: RegenAfter
+              Value: 10080
+
+        - GroupName: PlanetVesselBase
+          PlanetVesselBaseSetup: PlanetVesselBaseSetup
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 1
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 3
+          SpawnPOINear: [DroneBaseOmicron]
+          POIDistance: 500
+          Properties:
+            - Key: Music
+              Value: barren
+            - Key: RegenAfter
+              Value: 1440
+
+        - GroupName: TS_Omicron
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          SpawnPOIAvoid: [DroneBaseOmicron, Wreckage]
+          POIDistance: 1000
+          Properties:
+            - Key: Music
+              Value: temperate
+            - Key: RegenAfter
+              Value: 1440
+
+        - GroupName: AbandonedFactory
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 3
+          TroopTransport: True
+          SpawnPOIAvoid: [TS_Omicron, Wreckage]
+          POIDistance: 1000
+          SpawnResource: ["IronResource:0-1","SiliconResource:0-1","MagnesiumResource:0-1"]
+          ResourceDistance: 400
+          Properties:
+            - Key: Music
+              Value: lava
+            - Key: RegenAfter
+              Value: 1440
+
+
+
+        - GroupName: CrashedShip      # Do not use regeneration with burried POIs
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0.8
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 4
+          TroopTransport: False
+          SpawnPOIAvoid: [Wreckage]
+          POIDistance: 800
+          Properties:
+            - Key: MapMarker
+              Value: Neutral
+
+        - GroupName: CivilSettlement
+          CountMinMax: [ 3, 4 ]
+          DroneProb: 0.8
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          SpawnPOIAvoid: [Wreckage, DroneBaseOmicron]
+          POIDistance: 1000
+          Properties:
+            - Key: MapMarker
+              Value: Neutral
+            - Key: RegenAfter
+              Value: 1440
+
+        - GroupName: XenuTierI
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          SpawnPOINear: [DroneBaseOmicron]
+          SpawnPOINearDistance: 500
+          SpawnPOIAvoid: [TS_Omicron, Wreckage]
+          SpawnPOIAvoidDistance: 600
+          SpawnResource: ["PromethiumResource:0-1"]
+          ResourceDistance: 300
+          Properties:
+            - Key: RegenAfter
+              Value: 1440
+
+        - GroupName: XenuTierI
+          CountMinMax: [ 2, 3 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 4
+          TroopTransport: True
+          SpawnPOIAvoid: [Wreckage, DroneBaseOmicron]
+          POIDistance: 1000
+          Properties:
+            - Key: RegenAfter
+              Value: 1440
+
+    Fixed:
+        - Type: BA_Player
+          Prefab: BA_Outpost-OmicronV2
+          Mode: Creative
+          SubMode: Normal
+          Name: Outpost Omicron
+          Pos: [ -363, 70, -149 ]
+          Rot: [ 0, -25, 0 ]
+          InitPower: True
+
+        - Type: HV_Player
+          Prefab: HV_SpeederBike
+          Mode: Creative
+          SubMode: Normal
+          Name: Speeder MKI
+          Pos: [ -382.5, 73.3, -170.5 ]
+          Rot: [ 0, -128, 0 ]
+
+        - Type: SV_Player
+          Prefab: SV_StormMKI
+          Mode: Creative
+          SubMode: Normal
+          Name: Storm MKI
+          Pos: [ -352.6, 76.68, -140.52]
+          Rot: [ 0, -90, 0 ]
+
+        - Type: BA_Player
+          Prefab: BA_TestBaseO2
+          Mode: Debug
+          Name: Test Base O2
+          Pos: [-532, 69, -397 ]
+          Rot: [ 0, 154, 0 ]
+
+        - Type: BA_Player
+          Prefab: BA_TestBase
+          Mode: Debug
+          Name: Test Base
+          Pos: [-349, 70, -273 ]
+          Rot: [ 0, 270, 0 ]
+          Properties:
+            - Key: PersonalContainer
+              Value: "Pistol, 50Caliber:250, Chainsaw"
+            - Key: Music
+              Value: snow
+
+        - Type: CV_Player
+          Prefab: CV_O2_TestOmicron
+          Mode: Debug
+          Name: CV O2 Test
+          # Pos: [ -453.8, 70.3, -347.4]
+          Pos: [ -448, 70, -345]
+          Rot: [ 0, 30, 0 ]
+          InitPower: False
+
+        - Type: SV_Player
+          Prefab: SV_Prefab_Tier2a
+          Mode: Debug
+          Name: SV Test
+          Pos: [ -357, 71.5, -317]
+          Rot: [ 0, 0, 0 ]
+
+        - Type: BA_Alien
+          Prefab: BA_MiningComplex
+          Mode: Debug
+          Name: Enemy Base
+          Pos: [ -773, 21, -156 ]
+          Rot: [ 0, 0, 0 ]
+          InitPower: True
+          Properties:
+            - Key: Music
+              Value: DarkSoundscape2
+
+        # - Type: BA_Alien
+          # Prefab: BA_LootTest
+          # Mode: Survival
+          # Name: Enemy Base
+          # Pos: [ -415, 67.5, -38.6 ]
+          # Rot: [ 0, 40, 0 ]
+          # InitPower: True
+
+    FixedPlayerStart:
+        - Mode: Creative
+          SubMode: Normal
+          Pos: [ -388, 74.25, -200 ]
+          RotY: 14
+          Armor: ArmorMedium
+
+        - Mode: Creative
+          SubMode: Empty
+          Pos: [ -841, 56, 142 ]
+          RotY: -18
+          Armor: ArmorMedium
+
+        - Mode: Debug
+          Pos: [ -353, 72, -306 ]
+          RotY: 0
+          #Spawn: Structure
+          #Structure: "Test Base"
+
+        - Mode: Survival
+          Spawn: EscapePod
+          Armor: ArmorMedium
+          Items: [ "Pistol, 50Caliber:250, Medikit02:3, AntidotePills:3, EmergencyRations:4, Drill, Chainsaw, BioFuel:4, ConstructorSurvival, OxygenGeneratorSmall, OxygenBottleSmall:5, EnergyCell:5", "Pistol, 50Caliber:150, Medikit02:2, AntidotePills:2, EmergencyRations:2, Drill, Chainsaw, BioFuel:3, ConstructorSurvival, OxygenGeneratorSmall, OxygenBottleSmall:3, EnergyCell:4", "Pistol, 50Caliber:100, Medikit02:1, AntidotePills:1, EmergencyRations:1, Drill, Chainsaw, BioFuel:2, ConstructorSurvival, OxygenGeneratorSmall, OxygenBottleSmall:1, EnergyCell:3", "#FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival, OxygenGeneratorSmall" ]
+
+### Drones# that's not random , it's a list of setups
+DroneBaseSetup:
+    Random:
+          #GroupName should be setup name
+        - GroupName: DroneBaseSetup
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 3
+          DroneProb: 1
+          Difficulty: 5
+          PresetStyle: 2
+          # BaseAttack: DroneSmallAttackBase
+          Stock:
+              - Name: DroneSmallFast01Rocket
+                Amount: 100
+                Extra: 0
+
+              - Name: DroneSmallFast01Minigun
+                Amount: 300
+                Extra: 0
+
+              - Name: DroneLargeSlow01Minigun
+                Amount: 200
+                Extra: 0
+
+              - Name: DroneSmallSlow01Cannon
+                Amount: 200
+                Extra: 0
+
+              - Name: DroneSmallFast01Minigun   # Base attack drones
+                Amount: Infinite
+                Extra: 1
+
+              - Name: DroneSmallAttackBase      # Base attack drones
+                Amount: Infinite
+                Extra: 1
+
+              - Name: DroneTroopsTransport01
+                Amount: Infinite
+                Extra: 2
+
+              - Name: ZiraxMale
+                Amount: 500
+                Extra: 3
+
+              - Name: ZiraxRocket
+                Amount: 500
+                Extra: 3
+
+              - Name: Crawler
+                Amount: 150
+                Extra: 3
+
+              - Name: Overseer
+                Amount: 150
+                Extra: 3
+
+          PlanetVesselBase:
+              #Name should be setup name
+              Name: PlanetVesselBaseSetup
+              Position3D: [ 0, 102, 0]
+              BaseType: PlanetVesselBase
+              KeyId: 0
+              PlanetVessel:
+                - Name: Patrol-S-Easy
+                  Mission: PlanetPatrol
+                  FixedMaxSpeed: 5
+                  RangePatrolCenter: [ -1000, 0 ]
+                  RangePatrolRadius: 800
+                  RangePatrolAltitude: 80
+                  RespawnDelay: 24
+                  InitialDelay: 72
+
+# Drones that patrol on whole planet
+# Type determined by stock of drone base (default drone - type = 0)
+DroneSpawning:
+    Random:
+        - DronesMinMax: [ 5, 10 ]
+          CenterX: -2500
+
+        - DronesMinMax: [ 5, 10 ]
+          CenterX: 2500
+
+### Creatures
+CreatureSpawning:
+    - Biome: SmallLake
+      Entities:
+        - Name: CaveWormsGreen
+          Period: Night
+          Amount: 2
+          Delay: 0
+          RestrictYMinMax: [ 30, 100 ]
+
+    - Biome: DesertLowPlains
+      Entities:
+        - Name: CaveWormGreyHerd
+          Period: Day
+          Amount: 1
+          Delay: 0
+          RestrictYMinMax: [ 30, 100 ]
+        - Name: Spiders02
+          Period: Night
+          Amount: 2
+          Delay: 0
+          RestrictYMinMax: [ 30, 100 ]
+        - Name: Otyughs
+          Period: Night
+          Amount: 1
+          Delay: 0
+          RestrictYMinMax: [ 30, 100 ]
+
+    - Biome: DesertHighPlains
+      Entities:
+        - Name: AlienAssassinGreys
+          Period: Night
+          Amount: 2
+          Delay: 0
+          RestrictYMinMax: [ 30, 100 ]
+        - Name: GolemsDesert
+          Period: Night
+          Amount: 1
+          Delay: 0
+          RestrictYMinMax: [ 30, 100 ]
+        - Name: WormDesertHerd
+          Period: Day
+          Amount: 2
+          Delay: 0
+          RestrictYMinMax: [ 30, 100 ]
+        - Name: Spiders02
+          Period: Day
+          Amount: 2
+          Delay: 0
+          RestrictYMinMax: [ 30, 100 ]

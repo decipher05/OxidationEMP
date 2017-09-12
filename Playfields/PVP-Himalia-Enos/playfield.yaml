@@ -183,6 +183,12 @@ RandomResources:
       DroneProb: 0.3
       MaxDroneCount: 1
 
+    - Name: PentaxidResource
+      CountMinMax: [ 2, 5 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
 
 AsteroidResources:
     - Name: IronResource
@@ -214,6 +220,10 @@ AsteroidResources:
       Amount: 0.8
 
     - Name: SathiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: PentaxidResource
       Threshold: 0.9
       Amount: 0.8
 
