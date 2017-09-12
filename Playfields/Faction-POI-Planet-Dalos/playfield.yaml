@@ -446,12 +446,6 @@ POIs:
             - Key: Music
               Value: DarkSoundscape
 
-       - GroupName: XenuFortressP1
-          CountMinMax: [ 2, 2 ]
-          DroneProb: 0.8
-          DronesMinMax: [ 1, 2 ]
-          ReserveCount: 3
-          TroopTransport: True
 
 
         - GroupName: EpsilonDroneFactory
