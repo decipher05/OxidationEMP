@@ -1,0 +1,403 @@
+---
+# Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+# For more detailed explanations of the different parameters, see examples in Empyrion\Content\Playfields\ExamplePlanet and ExampleSpace
+# Please do not use long comments here because in a multiplayer game the yaml file has to be sent from server to client
+
+# Playfield Characteristics
+RealRadius: 1303.797294
+ScaledRadius: 1300
+Gravity: -5.3
+AtmosphereDensity: 1.387
+AtmosphereO2: 0.08
+AtmosphereBreathable: False
+Temperature: -38
+TemperatureDay: 0
+TemperatureNight: -25
+Music: snow
+Radiation: 5.1
+DayLength: 24
+PlanetType: Snow
+Moons: 0
+Water: WaterGreen
+SeaLevel: 32
+PvP: False
+#Seed: 123456
+#UseFixed: False
+AllowCV: False
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 4
+
+# Planet or Space
+PlayfieldType: Planet
+Description: "PvE Resource Planet only! Building prohibited!"
+
+# Sun
+SunFlare: EnvironmentalEffects/SunFlareWhite3
+
+# Atmosphere and Sky
+AtmosphereEnabled: True
+AtmosphereColor: "0.19, 0.26, 0.35"
+SkyColor: "1, 1, 1"
+SkyHorizonColor: "1, 0.3, 0"
+
+# Light
+DayLightIntensity: 1.1
+NightLightIntensity: 0.25
+DayShadowStrength: 0.95
+NightShadowStrength: 0.5
+
+# Fog
+AtmosphereFog: 0.5
+FogCloudIntensity: 1
+FogIntensity: 0.1
+FogStartDistance: 400
+GroundFogIntensity: 0
+GroundFogHeight: 0
+
+# Clouds
+CloudsDensity: 0.8
+CloudsSharpness: 0.2
+CloudsBrightness: 1.35
+# CloudsOpacity: 0.9
+CloudsZenithColor: "0.87, 0.92, 1"
+CloudsHorizonColor: "1, 0.3, 0"
+
+# Wind Speed
+WindSpeed: 5
+
+# Special Effects
+SpecialEffectsLocal:
+  # - Name: SnowLight
+    # Biome: [ ArcticLowPlains, ArcticIntermediatePlains ]
+    # MaxHeight: 250
+  # - Name: SnowMedium
+    # Biome: [ ArcticHighPlains, Mountains ]
+    # MaxHeight: 250
+  - Name: FireFliesOrange
+    Biome: [ ArcticForest, ArcticHighForest ]
+    Time: Night
+    MaxHeight: 80
+
+SpecialEffectsGlobal:
+  - Name: Clear
+    Type: Weather
+    InitialDelay: 0
+    Delay: 3
+    Lifetime: 1200
+  - Name: CloudsLight
+    Type: Weather
+    InitialDelay: 0
+    Delay: 2
+    Lifetime: 1200
+  - Name: CloudsMedium
+    Type: Weather
+    InitialDelay: 0
+    Delay: 3
+    Lifetime: 1200
+  - Name: Clouds
+    Type: Weather
+    InitialDelay: 5
+    Delay: 3
+    Lifetime: 1200
+  - Name: Fog
+    Type: Weather
+    InitialDelay: 12
+    Delay: 5
+    Lifetime: 1000
+  - Name: SnowLight
+    Type: Weather
+    InitialDelay: 24
+    Delay: 5
+    Lifetime: 600
+  - Name: SnowMedium
+    Type: Weather
+    InitialDelay: 24
+    Delay: 12
+    Lifetime: 600
+  - Name: SnowHeavy
+    Type: Weather
+    InitialDelay: 24
+    Delay: 12
+    Lifetime: 600
+  - Name: ColdWave
+    Type: Weather
+    InitialDelay: 48
+    Delay: 24
+    Lifetime: 1000
+  - Name: Hail
+    Type: Weather
+    InitialDelay: 48
+    Delay: 24
+    Lifetime: 600
+
+### Terrain and Decorations
+# Terrain and Local Decoration
+Terrain:
+    Name: Snow
+    PoleLevel: 37
+    NoiseStrength: 0.3
+    ColorChange:
+        YFadeCenter: 80
+        YFadeRange: 40
+        YFadeMin: -0.15
+        YFadeMax: 0.2
+
+MainBiome:
+    Textures:
+        - [ SnowRock04, 1 ]
+        - [ Snow08, 5 ]
+        - [ Cliff, 0 ]
+        - [ BedrockLava, 2 ]
+
+    Decorations:
+        - [ RockA01Snow, 0.1 ]
+        - [ RockB01Snow, 0.1 ]
+        - [ Rocks02Snow, 0.1 ]
+
+SubBiomes:
+    - Altitude: 31
+      Textures:
+        - [ Stone, 29 ]
+      Decorations:
+        - [ RocksmallA02, 0.2 ]
+
+    - Altitude: 34
+      Textures:
+        - [ Cliff, 32 ]
+        - [ SnowyGrass, 1 ]
+      Decorations:
+        - [ RocksmallA02, 0.2 ]
+
+# Biome Definition and Main Decoration
+Biome:
+# Lower Plains - aka Hot Springs
+   - Altitude: [ 35, 60 ]
+     Slope: [ 0, 5 ]
+     BiomeClusterData:
+         - Name: "ArcticForest"
+           Id: 1
+           ClusterSize: 200
+           NbOfClusters: 10
+           Temperature: 10
+           Decorations:
+               - [ "BlueSpruceWinter", 8]
+               - [ "AlaskaCedarBare", 2]
+               - [ "BushWinter03", 1]
+               - [ "PixieStalksSnow", 1]
+               - [ "Mushroom2", 1]
+               # - [ "CattailWinter", 0.8]
+               - [ "RealRock2Snow", 0.1]
+               - [ "RealRock3Snow", 0.1]
+               - [ "RealRock6Snow", 0.1]
+               - [ "BulbShroom", 0.5]
+               - [ "PromethiumStone", 0.1]
+           Grass:
+               - Name: "GrassGreen04aSnow"
+                 Density: 1500
+                 YScale: 0.8
+                 Preset: "GrassDense6"
+               - Name: "GrassGreen03bSnow"
+                 Density: 600
+                 YScale: 1.2
+                 Preset: "GrassPatches6"
+         - Name: "ArcticLowPlains"
+           Id: 2
+           ClusterSize: 0
+           NbOfClusters: 0
+           Temperature: 10
+           Decorations:
+               - [ "BushWinter01", 0.5]
+               - [ "PixieStalksSnow", 0.5]
+               - [ "DimpleDomeSnow", 0.5]
+               - [ "BrainFungusSnow", 0.5]
+               - [ "CornDogBushSnow", 1]
+           Grass:
+               - Name: "GrassGreen03bSnow"
+                 Density: 400
+                 YScale: 1.2
+                 Preset: "GrassPatches7"
+   - Altitude: [ 35, 60 ]
+     Slope: [ 0, 10 ]
+     BiomeClusterData:
+         - Name: "ArcticLowPlains"
+           Id: 2
+           ClusterSize: 0
+           NbOfClusters: 0
+           Temperature: 10
+           Decorations:
+               - [ "BlueSpruceWinter", 0.25]
+               - [ "AlaskaCedarBare", 0.25]
+               - [ "RealRock8Snow", 0.15]
+               - [ "RealRock6Snow", 0.15]
+               - [ "RealRock10Snow", 0.15]
+               - [ "BushWinter01", 0.2]
+               - [ "BushWinter02", 0.2]
+               - [ "BushWinter03", 0.1]
+               - [ "CornDogBushSnow", 0.2]
+   - Altitude: [ 0, 60 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:
+         - Name: "ArcticLowPlains"
+           Id: 2
+           ClusterSize: 0
+           NbOfClusters: 0
+           Temperature: 10
+           Decorations:
+               - [ "RealRock1", 0]
+# Intermediate Plains
+   - Altitude: [ 60, 75 ]
+     Slope: [ 0, 15 ]
+     BiomeClusterData:
+         - Name: "ArcticHighForest"
+           Id: 3
+           ClusterSize: 70
+           NbOfClusters: 4
+           Decorations:
+               - [ "BlueSpruceWinter", 8]
+               - [ "AlaskaCedarBare", 2]
+               - [ "RealRock8Snow", 0.1]
+               - [ "RealRock6Snow", 0.1]
+               - [ "BushWinter03", 0.3]
+               - [ "Mushroom2", 0.5]
+               - [ "CornDogBushSnow", 0.4]
+           Grass:
+               - Name: "GrassGreen04aSnow"
+                 Density: 1200
+                 YScale: 0.8
+                 Preset: "GrassDense6"
+         - Name: "ArcticIntermediatePlains"
+           Id: 4
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations:
+               - [ "BulbShroom", 0.2]
+               - [ "BlueSpruceWinter", 0.05]
+               - [ "AlaskaCedarBare", 0.1]
+               - [ "RealRock8Snow", 0.02]
+               - [ "RealRock6Snow", 0.02]
+               - [ "RealRock10Snow", 0.02]
+               - [ "BrainFungusSnow", 0.05]
+               - [ "DimpleDomeSnow", 0.05]
+               - [ "BushWinter01", 0.05]
+               - [ "BushWinter02", 0.05]
+               - [ "BushWinter03", 0.05]
+               - [ "CornDogBushSnow", 0.05]
+           Grass:
+               - Name: "GrassGreen06Snow"
+                 Density: 1500
+                 YScale: 1
+                 Preset: "GrassPatches8"
+   - Altitude: [ 60, 75 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:
+         - Name: "ArcticIntermediatePlains"
+           Id: 4
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations:
+               - [ "RealRock1", 0]
+# High Plains
+   - Altitude: [ 75, 125 ]
+     Slope: [ 0, 20 ]
+     BiomeClusterData:
+         - Name: "ArcticHighPlains"
+           Id: 5
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations:
+               - [ "BlueSpruceWinter", 0.01]
+               - [ "AlaskaCedarBare", 0.04]
+               - [ "BushWinter01", 0.02]
+               - [ "BushWinter02", 0.02]
+               - [ "BushWinter03", 0.02]
+   - Altitude: [ 75, 125 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:
+         - Name: "ArcticHighPlains"
+           Id: 5
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations:
+               - [ "RealRock1", 0]
+# Mountains
+   - Altitude: [ 125, 250 ]
+     Slope: [ 0, 25 ]
+     BiomeClusterData:
+         - Name: "Mountains"
+           Id: 6
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations:
+               - [ "CrystalsPyramidBlue", 0.15]
+               - [ "PromethiumStone", 0.07]
+   - Altitude: [ 125, 250 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:
+         - Name: "Mountains"
+           Id: 6
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations:
+               - [ "RealRock1", 0]
+
+### Resource Deposits
+RandomResources:
+    - Name: IronResource
+      CountMinMax: [ 4, 4 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: CobaltResource
+      CountMinMax: [ 4, 4 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: CopperResource
+      CountMinMax: [ 4, 4 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: SiliconResource
+      CountMinMax: [ 4, 4 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: PromethiumResource
+      CountMinMax: [ 4, 4 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.2
+      MaxDroneCount: 1
+
+    - Name: MagnesiumResource
+      CountMinMax: [ 4, 4 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.1
+      MaxDroneCount: 1
+
+    - Name: NeodymiumResource
+      CountMinMax: [ 4, 4 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
+    - Name: SathiumResource
+      CountMinMax: [ 4, 4 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
+Build: 1211
