@@ -406,7 +406,7 @@ AsteroidResources:
 ### POIs
 POIs:
     Random:
-        - GroupName: DroneBaseAestus
+        - GroupName: XenuFortressP1
           DroneBaseSetup: DroneBaseSetup
           CountMinMax: [ 1, 1 ]
           DroneProb: 1.0
@@ -427,7 +427,7 @@ POIs:
               Value: lava
 
         - GroupName: XenuWeaponBunker
-          CountMinMax: [ 3, 3 ]
+          CountMinMax: [ 4, 4 ]
           DroneProb: 1.0
           DronesMinMax: [ 2, 3 ]
           ReserveCount: 4
@@ -435,7 +435,7 @@ POIs:
 
 
         - GroupName: GhostRiderBiolab
-          CountMinMax: [ 2, 2 ]
+          CountMinMax: [ 3, 3 ]
           DroneProb: 1.0
           DronesMinMax: [ 2, 3 ]
           ReserveCount: 4
@@ -449,7 +449,7 @@ POIs:
 
 
         - GroupName: EpsilonDroneFactory
-          CountMinMax: [ 2, 2 ]
+          CountMinMax: [ 3, 3 ]
           DroneProb: 1.0
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
@@ -458,7 +458,7 @@ POIs:
 
 
         - GroupName: GhostRiderBase
-          CountMinMax: [ 2, 2 ]
+          CountMinMax: [ 4, 4 ]
           DroneProb: 1.0
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
@@ -466,14 +466,14 @@ POIs:
 
 
         - GroupName: MiningComplex
-          CountMinMax: [ 2, 2 ]
+          CountMinMax: [ 3, 3 ]
           DroneProb: 1.0
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: True
 
         - GroupName: AbandonedFactory
-          CountMinMax: [ 2, 2 ]
+          CountMinMax: [ 3, 3 ]
           DroneProb: 0.8
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
@@ -481,7 +481,7 @@ POIs:
 
 
         - GroupName: AbandonedMine
-          CountMinMax: [ 2, 2 ]
+          CountMinMax: [ 3, 3 ]
           DroneProb: 0.1
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
@@ -489,7 +489,7 @@ POIs:
 
 
         - GroupName: XenuTierII
-          CountMinMax: [ 3, 3 ]
+          CountMinMax: [ 4, 4 ]
           DroneProb: 0.1
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
@@ -497,7 +497,7 @@ POIs:
 
 
         - GroupName: RadosTierII
-          CountMinMax: [ 3, 3 ]
+          CountMinMax: [ 4, 4 ]
           DroneProb: 0.1
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
@@ -505,7 +505,7 @@ POIs:
 
 
         - GroupName: EpsilonTierII
-          CountMinMax: [ 3, 3 ]
+          CountMinMax: [ 4, 4 ]
           DroneProb: 0.1
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
@@ -513,7 +513,7 @@ POIs:
 
 
         - GroupName: GhostTierII
-          CountMinMax: [ 3, 3 ]
+          CountMinMax: [ 4, 4 ]
           DroneProb: 0.1
           DronesMinMax: [ 1, 1 ]
           ReserveCount: 1
@@ -531,14 +531,14 @@ POIs:
               Value: Neutral
 
         - GroupName: GhostRiderDefence
-          CountMinMax: [ 2, 2 ]
+          CountMinMax: [ 3, 3 ]
           DroneProb: 1.0
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: True
 
         - GroupName: RadosMissileSilo
-          CountMinMax: [ 2, 2 ]
+          CountMinMax: [ 3, 3 ]
           DroneProb: 1.0
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
