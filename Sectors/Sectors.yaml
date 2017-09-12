@@ -92,7 +92,7 @@ Sectors:
   Allow:
   - Ganymede System
   Deny:
-  - Eonus  System
+  - Metis System
 - Coordinates:
   - -581
   - 6
