@@ -1,0 +1,3 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Gaspra,184283,'Hover Vessel (HV)',HV,[Private]  ,73,33,1354.091 33.49272 -1075.486,358.8632 65.13046 359.9797,True,False,False,9/11/2017 10:45:58 AM,14545554,'Varghulf',76561198092221545,9/11/2017 11:10:31 AM,14574998,
+Gaspra,184283,'Hover Vessel (HV)',HV,[NoFaction],1,1,1354.091 33.49272 -1075.486,358.8632 65.13046 359.9797,False,False,False,9/11/2017 10:45:58 AM,14545554,'Varghulf',76561198092221545,9/11/2017 11:27:49 AM,14595754,REMOVE EMPTY

@@ -1,0 +1,3 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Eros Moon,181358,'Small Vessel (SV)',SV,[Private]  ,13,13,-3014.916 38.50988 -560.4935,1.809508 62.6814 0.5944971,True,False,False,9/11/2017 10:05:30 AM,14496990,'Captain Durall',76561198022220344,9/11/2017 10:07:25 AM,14499282,
+Eros Moon,181358,'Small Vessel (SV)',SV,[NoFaction],0,0,-3047.764 38.31253 -536.8503,359.9906 37.19172 -0.005372686,False,False,True,9/11/2017 8:39:52 PM,15256502,'Captain Durall',76561198022220344,9/11/2017 8:40:20 PM,15257049,REMOVE EMPTY

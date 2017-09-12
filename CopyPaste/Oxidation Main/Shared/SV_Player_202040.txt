@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Gaspra Moon,202040,'Alpha Shuttle',SV,[Fac   105],541,106,3547.033 35.29543 280.2646,4.011408 115.3715 0.001086741,True,False,True,9/12/2017 6:28:15 AM,15962560,'Theta-Nine',76561198069161173,9/12/2017 6:41:03 AM,15977919,

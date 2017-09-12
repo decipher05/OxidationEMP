@@ -1,0 +1,5 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Dactyl,6543,'Small Vessel (SV)',SV,[Private]  ,71,33,3333.892 30.74064 -479.0135,5.744358 212.1928 4.98841,True,False,False,9/3/2017 8:22:05 AM,568311,'Ulfr Riorwa',76561198129187405,9/3/2017 8:22:29 AM,568782,
+Dactyl,6543,'Small Vessel (SV)',SV,[Private]  ,71,33,3333.892 30.74064 -479.0135,5.744358 212.1928 4.98841,True,False,False,9/3/2017 8:22:05 AM,568311,'Ulfr Riorwa',76561198129187405,9/3/2017 9:10:01 PM,1487609,
+Dactyl,6543,'Small Vessel (SV)',SV,[Private]  ,71,33,3333.892 30.74064 -479.0135,5.744358 212.1928 4.98841,True,False,False,9/3/2017 8:22:05 AM,568311,'Ulfr Riorwa',76561198129187405,9/3/2017 9:19:09 PM,1498571,
+Dactyl,6543,'Small Vessel (SV)',SV,[Private]  ,71,33,3333.892 30.74064 -479.0135,5.744358 212.1928 4.98841,True,False,False,9/3/2017 8:22:05 AM,568311,'Ulfr Riorwa',76561198129187405,9/10/2017 6:08:58 PM,13349146,WIPED

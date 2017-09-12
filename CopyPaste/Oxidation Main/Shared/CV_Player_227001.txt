@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Vyrdis System,227001,'      ',CV,[NoFaction],0,0,-20396.48 602.3236 22716.79,0.116752 42.0873 -0.0002427924,False,False,False,9/12/2017 9:38:18 AM,16190612,'Varghulf',76561198092221545,9/12/2017 9:38:28 AM,16190810,REMOVE EMPTY

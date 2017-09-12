@@ -1,0 +1,5 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Dactyl,6498,'Hover Vessel (HV)',HV,[Private]  ,39,25,3324.822 29.52945 -498.1782,0.8890336 215.9928 0.4887033,True,False,False,9/3/2017 8:21:55 AM,568115,'Ulfr Riorwa',76561198129187405,9/3/2017 8:22:29 AM,568782,
+Dactyl,6498,'Hover Vessel (HV)',HV,[Private]  ,39,25,3324.822 29.52945 -498.1782,0.8890336 215.9928 0.4887033,True,False,False,9/3/2017 8:21:55 AM,568115,'Ulfr Riorwa',76561198129187405,9/3/2017 9:10:01 PM,1487609,
+Dactyl,6498,'Hover Vessel (HV)',HV,[Private]  ,39,25,3324.822 29.52945 -498.1782,0.8890336 215.9928 0.4887033,True,False,False,9/3/2017 8:21:55 AM,568115,'Ulfr Riorwa',76561198129187405,9/3/2017 9:19:09 PM,1498571,
+Dactyl,6498,'Hover Vessel (HV)',HV,[Private]  ,39,25,3324.822 29.52945 -498.1782,0.8890336 215.9928 0.4887033,True,False,False,9/3/2017 8:21:55 AM,568115,'Ulfr Riorwa',76561198129187405,9/10/2017 6:08:58 PM,13349146,WIPED

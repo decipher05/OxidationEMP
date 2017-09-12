@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Vyrdis,88147,'BA_Patrol-Vessel-HQ',BA,[NoFaction],0,0,-3835 66.67041 -744,0 0 0,False,False,False,9/8/2017 11:23:24 PM,10274164,' Sackinvain',76561197994450968,9/9/2017 12:18:06 AM,10339791,REMOVE EMPTY

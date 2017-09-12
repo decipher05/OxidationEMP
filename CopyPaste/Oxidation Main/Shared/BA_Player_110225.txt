@@ -1,0 +1,6 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Gaspra,110225,'Base (BA)',BA,[Private]  ,32,7,-2766.609 28.57559 -831.92,0 139.0864 0,True,True,False,9/8/2017 2:22:29 AM,8764815,'ThunderStorm',76561198055202658,9/8/2017 2:22:56 AM,8765365,
+Gaspra,110225,'Base (BA)',BA,[Private]  ,32,7,-2766.609 28.57559 -831.92,0 139.0864 0,True,True,False,9/8/2017 2:22:29 AM,8764815,'ThunderStorm',76561198055202658,9/9/2017 1:52:58 AM,10453626,
+Gaspra,110225,'Base (BA)',BA,[Private]  ,32,7,-2766.609 28.57559 -831.92,0 139.0864 0,True,True,False,9/8/2017 2:22:29 AM,8764815,'ThunderStorm',76561198055202658,9/10/2017 3:18:34 AM,12282424,
+Gaspra,110225,'Base (BA)',BA,[Private]  ,33,8,-2766.609 28.57559 -831.92,0 139.0864 0,True,True,False,9/10/2017 5:57:14 PM,13335056,'ThunderStorm',76561198055202658,9/10/2017 6:29:36 PM,13373894,
+Gaspra,110225,'Base (BA)',BA,[NoFaction],19,0,-2766.609 28.57559 -831.92,0 139.0864 0,False,False,False,9/11/2017 6:53:25 AM,14266488,'ThunderStorm',76561198055202658,9/11/2017 8:54:25 AM,14411678,DECAYED

@@ -1,0 +1,4 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Eonus,52259,'ASP MK I (SV)',SV,[Private]  ,100,31,1460.778 33.39287 387.9626,358.546 301.2443 2.080722,True,False,False,9/5/2017 7:08:59 AM,3931254,'Oriayan',76561198009448434,9/5/2017 7:11:25 AM,3934169,
+Eonus,52259,'ASP MK I (SV)',SV,[Private]  ,100,31,1460.778 33.39287 387.9626,358.546 301.2443 2.080722,True,False,False,9/5/2017 7:08:59 AM,3931254,'Oriayan',76561198009448434,9/5/2017 10:04:28 AM,4141839,
+Eonus,52259,'ASP MK I (SV)',SV,[NoFaction],0,0,1460.778 33.39287 387.9626,358.546 301.2443 2.080722,False,False,False,9/5/2017 3:06:06 PM,4502069,'Oriayan',76561198009448434,9/5/2017 3:08:59 PM,4505522,REMOVE EMPTY

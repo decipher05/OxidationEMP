@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Gaspra,178932,'HV',HV,[NoFaction],0,0,1338.38 33.2443 -1068.807,358.5815 125.1328 0.907215,False,False,False,9/11/2017 9:29:19 AM,14453556,'Varghulf',76561198092221545,9/11/2017 10:10:08 AM,14502544,REMOVE EMPTY

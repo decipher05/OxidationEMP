@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Himalia,62001,'Base (BA)',BA,[NoFaction],0,0,1830.217 37.41346 -199.7673,0 319.0976 0,False,False,False,9/5/2017 11:42:04 AM,4257213,' FENRIS',76561197968119133,9/5/2017 11:42:12 AM,4257391,REMOVE EMPTY

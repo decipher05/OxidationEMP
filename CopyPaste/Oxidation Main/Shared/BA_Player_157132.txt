@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Eonus,157132,'Basis (BA)',BA,[NoFaction],0,0,3367.15 27.88437 822.4241,0 97.51961 0,False,False,False,-,0,'',,9/9/2017 11:26:00 PM,12003337,REMOVE EMPTY

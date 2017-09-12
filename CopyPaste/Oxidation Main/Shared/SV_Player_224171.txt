@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Icarus,224171,'Salad Bar',SV,[Fac   106],324,109,717.7427 85.47026 -409.3269,4.264025 79.00966 6.720726E-05,True,True,True,9/12/2017 7:13:38 AM,16017019,'2spiritwolf',76561198004742581,9/12/2017 7:20:24 AM,16025137,

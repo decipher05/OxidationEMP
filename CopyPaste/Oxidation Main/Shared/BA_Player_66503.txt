@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Eonus,66503,'Base (BA)',BA,[NoFaction],0,0,1318.06 25.28851 -1193.308,0 181.719 0,False,False,False,9/6/2017 7:46:02 AM,5701974,'Oriayan',76561198009448434,9/6/2017 7:46:04 AM,5702020,REMOVE EMPTY

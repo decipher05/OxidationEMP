@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Icarus,224068,'Sparrow II',SV,[Fac   106],501,58,720.28 83.81159 -418.2696,4.629978 78.66901 0.06753682,True,False,True,9/12/2017 7:14:56 AM,16018569,'2spiritwolf',76561198004742581,9/12/2017 7:20:24 AM,16025137,

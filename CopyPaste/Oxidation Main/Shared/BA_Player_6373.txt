@@ -1,0 +1,5 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Dactyl,6373,'Base (BA)',BA,[Private]  ,39,1,2404.682 16.63187 591.0121,0 355.3681 0,True,False,False,9/3/2017 3:56:58 AM,250157,'Edgar_',76561198160415207,9/3/2017 8:22:29 AM,568782,
+Dactyl,6373,'Base (BA)',BA,[Private]  ,39,1,2404.682 16.63187 591.0121,0 355.3681 0,True,False,False,9/3/2017 3:56:58 AM,250157,'Edgar_',76561198160415207,9/3/2017 9:10:01 PM,1487609,
+Dactyl,6373,'Base (BA)',BA,[Private]  ,39,1,2404.682 16.63187 591.0121,0 355.3681 0,True,False,False,9/3/2017 3:56:58 AM,250157,'Edgar_',76561198160415207,9/3/2017 9:19:09 PM,1498571,
+Dactyl,6373,'Base (BA)',BA,[Private]  ,39,1,2404.682 16.63187 591.0121,0 355.3681 0,True,False,False,9/3/2017 3:56:58 AM,250157,'Edgar_',76561198160415207,9/10/2017 6:08:58 PM,13349146,WIPED

@@ -1,0 +1,4 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Gaspra,178435,'Small Vessel (SV)',SV,[Fac   106],40,24,-3317.733 36.22897 -797.774,7.19837 242.5381 356.107,True,False,True,9/11/2017 10:49:26 AM,14549697,'Rantul',76561198071099427,9/11/2017 11:10:31 AM,14574998,
+Gaspra,178435,'Small Vessel (SV)',SV,[Fac   106],40,24,-3317.733 36.22897 -797.774,7.19837 242.5381 356.107,True,False,True,9/11/2017 10:49:26 AM,14549697,'Rantul',76561198071099427,9/11/2017 11:34:00 AM,14603184,
+Gaspra,178435,'Small Vessel (SV)',SV,[NoFaction],0,0,-3290.544 25.87141 -834.1126,20.60618 200.6277 0.1780579,False,False,False,9/11/2017 11:55:13 AM,14626912,'Rantul',76561198071099427,9/11/2017 12:00:22 PM,14633106,REMOVE EMPTY

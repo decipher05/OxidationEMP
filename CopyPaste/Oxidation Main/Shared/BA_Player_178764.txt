@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Gaspra,178764,'Base (BA)',BA,[NoFaction],0,0,-3300.8 28.11227 -808.0557,0 342.8159 0,False,False,False,9/11/2017 11:00:28 AM,14562936,'Rantul',76561198071099427,9/11/2017 11:00:39 AM,14563172,REMOVE EMPTY

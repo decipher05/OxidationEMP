@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Icarus,219003,'Small Vessel (SV)',SV,[Fac   106],775,129,676.1795 98.49461 -375.3354,2.84364 77.12822 1.572856,True,False,True,9/12/2017 5:19:25 AM,15879959,'Oriayan',76561198009448434,9/12/2017 7:20:24 AM,16025137,

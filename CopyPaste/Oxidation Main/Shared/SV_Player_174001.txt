@@ -1,0 +1,5 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Himalia,174001,'Small Vessel (SV)',SV,[Private]  ,3348,185,1904.843 39.99729 -350.3008,358.7545 200.6842 359.3612,True,False,True,9/10/2017 6:46:15 PM,13393877,'Vatirel',76561198025654783,9/10/2017 6:46:39 PM,13394358,
+Himalia,174001,'Small Vessel (SV)',SV,[Private]  ,3348,185,1904.843 39.99729 -350.3008,358.7545 200.6842 359.3612,True,False,True,9/10/2017 6:46:15 PM,13393877,'Vatirel',76561198025654783,9/12/2017 1:44:45 AM,15622347,
+Himalia,174001,'Small Vessel (SV)',SV,[Private]  ,3348,185,1904.843 39.99729 -350.3008,358.7545 200.6842 359.3612,True,False,True,9/10/2017 6:46:15 PM,13393877,'Vatirel',76561198025654783,9/12/2017 4:48:23 AM,15842704,
+Himalia,174001,'Small Vessel (SV)',SV,[Private]  ,3348,185,1904.843 39.99729 -350.3008,358.7545 200.6842 359.3612,True,False,True,9/10/2017 6:46:15 PM,13393877,'Vatirel',76561198025654783,9/12/2017 4:53:21 AM,15848673,

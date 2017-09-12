@@ -1,0 +1,3 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Eros Moon,120004,'Base (BA)',BA,[Private]  ,4,4,-2993.84 37.7151 -431.9057,0 120.2924 0,True,True,False,-,0,'',,9/8/2017 12:39:43 AM,8641497,
+Eros Moon,120004,'Base (BA)',BA,[NoFaction],0,0,-2993.84 37.7151 -431.9057,0 120.2924 0,False,False,False,-,0,'',,9/8/2017 12:52:53 AM,8657297,REMOVE EMPTY

@@ -1,0 +1,6 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Eros Moon,123007,'Hover Vessel (HV)',HV,[Private]  ,170,51,-3046.224 38.25374 -537.9867,0.08594578 223.8262 0.0008800948,True,False,True,9/8/2017 2:25:33 AM,8768498,'Captain Durall',76561198022220344,9/8/2017 2:25:55 AM,8768935,
+Eros Moon,123007,'Hover Vessel (HV)',HV,[Private]  ,170,51,-3046.475 38.21138 -537.1819,0.0892791 222.6054 -0.001565639,True,False,True,9/8/2017 11:17:20 PM,10266878,'Captain Durall',76561198022220344,9/8/2017 11:20:23 PM,10270523,
+Eros Moon,123007,'Hover Vessel (HV)',HV,[Private]  ,170,51,-3047.427 38.24963 -536.9631,0.08210356 45.05512 359.994,True,False,True,9/11/2017 4:57:01 AM,14126793,'Captain Durall',76561198022220344,9/11/2017 4:58:12 AM,14128218,
+Eros Moon,123007,'Hover Vessel (HV)',HV,[Private]  ,170,51,-3047.427 38.24963 -536.9631,0.08210356 45.05512 359.994,True,False,True,9/11/2017 5:59:39 AM,14201955,'Captain Durall',76561198022220344,9/11/2017 6:01:20 AM,14203991,
+Eros Moon,123007,'Sanctuary Scout',HV,[NoFaction],0,0,-3055.444 37.47842 -544.3544,359.1759 47.08589 357.2655,False,False,False,9/11/2017 7:23:42 AM,14302826,'Captain Durall',76561198022220344,9/11/2017 7:23:59 AM,14303154,REMOVE EMPTY

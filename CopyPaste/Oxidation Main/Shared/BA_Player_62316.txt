@@ -1,0 +1,5 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Gaspra,62316,'Base (BA)',BA,[Private]  ,2,2,1312.09 25.92011 1179.241,0 155.8449 0,True,False,False,9/5/2017 11:19:33 PM,5094198,'fullblood',76561198172152749,9/5/2017 11:19:54 PM,5094625,
+Gaspra,62316,'Base (BA)',BA,[NoFaction],118,0,1312.09 25.92011 1179.241,0 155.8449 0,False,False,False,9/6/2017 5:10:11 AM,5514952,'fullblood',76561198172152749,9/6/2017 5:10:32 AM,5515383,
+Gaspra,62316,'Base (BA)',BA,[NoFaction],118,0,1312.09 25.92011 1179.241,0 155.8449 0,False,False,False,9/6/2017 8:46:02 PM,6634820,'fullblood',76561198172152749,9/6/2017 8:57:32 PM,6648611,
+Gaspra,62316,'Base (BA)',BA,[NoFaction],118,0,1312.09 25.92011 1179.241,0 155.8449 0,False,False,False,9/6/2017 8:46:02 PM,6634820,'fullblood',76561198172152749,9/7/2017 1:19:45 AM,6963271,DECAYED

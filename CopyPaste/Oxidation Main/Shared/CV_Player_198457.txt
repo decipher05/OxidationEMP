@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Eros,198457,'Walking GTFO',CV,[Fac   105],114,28,-2818.849 34.6837 -94.89217,359.4566 332.2442 2.393345,True,True,False,-,0,'',,9/11/2017 10:21:56 PM,15378967,

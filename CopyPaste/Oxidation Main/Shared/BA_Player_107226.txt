@@ -1,0 +1,3 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Eros,107226,'Base (BA)',BA,[Private]  ,4,4,-1927.409 24.32752 -19.42294,0 84.10461 0,True,True,False,-,0,'',,9/7/2017 11:03:12 PM,8525683,
+Eros,107226,'Base (BA)',BA,[NoFaction],0,0,-1927.409 24.32752 -19.42294,0 84.10461 0,False,False,False,9/8/2017 12:06:51 AM,8602063,'Captain Durall',76561198022220344,9/8/2017 12:11:27 AM,8607580,REMOVE EMPTY

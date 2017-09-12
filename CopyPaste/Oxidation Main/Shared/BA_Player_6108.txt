@@ -1,0 +1,5 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Dactyl,6108,'Home',BA,[Private]  ,57,14,3332.067 27.89469 -534.6299,0 109.3527 0,True,True,False,9/3/2017 8:20:06 AM,565921,'Ulfr Riorwa',76561198129187405,9/3/2017 8:22:29 AM,568782,
+Dactyl,6108,'Home',BA,[Private]  ,57,14,3332.067 27.89469 -534.6299,0 109.3527 0,True,True,False,9/3/2017 8:20:06 AM,565921,'Ulfr Riorwa',76561198129187405,9/3/2017 9:10:01 PM,1487609,
+Dactyl,6108,'Home',BA,[Private]  ,55,12,3332.067 27.89469 -534.6299,0 109.3527 0,True,True,False,9/3/2017 8:20:06 AM,565921,'Ulfr Riorwa',76561198129187405,9/3/2017 9:19:09 PM,1498571,
+Dactyl,6108,'Home',BA,[Private]  ,55,12,3332.067 27.89469 -534.6299,0 109.3527 0,True,True,False,9/3/2017 8:20:06 AM,565921,'Ulfr Riorwa',76561198129187405,9/10/2017 6:08:58 PM,13349146,WIPED

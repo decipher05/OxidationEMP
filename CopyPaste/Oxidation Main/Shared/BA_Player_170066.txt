@@ -1,0 +1,5 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Eonus,170066,'Basis (BA)',BA,[Private]  ,245,7,3366.026 27.88627 824.5427,0 100.3383 0,True,True,False,9/10/2017 12:46:07 PM,12961715,'Don Kanalie87',76561198048982324,9/10/2017 12:46:28 PM,12962146,
+Eonus,170066,'Basis (BA)',BA,[Private]  ,245,7,3366.026 27.88627 824.5427,0 100.3383 0,True,True,False,9/10/2017 12:46:07 PM,12961715,'Don Kanalie87',76561198048982324,9/10/2017 7:36:25 PM,13454076,
+Eonus,170066,'Basis (BA)',BA,[NoFaction],240,4,3366.026 27.88627 824.5427,0 100.3383 0,False,False,False,9/10/2017 8:53:58 PM,13547134,'Don Kanalie87',76561198048982324,9/10/2017 8:55:01 PM,13548394,
+Eonus,170066,'Basis (BA)',BA,[NoFaction],240,4,3366.026 27.88627 824.5427,0 100.3383 0,False,False,False,9/10/2017 8:53:58 PM,13547134,'Don Kanalie87',76561198048982324,9/10/2017 10:54:57 PM,13692314,DECAYED

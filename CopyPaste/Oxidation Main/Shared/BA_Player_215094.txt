@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Gaspra,215094,'Outpost',BA,[Fac   105],59,12,-2490.514 39.94487 -452.1852,0 177.2977 0,True,True,False,9/12/2017 9:35:32 AM,16187306,'Balboadaho',76561198108516202,9/12/2017 9:35:54 AM,16187740,

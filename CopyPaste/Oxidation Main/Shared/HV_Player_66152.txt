@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Eonus,66152,'Hover Vessel (HV)',HV,[NoFaction],1,1,1350.681 30.55873 -272.8151,351.9916 190.0483 0.8379132,False,False,False,9/6/2017 5:22:44 AM,5530012,'Oriayan',76561198009448434,9/6/2017 5:23:22 AM,5530787,REMOVE EMPTY
