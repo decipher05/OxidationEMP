@@ -578,6 +578,9 @@ POIs:
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 1440
 
     FixedPlayerStart:
         - Mode: Debug
