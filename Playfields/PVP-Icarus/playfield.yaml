@@ -17,7 +17,6 @@ Music: desert
 Radiation: 1.2
 DayLength: 24
 PlanetType: Desert
-Water: WaterBrown
 Moons: 0
 PvP: True
 Seed: 2834756                       # If set overwrites main Seed
