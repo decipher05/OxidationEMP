@@ -82,12 +82,6 @@ POIs:
             - Key: RegenAfter
               Value: 2880
 
-          PlanetVesselBase:
-              Name: PlanetVesselBaseSetup
-              Position3D: [ 0, 102, 0]
-              BaseType: PlanetVesselBase
-              KeyId: 0                  # Unique Key Id
-              PlanetVessel:
 
 
         - GroupName: TS_Akua

@@ -610,7 +610,7 @@ DroneBaseSetup:
               BaseType: PlanetVesselBase
               KeyId: 0
               PlanetVessel:
-                - Name: Patrol-S-Medium
+                - Name: Patrol-XS-Hard
                   Mission: PlanetPatrol
                   FixedMaxSpeed: 5
                   RangePatrolCenter: [ 1500, 0 ]

@@ -472,13 +472,18 @@ POIs:
           Properties:
             - Key: MapMarker
               Value: Neutral
+            - Key: RegenAfter
+              Value: 1440
 
         - GroupName: Lucian
-          CountMinMax: [ 6, 11 ]
+          CountMinMax: [ 4, 8 ]
           DroneProb: 1.0
           DronesMinMax: [ 1, 5 ]
           ReserveCount: 3
           TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 1440
 
         - GroupName: CivilSettlement
           CountMinMax: [ 5, 6 ]
@@ -488,7 +493,7 @@ POIs:
           TroopTransport: True
           Properties:
             - Key: RegenAfter
-              Value: 140
+              Value: 1440
             - Key: MapMarker
               Value: Neutral
 
@@ -498,6 +503,9 @@ POIs:
           DronesMinMax: [ 2, 2 ]
           ReserveCount: 4
           TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 1440
 
         - GroupName: RadosTierI
           CountMinMax: [ 5, 7 ]
@@ -505,6 +513,9 @@ POIs:
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 3
           TroopTransport: True
+          Properties:
+            - Key: RegenAfter
+              Value: 1440
 
     FixedPlayerStart:
         - Mode: Debug
