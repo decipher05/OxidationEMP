@@ -718,19 +718,19 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Metis System
-    - Starter-Space-Akua
+    - Starter-PvP-Space-Akua
     - ''
   - - 0, 0, 0
     - Metis
-    - Starter-Planet-Temperate
+    - Starter-PvP-Planet-Temperate
     - The Mystics:1
   - - -5016, -4750, -2904
     - Metis Moon
-    - Starter-Moon-Akua
+    - Starter-PvP-Moon-Akua
     - ''
   - - 1315, 10001, 7150
     - Smonoe B5XP
-    - Starter-POI-Akua
+    - Starter-PvP-POI-Akua
     - ''
   Allow:
   - Ganymede System
@@ -745,19 +745,19 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Themisto System
-    - Starter-Space-Akua
+    - Starter-PvP-Space-Akua
     - ''
   - - 0, 0, 0
     - Themisto
-    - Starter-Planet-Temperate
+    - Starter-PvP-Planet-Temperate
     - The Vanguard:1
   - - -5016, -4750, -2904
     - Themisto Moon
-    - Starter-Moon-Akua
+    - Starter-PvP-Moon-Akua
     - ''
   - - 1315, 10001, 7150
     - Drone I85
-    - Starter-POI-Akua
+    - Starter-PvP-POI-Akua
     - ''
   Allow:
   - Beli System
@@ -772,19 +772,19 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Callirrhoe System
-    - Starter-Space-Akua
+    - Starter-PvP-Space-Akua
     - ''
   - - 0, 0, 0
     - Callirrhoe
-    - Starter-Planet-Temperate
+    - Starter-PvP-Planet-Temperate
     - The Eternal:4
   - - -5016, -4750, -2904
     - Callirrhoe Moon
-    - Starter-Moon-Akua
+    - Starter-PvP-Moon-Akua
     - ''
   - - 1315, 10001, 7150
     - Blyria 42J
-    - Starter-POI-Akua
+    - Starter-PvP-POI-Akua
     - ''
   Allow:
   - Mathilde System
@@ -799,19 +799,19 @@ Sectors:
   Playfields:
   - - 0, 0, 0
     - Megaclite System
-    - Starter-Space-Akua
+    - Starter-PvP-Space-Akua
     - ''
   - - 0, 0, 0
     - Megaclite
-    - Starter-Planet-Temperate
+    - Starter-PvP-Planet-Temperate
     - The Barbarians:2
   - - -5016, -4750, -2904
     - Megaclite Moon
-    - Starter-Moon-Akua
+    - Starter-PvP-Moon-Akua
     - ''
   - - 1315, 10001, 7150
     - Treon G3A
-    - Starter-POI-Akua
+    - Starter-PvP-POI-Akua
     - ''
   Allow:
   - Kalliope System

@@ -551,7 +551,7 @@ POIs:
             - Key: RegenAfter
               Value: 1440
             - Key: MapMarker
-              Value: Neutral
+              Value: Neutralf
 
         - GroupName: CivilSettlement
           CountMinMax: [ 2, 4 ]
