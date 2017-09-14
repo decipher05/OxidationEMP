@@ -1,0 +1,3 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+P-225,234174,'Hover Vessel (HV)',HV,[Private]  ,223,71,-1146.338 43.26845 492.0044,353.9611 287.2011 359.3983,True,False,True,9/12/2017 3:33:56 PM,16615142,'Oriayan',76561198009448434,9/12/2017 3:34:18 PM,16615577,
+P-225,234174,'Hover Vessel (HV)',HV,[NoFaction],1,1,-1154.584 44.20859 495.2493,353.6612 293.1917 358.7649,False,False,True,9/12/2017 3:55:39 PM,16641194,'Oriayan',76561198009448434,9/12/2017 4:02:27 PM,16649355,REMOVE EMPTY

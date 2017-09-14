@@ -1,0 +1,4 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Themisto,359307,'The Hot Box',BA,[Fac   110],553,65,1686.27 34.29668 900.8011,0 278.6509 0,True,True,False,9/13/2017 10:08:58 PM,18800597,'ObliviosMInd',76561198008531245,9/13/2017 10:09:19 PM,18801028,
+Themisto,359307,'The Hot Box',BA,[Fac   110],553,65,1686.27 34.29668 900.8011,0 278.6509 0,True,True,False,9/14/2017 3:01:14 AM,19151312,'KaN Mo RoZ',76561198259013196,9/14/2017 3:01:35 AM,19151749,
+Themisto,359307,'The Hot Box',BA,[Fac   110],1234,97,1686.27 34.29668 900.8011,0 278.6509 0,True,True,False,9/14/2017 6:53:20 AM,19429834,'KaN Mo RoZ',76561198259013196,9/14/2017 6:53:41 AM,19430265,

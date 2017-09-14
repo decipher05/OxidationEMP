@@ -1,0 +1,3 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Seranis,367545,'Mag 1',BA,[Fac   105],413,25,-1469.564 29.17668 -447.0437,0 265.9485 0,True,True,False,9/14/2017 2:43:22 AM,19129880,'Balboadaho',76561198108516202,9/14/2017 7:43:06 AM,19489567,
+Seranis,367545,'Mag 1',BA,[Fac   105],413,25,-1469.564 29.17668 -447.0437,0 265.9485 0,True,True,False,9/14/2017 2:43:22 AM,19129880,'Balboadaho',76561198108516202,9/14/2017 11:29:51 AM,19761666,

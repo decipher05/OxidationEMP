@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Adrastea,384001,'              ',HV,[NoFaction],0,0,174.0798 40.48923 -1337.759,359.7307 268.9933 11.47688,False,False,False,9/14/2017 10:10:46 AM,19666772,'Varghulf',76561198092221545,9/14/2017 10:13:52 AM,19670476,REMOVE EMPTY

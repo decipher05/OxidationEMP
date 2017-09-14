@@ -1,0 +1,4 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Icarus,365582,'Sentry n',BA,[Fac   106],1661,48,1094.192 97.50523 -381.4619,0 287.7957 0,True,True,False,9/14/2017 7:46:55 AM,19494148,'Rantul',76561198071099427,9/14/2017 8:05:46 AM,19516752,
+Icarus,365582,'Sentry n',BA,[Fac   106],1661,48,1094.192 97.50523 -381.4619,0 287.7957 0,True,True,False,9/14/2017 7:46:55 AM,19494148,'Rantul',76561198071099427,9/14/2017 9:12:10 AM,19596450,
+Icarus,365582,'Sentry n',BA,[Fac   106],1661,48,1094.192 97.50523 -381.4619,0 287.7957 0,True,True,False,9/14/2017 7:46:55 AM,19494148,'Rantul',76561198071099427,9/14/2017 11:29:29 AM,19761230,

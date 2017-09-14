@@ -1,0 +1,4 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Vyrdis,362233,'Base (BA)',BA,[Private]  ,314,1,-4003.971 -0.09609365 -1340.052,0 180.2828 0,True,False,False,9/14/2017 2:35:52 AM,19120881,'Sylar',76561198119358511,9/14/2017 2:45:30 AM,19132445,
+Vyrdis,362233,'..',BA,[Fac   108],983,23,-4003.971 -0.09609365 -1340.052,0 180.2828 0,True,True,False,9/14/2017 7:19:52 AM,19461687,'Sylar',76561198119358511,9/14/2017 8:27:52 AM,19543286,
+Vyrdis,362233,'..',BA,[Fac   108],983,23,-4003.971 -0.09609365 -1340.052,0 180.2828 0,True,True,False,9/14/2017 10:59:44 AM,19725525,'Sylar',76561198119358511,9/14/2017 11:00:06 AM,19725964,

@@ -13,9 +13,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - -550
+  - -499
   - 2
-  - 430
+  - 500
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -38,11 +38,11 @@ Sectors:
   Allow:
   - Beli System
   Deny:
-  - Eclite System
+  - Themisto System
 - Coordinates:
-  - 569
+  - 597
   - -17
-  - -376
+  - -346
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -65,11 +65,11 @@ Sectors:
   Allow:
   - Kalliope System
   Deny:
-  - Hagrone System
+  - Megaclite System
 - Coordinates:
-  - 573
+  - 590
   - -2
-  - 384
+  - 357
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -91,11 +91,12 @@ Sectors:
     - ''
   Allow:
   - Ganymede System
-  Deny: []
+  Deny:
+  - Metis System
 - Coordinates:
-  - -538
+  - -581
   - 6
-  - -387
+  - -350
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -117,7 +118,8 @@ Sectors:
     - ''
   Allow:
   - Mathilde System
-  Deny: []
+  Deny:
+  - Callirrhoe System
 - Coordinates:
   - -356
   - 0
@@ -142,10 +144,11 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - -3480, -15113, -11588
-    - R-126
+    - Taygete
     - Resource-Snow
     - ''
-  Allow: []
+  Allow:
+  - Callirrhoe System
   Deny:
   - Kazo System
 - Coordinates:
@@ -172,10 +175,11 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - -10725, -6691, -9172
-    - R-125
+    - Chaldene
     - Resource-Desert
     - ''
-  Allow: []
+  Allow:
+  - Megaclite System
   Deny:
   - Icarus System
 - Coordinates:
@@ -202,7 +206,7 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - 8683, 11524, -8323
-    - R-124
+    - Harpalyke
     - Resource-Alien2
     - ''
   Allow:
@@ -232,7 +236,7 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - -72, 0, 16356
-    - R-123
+    - Kalyke
     - Resource-Alien
     - ''
   Allow: []
@@ -261,10 +265,11 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - 12917, 230, 425
-    - R-122
+    - Iocaste
     - Resource-Temperate2
     - ''
-  Allow: []
+  Allow:
+  - Metis System
   Deny:
   - Amalthea System
 - Coordinates:
@@ -291,7 +296,7 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - 3147, 10088, 8325
-    - R-121
+    - Erinome
     - Resource-Temperate
     - ''
   Allow: []
@@ -310,7 +315,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Seranis
-    - PVP-Seranis
+    - PVP-Himalia-Enos
     - ''
   - - -4188, 6367, 5518
     - Seranis Moon
@@ -321,7 +326,7 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - -679, -11065, -7736
-    - R-120
+    - Isonoe
     - Resource-Snow
     - ''
   Allow: []
@@ -350,7 +355,7 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - -5486, 9566, -3361
-    - R-119
+    - Praxidike
     - Resource-Desert
     - ''
   Allow:
@@ -380,7 +385,7 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - 3211, 8325, 11329
-    - R-118
+    - Autonoe
     - Resource-Alien2
     - ''
   Allow: []
@@ -410,7 +415,7 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - 744, -12698, -11392
-    - R-117
+    - Thyone
     - Resource-Alien
     - ''
   Allow: []
@@ -440,7 +445,7 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - 8438, -6560, -10804
-    - R-127
+    - Hermippe
     - Resource-Temperate
     - ''
   Allow: []
@@ -470,7 +475,7 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - 10663, 0, 3559
-    - R-116
+    - Aitne
     - Resource-Temperate2
     - ''
   Allow:
@@ -501,7 +506,7 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - -12068, 5518, 2253
-    - R-115
+    - Eurydome
     - Resource-Temperate
     - ''
   Allow: []
@@ -531,7 +536,7 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - -12398, -7148, 3886
-    - R-114
+    - Euanthe
     - Resource-Snow
     - ''
   Allow: []
@@ -561,8 +566,8 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - -11172, -7148, 5453
-    - R-113
-    - Resource-Desert
+    - Euporie
+    - Resource-Temperate
     - ''
   Allow: []
   Deny:
@@ -591,7 +596,7 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - -12461, -6626, 8325
-    - R-112
+    - Orthosie
     - Resource-Alien2
     - ''
   Allow:
@@ -697,9 +702,118 @@ Sectors:
     - Faction-POI-Planet-Dalos
     - ''
   - - -12140, 9370, 12700
-    - R-111
+    - Sponde
     - Resource-Alien
     - ''
-  Allow: []
+  Allow:
+  - Themisto System
   Deny:
   - Ziraxus System
+- Coordinates:
+  - 471
+  - 2
+  - 488
+  Color: 1, 0.01, 0.24
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Metis System
+    - Starter-PvP-Space-Akua
+    - ''
+  - - 0, 0, 0
+    - Metis
+    - Starter-PvP-Planet-Temperate
+    - The Mystics:1
+  - - -5016, -4750, -2904
+    - Metis Moon
+    - Starter-PvP-Moon-Akua
+    - ''
+  - - 1315, 10001, 7150
+    - Smonoe B5XP
+    - Starter-PvP-POI-Akua
+    - ''
+  Allow:
+  - Ganymede System
+  Deny:
+  - Eonus  System
+- Coordinates:
+  - -618
+  - 2
+  - 366
+  Color: 1, 0.01, 0.24
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Themisto System
+    - Starter-PvP-Space-Akua
+    - ''
+  - - 0, 0, 0
+    - Themisto
+    - Starter-PvP-Planet-Temperate
+    - The Vanguard:1
+  - - -5016, -4750, -2904
+    - Themisto Moon
+    - Starter-PvP-Moon-Akua
+    - ''
+  - - 1315, 10001, 7150
+    - Drone I85
+    - Starter-PvP-POI-Akua
+    - ''
+  Allow:
+  - Beli System
+  Deny:
+  - Eros System
+- Coordinates:
+  - -491
+  - 2
+  - -477
+  Color: 1, 0.01, 0.24
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Callirrhoe System
+    - Starter-PvP-Space-Akua
+    - ''
+  - - 0, 0, 0
+    - Callirrhoe
+    - Starter-PvP-Planet-Temperate
+    - The Eternal:4
+  - - -5016, -4750, -2904
+    - Callirrhoe Moon
+    - Starter-PvP-Moon-Akua
+    - ''
+  - - 1315, 10001, 7150
+    - Blyria 42J
+    - Starter-PvP-POI-Akua
+    - ''
+  Allow:
+  - Mathilde System
+  Deny:
+  - Dactyl System
+- Coordinates:
+  - 509
+  - 2
+  - -455
+  Color: 1, 0.01, 0.24
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Megaclite System
+    - Starter-PvP-Space-Akua
+    - ''
+  - - 0, 0, 0
+    - Megaclite
+    - Starter-PvP-Planet-Temperate
+    - The Barbarians:2
+  - - -5016, -4750, -2904
+    - Megaclite Moon
+    - Starter-PvP-Moon-Akua
+    - ''
+  - - 1315, 10001, 7150
+    - Treon G3A
+    - Starter-PvP-POI-Akua
+    - ''
+  Allow:
+  - Kalliope System
+  Deny:
+  - Gaspra System

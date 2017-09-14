@@ -1,0 +1,3 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Eros,235443,'Constructor',BA,[Fac   107],5,5,-2602.714 37.06165 -553.6507,0 178.0944 0,True,True,False,9/12/2017 4:11:44 PM,16660497,'Smigley',76561197961347790,9/12/2017 4:12:06 PM,16660929,
+Eros,235443,'Constructor',BA,[NoFaction],0,0,-2602.714 37.06165 -553.6507,0 178.0944 0,False,False,False,9/12/2017 7:07:12 PM,16871053,'Smigley',76561197961347790,9/12/2017 7:08:39 PM,16872793,REMOVE EMPTY

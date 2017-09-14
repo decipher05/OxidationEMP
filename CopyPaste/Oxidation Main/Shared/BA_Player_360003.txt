@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Himalia,360003,'Base (BA)',BA,[Fac   102],2797,57,823.8051 103.907 -733.2271,0 329.702 0,True,True,False,9/13/2017 6:32:54 PM,18541323,' Sackinvain',76561197994450968,9/13/2017 8:05:37 PM,18652574,

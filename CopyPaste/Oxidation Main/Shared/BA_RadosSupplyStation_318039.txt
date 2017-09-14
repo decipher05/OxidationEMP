@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Seranis,318039,'Supply Station',BA,[NoFaction],0,0,1686 37.5 -484,0 0 0,False,False,False,9/13/2017 8:20:29 PM,18670433,'ThunderStorm',76561198055202658,9/13/2017 8:25:55 PM,18676952,REMOVE EMPTY

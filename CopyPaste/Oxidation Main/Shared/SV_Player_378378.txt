@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Metis,378378,'Small Vessel (SV)',SV,[NoFaction],0,0,1218.723 31.62876 507.3524,323.0623 47.47829 12.41195,False,False,False,9/14/2017 7:22:05 AM,19464345,'Death32',76561198034217118,9/14/2017 7:22:44 AM,19465114,REMOVE EMPTY

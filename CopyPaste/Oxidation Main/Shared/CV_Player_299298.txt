@@ -1,0 +1,4 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Vyrdis,299298,'Capital Vessel (CV)',CV,[Fac   108],370,57,4015.848 56.09037 -1265.051,2.878023 173.5315 359.4383,True,True,False,9/13/2017 11:34:07 AM,18050206,'Sylar',76561198119358511,9/13/2017 11:34:39 AM,18050834,
+Vyrdis,299298,'Capital Vessel (CV)',CV,[Fac   108],370,57,-4053.213 55.47609 -1287.911,359.7993 277.1784 2.297795,True,True,False,9/14/2017 2:44:05 AM,19130738,'Sylar',76561198119358511,9/14/2017 2:45:30 AM,19132445,
+Vyrdis,299298,'Capital Vessel (CV)',CV,[NoFaction],0,0,-4053.213 55.47609 -1287.911,359.7982 277.1783 2.323346,False,False,False,9/14/2017 4:37:50 AM,19267236,'Sylar',76561198119358511,9/14/2017 4:41:06 AM,19271151,REMOVE EMPTY

@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Icarus,200029,'BA_Patrol-Vessel-HQ',BA,[NoFaction],0,0,1046 63.50073 -1004,0 0 0,False,False,False,9/12/2017 5:21:39 AM,15882634,'2spiritwolf',76561198004742581,9/12/2017 4:36:05 PM,16689720,REMOVE EMPTY

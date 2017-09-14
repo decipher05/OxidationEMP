@@ -1,0 +1,4 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Icarus,365589,'Mine Runner',SV,[Fac   106],291,93,905.2198 72.7835 -555.395,-0.000689706 137.9086 -0.00547448,True,False,True,9/14/2017 7:41:52 AM,19488074,'Rantul',76561198071099427,9/14/2017 8:05:46 AM,19516752,
+Icarus,365589,'Mine Runner',SV,[Fac   106],291,93,905.2198 72.7835 -555.395,-0.000689706 137.9086 -0.00547448,True,False,True,9/14/2017 7:41:52 AM,19488074,'Rantul',76561198071099427,9/14/2017 9:12:11 AM,19596450,
+Icarus,365589,'Mine Runner',SV,[Fac   106],291,93,905.2198 72.7835 -555.395,-0.000689706 137.9086 -0.00547448,True,False,True,9/14/2017 7:41:52 AM,19488074,'Rantul',76561198071099427,9/14/2017 11:29:29 AM,19761230,

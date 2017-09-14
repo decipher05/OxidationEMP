@@ -1,0 +1,5 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Dactyl Moon,276664,'Small Vessel (SV)',SV,[Fac   108],179,39,500.9867 124.0251 586.7424,359.4779 22.5514 3.519071,True,True,False,9/13/2017 4:41:01 AM,17558283,'Sephtis',76561198070863399,9/13/2017 4:41:22 AM,17558716,
+Vyrdis,276664,'Small Vessel (SV)',SV,[Fac   108],179,39,4040.243 58.60156 -1279.667,357.4687 345.8253 1.144212,True,False,True,9/13/2017 11:31:26 AM,18046979,'Sephtis',76561198070863399,9/13/2017 11:34:39 AM,18050834,
+Vyrdis,276664,'Small Vessel (SV)',SV,[Fac   108],179,39,4059.384 56.64785 -1283.651,357.5591 24.12183 359.8888,True,False,False,9/14/2017 3:55:31 AM,19216467,'Sephtis',76561198070863399,9/14/2017 8:27:52 AM,19543286,
+Vyrdis,276664,'Small Vessel (SV)',SV,[Fac   108],179,39,4059.384 56.64785 -1283.651,357.5591 24.12183 359.8888,True,False,False,9/14/2017 3:55:31 AM,19216467,'Sephtis',76561198070863399,9/14/2017 11:00:06 AM,19725964,

@@ -1,0 +1,3 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Gaspra Moon,264001,'Theta Escape Vessel',CV,[Fac   105],119,30,3561.822 34.54763 286.6598,-0.001066427 106.9825 359.9942,True,True,False,9/12/2017 10:44:45 PM,17130764,'ThunderStorm',76561198055202658,9/12/2017 10:48:29 PM,17135255,
+Gaspra Moon,264001,'Theta Escape Vessel',CV,[Fac   105],119,30,3561.822 34.54763 286.6598,-0.001066427 106.9825 359.9942,True,True,False,9/12/2017 10:44:45 PM,17130764,'ThunderStorm',76561198055202658,9/12/2017 11:24:33 PM,17178540,

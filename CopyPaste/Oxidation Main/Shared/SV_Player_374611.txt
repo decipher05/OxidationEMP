@@ -1,0 +1,3 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Metis System,374611,'BT Scooty',SV,[Fac   111],37,34,-6960.047 -3731.04 -3814.144,353.7606 288.56 63.69529,True,True,False,9/14/2017 7:19:18 AM,19461002,'BlackThorne',76561198357921657,9/14/2017 7:26:54 AM,19470128,
+Metis System,374611,'BT Scooty',SV,[Fac   111],37,34,-20730.89 -2139.327 776.1035,356.0116 215.0378 357.708,True,False,True,9/14/2017 7:48:36 AM,19496154,'BlackThorne',76561198357921657,9/14/2017 8:08:01 AM,19519470,

@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Themisto,372234,'Hover Vessel (HV)',HV,[NoFaction],0,0,1694.754 27.27837 918.3007,-0.002114128 8.129635 -0.002623816,False,False,False,-,0,'',,9/14/2017 5:14:17 AM,19310972,REMOVE EMPTY

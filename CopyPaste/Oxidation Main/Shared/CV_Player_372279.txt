@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Metis System,372279,'UFO',CV,[Fac   111],433,82,-20730.49 -2151.92 774.5157,355.9108 207.5946 358.2134,True,True,False,9/14/2017 8:07:40 AM,19519036,'BlackThorne',76561198357921657,9/14/2017 8:08:01 AM,19519470,

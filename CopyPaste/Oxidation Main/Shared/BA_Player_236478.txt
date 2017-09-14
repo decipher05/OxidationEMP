@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Icarus,236478,'Base (BA)',BA,[NoFaction],0,0,870.4029 68.53067 -569.6147,0 141.5511 0,False,False,False,-,0,'',,9/12/2017 7:07:04 PM,16870904,REMOVE EMPTY

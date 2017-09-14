@@ -1,0 +1,4 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Vyrdis,305006,'sdasda',SV,[Fac   108],374,51,4013.864 65.608 -1263.079,356.365 177.9008 359.6526,True,False,True,9/13/2017 9:44:07 AM,17918401,'Sylar',76561198119358511,9/13/2017 11:34:39 AM,18050834,
+Vyrdis,305006,'sdasda',SV,[Fac   108],374,51,-4009.717 2.948377 -1327.262,7.895047 93.23421 0.003527935,True,False,True,9/14/2017 7:19:19 AM,19461031,'Sylar',76561198119358511,9/14/2017 8:27:52 AM,19543286,
+Vyrdis,305006,'sdasda',SV,[Fac   108],374,51,-4009.717 2.948377 -1327.262,7.895047 93.23421 0.003527935,True,False,True,9/14/2017 10:36:55 AM,19698143,'Sylar',76561198119358511,9/14/2017 11:00:06 AM,19725964,

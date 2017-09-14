@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Eonus,379544,'Small Vessel (SV)',SV,[NoFaction],1,0,-1515.075 30.03965 636.6826,358.8642 112.6527 0.3042394,False,False,False,9/14/2017 10:54:34 AM,19719323,'KLAMICUS',76561198006455744,9/14/2017 11:29:07 AM,19760774,

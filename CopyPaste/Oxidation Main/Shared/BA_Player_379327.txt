@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Eonus,379327,'Base (BA)',BA,[Private]  ,635,10,-2583.464 31.01016 314.5486,0 269.8767 0,True,True,False,9/14/2017 11:28:45 AM,19760347,'KLAMICUS',76561198006455744,9/14/2017 11:29:07 AM,19760774,

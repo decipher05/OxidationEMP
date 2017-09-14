@@ -22,7 +22,7 @@ Moons: 1
 Water: WaterBlue
 SeaLevel: 23
 PvP: False
-#Seed: 123456
+Seed: 541258
 #UseFixed: False
 
 # Playfield difficulty
@@ -32,7 +32,7 @@ Difficulty: 2
 PlayfieldType: Planet
 Description: "Difficulty:[c][FFFFFF] Easy[-][/c]    Origin:[c][FFFFFF] %Origin%[-][/c]
 
-  This is a PVP Faction planet.
+This planet is a PvE start for a PvP faction. Intended for beginners.
 
 This starter planet is a temperate planet with vast oceans, volcanic islands and large continents with mountain ranges. It has a breathable atmosphere. The average temperature is 23°C and gravity amounts to 0.84g.
 
@@ -515,15 +515,6 @@ RandomResources:
       DroneProb: 0.1
       MaxDroneCount: 1
 
-    - Name: NeodymiumResource
-      CountMinMax: [ 3, 7 ]
-      SizeMinMax: [ 15, 20 ]
-      DepthMinMax: [ 1, 3 ]
-      DroneProb: 0.3
-      MaxDroneCount: 1
-
-
-
 
 
 ### Resource Asteroids
@@ -552,9 +543,6 @@ AsteroidResources:
       Threshold: 0.4
       Amount: 0.5
 
-    - Name: NeodymiumResource
-      Threshold: 0.4
-      Amount: 0.5
 
 
 ### POIs

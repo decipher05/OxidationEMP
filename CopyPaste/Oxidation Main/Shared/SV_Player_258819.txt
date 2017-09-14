@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Himalia,258819,'Small Vessel (SV)',SV,[NoFaction],0,0,1857.614 33.45355 -104.2258,358.5828 248.7138 0.07703518,False,False,False,9/12/2017 9:24:26 PM,17034401,'Satren',76561198124558893,9/12/2017 9:24:40 PM,17034671,REMOVE EMPTY

@@ -21,17 +21,16 @@ PlanetType: Temperate
 Moons: 1
 Water: WaterBlue
 SeaLevel: 23
-PvP: False
+PvP: True
 #Seed: 123456
 #UseFixed: False
-AllowCV: False
 
 # Playfield difficulty
-Difficulty: 2
+Difficulty: 5
 
 # Planet or Space
 PlayfieldType: Planet
-Description: "PvE Resource Planet only! Building prohibited!"
+#Description: "PvE Resource Planet only! Building prohibited!"
 
 # Sun
 SunFlare: EnvironmentalEffects/SunFlareBlue
@@ -468,59 +467,449 @@ Biome:
 ### Resource Deposits
 RandomResources:
     - Name: IronResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [ 4, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: CobaltResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [2, 5 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: CopperResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [ 2, 5 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: SiliconResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [ 2, 5 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: PromethiumResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [ 3, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.2
       MaxDroneCount: 1
 
     - Name: MagnesiumResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [ 2, 5 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
 
     - Name: NeodymiumResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [ 2, 5 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1
 
     - Name: SathiumResource
-      CountMinMax: [ 4, 4 ]
+      CountMinMax: [ 3, 7 ]
       SizeMinMax: [ 15, 20 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1
+
+    - Name: PentaxidResource
+      CountMinMax: [ 2, 5 ]
+      SizeMinMax: [ 15, 20 ]
+      DepthMinMax: [ 1, 3 ]
+      DroneProb: 0.3
+      MaxDroneCount: 1
+
+
+AsteroidResources:
+    - Name: IronResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: CobaltResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: CopperResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: SiliconResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: PromethiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: MagnesiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: NeodymiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: SathiumResource
+      Threshold: 0.9
+      Amount: 0.8
+
+    - Name: PentaxidResource
+      Threshold: 0.9
+      Amount: 0.8
+
+POIs:
+    Random:
+
+        # Spawn DroneBase far away from wreckage
+        - GroupName: DroneBaseAkua
+          DroneBaseSetup: DroneBaseSetup
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 1
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 3
+          SpawnPOIAvoid: [Wreckage]
+          POIDistance: 1300
+          Properties:
+            - Key: Music
+              Value: DarkSoundscape
+            - Key: RegenAfter
+              Value: 10080
+
+        # Spawn TS Akua and close to it some weakly defended civil settlements
+        - GroupName: TS_Akua
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          SpawnPOIAvoid: [DroneBaseAkua, Wreckage]
+          POIDistance: 1000
+          SpawnResource: ["PromethiumResource:0-2"]
+          ResourceDistance: 300
+          Properties:
+            - Key: Music
+              Value: SunnySkies
+            - Key: RegenAfter
+              Value: 1440
+
+        # Spawn mine with some weakly defended tribal villages
+        - GroupName: AbandonedMine
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0.1
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False
+          SpawnPOIAvoid: [TS_Akua]
+          POIDistance: 1300
+          SpawnResource: ["IronResource:0-2","CobaltResource:0-2","MagnesiumResource:0-1"]
+          ResourceDistance: 300
+          Properties:
+            - Key: Music
+              Value: DarkSoundscape
+            - Key: RegenAfter
+              Value: 1440
+
+        # Weakly defended Civil Settlements close to TS Akua
+        - GroupName: CivilSettlementO2
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 0.5
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 2
+          TroopTransport: True
+          SpawnPOINear: [TS_Akua]
+          POIDistance: 500
+          Properties:
+            - Key: MapMarker
+              Value: Neutral
+            - Key: RegenAfter
+              Value: 1440
+
+        # Spawn strong defended civil settlements randomly
+        - GroupName: CivilSettlement
+          CountMinMax: [ 2, 3 ]
+          DroneProb: 0.9
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 2
+          TroopTransport: True
+          SpawnPOIAvoid: [Wreckage]
+          POIDistance: 1000
+          Properties:
+            - Key: MapMarker
+              Value: Neutral
+            - Key: RegenAfter
+              Value: 1440
+
+        # Tribal villages close to Abandoned Mine
+        - GroupName: TribalVillage
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 0.8
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 0
+          TroopTransport: False
+          SpawnPOINear: [AbandonedMine]
+          POIDistance: 500
+          Properties:
+            - Key: MapMarker
+              Value: Neutral
+            - Key: RegenAfter
+              Value: 1440
+
+        # Spawn crashed Talos
+        - GroupName: CrashedTalosMid      # Do not use regeneration with burried POIs
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0.8
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          SpawnPOINear: [Wreckage]
+          POIDistance: 1500
+          TroopTransport: True
+          Properties:
+            - Key: MapMarker
+              Value: Neutral
+
+        - GroupName: CrashedTalosFront      # Do not use regeneration with burried POIs
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0.6
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 3
+          TroopTransport: False
+          SpawnPOINear: [CrashedTalosMid]
+          POIDistance: 1000
+          Properties:
+            - Key: MapMarker
+              Value: Neutral
+
+        - GroupName: CrashedTalosBack      # Do not use regeneration with burried POIs
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0.9
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: False
+          SpawnPOINear: [CrashedTalosFront]
+          POIDistance: 1000
+          Properties:
+            - Key: MapMarker
+              Value: Neutral
+
+        # Spawn military POIs close to Drone Base
+        - GroupName: EpsilonTierI
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          SpawnPOINear: [DroneBaseAkua]
+          SpawnPOIAvoid: [TS_Akua, Wreckage]
+          POIDistance: 600
+          SpawnResource: ["PromethiumResource:0-1"]
+          ResourceDistance: 300
+          Properties:
+            - Key: RegenAfter
+              Value: 1440
+
+        # Spawn military POIs randomly
+        - GroupName: EpsilonTierI
+          CountMinMax: [ 2, 3 ]
+          DroneProb: 1.0
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          SpawnPOIAvoid: [TS_Akua, Wreckage]
+          POIDistance: 1000
+          Properties:
+            - Key: RegenAfter
+              Value: 1440
+
+    Fixed:
+        - Type: BA_Player
+          Prefab: BA_Outpost-AkuaV2
+          Mode: Creative
+          SubMode: Normal
+          Name: Outpost Akua
+          Pos: [ -522.5, 27, -356.4 ]
+          Rot: [ 0, -42, 0 ]
+          InitPower: True
+
+        - Type: SV_Player
+          Prefab: SV_Talon
+          Mode: Creative
+          SubMode: Normal
+          Name: Talon MKI
+          Pos: [ -522.86, 42, -328.1]
+          Rot: [ 0, 91, 0 ]
+
+        - Type: BA_Player
+          Prefab: BA_OutpostAkua
+          Mode: Debug
+          Name: Outpost Akua
+          Pos: [ -472, 11.2, -266.7  ]
+          Rot: [ 0, -33, 0 ]
+          InitPower: True
+
+    FixedPlayerStart:
+        - Mode: Creative
+          SubMode: Empty
+          Armor: ArmorLight
+          Pos: [ -428, 25.7, -291 ]
+          RotY: -50
+
+        - Mode: Creative
+          SubMode: Normal
+          Armor: ArmorLight
+          Pos: [ -520, 43,-323 ]
+          RotY: 50
+
+        - Mode: Debug
+          Pos: [ -482.2,25.2,-252.56 ]
+          RotY: 100
+
+        - Mode: Survival
+          Spawn: EscapePod
+          # Spawn: Structure
+          # Structure: "Wreckage"
+          Armor: ArmorLight
+          Items: [ "Pistol, 50Caliber:250, Medikit02:3, AntidotePills:3, EmergencyRations:4, Drill, Chainsaw, BioFuel:4, ConstructorSurvival, EnergyCell:5", "Pistol, 50Caliber:150, Medikit02:2, AntidotePills:2, EmergencyRations:2, Drill, Chainsaw, BioFuel:3, ConstructorSurvival, EnergyCell:4", "Pistol, 50Caliber:100, Medikit02:1, AntidotePills:1, EmergencyRations:1, Drill, Chainsaw, BioFuel:2, ConstructorSurvival, EnergyCell:3", "#FreshStart: Drill, Chainsaw, BioFuel:2, ConstructorSurvival" ]
+
+### Drones
+DroneBaseSetup:
+    Random:
+        - GroupName: DroneBaseSetup
+          DronesMinMax: [ 2, 3 ]
+          ReserveCount: 3
+          DroneProb: 1.0
+          Difficulty: 5
+          PresetStyle: 2
+          # BaseAttack: DroneSmallAttackBase
+          Stock:
+              - Name: DroneSmallFast01Rocket
+                Amount: 100
+                Extra: 0
+
+              - Name: DroneSmallFast01Minigun
+                Amount: 300
+                Extra: 0
+
+              - Name: DroneSmallSlow01Cannon
+                Amount: 200
+                Extra: 0
+
+              - Name: DroneSmallFast01Minigun    # Base attack drones
+                Amount: Infinite
+                Extra: 1
+
+              - Name: DroneSmallAttackBase       # Base attack drones
+                Amount: Infinite
+                Extra: 1
+
+              - Name: DroneTroopsTransport
+                Amount: Infinite
+                Extra: 2
+
+              - Name: ZiraxMale
+                Amount: 500
+                Extra: 3
+
+              - Name: ZiraxRocket
+                Amount: 500
+                Extra: 3
+
+              - Name: Crawler
+                Amount: 150
+                Extra: 3
+
+              - Name: AlienAssassinGrey
+                Amount: 300
+                Extra: 3
+
+# Patrol drones on whole planet
+# Type determined by stock of drone base
+DroneSpawning:
+    Random:
+        - DronesMinMax: [ 5, 10 ]
+          CenterX: -2500
+
+        - DronesMinMax: [ 5, 10 ]
+          CenterX: 2500
+
+### Creatures
+CreatureSpawning:
+    - Biome: Water
+      Entities:
+        - Name: Slimes
+          Period: Day
+          Amount: 1
+          Delay: 0
+          RestrictYMinMax: [ 0, 40 ]
+        - Name: PlantMonsters
+          Period: Night
+          Amount: 2
+          Delay: 0
+          RestrictYMinMax: [ 0, 40 ]
+
+    - Biome: TropicalForest
+      Entities:
+        - Name: Hexapods
+          Period: Night
+          Amount: 2
+          Delay: 0
+          RestrictYMinMax: [ 0, 40 ]
+        - Name: Spiders01
+          Period: Night
+          Amount: 2
+          Delay: 0
+          RestrictYMinMax: [ 0, 40 ]
+        - Name: Triceratopses
+          Period: Day
+          Amount: 2
+          Delay: 0
+          RestrictYMinMax: [ 0, 40 ]
+        - Name: TalonGuardianHerd
+          Period: Always
+          Amount: 2
+          Delay: 0
+          RestrictYMinMax: [ 0, 40 ]
+
+    - Biome: OpenPlains
+      Entities:
+        - Name: LizardMuleHerd
+          Period: Day
+          Amount: 2
+          Delay: 0
+          RestrictYMinMax: [ 0, 40 ]
+        - Name: RaptorHerd
+          Period: Day
+          Amount: 2
+          Delay: 0
+          RestrictYMinMax: [ 0, 40 ]
+        - Name: RaptorsNight
+          Period: Night
+          Amount: 2
+          Delay: 0
+          RestrictYMinMax: [ 0, 40 ]
+        - Name: TalonGuardianHerd
+          Period: Night
+          Amount: 2
+          Delay: 0
+          RestrictYMinMax: [ 0, 40 ]
+        - Name: PlantMonsters
+          Period: Night
+          Amount: 1
+          Delay: 0
+          RestrictYMinMax: [ 0, 40 ]
+        - Name: AlienBugs01
+          Period: Night
+          Amount: 1
+          Delay: 0
+          RestrictYMinMax: [ 0, 40 ]
 
 Build: 1211

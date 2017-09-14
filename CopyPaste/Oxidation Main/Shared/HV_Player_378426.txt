@@ -1,0 +1,4 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Metis,378426,'Hover Vessel (HV)',HV,[Private]  ,94,53,810.654 31.8131 -785.9495,4.070048 305.4497 351.623,True,True,False,9/14/2017 7:47:42 AM,19495076,'Death32',76561198034217118,9/14/2017 7:48:04 AM,19495511,
+Metis,378426,'Hover Vessel (HV)',HV,[Private]  ,94,53,2113.839 36.8714 -829.9142,345.4724 306.2347 4.231259,True,True,False,9/14/2017 8:27:10 AM,19542438,'Death32',76561198034217118,9/14/2017 8:28:58 AM,19544600,
+Metis,378426,'Hover Vessel (HV)',HV,[Private]  ,94,53,839.6095 42.04202 -712.1202,354.4957 74.37634 355.2202,True,False,True,9/14/2017 11:23:59 AM,19754620,'Death32',76561198034217118,9/14/2017 11:27:01 AM,19758266,

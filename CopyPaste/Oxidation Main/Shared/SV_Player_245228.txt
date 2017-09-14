@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Eros,245228,'Gold BugG',SV,[NoFaction],0,0,-2598.673 39.6321 -545.2471,357.8981 258.9423 356.9509,False,False,False,9/12/2017 6:54:31 PM,16855837,'Smigley',76561197961347790,9/12/2017 6:54:56 PM,16856349,REMOVE EMPTY

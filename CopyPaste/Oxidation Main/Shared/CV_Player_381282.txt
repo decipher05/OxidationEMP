@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Metis,381282,'Capital Vessel (CV)',CV,[Private]  ,482,61,835.7339 32.57291 -716.3307,6.246021 243.6003 3.676505,True,True,False,9/14/2017 11:26:40 AM,19757840,'Death32',76561198034217118,9/14/2017 11:27:01 AM,19758266,
