@@ -32,7 +32,7 @@ Difficulty: 2
 PlayfieldType: Planet
 Description: "Difficulty:[c][FFFFFF] Easy[-][/c]    Origin:[c][FFFFFF] %Origin%[-][/c]
 
-This planet is a PvE start for a PvP faction. Intended for beginners.
+This planet is a PvE start for a PvP faction. Intended for beginners. All starter planets wipe Wednesday mornings.
 
 
 
@@ -556,8 +556,7 @@ POIs:
           Properties:
             - Key: Music
               Value: DarkSoundscape
-            - Key: RegenAfter
-              Value: 240
+
 
         # Spawn TS Akua and close to it some weakly defended civil settlements
         - GroupName: TS_Akua
@@ -573,8 +572,7 @@ POIs:
           Properties:
             - Key: Music
               Value: SunnySkies
-            - Key: RegenAfter
-              Value: 180
+
 
         # Spawn mine with some weakly defended tribal villages
         - GroupName: AbandonedMine
@@ -590,8 +588,7 @@ POIs:
           Properties:
             - Key: Music
               Value: DarkSoundscape
-            - Key: RegenAfter
-              Value: 180
+
 
         # Weakly defended Civil Settlements close to TS Akua
         - GroupName: CivilSettlementO2
@@ -602,9 +599,7 @@ POIs:
           TroopTransport: True
           SpawnPOINear: [TS_Akua]
           POIDistance: 500
-          Properties:
-            - Key: RegenAfter
-              Value: 180
+
 
         # Spawn strong defended civil settlements randomly
         - GroupName: CivilSettlement
@@ -613,9 +608,7 @@ POIs:
           DronesMinMax: [ 1, 2 ]
           ReserveCount: 2
           TroopTransport: True
-          Properties:
-            - Key: RegenAfter
-              Value: 180
+
 
         # Tribal villages close to Abandoned Mine
         - GroupName: TribalVillage
@@ -626,9 +619,7 @@ POIs:
           TroopTransport: False
           SpawnPOINear: [AbandonedMine]
           POIDistance: 500
-          Properties:
-            - Key: RegenAfter
-              Value: 180
+
 
         # Spawn crashed Talos
         - GroupName: CrashedTalosMid      # Do not use regeneration with burried POIs
@@ -668,9 +659,7 @@ POIs:
           POIDistance: 600
           SpawnResource: ["PromethiumResource:0-1"]
           ResourceDistance: 300
-          Properties:
-            - Key: RegenAfter
-              Value: 180
+
 
         # Spawn military POIs randomly
         - GroupName: EpsilonTierI
@@ -681,15 +670,13 @@ POIs:
           TroopTransport: True
           SpawnPOIAvoid: [TS_Akua]
           POIDistance: 1000
-          Properties:
-            - Key: RegenAfter
-              Value: 180
+
 
     FixedPlayerStart:
         - Mode: Survival
           Spawn: EscapePod
           Armor: ArmorLight
-          Items: [ "Pistol, 50Caliber:500, Medikit02:5, AntidotePills:5, AutoMiningDeviceT1:5, WaterBottle:2, DrillCharge:10, EmergencyRations:5, DrillT2, Chainsaw, BioFuel:3, ConstructorSurvival, EnergyCell:10, OxygenGeneratorSmall, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, EVABoost, PlayerBikeKit, PromethiumPellets:200, IronIngot:100, CopperIngot:100, CobaltIngot:100, SiliconIngot:100", "#FreshStart: DrillT2, DrillCharge:5, Chainsaw, BioFuel:5, ConstructorSurvival" ]
+          Items: [ "Pistol, 50Caliber:250, Medikit02:5, AntidotePills:5, AutoMiningDeviceT1:5, WaterBottle:2, DrillCharge:10, EmergencyRations:5, DrillT2, Chainsaw, BioFuel:3, ConstructorSurvival, EnergyCell:10, OxygenGeneratorSmall, TomatoStage1, WheatStage1, CornStage1, PumpkinStage1, PearthingStage1, DurianRoot, EVABoost, PlayerBikeKit, PromethiumPellets:200, IronIngot:100, CopperIngot:100, CobaltIngot:100, SiliconIngot:100", "#FreshStart: DrillT2, DrillCharge:5, Chainsaw, BioFuel:5, ConstructorSurvival" ]
 
           ### Drones
 DroneBaseSetup:
