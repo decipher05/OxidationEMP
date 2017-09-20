@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Icarus,254255,'Capital Vessel (CV)',CV,[NoFaction],0,0,605.2538 78.16102 -343.735,359.0054 271.84 358.474,False,False,False,9/12/2017 10:55:56 PM,17144193,'Oriayan',76561198009448434,9/12/2017 10:56:54 PM,17145355,REMOVE EMPTY

@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Icarus,383032,'Sentry w',BA,[Fac   106],1598,48,761.3381 75.68327 -661.8563,0 214.7011 0,True,True,False,9/14/2017 10:26:32 AM,19685674,'Rantul',76561198071099427,9/14/2017 11:29:29 AM,19761230,

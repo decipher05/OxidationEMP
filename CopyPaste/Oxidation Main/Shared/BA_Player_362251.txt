@@ -1,0 +1,4 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Vyrdis,362251,'Base (BA)',BA,[Fac   108],457,80,4033.079 54.05154 -1312.149,0 91.95488 0,True,True,False,9/14/2017 1:58:59 AM,19076629,'Sephtis',76561198070863399,9/14/2017 2:45:30 AM,19132445,
+Vyrdis,362251,'Base (BA)',BA,[Fac   108],457,80,4033.079 54.05154 -1312.149,0 91.95488 0,True,True,False,9/14/2017 1:58:59 AM,19076629,'Sephtis',76561198070863399,9/14/2017 8:27:52 AM,19543286,
+Vyrdis,362251,'Base (BA)',BA,[Fac   108],457,80,4033.079 54.05154 -1312.149,0 91.95488 0,True,True,False,9/14/2017 1:58:59 AM,19076629,'Sephtis',76561198070863399,9/14/2017 11:00:06 AM,19725964,

@@ -1,0 +1,4 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Vyrdis,362025,'Hover Vessel (HV)',HV,[Fac   108],441,88,-4070.336 55.59453 -1318.821,359.2883 69.03638 359.5076,True,False,False,9/14/2017 12:05:28 AM,18940394,'Sylar',76561198119358511,9/14/2017 2:45:30 AM,19132445,
+Vyrdis,362025,'Hover Vessel (HV)',HV,[Fac   108],441,88,-4022.631 0.9840064 -1310.689,-0.002915565 18.28449 -0.001704745,True,False,False,9/14/2017 4:52:26 AM,19284757,'Sylar',76561198119358511,9/14/2017 8:27:52 AM,19543286,
+Vyrdis,362025,'Hover Vessel (HV)',HV,[Fac   108],441,88,-4022.631 0.9840064 -1310.689,-0.002915565 18.28449 -0.001704745,True,False,False,9/14/2017 4:52:26 AM,19284757,'Sylar',76561198119358511,9/14/2017 11:00:06 AM,19725964,

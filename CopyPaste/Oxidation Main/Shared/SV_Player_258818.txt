@@ -1,0 +1,5 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Himalia,258818,'Small Vessel (SV)',SV,[NoFaction],4,4,1952.923 118.1514 -33.99096,1.181081 37.9669 358.5013,False,False,False,9/12/2017 9:23:47 PM,17033614,'Satren',76561198124558893,9/12/2017 9:55:49 PM,17072056,
+Himalia,258818,'Small Vessel (SV)',SV,[NoFaction],4,4,1952.923 118.1514 -33.99096,1.181081 37.9669 358.5013,False,False,False,9/12/2017 9:23:47 PM,17033614,'Satren',76561198124558893,9/12/2017 10:18:45 PM,17099562,
+Himalia,258818,'Small Vessel (SV)',SV,[NoFaction],4,4,1952.923 118.1514 -33.99096,1.181081 37.9669 358.5013,False,False,False,9/12/2017 9:23:47 PM,17033614,'Satren',76561198124558893,9/13/2017 4:44:54 AM,17562956,
+Himalia,258818,'Small Vessel (SV)',SV,[NoFaction],4,4,1952.923 118.1514 -33.99096,1.181081 37.9669 358.5013,False,False,False,9/12/2017 9:23:47 PM,17033614,'Satren',76561198124558893,9/13/2017 5:11:06 AM,17590571,DECAYED

@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Seranis,352662,'Hover Vessel (HV)',HV,[NoFaction],0,0,-498.9343 42.47994 1130.227,-0.002196577 11.81477 0.0006319862,False,False,False,9/13/2017 10:07:02 PM,18798287,'Varghulf',76561198092221545,9/13/2017 10:15:03 PM,18807902,REMOVE EMPTY

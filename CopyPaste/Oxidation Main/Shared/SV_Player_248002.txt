@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Seranis System,248002,'Small Vessel (SV)',SV,[NoFaction],0,0,-5007.825 291.118 -27.01458,359.9345 358.911 357.1405,False,False,True,9/12/2017 7:25:37 PM,16893157,'Varghulf',76561198092221545,9/12/2017 7:25:50 PM,16893415,REMOVE EMPTY

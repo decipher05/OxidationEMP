@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Megaclite,343188,'Small Vessel (SV)',SV,[NoFaction],0,0,3592.459 20.88914 -1145.679,64.07131 6.997931 8.11803,False,False,False,9/13/2017 1:58:20 PM,18212361,'Lt-Cpt-Yuri',76561198340791474,9/13/2017 1:58:54 PM,18213052,REMOVE EMPTY

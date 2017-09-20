@@ -1,0 +1,5 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Vyrdis,299075,'Capital Vessel (CV)',CV,[Fac   108],369,66,4035.571 55.98762 -1270.722,357.4609 346.308 1.118723,True,True,False,9/13/2017 11:33:48 AM,18049822,'Sephtis',76561198070863399,9/13/2017 11:34:39 AM,18050834,
+Vyrdis,299075,'Capital Vessel (CV)',CV,[Fac   108],369,66,4035.571 55.98762 -1270.722,357.4609 346.308 1.118723,True,True,False,9/14/2017 2:43:28 AM,19129999,'Sephtis',76561198070863399,9/14/2017 2:45:30 AM,19132445,
+Vyrdis,299075,'Capital Vessel (CV)',CV,[Fac   108],369,66,4035.571 55.98762 -1270.722,357.4609 346.308 1.118723,True,True,False,9/14/2017 2:43:28 AM,19129999,'Sephtis',76561198070863399,9/14/2017 8:27:52 AM,19543286,
+Vyrdis,299075,'Capital Vessel (CV)',CV,[Fac   108],369,66,4035.571 55.98762 -1270.722,357.4609 346.308 1.118723,True,True,False,9/14/2017 2:43:28 AM,19129999,'Sephtis',76561198070863399,9/14/2017 11:00:06 AM,19725964,

@@ -1,0 +1,4 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Dactyl,276663,'Base (BA)',BA,[Fac   108],13,7,-2543.267 30.95848 -397.8801,0 352.2497 0,True,True,False,9/13/2017 4:00:42 AM,17509907,'Sephtis',76561198070863399,9/13/2017 4:54:15 AM,17574174,
+Dactyl,276663,'Base (BA)',BA,[Fac   108],13,7,-2543.267 30.95848 -397.8801,0 352.2497 0,True,True,False,9/13/2017 4:00:42 AM,17509907,'Sephtis',76561198070863399,9/13/2017 5:09:31 AM,17588687,
+Dactyl,276663,'Base (BA)',BA,[NoFaction],0,0,-2543.267 30.95848 -397.8801,0 352.2497 0,False,False,False,9/13/2017 6:45:16 AM,17703572,'Sylar',76561198119358511,9/13/2017 7:59:24 AM,17792548,REMOVE EMPTY

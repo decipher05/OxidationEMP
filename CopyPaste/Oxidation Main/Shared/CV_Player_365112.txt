@@ -1,0 +1,5 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Icarus,365112,'Capital Vessel (CV)',CV,[Fac   106],456,88,685.4081 76.94038 -446.5649,0.7214944 87.23041 357.318,True,False,False,9/13/2017 11:16:36 PM,18881765,'Oriayan',76561198009448434,9/14/2017 12:15:57 AM,18952971,
+Icarus,365112,'Capital Vessel (CV)',CV,[Fac   106],456,88,785.5642 72.98284 -501.4766,357.202 315.0209 2.384994,True,False,False,9/14/2017 7:07:44 AM,19447127,'Oriayan',76561198009448434,9/14/2017 8:05:46 AM,19516752,
+Icarus,365112,'Capital Vessel (CV)',CV,[Fac   106],456,88,785.5642 72.98284 -501.4766,357.202 315.0209 2.384994,True,False,False,9/14/2017 7:07:44 AM,19447127,'Oriayan',76561198009448434,9/14/2017 9:12:10 AM,19596450,
+Icarus,365112,'Capital Vessel (CV)',CV,[Fac   106],456,88,785.5642 72.98284 -501.4766,357.202 315.0209 2.384994,True,False,False,9/14/2017 7:07:44 AM,19447127,'Oriayan',76561198009448434,9/14/2017 11:29:29 AM,19761230,

@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Himalia,360001,'Base (BA)',BA,[Fac   102],2800,57,2205.724 33.86637 -715.0575,0 324.807 0,True,True,False,9/13/2017 6:31:00 PM,18539045,'Satren',76561198124558893,9/13/2017 8:05:37 PM,18652574,

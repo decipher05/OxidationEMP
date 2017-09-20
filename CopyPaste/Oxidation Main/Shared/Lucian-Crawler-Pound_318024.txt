@@ -1,0 +1,2 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Seranis,318024,'Lucian Crawler Compound',BA,[NoFaction],0,0,-2475 90.5 -660,0 0 0,False,False,False,9/14/2017 1:40:35 AM,19054545,'Balboadaho',76561198108516202,9/14/2017 1:41:40 AM,19055844,REMOVE EMPTY

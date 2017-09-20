@@ -1,0 +1,4 @@
+playfield,id,name,type,faction,blocks,devices,pos,rot,core,powered,docked,touched_time,touched_ticks,touched_name,touched_id,saved_time,saved_ticks,add_info
+Icarus,365590,'Spikey I',HV,[Fac   106],1763,188,899.0232 72.79152 -519.2123,-0.002023928 314.5797 -0.001871184,True,False,True,9/14/2017 7:41:38 AM,19487808,'Rantul',76561198071099427,9/14/2017 8:05:46 AM,19516752,
+Icarus,365590,'Spikey I',HV,[Fac   106],1763,188,899.0232 72.79152 -519.2123,-0.002023928 314.5797 -0.001871184,True,False,True,9/14/2017 7:41:38 AM,19487808,'Rantul',76561198071099427,9/14/2017 9:12:11 AM,19596450,
+Icarus,365590,'Spikey I',HV,[Fac   106],1763,188,899.0232 72.79152 -519.2123,-0.002023928 314.5797 -0.001871184,True,False,True,9/14/2017 7:41:38 AM,19487808,'Rantul',76561198071099427,9/14/2017 11:29:29 AM,19761230,
