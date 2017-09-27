@@ -1,0 +1,823 @@
+Sectors:
+- Coordinates:
+  - 0
+  - 0
+  - 0
+  Color: 0, 0, 0
+  Icon: No
+  Playfields:
+  - - 0, 0, 0
+    - Sun
+    - Sun
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - -280
+  - 2
+  - 574
+  Color: 0.6, 0.4, 0.8
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Eros System
+    - Starter-Space-Akua
+    - ''
+  - - 0, 0, 0
+    - Eros
+    - Starter-Planet-Temperate
+    - The Vanguard:1
+  - - -5016, -4750, -2904
+    - Eros Moon
+    - Starter-Moon-Akua
+    - ''
+  - - 1315, 10001, 7150
+    - Dotrerth-p531
+    - Starter-POI-Akua
+    - ''
+  Allow:
+  - Beli System
+  Deny:
+  - Themisto System
+- Coordinates:
+  - 254
+  - 2
+  - -574
+  Color: 0.6, 0.4, 0.8
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Gaspra System
+    - Starter-Space-Akua
+    - ''
+  - - 0, 0, 0
+    - Gaspra
+    - Starter-Planet-Temperate
+    - The Barbarians:2
+  - - 4224, 8010, -4660
+    - Gaspra Moon
+    - Starter-Moon-Akua
+    - ''
+  - - 4054, -5836, 9187
+    - Tietov-5dfu
+    - Starter-POI-Akua
+    - ''
+  Allow:
+  - Kalliope System
+  Deny:
+  - Megaclite System
+- Coordinates:
+  - 254
+  - -2
+  - 574
+  Color: 0.6, 0.4, 0.8
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Eonus  System
+    - Starter-Space-Akua
+    - ''
+  - - 0, 0, 0
+    - Eonus
+    - Starter-Planet-Temperate
+    - The Mystics:3
+  - - -6185, -4863, 5126
+    - Eonus Moon
+    - Starter-Moon-Akua
+    - ''
+  - - 3993, -7213, -11522
+    - Snagua 7Y0V
+    - Starter-POI-Akua
+    - ''
+  Allow:
+  - Ganymede System
+  Deny:
+  - Metis System
+- Coordinates:
+  - -280
+  - 2
+  - -574
+  Color: 0.6, 0.4, 0.8
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Dactyl System
+    - Starter-Space-Akua
+    - ''
+  - - 0, 0, 0
+    - Dactyl
+    - Starter-Planet-Temperate
+    - The Eternal:4
+  - - -4475, 3363, 3559
+    - Dactyl Moon
+    - Starter-Moon-Akua
+    - ''
+  - - 2971, -8650, -9172
+    - Brillon RG4F
+    - Starter-POI-Akua
+    - ''
+  Allow:
+  - Mathilde System
+  Deny:
+  - Callirrhoe System
+- Coordinates:
+  - -387
+  - 0
+  - -229
+  Color: 0, 0.5, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Mathilde System
+    - Space-Faction-AsteroidFieldOmicron
+    - ''
+  - - 0, 0, 0
+    - Mathilde
+    - PVP-Mathilde-Adapa
+    - ''
+  - - 4140, 6432, -1076
+    - Mathilde Moon
+    - PFaction-Moon
+    - ''
+  - - 3312, -9368, -8258
+    - P-211
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - -3480, -15113, -11588
+    - Taygete
+    - Resource-Snow
+    - ''
+  Allow:
+  - Callirrhoe System
+  Deny:
+  - Kazo System
+- Coordinates:
+  - 387
+  - 0
+  - -229
+  Color: 0, 0.5, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Kalliope System
+    - Space-Faction-AsteroidFieldRingAestus
+    - ''
+  - - 0, 0, 0
+    - Kalliope
+    - PVP-Kalliope-Turi
+    - ''
+  - - -4578, -5124, -5581
+    - Kalliope Moon
+    - PFaction-Moon0
+    - ''
+  - - 146, 5779, 10480
+    - P-212
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - -10725, -6691, -9172
+    - Chaldene
+    - Resource-Desert
+    - ''
+  Allow:
+  - Megaclite System
+  Deny:
+  - Icarus System
+- Coordinates:
+  - 195
+  - 0
+  - 161
+  Color: 0, 0.5, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Eugenia System
+    - Space-Faction-AsteroidFieldRingAitis
+    - ''
+  - - 0, 0, 0
+    - Eugenia
+    - PVP-Eugenia-Nemhain
+    - ''
+  - - -6818, 2058, 2188
+    - Eugenia Moon
+    - PFaction-Moon1
+    - ''
+  - - -730, 10545, 10219
+    - P-213
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - 8683, 11524, -8323
+    - Harpalyke
+    - Resource-Alien2
+    - ''
+  Allow:
+  - FFA Zone
+  Deny: []
+- Coordinates:
+  - -195
+  - 0
+  - -161
+  Color: 0, 0.5, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Europa System
+    - Space-Faction-AsteroidFieldRingAkua
+    - ''
+  - - 0, 0, 0
+    - Europa
+    - PVP-Europa-Watavinewa
+    - ''
+  - - 3068, -5385, -7475
+    - Europa Moon
+    - PFaction-Moon2
+    - ''
+  - - 7792, 7346, 6105
+    - P-214
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - -72, 0, 16356
+    - Kalyke
+    - Resource-Alien
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 387
+  - 0
+  - 229
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Ganymede System
+    - Space-Faction-AsteroidsFewSkillon
+    - ''
+  - - 0, 0, 0
+    - Ganymede
+    - PVP-Ganymede-Aeris
+    - ''
+  - - -4286, 7150, 6693
+    - Ganymede Moon
+    - PFaction-Moon3
+    - ''
+  - - 4733, -7475, 8978
+    - P-215
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - 12917, 230, 425
+    - Iocaste
+    - Resource-Temperate2
+    - ''
+  Allow:
+  - Metis System
+  Deny:
+  - Amalthea System
+- Coordinates:
+  - 317
+  - 0
+  - 0
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Vulca System
+    - Space-Faction-AsteroidsFewZeyhines
+    - ''
+  - - 0, 0, 0
+    - Vulca
+    - PVP-Vulca
+    - ''
+  - - 5260, -6169, -6822
+    - Vulca Moon
+    - PFaction-Moon4
+    - ''
+  - - -8571, 7999, -8127
+    - P-216
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - 3147, 10088, 8325
+    - Erinome
+    - Resource-Temperate
+    - ''
+  Allow: []
+  Deny:
+  - Gaspra System
+- Coordinates:
+  - 0
+  - 0
+  - -262
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Seranis System
+    - Space-Faction-AsteroidsMasperon
+    - ''
+  - - 0, 0, 0
+    - Seranis
+    - PVP-Himalia-Enos
+    - ''
+  - - -4188, 6367, 5518
+    - Seranis Moon
+    - PFaction-Moon5
+    - ''
+  - - 4383, -8454, 8391
+    - P-217
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - -679, -11065, -7736
+    - Isonoe
+    - Resource-Snow
+    - ''
+  Allow: []
+  Deny: []
+- Coordinates:
+  - 195
+  - 0
+  - -161
+  Color: 0.7, 0.11, 0.11
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Callisto System
+    - Space-Faction-AsteroidsOscutune
+    - ''
+  - - 0, 0, 0
+    - Callisto
+    - PVP-Callisto-Hubble635
+    - ''
+  - - 4578, 5191, 3167
+    - Callisto Moon
+    - PFaction-Moon6
+    - ''
+  - - -7597, -6626, 8848
+    - P-218
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - -5486, 9566, -3361
+    - Praxidike
+    - Resource-Desert
+    - ''
+  Allow:
+  - FFA Zone
+  Deny: []
+- Coordinates:
+  - 218
+  - 0
+  - 344
+  Color: 0.97, 0.96, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Amalthea System
+    - Space-Faction-AsteroidFieldOmicron
+    - ''
+  - - 0, 0, 0
+    - Amalthea
+    - PVP-Amalthea-Kepler412
+    - ''
+  - - 4724, 360, 6758
+    - Amalthea Moon
+    - PFaction-Moon7
+    - ''
+  - - -8133, -3492, -4928
+    - P-219
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - 3211, 8325, 11329
+    - Autonoe
+    - Resource-Alien2
+    - ''
+  Allow: []
+  Deny:
+  - Ganymede System
+  - Eonus  System
+- Coordinates:
+  - 0
+  - 0
+  - 262
+  Color: 0.97, 0.96, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Himalia System
+    - Space-Faction-AsteroidFieldRingAestus
+    - ''
+  - - 0, 0, 0
+    - Himalia
+    - PVP-Ganymede-Aeris
+    - ''
+  - - 4675, 5648, -4014
+    - Himalia Moon
+    - PFaction-Moon8
+    - ''
+  - - -7694, -8715, -8911
+    - P-220
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - 744, -12698, -11392
+    - Thyone
+    - Resource-Alien
+    - ''
+  Allow: []
+  Deny:
+  - Eonus  System
+- Coordinates:
+  - -133
+  - 0
+  - 0
+  Color: 0.97, 0.96, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Paterae System
+    - Space-Faction-AsteroidFieldRingAitis
+    - ''
+  - - 0, 0, 0
+    - Paterae
+    - PVP-Paterae
+    - ''
+  - - 3057, 5714, 6758
+    - Paterae Moon
+    - PFaction-Moon
+    - ''
+  - - -9930, -3296, 7803
+    - P-221
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - 8438, -6560, -10804
+    - Hermippe
+    - Resource-Temperate
+    - ''
+  Allow: []
+  Deny:
+  - Eonus  System
+- Coordinates:
+  - -218
+  - 0
+  - 344
+  Color: 0.97, 0.96, 1
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Ziraxus System
+    - Space-Faction-AsteroidFieldRingAkua
+    - ''
+  - - 0, 0, 0
+    - Ziraxus
+    - PVP-Ziraxus
+    - ''
+  - - -3727, -4994, -6952
+    - Ziraxus Moon
+    - PFaction-Moon0
+    - ''
+  - - 5140, 6758, 8652
+    - P-222
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - 10663, 0, 3559
+    - Aitne
+    - Resource-Temperate2
+    - ''
+  Allow:
+  - FFA Zone
+  Deny:
+  - Beli System
+  - Eros System
+- Coordinates:
+  - -316
+  - 0
+  - 0
+  Color: 0.8, 1, 0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Vyrdis System
+    - Space-Faction-AsteroidsFewSkillon
+    - ''
+  - - 0, 0, 0
+    - Vyrdis
+    - PVP-Vyrdis
+    - ''
+  - - -2564, -5255, -5842
+    - Vyrdis Moon
+    - PFaction-Moon1
+    - ''
+  - - 6109, 6954, 9631
+    - P-223
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - -12068, 5518, 2253
+    - Eurydome
+    - Resource-Temperate
+    - ''
+  Allow: []
+  Deny:
+  - Dactyl System
+- Coordinates:
+  - -218
+  - 0
+  - -344
+  Color: 0.8, 1, 0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Kazo System
+    - Space-Faction-AsteroidsFewZeyhines
+    - ''
+  - - 0, 0, 0
+    - Kazo
+    - PVP-Kazo-Loki
+    - ''
+  - - -3340, -6822, -5908
+    - Kazo Moon
+    - PFaction-Moon2
+    - ''
+  - - -6586, 6367, 7150
+    - P-224
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - -12398, -7148, 3886
+    - Euanthe
+    - Resource-Snow
+    - ''
+  Allow: []
+  Deny:
+  - Mathilde System
+  - Dactyl System
+- Coordinates:
+  - 218
+  - 0
+  - -344
+  Color: 0.8, 1, 0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Icarus System
+    - Space-Faction-AsteroidsMasperon
+    - ''
+  - - 0, 0, 0
+    - Icarus
+    - PVP-Paterae
+    - ''
+  - - 2572, -5908, 4734
+    - Icarus Moon
+    - PFaction-Moon3
+    - ''
+  - - 4026, 5061, -8193
+    - P-225
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - -11172, -7148, 5453
+    - Euporie
+    - Resource-Temperate
+    - ''
+  Allow: []
+  Deny:
+  - Kalliope System
+  - Gaspra System
+- Coordinates:
+  - -195
+  - 0
+  - 161
+  Color: 0.8, 1, 0
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Comba System
+    - Space-Faction-AsteroidsOscutune
+    - ''
+  - - 0, 0, 0
+    - Comba
+    - PVP-Comba-Areia
+    - ''
+  - - -1955, 4516, -3015
+    - Comba Moon
+    - PFaction-Moon4
+    - ''
+  - - 4194, -6525, 5129
+    - P-226
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - -12461, -6626, 8325
+    - Orthosie
+    - Resource-Alien2
+    - ''
+  Allow:
+  - FFA Zone
+  Deny: []
+- Coordinates:
+  - 442
+  - 0
+  - 0
+  Color: 1, 0.49, 0
+  Icon: Star
+  Playfields:
+  - - 0, 0, 0
+    - Carme System
+    - Core-Space-AsteroidField
+    - ''
+  - - 6467, 6105, -1272
+    - Carme
+    - Core-E-Carme-Rupes
+    - ''
+  - - -7066, -5712, 6040
+    - Lysithea
+    - Core-E-Lysithea-Pluto
+    - ''
+  - - 8370, 12373, 4865
+    - Carme Moon
+    - PFaction-Moon3
+    - ''
+  - - -10406, 360, 1535
+    - Lysithea Moon
+    - PFaction-Moon5
+    - ''
+  - - -2537, 7868, -7213
+    - Aestus
+    - Core-E-Aestus-Lava
+    - ''
+  - - -7503, 10284, -8976
+    - Aestus Moon
+    - PFaction-Moon7
+    - ''
+  Allow:
+  - Core System
+  Deny: []
+- Coordinates:
+  - -445
+  - 0
+  - 0
+  Color: 1, 0.49, 0
+  Icon: Star
+  Playfields:
+  - - 0, 0, 0
+    - Adrastea System
+    - Core-Space-AsteroidField
+    - ''
+  - - 2494, -6495, -6038
+    - Adrastea
+    - Core-Z-Adrastea-Wookie
+    - ''
+  - - 1543, 8391, 6693
+    - Thebe
+    - Core-Z-Thebe-Venus
+    - ''
+  - - 5757, -8650, -11392
+    - Adrastea Moon
+    - PFaction-Moon
+    - ''
+  - - 4851, 11786, 8978
+    - Thebe Moon
+    - PFaction-Moon0
+    - ''
+  - - -8524, 5714, 4082
+    - Leda
+    - Core-Z-Leda-Uranus
+    - ''
+  - - -9592, -1272, -1599
+    - Leda Moon
+    - PFaction-Moon4
+    - ''
+  Allow:
+  - Core System
+  Deny: []
+- Coordinates:
+  - -387
+  - 0
+  - 229
+  Color: 0.56, 0.74, 0.56
+  Icon: Hexagon
+  Playfields:
+  - - 0, 0, 0
+    - Beli System
+    - Space-Faction-AsteroidFieldOmicron
+    - ''
+  - - 0, 0, 0
+    - Beli
+    - PVP-Beli
+    - ''
+  - - 6779, -6691, -6691
+    - Beli Moon
+    - PFaction-Moon2
+    - ''
+  - - -8513, -5385, -9498
+    - P-227
+    - Faction-POI-Planet-Dalos
+    - ''
+  - - -12140, 9370, 12700
+    - Sponde
+    - Resource-Alien
+    - ''
+  Allow:
+  - Themisto System
+  Deny:
+  - Ziraxus System
+- Coordinates:
+  - 386
+  - 2
+  - 498
+  Color: 1, 0.01, 0.24
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Metis System
+    - Starter-PvP-Space-Akua
+    - ''
+  - - 0, 0, 0
+    - Metis
+    - Starter-PvP-Planet-Temperate
+    - The Mystics:1
+  - - -5016, -4750, -2904
+    - Metis Moon
+    - Starter-PvP-Moon-Akua
+    - ''
+  - - 1315, 10001, 7150
+    - Smonoe B5XP
+    - Starter-PvP-POI-Akua
+    - ''
+  Allow:
+  - Ganymede System
+  Deny:
+  - Eonus  System
+- Coordinates:
+  - -412
+  - 2
+  - 498
+  Color: 1, 0.01, 0.24
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Themisto System
+    - Starter-PvP-Space-Akua
+    - ''
+  - - 0, 0, 0
+    - Themisto
+    - Starter-PvP-Planet-Temperate
+    - The Vanguard:1
+  - - -5016, -4750, -2904
+    - Themisto Moon
+    - Starter-PvP-Moon-Akua
+    - ''
+  - - 1315, 10001, 7150
+    - Drone I85
+    - Starter-PvP-POI-Akua
+    - ''
+  Allow:
+  - Beli System
+  Deny:
+  - Eros System
+- Coordinates:
+  - -412
+  - 2
+  - -498
+  Color: 1, 0.01, 0.24
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Callirrhoe System
+    - Starter-PvP-Space-Akua
+    - ''
+  - - 0, 0, 0
+    - Callirrhoe
+    - Starter-PvP-Planet-Temperate
+    - The Eternal:4
+  - - -5016, -4750, -2904
+    - Callirrhoe Moon
+    - Starter-PvP-Moon-Akua
+    - ''
+  - - 1315, 10001, 7150
+    - Blyria 42J
+    - Starter-PvP-POI-Akua
+    - ''
+  Allow:
+  - Mathilde System
+  Deny:
+  - Dactyl System
+- Coordinates:
+  - 386
+  - 2
+  - -498
+  Color: 1, 0.01, 0.24
+  Icon: Circle
+  Playfields:
+  - - 0, 0, 0
+    - Megaclite System
+    - Starter-PvP-Space-Akua
+    - ''
+  - - 0, 0, 0
+    - Megaclite
+    - Starter-PvP-Planet-Temperate
+    - The Barbarians:2
+  - - -5016, -4750, -2904
+    - Megaclite Moon
+    - Starter-PvP-Moon-Akua
+    - ''
+  - - 1315, 10001, 7150
+    - Treon G3A
+    - Starter-PvP-POI-Akua
+    - ''
+  Allow:
+  - Kalliope System
+  Deny:
+  - Gaspra System
