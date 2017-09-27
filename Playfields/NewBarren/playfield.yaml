@@ -1,0 +1,537 @@
+---
+# Playfield Configuration
+# IMPORTANT: YAML files use spaces as indentation. Please don't use TABs - tab indentation is forbidden: http://yaml.org/faq.html
+# For more detailed explanations of the different parameters, see examples in Empyrion\Content\Playfields\ExamplePlanet and ExampleSpace
+# Please do not use long comments here because in a multiplayer game the yaml file has to be sent from server to client 
+
+# Playfield Characteristics
+RealRadius: 1303.797294             
+ScaledRadius: 1300                  
+Gravity: -7.86                      
+AtmosphereDensity: 1.377            
+AtmosphereO2: 0.05                  
+AtmosphereBreathable: False         
+Temperature: 35                     
+TemperatureDay: 70                 
+TemperatureNight: -40              
+Music: StellarGrasp
+Radiation: 14.9
+DayLength: 24                     
+PlanetType: Barren               
+Moons: 0                         
+PvP: True                        
+#Seed: 123456                    
+#UseFixed: False				
+
+# Playfield difficulty (has impact on experience gains)
+Difficulty: 3                   
+
+# Planet or Space
+PlayfieldType: Planet           
+Description: "Skillon is a barren planet with unforgiving conditions."                  
+
+# Sun                           
+SunFlare: EnvironmentalEffects/SunFlareBlue
+
+# Atmosphere and Sky
+AtmosphereEnabled: True             
+AtmosphereColor: "0.19, 0.26, 0.35" 
+SkyColor: "0.6, 1, 0.1"             
+SkyHorizonColor: "0.3, 1, 0"        
+
+# Light
+DayLightIntensity: 1.20             
+NightLightIntensity: 0.5           
+LightZenithColor: "1, 0.9, 0.8"     
+LightHorizonColor: "1, 0.5, 0"      
+#LightZenithColor: "1, 0.9, 0.8"    
+#LightHorizonColor: "1, 0.6, 0"     
+NightLightColor: "0.5, 0.78, 0.16"  
+DayShadowStrength: 0.95              
+
+# Fog
+AtmosphereFog: 0.3                   
+FogColor: "0.6, 1, 0.1"
+FogCloudIntensity: 1.0         
+FogIntensity: 0.1                    
+FogStartDistance: 400                
+GroundFogIntensity: 0.30             
+GroundFogHeight: 18                  # was 10
+
+# Clouds
+CloudsDensity: 1                     
+CloudsSharpness: 1                   
+CloudsBrightness: 1                  
+CloudsOpacity: 0.3                   
+CloudsZenithColor: "0.6, 1, 0.1"   
+CloudsHorizonColor: "0, 1, 0"  
+
+# Wind Speed
+WindSpeed: 3                   
+
+# Special Effects              
+SpecialEffectsLocal:
+  - Name: Pollen
+    Biome: [ BarrenRocks ]
+    Time: Day
+    MaxHeight: 55
+  - Name: FireFliesGreenFew
+    Biome: [ BarrenRocks, BarrenOpenPlains ]
+    Time: Night
+    MaxHeight: 55
+  - Name: FireFliesOrange
+    Biome: [ BarrenFog ]
+    Time: Night
+    MaxHeight: 40
+  - Name: Grime
+    Biome: [ BarrenFog ]
+    Time: Always
+    MaxHeight: 40
+
+SpecialEffectsGlobal:
+# Weather
+  - Name: Clear
+    Type: Weather
+    InitialDelay: 0   
+    Delay: 2
+    Lifetime: 600
+  - Name: CloudsLight
+    Type: Weather
+    InitialDelay: 0   
+    Delay: 2
+    Lifetime: 1200
+  - Name: CloudsMedium
+    Type: Weather
+    InitialDelay: 0   
+    Delay: 2
+    Lifetime: 1200
+  - Name: CloudsDark
+    Type: Weather
+    InitialDelay: 0   
+    Delay: 2
+    Lifetime: 1200
+  - Name: Wind
+    Type: Weather
+    InitialDelay: 0   
+    Delay: 5
+    Lifetime: 600
+  - Name: HeatWave
+    Type: Weather
+    InitialDelay: 48   
+    Delay: 24          
+    Lifetime: 1200
+  - Name: FogRadiationGreen
+    Type: Weather
+    InitialDelay: 10 
+    Delay: 5 
+    Lifetime: 1000 
+  - Name: AcidRainHeavy
+    Type: Weather
+    InitialDelay: 48   
+    Delay: 24         
+    Lifetime: 600    
+# Global Effect
+  - Name: MeteorShower
+    Biome: [ BarrenOpenPlains ]
+    Time: Always
+    InitialDelay: 3.5   # in game hours
+    Delay: 5
+    Lifetime: 60
+    PlyDist: 200
+    SpawnY: 100
+    Struct: Avoid
+  - Name: ThunderAndLightning
+    Biome: [ Any ]
+    Time: Always
+    InitialDelay: 0.5   
+    Delay: 8
+    Lifetime: 300			
+    PlyDist: 100
+    SpawnY: 500
+    Struct: Avoid
+
+### Terrain and Decorations
+# Terrain and Local Decoration
+Terrain:
+    Name: NewBarren
+    PoleLevel: 60                      
+    NoiseStrength: 1.5
+    ColorChange:
+        YFadeCenter: 40
+        YFadeRange: 30
+        YFadeMin: 0.1
+        YFadeMax: -0.05
+
+MainBiome:
+    Textures:
+        - [ DirtCliff, 2 ]
+        - [ Cliff, 4 ]   
+        - [ RockBrown01, 0 ]
+        - [ Bedrock, 2 ]
+
+# Biome Definition and Main Decoration
+Biome:
+# Foggy area
+   - Altitude: [ 1, 34 ]
+     Slope: [ 0, 12 ]
+     BiomeClusterData: 
+         - Name: "BarrenFog"
+           Id: 1
+           ClusterSize: 0
+           NbOfClusters: 0
+           Temperature: 100
+           Radiation: 8
+           Decorations: 
+               - [ CoralStone01-03, 0.3]
+               - [ CoralStone01-05, 0.25]
+               - [ CrystalsPyramidBlue, 0.5]
+               - [ SkeletonWhalePart, 0.2]
+   - Altitude: [ 1, 34 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:
+         - Name: "BarrenFog"
+           Id: 1
+           ClusterSize: 0
+           NbOfClusters: 0
+           Temperature: 100
+           Radiation: 8
+           Decorations: 
+               - [ RealRock1, 0]
+# Main biome: flat
+   - Altitude: [ 43, 56 ]
+     Slope: [ 0, 15 ]
+     BiomeClusterData: 
+         - Name: "BarrenRocks"
+           Id: 2
+           ClusterSize: 80
+           NbOfClusters: 12
+           Decorations: 
+               - [ BulbShroom, 2]
+               - [ BulbShroomYoung, 2]
+               - [ RealRock4, 0.5]
+               - [ RealRock5, 0.5]
+               - [ RealRock6, 0.5]  
+           Grass:
+               - Name: "GrassBrown02c"
+                 Density: 1000
+                 YScale: 0.8
+                 Preset: "GrassDense2"
+         - Name: "BarrenOpenPlains"
+           Id: 3
+           ClusterSize: 100
+           NbOfClusters: 7
+           Decorations:  
+               - [ AlienPlantThorn2, 1] 
+               # - [ DesertRockLarge, 0.1]           
+               # - [ DesertRockMedium1, 0.2]           
+               # - [ DesertRockMedium2, 0.2]          
+               - [ Pillar1, 0.1]           
+               - [ Pillar2, 0.1]           
+               - [ Pillar4, 0.1]  
+           Grass:
+               - Name: "GrassBrown02c"
+                 Density: 600
+                 YScale: 0.8
+                 Preset: "GrassPatches4b"    
+         - Name: "BarrenOpenPlains"
+           Id: 3
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ EggPlant, 0.5] 
+               - [ AlienPlantThorn2, 0.2] 
+               - [ AlienPlantWorm2, 0.1] 
+               - [ ClusterShroom, 0.2] 
+               - [ ScalyPods, 0.2] 
+               - [ Pillar1, 0.02]
+               - [ Pillar3, 0.007]
+               - [ RealRock8, 0.02]
+               - [ RealRock9, 0.02]   
+           Grass:
+               - Name: "GrassBrown02c"
+                 Density: 800
+                 YScale: 0.8
+                 Preset: "GrassPatches2b" 
+   - Altitude: [ 43, 66 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:
+         - Name: "BarrenOpenPlains"
+           Id: 3
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ RealRock1, 0]
+   - Altitude: [ 66, 369 ]
+     Slope: [ 0, 25 ]
+     BiomeClusterData:
+         - Name: "Mountains"
+           Id: 4
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ RealRock1, 0] 
+           Grass:
+               - Name: "GrassBrown02c"
+                 Density: 1000
+                 YScale: 0.8
+                 Preset: "GrassDense2"     
+               - Name: "Plant01Brown"
+                 Density: 1000
+                 YScale: 0.8
+                 Preset: "GrassPatches3a"   
+   - Altitude: [ 66, 369 ]
+     Slope: [ 0, 180 ]
+     BiomeClusterData:
+         - Name: "Mountains"
+           Id: 4
+           ClusterSize: 0
+           NbOfClusters: 0
+           Decorations: 
+               - [ RealRock1, 0]
+
+### Resource Deposits
+RandomResources:
+    - Name: CobaltResource
+      CountMinMax: [ 6, 9 ] 
+      SizeMinMax: [ 9, 16 ] 
+      DepthMinMax: [ 0, 1 ] 
+      DroneProb: 0.5        
+      MaxDroneCount: 1      
+
+    - Name: SiliconResource
+      CountMinMax: [ 5, 8 ]
+      SizeMinMax: [ 8, 17 ]
+      DepthMinMax: [ 0, 1 ]
+      DroneProb: 0.5
+
+    - Name: PromethiumResource
+      CountMinMax: [ 2, 3 ]
+      SizeMinMax: [ 8, 13 ]
+      DepthMinMax: [ 0, 2 ]
+      DroneProb: 0.7
+
+### Resource Asteroids
+AsteroidResources:
+    # - Name: CobaltResource
+      # Threshold: 0.2
+      # Amount: 0.5
+
+    # - Name: SiliconResource
+      # Threshold: 0.5
+      # Amount: 0.2
+
+    - Name: PromethiumResource
+      Threshold: 0.2
+      Amount: 0.2
+
+### POIs
+POIs:
+    Random:                
+        - GroupName: DroneBaseAkua
+          DroneBaseSetup: DroneBaseSetup
+          CountMinMax: [ 1, 1 ]     
+          DroneProb: 1.0
+          DronesMinMax: [ 2, 3 ] 
+          ReserveCount: 5         
+          Properties: 
+            - Key: Music
+              Value: lava2               
+            - Key: RegenAfter
+              Value: 720         
+          
+        - GroupName: PlanetVesselBase
+          PlanetVesselBaseSetup: PlanetVesselBaseSetup
+          CountMinMax: [ 1, 1 ] 
+          DroneProb: 1.0
+          DronesMinMax: [ 2, 3 ]    
+          ReserveCount: 3         
+          Properties: 
+            - Key: Music
+              Value: lava        
+            - Key: RegenAfter
+              Value: 720                
+
+        - GroupName: TS_Skillon
+          CountMinMax: [ 1, 1 ]
+          DroneProb: 0
+          DronesMinMax: [ 1, 1 ]
+          ReserveCount: 1
+          TroopTransport: False  
+          SpawnPOIAvoid: [PlanetVesselBase, DroneBaseAkua]  
+          POIDistance: 1000     
+          Properties: 
+            - Key: Music
+              Value: SunnySkies 
+
+        - GroupName: MiningComplex
+          CountMinMax: [ 1, 1 ]         
+          DroneProb: 1.0
+          DronesMinMax: [ 2, 2 ]
+          ReserveCount: 4
+          TroopTransport: True
+          SpawnPOIAvoid: [TS_Skillon]  
+          POIDistance: 1000        
+          Properties: 
+            - Key: Music
+              Value: DarkSoundscape3        
+            - Key: RegenAfter
+              Value: 720              
+
+        - GroupName: CrashedShip      # Do not use regeneration with burried POIs
+          CountMinMax: [ 1, 2 ]
+          DroneProb: 0.8
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 4
+          TroopTransport: False
+          SpawnPOIAvoid: [Wreckage]
+          POIDistance: 800   
+          Properties: 
+            - Key: MapMarker 
+              Value: Neutral    
+
+        - GroupName: CivilSettlement
+          CountMinMax: [ 2, 3 ]
+          DroneProb: 0.8 
+          DronesMinMax: [ 1, 2 ]
+          ReserveCount: 3
+          TroopTransport: True
+          Properties: 
+            - Key: MapMarker 
+              Value: Neutral          
+            - Key: RegenAfter
+              Value: 720         
+
+        - GroupName: XenuTierII
+          CountMinMax: [ 3, 4 ]
+          DroneProb: 1.0                
+          DronesMinMax: [ 1, 2 ]        
+          ReserveCount: 3
+          TroopTransport: True   
+          SpawnPOIAvoid: [TS_Skillon]  
+          POIDistance: 1000   
+          Properties:       
+            - Key: RegenAfter
+              Value: 720                 
+
+    FixedPlayerStart:
+        - Mode: Debug
+          Pos: [ -1300, 60, -160 ]
+          RotY: 125
+
+### Drones
+DroneBaseSetup:
+    Random:
+        - GroupName: DroneBaseSetup
+          DronesMinMax: [ 2, 3 ] 
+          ReserveCount: 5 
+          DroneProb: 1.0  
+          Difficulty: 6 
+          PresetStyle: 1 
+          # BaseAttack: DroneSmallAttackBase
+          Stock:
+              - Name: DroneSmallFast01Plasma
+                Amount: 200
+                Extra: 0    
+
+              - Name: DroneLargeSlow01Plasma
+                Amount: 200
+                Extra: 0
+
+              - Name: DroneLargeSlow02Minigun
+                Amount: 200
+                Extra: 0
+
+              - Name: DroneLargeSlow02Cannon
+                Amount: 200
+                Extra: 0
+
+              - Name: DroneLargeAttackBase     # Base attack drones
+                Amount: Infinite
+                Extra: 1       
+
+              - Name: EnemyDroneV2Minigun      # Base attack drones
+                Amount: Infinite
+                Extra: 1                      
+
+              - Name: DroneTroopsTransport
+                Amount: Infinite
+                Extra: 2
+
+              - Name: ZiraxRocket
+                Amount: 500
+                Extra: 3
+
+              - Name: ZiraxLaser
+                Amount: 500
+                Extra: 3
+
+              - Name: Crawler
+                Amount: 250
+                Extra: 3
+
+          PlanetVesselBase:
+              Name: PlanetVesselBaseSetup
+              Position3D: [ 0, 102, 0]
+              BaseType: PlanetVesselBase
+              KeyId: 0                  
+              PlanetVessel:
+                - Name: Patrol-S-Medium      
+                  Mission: PlanetPatrol
+                  FixedMaxSpeed: 5         
+                  RangePatrolCenter: [ 1500, 0 ]
+                  RangePatrolRadius: 800
+                  RangePatrolAltitude: 60
+                  RespawnDelay: 12
+
+DroneSpawning:
+    Random:
+        - DronesMinMax: [ 5, 10 ]
+          CenterX: -2500
+          Radius: 1500
+
+        - DronesMinMax: [ 5, 10 ]
+          CenterX: 2500
+          Radius: 1500
+
+### Creatures
+CreatureSpawning:
+    - Biome: BarrenFog
+      Entities:
+        - Name: Otyughs
+          Period: Night            
+          Amount: 2
+          Delay: 0
+        - Name: AlienBugs04
+          Period: Night
+          Amount: 2
+          Delay: 0
+        - Name: CaveWormsGrey
+          Period: Day
+          Amount: 2
+          Delay: 0
+
+    - Biome: BarrenOpenPlains
+      Entities:
+        - Name: WormDesertLargeHerd
+          Period: Always
+          Amount: 2
+          Delay: 0
+        - Name: AlienBugs04
+          Period: Night
+          Amount: 2
+          Delay: 0
+        - Name: Overseers
+          Period: Night             
+          Amount: 2
+          Delay: 0
+
+    - Biome: BarrenRocks
+      Entities:
+        - Name: CaveWormsGrey
+          Period: Night
+          Amount: 2
+          Delay: 0
+        - Name: AlienBugs04
+          Period: Night
+          Amount: 2
+          Delay: 0
