@@ -22,7 +22,3 @@ AsteroidResources:
     - Name: MagnesiumResource
       Threshold: 0.4
       Amount: 0.5
-
-    - Name: NeodymiumResource
-      Threshold: 0.4
-      Amount: 0.5

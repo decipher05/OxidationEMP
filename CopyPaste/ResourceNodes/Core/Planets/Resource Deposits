@@ -2,14 +2,14 @@ RandomResources:
 
     - Name: PromethiumResource
       CountMinMax: [ 0, 7 ]
-      SizeMinMax: [ 15, 20 ]
+      SizeMinMax: [ 4, 8 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.2
       MaxDroneCount: 1
 
     - Name: MagnesiumResource
       CountMinMax: [ 0, 7 ]
-      SizeMinMax: [ 15, 20 ]
+      SizeMinMax: [ 4, 8 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.1
       MaxDroneCount: 1
@@ -17,28 +17,28 @@ RandomResources:
 
     - Name: ErestrumResource
       CountMinMax: [ 7, 10 ]
-      SizeMinMax: [ 15, 20 ]
+      SizeMinMax: [ 4, 8 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1
 
     - Name: ZascosiumResource
       CountMinMax: [ 7, 10 ]
-      SizeMinMax: [ 15, 20 ]
+      SizeMinMax: [ 4, 8 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1
 
     - Name: GoldResource
       CountMinMax: [ 7, 10 ]
-      SizeMinMax: [ 15, 20 ]
+      SizeMinMax: [ 4, 8 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1
 
     - Name: PentaxidResource
       CountMinMax: [ 0, 7 ]
-      SizeMinMax: [ 15, 20 ]
+      SizeMinMax: [ 4, 8 ]
       DepthMinMax: [ 1, 3 ]
       DroneProb: 0.3
       MaxDroneCount: 1

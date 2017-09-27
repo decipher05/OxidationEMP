@@ -13,9 +13,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - -499
+  - -280
   - 2
-  - 500
+  - 574
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -40,9 +40,9 @@ Sectors:
   Deny:
   - Themisto System
 - Coordinates:
-  - 597
-  - -17
-  - -346
+  - 254
+  - 2
+  - -574
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -67,9 +67,9 @@ Sectors:
   Deny:
   - Megaclite System
 - Coordinates:
-  - 590
+  - 254
   - -2
-  - 357
+  - 574
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -94,9 +94,9 @@ Sectors:
   Deny:
   - Metis System
 - Coordinates:
-  - -581
-  - 6
-  - -350
+  - -280
+  - 2
+  - -574
   Color: 0.6, 0.4, 0.8
   Icon: Circle
   Playfields:
@@ -121,9 +121,9 @@ Sectors:
   Deny:
   - Callirrhoe System
 - Coordinates:
-  - -356
+  - -387
   - 0
-  - -203
+  - -229
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -152,9 +152,9 @@ Sectors:
   Deny:
   - Kazo System
 - Coordinates:
-  - 351
+  - 387
   - 0
-  - -194
+  - -229
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -183,9 +183,9 @@ Sectors:
   Deny:
   - Icarus System
 - Coordinates:
-  - 157
+  - 195
   - 0
-  - 115
+  - 161
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -213,9 +213,9 @@ Sectors:
   - FFA Zone
   Deny: []
 - Coordinates:
-  - -176
+  - -195
   - 0
-  - -122
+  - -161
   Color: 0, 0.5, 1
   Icon: Hexagon
   Playfields:
@@ -242,9 +242,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 345
+  - 387
   - 0
-  - 244
+  - 229
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -275,7 +275,7 @@ Sectors:
 - Coordinates:
   - 317
   - 0
-  - 17
+  - 0
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -303,9 +303,9 @@ Sectors:
   Deny:
   - Gaspra System
 - Coordinates:
-  - -4
   - 0
-  - -256
+  - 0
+  - -262
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -332,9 +332,9 @@ Sectors:
   Allow: []
   Deny: []
 - Coordinates:
-  - 128
+  - 195
   - 0
-  - -98
+  - -161
   Color: 0.7, 0.11, 0.11
   Icon: Hexagon
   Playfields:
@@ -362,9 +362,9 @@ Sectors:
   - FFA Zone
   Deny: []
 - Coordinates:
-  - 153
+  - 218
   - 0
-  - 324
+  - 344
   Color: 0.97, 0.96, 1
   Icon: Hexagon
   Playfields:
@@ -391,8 +391,9 @@ Sectors:
   Allow: []
   Deny:
   - Ganymede System
+  - Eonus  System
 - Coordinates:
-  - -1
+  - 0
   - 0
   - 262
   Color: 0.97, 0.96, 1
@@ -424,7 +425,7 @@ Sectors:
 - Coordinates:
   - -133
   - 0
-  - 21
+  - 0
   Color: 0.97, 0.96, 1
   Icon: Hexagon
   Playfields:
@@ -452,9 +453,9 @@ Sectors:
   Deny:
   - Eonus  System
 - Coordinates:
-  - -139
+  - -218
   - 0
-  - 355
+  - 344
   Color: 0.97, 0.96, 1
   Icon: Hexagon
   Playfields:
@@ -482,10 +483,11 @@ Sectors:
   - FFA Zone
   Deny:
   - Beli System
+  - Eros System
 - Coordinates:
   - -316
   - 0
-  - 11
+  - 0
   Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
@@ -513,9 +515,9 @@ Sectors:
   Deny:
   - Dactyl System
 - Coordinates:
-  - -210
+  - -218
   - 0
-  - -315
+  - -344
   Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
@@ -542,10 +544,11 @@ Sectors:
   Allow: []
   Deny:
   - Mathilde System
+  - Dactyl System
 - Coordinates:
-  - 182
+  - 218
   - 0
-  - -298
+  - -344
   Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
@@ -572,10 +575,11 @@ Sectors:
   Allow: []
   Deny:
   - Kalliope System
+  - Gaspra System
 - Coordinates:
-  - -136
+  - -195
   - 0
-  - 171
+  - 161
   Color: 0.8, 1, 0
   Icon: Hexagon
   Playfields:
@@ -605,7 +609,7 @@ Sectors:
 - Coordinates:
   - 442
   - 0
-  - 24
+  - 0
   Color: 1, 0.49, 0
   Icon: Star
   Playfields:
@@ -641,9 +645,9 @@ Sectors:
   - Core System
   Deny: []
 - Coordinates:
-  - -438
+  - -445
   - 0
-  - 30
+  - 0
   Color: 1, 0.49, 0
   Icon: Star
   Playfields:
@@ -679,9 +683,9 @@ Sectors:
   - Core System
   Deny: []
 - Coordinates:
-  - -357
+  - -387
   - 0
-  - 249
+  - 229
   Color: 0.56, 0.74, 0.56
   Icon: Hexagon
   Playfields:
@@ -710,9 +714,9 @@ Sectors:
   Deny:
   - Ziraxus System
 - Coordinates:
-  - 471
+  - 386
   - 2
-  - 488
+  - 498
   Color: 1, 0.01, 0.24
   Icon: Circle
   Playfields:
@@ -737,9 +741,9 @@ Sectors:
   Deny:
   - Eonus  System
 - Coordinates:
-  - -618
+  - -412
   - 2
-  - 366
+  - 498
   Color: 1, 0.01, 0.24
   Icon: Circle
   Playfields:
@@ -764,9 +768,9 @@ Sectors:
   Deny:
   - Eros System
 - Coordinates:
-  - -491
+  - -412
   - 2
-  - -477
+  - -498
   Color: 1, 0.01, 0.24
   Icon: Circle
   Playfields:
@@ -791,9 +795,9 @@ Sectors:
   Deny:
   - Dactyl System
 - Coordinates:
-  - 509
+  - 386
   - 2
-  - -455
+  - -498
   Color: 1, 0.01, 0.24
   Icon: Circle
   Playfields:
