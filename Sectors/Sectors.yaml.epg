@@ -133,7 +133,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Mathilde
-    - PVP-Mathilde-Adapa
+    - Mathilde
     - ''
   - - 4140, 6432, -1076
     - Mathilde Moon
@@ -164,7 +164,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Kalliope
-    - PVP-Kalliope-Turi
+    - Kalliope
     - ''
   - - -4578, -5124, -5581
     - Kalliope Moon
@@ -195,7 +195,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Eugenia
-    - PVP-Eugenia-Nemhain
+    - Eugenia
     - ''
   - - -6818, 2058, 2188
     - Eugenia Moon
@@ -225,7 +225,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Europa
-    - PVP-Europa-Watavinewa
+    - Europa
     - ''
   - - 3068, -5385, -7475
     - Europa Moon
@@ -254,7 +254,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Ganymede
-    - PVP-Ganymede-Aeris
+    - Ganymede
     - ''
   - - -4286, 7150, 6693
     - Ganymede Moon
@@ -285,7 +285,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Vulca
-    - PVP-Vulca
+    - Vulca
     - ''
   - - 5260, -6169, -6822
     - Vulca Moon
@@ -315,7 +315,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Seranis
-    - PVP-Himalia-Enos
+    - Seranis
     - ''
   - - -4188, 6367, 5518
     - Seranis Moon
@@ -344,7 +344,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Callisto
-    - PVP-Callisto-Hubble635
+    - Callisto
     - ''
   - - 4578, 5191, 3167
     - Callisto Moon
@@ -374,7 +374,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Amalthea
-    - PVP-Amalthea-Kepler412
+    - Amalthea
     - ''
   - - 4724, 360, 6758
     - Amalthea Moon
@@ -405,7 +405,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Himalia
-    - PVP-Ganymede-Aeris
+    - Himalia
     - ''
   - - 4675, 5648, -4014
     - Himalia Moon
@@ -435,7 +435,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Paterae
-    - PVP-Paterae
+    - Paterae
     - ''
   - - 3057, 5714, 6758
     - Paterae Moon
@@ -465,7 +465,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Ziraxus
-    - PVP-Ziraxus
+    - Ziraxus
     - ''
   - - -3727, -4994, -6952
     - Ziraxus Moon
@@ -497,7 +497,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Vyrdis
-    - PVP-Vyrdis
+    - Vyrdis
     - ''
   - - -2564, -5255, -5842
     - Vyrdis Moon
@@ -527,7 +527,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Kazo
-    - PVP-Kazo-Loki
+    - Kazo
     - ''
   - - -3340, -6822, -5908
     - Kazo Moon
@@ -558,7 +558,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Icarus
-    - PVP-Paterae
+    - Icarus
     - ''
   - - 2572, -5908, 4734
     - Icarus Moon
@@ -589,7 +589,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Comba
-    - PVP-Comba-Areia
+    - Comba
     - ''
   - - -1955, 4516, -3015
     - Comba Moon
@@ -695,7 +695,7 @@ Sectors:
     - ''
   - - 0, 0, 0
     - Beli
-    - PVP-Beli
+    - Beli
     - ''
   - - 6779, -6691, -6691
     - Beli Moon
